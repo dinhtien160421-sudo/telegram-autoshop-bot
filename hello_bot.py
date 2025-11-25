@@ -1,5 +1,11 @@
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, InputFile
-from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
+from telegram.ext import (
+    Updater,
+    CommandHandler,
+    CallbackQueryHandler,
+    MessageHandler,
+    Filters,
+)
 import random
 import string
 import urllib.parse
@@ -14,6 +20,9 @@ BANK_CODE = "sacombank"
 BANK_ACCOUNT = "0842108959"
 ADMIN_CONTACT = "Liên hệ Zalo: 0842108959"
 USERS_FILE = "users.txt"            # nơi lưu danh sách user
+
+# user đang được hỏi số lượng: user_id -> product_id
+WAITING_QTY = {}
 # ====================================
 
 
@@ -39,41 +48,71 @@ def add_user(chat_id: int):
 
 # Danh sách sản phẩm
 PRODUCTS = {
-    "capcut":     {"name": "Capcut Pro Team 27D",            "price": 25000},
-    "Canva_Edu":  {"name": "Canva Edu 500 Slot BH 30D",      "price": 70000},
-    "code_gpt":   {"name": "CODE GPT PLUS",                  "price": 12000},
-    "gemini_edu": {"name": "GEMINI PRO EDU 1 NĂM BH Login 24h",    "price": 45000},
-    "veo3_ultra": {"name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",   "price": 50000},
+    "capcut": {
+        "name": "Capcut Pro Team 27D",
+        "price": 25000,
+    },
+    "Canva_Edu": {
+        "name": "Canva Edu 500 Slot BH 30D",
+        "price": 70000,
+    },
+    "code_gpt": {
+        "name": "CODE GPT PLUS",
+        "price": 12000,
+    },
+    "gemini_edu": {
+        "name": "GEMINI PRO EDU 1 NĂM BH Login 24h",
+        "price": 45000,
+    },
+    "veo3_ultra": {
+        "name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",
+        "price": 50000,
+    },
 }
 
 # Kho hàng
 STOCK = {
     "capcut": [
+        # thêm hàng ở đây
     ],
-    
+
     "Canva_Edu": [
         "nonibonetti8660@hotmail.com|37892MTr|M.C550_BAY.0.U.-Cj506SrReqrbNV5qxWuseop86KkESB84064132lNzZnrBrg2Zw11gbo1DJwJNotc6RUy2LqwsC27YFSbnjduddvYaPfJDOhlPcgTLX9sUwjiSze2YLQYLpREUhjekPS1RGAG0GiKu1!6nvFx*8ydcVqAcg7aUmhfTET4EWZo7K41WfQD7Q7rLncrh0RctKB7RPHnbJNlYw3aM6u7M4Tz*S2M7GCPNwSwSH3nX73vEFUuOLqLaG0OHRHbjETOn0PbQQvsNg0HKYJZdK6UGyPiIfFOlwrqFM1FT9XnJDpEYArLh5LuHBJou5I0AzerQMzHZs57MJZM6Y9NuGRoJgFm2PUvMCRrKgkway*r1*b5EquZE9juH03DJE1RXr57MhWW2ar5JLrzX913bjZnKOLXB*Jd55b6Ls9moYVE3BkolwJc|9e5f94bc-e8a4-4e73-b8be-63364c29d753|hjwws8jtw2m@smvmail.com",
     ],
 
-    "code_gpt": [               
-       "chatgpt.com/p/4GJZHF6LZCYY3ECB",			
-       "chatgpt.com/p/DQUTMN5GBHCC5CU6",			
-       "chatgpt.com/p/E29LLREL46ZDSZWX",			
-       "chatgpt.com/p/B7WFPMZGBSGM34FR",			
-       "chatgpt.com/p/5GDPV7QXFUFBJLL8",			
-       "chatgpt.com/p/HMKTFGY5T8NG5AQL",			
-       "chatgpt.com/p/PBLG66GK74E2C9AG",		
-       "chatgpt.com/p/679X62PRLE45HTB3",						
+    "code_gpt": [
+        "chatgpt.com/p/VTP7YHKTD4WYYJMJ",
+        "chatgpt.com/p/UBFQCX63C2372Q26",
+        "chatgpt.com/p/AENDZSG3XTY2F5NQ",
+        "chatgpt.com/p/3YUHTK7JRMKVKVJ7",
+        "chatgpt.com/p/LZBW5T5T96NUVZXB",
+        "chatgpt.com/p/B7WFPMZGBSGM34FR",
+        "chatgpt.com/p/5GDPV7QXFUFBJLL8",
+        "chatgpt.com/p/HMKTFGY5T8NG5AQL",
+        "chatgpt.com/p/PBLG66GK74E2C9AG",
+        "chatgpt.com/p/679X62PRLE45HTB3",
     ],
 
-    "gemini_edu": [    
-     ],
+    "gemini_edu": [
+        # thêm hàng ở đây
+    ],
 
-    "veo3_ultra": [          
+    "veo3_ultra": [
+        "fry2@niverof.dpdns.org|dtdt4884",
+        "hthd@niverof.dpdns.org|dtdt4884",
+        "gtsh@niverof.dpdns.org|dtdt4884",
+        "hthrb@niverof.dpdns.org|dtdt4884",
+        "tfsg@niverof.dpdns.org|dtdt4884",
+        "gagt@niverof.dpdns.org|dtdt4884",
+        "nyga@niverof.dpdns.org|dtdt4884",
+        "gthat2@niverof.dpdns.org|dtdt4884",
+        "htkaj2@niverof.dpdns.org|dtdt4884",
+        "gjijh1@niverof.dpdns.org|dtdt4884",
     ],
 }
 
 # ===== HÀM PHỤ =====
+
 
 def gen_order_code():
     return "ORD" + "".join(random.choices(string.digits, k=10))
@@ -87,7 +126,9 @@ def build_vietqr_url(amount, content):
         f"?amount={amount}&addInfo={content_encoded}"
     )
 
+
 # ===== LỆNH START + MENU =====
+
 
 def start(update, context):
     chat_id = update.effective_chat.id
@@ -113,6 +154,7 @@ def menu(update, context):
 
 
 # ===== LỆNH GỬI TIN TOÀN BỘ USER =====
+
 
 def broadcast(update, context):
     chat_id = update.effective_chat.id
@@ -153,6 +195,7 @@ def broadcast(update, context):
 
 # ===== XỬ LÝ NÚT =====
 
+
 def handle_buttons(update, context):
     query = update.callback_query
     data = query.data
@@ -162,50 +205,25 @@ def handle_buttons(update, context):
     if data.startswith("buy_"):
         pid = data.replace("buy_", "")
         product = PRODUCTS[pid]
+        user_id = query.from_user.id
 
         # Hết hàng
-        if len(STOCK[pid]) == 0:
+        if len(STOCK.get(pid, [])) == 0:
             query.message.reply_text(
                 f"❌ Sản phẩm *{product['name']}* đã hết hàng.",
                 parse_mode="Markdown",
             )
             return
 
-        # Tạo mã đơn và lưu tạm
-        order_code = gen_order_code()
-        context.user_data["order"] = (pid, order_code)
-
-        amount = product["price"]
-        qr_url = build_vietqr_url(amount, order_code)
-
-        # Tin 1: Thông tin đơn
-        info = (
-            f"✅ Đã tạo đơn *{order_code}*\n"
-            f"Số tiền: *{amount:,}đ*\n\n"
-            "🏦 Thông tin chuyển khoản\n"
-            "Vui lòng QUÉT MÃ QR ở tin nhắn tiếp theo để thanh toán.\n\n"
-            f"📌 Nội dung: *{order_code}*\n\n"
-            "Sau khi chuyển khoản xong, bấm *Tôi đã chuyển tiền*."
-        ).replace(",", ".")
-
-        keyboard = [
-            [InlineKeyboardButton("✅ Tôi đã chuyển tiền", callback_data="confirm")],
-            [InlineKeyboardButton("❌ Hủy đơn", callback_data="cancel")],
-        ]
+        # Ghi nhớ sản phẩm, chuẩn bị hỏi số lượng
+        WAITING_QTY[user_id] = pid
 
         query.message.reply_text(
-            info,
+            f"Bạn muốn mua bao nhiêu *{product['name']}*?\n"
+            f"Đơn giá: *{product['price']:,}đ* / 1 tài khoản.\n\n"
+            "👉 Vui lòng nhập một số nguyên, ví dụ: 1, 2, 3 ...",
             parse_mode="Markdown",
-            reply_markup=InlineKeyboardMarkup(keyboard),
         )
-
-        # Tin 2: QR
-        caption = (
-            f"◼️ Quét QR để thanh toán {amount:,}đ\n"
-            f"Nội dung: {order_code}"
-        ).replace(",", ".")
-
-        query.message.reply_photo(photo=qr_url, caption=caption)
         return
 
     # ===== Hủy đơn =====
@@ -220,14 +238,15 @@ def handle_buttons(update, context):
             query.message.reply_text("⚠️ Không tìm thấy đơn đang chờ.")
             return
 
-        pid, code = context.user_data["order"]
+        pid, code, qty, amount = context.user_data["order"]
         product = PRODUCTS[pid]
         user_id = query.message.chat_id
 
-        # Lưu đơn vào danh sách CHỜ DUYỆT
+        # Lưu đơn vào danh sách CHỜ DUYỆT, kèm số lượng
         PENDING_ORDERS[code] = {
             "product_id": pid,
             "user_id": user_id,
+            "qty": qty,
         }
 
         # Báo cho KHÁCH
@@ -241,10 +260,12 @@ def handle_buttons(update, context):
             "🔔 *KHÁCH BÁO ĐÃ CHUYỂN TIỀN*\n\n"
             f"Đơn: `{code}`\n"
             f"Sản phẩm: *{product['name']}*\n"
+            f"Số lượng: *{qty}*\n"
+            f"Tổng tiền: *{amount:,}đ*\n"
             f"User ID: `{user_id}`\n\n"
             "Vui lòng mở app ngân hàng để kiểm tra.\n"
             "Nếu đã nhận tiền, bấm *Duyệt* để bot tự gửi tài khoản/mã cho khách."
-        )
+        ).replace(",", ".")
 
         admin_keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton(f"✅ Duyệt {code}", callback_data=f"approve_{code}")],
@@ -272,25 +293,31 @@ def handle_buttons(update, context):
 
         pid = order["product_id"]
         user_id = order["user_id"]
+        qty = order.get("qty", 1)
         product = PRODUCTS[pid]
 
-        # Kiểm tra kho
-        if len(STOCK[pid]) == 0:
+        # Kiểm tra kho đủ số lượng không
+        if len(STOCK.get(pid, [])) < qty:
             context.bot.send_message(
                 chat_id=user_id,
-                text="⚠ Xin lỗi, kho đã hết hàng. Vui lòng liên hệ admin để được xử lý.",
+                text="⚠ Xin lỗi, kho hiện không đủ số lượng bạn đặt. "
+                     "Vui lòng liên hệ admin để được xử lý.",
             )
-            query.message.reply_text("❌ Duyệt thất bại: kho đã hết hàng.")
+            query.message.reply_text(
+                f"❌ Duyệt thất bại: kho chỉ còn {len(STOCK.get(pid, []))} tài khoản."
+            )
             return
 
-        # Lấy tài khoản / code đầu tiên
-        account = STOCK[pid].pop(0)
+        # Lấy ra qty tài khoản từ kho
+        accounts = [STOCK[pid].pop(0) for _ in range(qty)]
+        codes_text = "\n".join(f"{i + 1}. {acc}" for i, acc in enumerate(accounts))
 
         # Tin nhắn gửi cho KHÁCH
         detail = (
             f"✅ Đơn `{code}`\n"
-            f"🎁 Sản phẩm: *{product['name']}*\n\n"
-            f"`{account}`\n\n"
+            f"🎁 Sản phẩm: *{product['name']}*\n"
+            f"📦 Số lượng: *{qty}*\n\n"
+            f"{codes_text}\n\n"
             "Cảm ơn bạn đã mua hàng!"
         )
 
@@ -304,7 +331,8 @@ def handle_buttons(update, context):
         txt = (
             f"Đơn hàng: {code}\n"
             f"Sản phẩm: {product['name']}\n"
-            f"Tài khoản/Mã:\n{account}\n"
+            f"Số lượng: {qty}\n"
+            f"Tài khoản/Mã:\n{codes_text}\n"
         ).encode("utf-8")
 
         f = BytesIO(txt)
@@ -318,7 +346,9 @@ def handle_buttons(update, context):
         )
 
         # Báo lại cho admin
-        query.message.reply_text(f"✅ Đã duyệt và giao hàng cho user {user_id}.")
+        query.message.reply_text(
+            f"✅ Đã duyệt và giao {qty} tài khoản cho user {user_id}."
+        )
         return
 
     # ===== ADMIN BẤM TỪ CHỐI ĐƠN =====
@@ -345,7 +375,91 @@ def handle_buttons(update, context):
         return
 
 
+# ===== XỬ LÝ TEXT – NHẬP SỐ LƯỢNG =====
+
+
+def handle_quantity(update, context):
+    """Nhận tin nhắn text của user, nếu user đang trong WAITING_QTY thì coi là nhập số lượng."""
+    user = update.effective_user
+    user_id = user.id
+    text = update.message.text.strip()
+
+    # Nếu user không trong trạng thái chờ nhập số lượng thì bỏ qua
+    if user_id not in WAITING_QTY:
+        return
+
+    pid = WAITING_QTY[user_id]
+    product = PRODUCTS[pid]
+
+    # cố gắng parse số lượng
+    try:
+        qty = int(text)
+    except ValueError:
+        update.message.reply_text(
+            "⚠ Vui lòng nhập một *số nguyên* (1, 2, 3 ...)",
+            parse_mode="Markdown",
+        )
+        return
+
+    if qty <= 0:
+        update.message.reply_text("⚠ Số lượng phải lớn hơn 0.")
+        return
+
+    # kiểm tra kho
+    stock_list = STOCK.get(pid, [])
+    if len(stock_list) < qty:
+        update.message.reply_text(
+            f"⚠ Kho hiện chỉ còn *{len(stock_list)}* tài khoản, không đủ {qty}. "
+            "Bạn hãy nhập lại số lượng nhỏ hơn nha.",
+            parse_mode="Markdown",
+        )
+        return
+
+    # Tính tổng tiền
+    amount = product["price"] * qty
+    order_code = gen_order_code()
+
+    # Lưu vào user_data để khi bấm 'Tôi đã chuyển tiền' còn biết pid/qty/amount
+    context.user_data["order"] = (pid, order_code, qty, amount)
+
+    # Sau khi tạo đơn thì không cần chờ số lượng nữa
+    WAITING_QTY.pop(user_id, None)
+
+    qr_url = build_vietqr_url(amount, order_code)
+
+    info = (
+        f"✅ Đã tạo đơn *{order_code}*\n"
+        f"Sản phẩm: *{product['name']}*\n"
+        f"Số lượng: *{qty}*\n"
+        f"Đơn giá: *{product['price']:,}đ*\n"
+        f"Tổng tiền: *{amount:,}đ*\n\n"
+        "🏦 Thông tin chuyển khoản\n"
+        "Vui lòng QUÉT MÃ QR ở tin nhắn tiếp theo để thanh toán.\n\n"
+        f"📌 Nội dung: *{order_code}*\n\n"
+        "Sau khi chuyển khoản xong, bấm *Tôi đã chuyển tiền*."
+    ).replace(",", ".")
+
+    keyboard = [
+        [InlineKeyboardButton("✅ Tôi đã chuyển tiền", callback_data="confirm")],
+        [InlineKeyboardButton("❌ Hủy đơn", callback_data="cancel")],
+    ]
+
+    update.message.reply_text(
+        info,
+        parse_mode="Markdown",
+        reply_markup=InlineKeyboardMarkup(keyboard),
+    )
+
+    caption = (
+        f"◼️ Quét QR để thanh toán {amount:,}đ\n"
+        f"Nội dung: {order_code}"
+    ).replace(",", ".")
+
+    update.message.reply_photo(photo=qr_url, caption=caption)
+
+
 # ===== MAIN =====
+
 
 def main():
     updater = Updater(BOT_TOKEN, use_context=True)
@@ -355,6 +469,9 @@ def main():
     dp.add_handler(CommandHandler("menu", menu))
     dp.add_handler(CommandHandler("broadcast", broadcast))   # lệnh gửi tin hàng loạt
     dp.add_handler(CallbackQueryHandler(handle_buttons))
+
+    # Nhận tin nhắn text (không phải lệnh) để xử lý số lượng mua
+    dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_quantity))
 
     print("BOT ĐANG CHẠY...")
     updater.start_polling()
