@@ -73,31 +73,32 @@ PRODUCTS = {
 # Kho hàng
 STOCK = {
     "capcut": [
-        # thêm hàng ở đây
+        # thêm hàng Capcut ở đây nếu có
     ],
-
+    
     "Canva_Edu": [
         "nonibonetti8660@hotmail.com|37892MTr|M.C550_BAY.0.U.-Cj506SrReqrbNV5qxWuseop86KkESB84064132lNzZnrBrg2Zw11gbo1DJwJNotc6RUy2LqwsC27YFSbnjduddvYaPfJDOhlPcgTLX9sUwjiSze2YLQYLpREUhjekPS1RGAG0GiKu1!6nvFx*8ydcVqAcg7aUmhfTET4EWZo7K41WfQD7Q7rLncrh0RctKB7RPHnbJNlYw3aM6u7M4Tz*S2M7GCPNwSwSH3nX73vEFUuOLqLaG0OHRHbjETOn0PbQQvsNg0HKYJZdK6UGyPiIfFOlwrqFM1FT9XnJDpEYArLh5LuHBJou5I0AzerQMzHZs57MJZM6Y9NuGRoJgFm2PUvMCRrKgkway*r1*b5EquZE9juH03DJE1RXr57MhWW2ar5JLrzX913bjZnKOLXB*Jd55b6Ls9moYVE3BkolwJc|9e5f94bc-e8a4-4e73-b8be-63364c29d753|hjwws8jtw2m@smvmail.com",
     ],
 
-    "code_gpt": [
+    "code_gpt": [     
         "chatgpt.com/p/VTP7YHKTD4WYYJMJ",
         "chatgpt.com/p/UBFQCX63C2372Q26",
         "chatgpt.com/p/AENDZSG3XTY2F5NQ",
         "chatgpt.com/p/3YUHTK7JRMKVKVJ7",
         "chatgpt.com/p/LZBW5T5T96NUVZXB",
-        "chatgpt.com/p/B7WFPMZGBSGM34FR",
-        "chatgpt.com/p/5GDPV7QXFUFBJLL8",
-        "chatgpt.com/p/HMKTFGY5T8NG5AQL",
-        "chatgpt.com/p/PBLG66GK74E2C9AG",
-        "chatgpt.com/p/679X62PRLE45HTB3",
+        "chatgpt.com/p/B7WFPMZGBSGM34FR",			
+        "chatgpt.com/p/5GDPV7QXFUFBJLL8",			
+        "chatgpt.com/p/HMKTFGY5T8NG5AQL",			
+        "chatgpt.com/p/PBLG66GK74E2C9AG",		
+        "chatgpt.com/p/679X62PRLE45HTB3",						
     ],
 
-    "gemini_edu": [
-        # thêm hàng ở đây
+    "gemini_edu": [    
+        # thêm hàng Gemini EDU nếu có
     ],
 
-    "veo3_ultra": [
+    "veo3_ultra": [          
+        "rty1@niverof.dpdns.org|dtdt4884",
         "fry2@niverof.dpdns.org|dtdt4884",
         "hthd@niverof.dpdns.org|dtdt4884",
         "gtsh@niverof.dpdns.org|dtdt4884",
@@ -110,6 +111,7 @@ STOCK = {
         "gjijh1@niverof.dpdns.org|dtdt4884",
     ],
 }
+
 
 # ===== HÀM PHỤ =====
 
