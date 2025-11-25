@@ -49,7 +49,6 @@ PRODUCTS = {
 # Kho hàng
 STOCK = {
     "capcut": [
-        
     ],
     
     "Canva_Edu": [
@@ -57,28 +56,20 @@ STOCK = {
     ],
 
     "code_gpt": [               
-        "chatgpt.com/p/A72Q9HRT766X9HS2",
-        "chatgpt.com/p/GC4LEU62HYXNDS3W",
-        "chatgpt.com/p/73GG4U9QAR3ZZ6W4",
-        "chatgpt.com/p/NQC3TNJMD6JRMGCB",
-        "chatgpt.com/p/26VQ38KAAXJ4QBFE",
-        "chatgpt.com/p/MJYQ7QN4R5LTVPUH",
-        "chatgpt.com/p/SRTM89HSEPVTUXZ8",
-        "chatgpt.com/p/6D46XBSSU34ECL2Q",
-        "chatgpt.com/p/JK8UX652TL3MFV6P",
+       "chatgpt.com/p/4GJZHF6LZCYY3ECB",			
+       "chatgpt.com/p/DQUTMN5GBHCC5CU6",			
+       "chatgpt.com/p/E29LLREL46ZDSZWX",			
+       "chatgpt.com/p/B7WFPMZGBSGM34FR",			
+       "chatgpt.com/p/5GDPV7QXFUFBJLL8",			
+       "chatgpt.com/p/HMKTFGY5T8NG5AQL",			
+       "chatgpt.com/p/PBLG66GK74E2C9AG",		
+       "chatgpt.com/p/679X62PRLE45HTB3",						
     ],
 
-    "gemini_edu": [
-        "bhoa26808@gmail.com|thanhngan@22|2pob ktda o6xq kh66 gkby tmmd gfsr oojh",
-            
+    "gemini_edu": [    
      ],
 
-    "veo3_ultra": [    
-        "ztkim2@napos.dpdns.org|dtdt2525",
-        "rinke1@napos.dpdns.org|Mj*8jQBADBJL5eN=",
-        "lindt2@napos.dpdns.org|EZ9CMhY<RCA<2uB&",
-        "htyuw1@napos.dpdns.org|5ddaFj2j>5db8mT&",
-        "znxmz1@napos.dpdns.org|AADFHKRZqqVF6nU%",
+    "veo3_ultra": [          
     ],
 }
 
