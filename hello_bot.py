@@ -66,7 +66,7 @@ PRODUCTS = {
     },
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",
-        "price": 5555000,
+        "price": 55000,
     },
 }
 
