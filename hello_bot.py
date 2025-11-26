@@ -48,6 +48,9 @@ def add_user(chat_id: int):
 
 # Danh sách sản phẩm
 PRODUCTS = {
+    "capcut": {
+        "name": "Capcut Pro Team 27D",
+        "price": 25000,
     },
     "Canva_Edu": {
         "name": "Canva Edu 500 Slot BH 30D",
@@ -63,15 +66,18 @@ PRODUCTS = {
     },
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",
-        "price": 60000,
+        "price": 50000,
     },
 }
 
 # Kho hàng
 STOCK = {
+    "capcut": [
+        # thêm hàng ở đây
+    ],
+
     "Canva_Edu": [
         "nonibonetti8660@hotmail.com|37892MTr|M.C550_BAY.0.U.-Cj506SrReqrbNV5qxWuseop86KkESB84064132lNzZnrBrg2Zw11gbo1DJwJNotc6RUy2LqwsC27YFSbnjduddvYaPfJDOhlPcgTLX9sUwjiSze2YLQYLpREUhjekPS1RGAG0GiKu1!6nvFx*8ydcVqAcg7aUmhfTET4EWZo7K41WfQD7Q7rLncrh0RctKB7RPHnbJNlYw3aM6u7M4Tz*S2M7GCPNwSwSH3nX73vEFUuOLqLaG0OHRHbjETOn0PbQQvsNg0HKYJZdK6UGyPiIfFOlwrqFM1FT9XnJDpEYArLh5LuHBJou5I0AzerQMzHZs57MJZM6Y9NuGRoJgFm2PUvMCRrKgkway*r1*b5EquZE9juH03DJE1RXr57MhWW2ar5JLrzX913bjZnKOLXB*Jd55b6Ls9moYVE3BkolwJc|9e5f94bc-e8a4-4e73-b8be-63364c29d753|hjwws8jtw2m@smvmail.com",
-        
     ],
 
     "code_gpt": [
