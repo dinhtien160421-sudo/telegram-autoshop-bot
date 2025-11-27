@@ -66,7 +66,7 @@ PRODUCTS = {
     },
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",
-        "price": 55000,
+        "price": 50000,
     },
 }
 
@@ -81,10 +81,6 @@ STOCK = {
     ],
 
     "code_gpt": [
-        "chatgpt.com/p/YUFLDRGPSEYKTQJY",
-        "chatgpt.com/p/A5JQQUR8K3XG5UGD",
-        "chatgpt.com/p/AWMVKZ6X4QKVFZHF",
-        "chatgpt.com/p/CKH79WB2AX9L6GBK",
         "chatgpt.com/p/WMJM78BFPXNATMQ4",
         "chatgpt.com/p/6DXFCQRCWLGEE44F",
         "chatgpt.com/p/UJHPYGEP5U6KVP4J",
@@ -100,20 +96,18 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-        "gtsh@niverof.dpdns.org|dtdt4884",
-        "hthd@niverof.dpdns.org|dtdt4884",
-        "gtsh@niverof.dpdns.org|dtdt4884",
-        "hthrb@niverof.dpdns.org|dtdt4884",
-        "tfsg@niverof.dpdns.org|dtdt4884",
-        "gagt@niverof.dpdns.org|dtdt4884",
-        "nyga@niverof.dpdns.org|dtdt4884",
-        "gthat2@niverof.dpdns.org|dtdt4884",
-        "htkaj2@niverof.dpdns.org|dtdt4884",
-        "gjijh1@niverof.dpdns.org|dtdt4884",
-        "ghua1@niverof.dpdns.org|dtdt2662",
-        "tkgu2@niverof.dpdns.org|dtdt2662",
-        "kvjz2@niverof.dpdns.org|dtdt2662",
         "flgkj2@niverof.dpdns.org|dtdt2662",
+	"levin@niverof.dpdns.org|dtdt2992",
+	"taro@niverof.dpdns.org|dtdt2992",
+	"miko@niverof.dpdns.org|dtdt2992",
+	"ryan@niverof.dpdns.org|dtdt2992",
+	"kane@niverof.dpdns.org|dtdt2992",
+	"nilo@niverof.dpdns.org|dtdt2992",
+	"zane@niverof.dpdns.org|dtdt2992",
+	"arlo@niverof.dpdns.org|dtdt2992",
+	"kira@niverof.dpdns.org|dtdt2992",
+	"navi@niverof.dpdns.org|dtdt2992",
+	
     ],
 }
 
