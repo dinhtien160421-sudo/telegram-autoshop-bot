@@ -66,7 +66,7 @@ PRODUCTS = {
     },
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",
-        "price": 50000,
+        "price": 55000,
     },
 }
 
@@ -99,8 +99,6 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-        "flgkj2@niverof.dpdns.org|dtdt2662",
-	"levin@niverof.dpdns.org|dtdt2992",
 	"taro@niverof.dpdns.org|dtdt2992",
 	"miko@niverof.dpdns.org|dtdt2992",
 	"ryan@niverof.dpdns.org|dtdt2992",
@@ -110,6 +108,9 @@ STOCK = {
 	"arlo@niverof.dpdns.org|dtdt2992",
 	"kira@niverof.dpdns.org|dtdt2992",
 	"navi@niverof.dpdns.org|dtdt2992",
+	"hagd@niverof.dpdns.org|dtdt2882",
+	"dtht@niverof.dpdns.org|dtdt2882"
+	"dalig@niverof.dpdns.org|dtdt2882",
 	
     ],
 }
