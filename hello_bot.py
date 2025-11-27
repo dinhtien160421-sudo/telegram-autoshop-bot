@@ -80,8 +80,7 @@ STOCK = {
         "nonibonetti8660@hotmail.com|37892MTr|M.C550_BAY.0.U.-Cj506SrReqrbNV5qxWuseop86KkESB84064132lNzZnrBrg2Zw11gbo1DJwJNotc6RUy2LqwsC27YFSbnjduddvYaPfJDOhlPcgTLX9sUwjiSze2YLQYLpREUhjekPS1RGAG0GiKu1!6nvFx*8ydcVqAcg7aUmhfTET4EWZo7K41WfQD7Q7rLncrh0RctKB7RPHnbJNlYw3aM6u7M4Tz*S2M7GCPNwSwSH3nX73vEFUuOLqLaG0OHRHbjETOn0PbQQvsNg0HKYJZdK6UGyPiIfFOlwrqFM1FT9XnJDpEYArLh5LuHBJou5I0AzerQMzHZs57MJZM6Y9NuGRoJgFm2PUvMCRrKgkway*r1*b5EquZE9juH03DJE1RXr57MhWW2ar5JLrzX913bjZnKOLXB*Jd55b6Ls9moYVE3BkolwJc|9e5f94bc-e8a4-4e73-b8be-63364c29d753|hjwws8jtw2m@smvmail.com",
     ],
 
-    "code_gpt": [    		
-        "chatgpt.com/p/PBLG66GK74E2C9AG",		
+    "code_gpt": [    				
         "chatgpt.com/p/679X62PRLE45HTB3",
 	"chatgpt.com/p/3UD9D4PWJE6PCQ8S",
 	"chatgpt.com/p/ME2TUK7H69FZPDST",
@@ -99,18 +98,16 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"taro@niverof.dpdns.org|dtdt2992",
-	"miko@niverof.dpdns.org|dtdt2992",
-	"ryan@niverof.dpdns.org|dtdt2992",
-	"kane@niverof.dpdns.org|dtdt2992",
-	"nilo@niverof.dpdns.org|dtdt2992",
-	"zane@niverof.dpdns.org|dtdt2992",
-	"arlo@niverof.dpdns.org|dtdt2992",
-	"kira@niverof.dpdns.org|dtdt2992",
-	"navi@niverof.dpdns.org|dtdt2992",
-	"hagd@niverof.dpdns.org|dtdt2882",
-	"dtht@niverof.dpdns.org|dtdt2882"
-	"dalig@niverof.dpdns.org|dtdt2882",
+	"yaro@niverof.dpdns.org|dtdt2442",
+	"tiku@niverof.dpdns.org|dtdt2442",
+	"nexo@niverof.dpdns.org|dtdt2442",
+	"kimo@niverof.dpdns.org|dtdt2442",
+	"vani@niverof.dpdns.org|dtdt2442",
+	"sano@niverof.dpdns.org|dtdt2442",
+	"loki@niverof.dpdns.org|dtdt2442",
+	"tano@niverof.dpdns.org|dtdt2442",
+	"kiri@niverof.dpdns.org|dtdt2442",
+	"mizu@niverof.dpdns.org|dtdt2442",
 	
     ],
 }
