@@ -80,15 +80,18 @@ STOCK = {
         "nonibonetti8660@hotmail.com|37892MTr|M.C550_BAY.0.U.-Cj506SrReqrbNV5qxWuseop86KkESB84064132lNzZnrBrg2Zw11gbo1DJwJNotc6RUy2LqwsC27YFSbnjduddvYaPfJDOhlPcgTLX9sUwjiSze2YLQYLpREUhjekPS1RGAG0GiKu1!6nvFx*8ydcVqAcg7aUmhfTET4EWZo7K41WfQD7Q7rLncrh0RctKB7RPHnbJNlYw3aM6u7M4Tz*S2M7GCPNwSwSH3nX73vEFUuOLqLaG0OHRHbjETOn0PbQQvsNg0HKYJZdK6UGyPiIfFOlwrqFM1FT9XnJDpEYArLh5LuHBJou5I0AzerQMzHZs57MJZM6Y9NuGRoJgFm2PUvMCRrKgkway*r1*b5EquZE9juH03DJE1RXr57MhWW2ar5JLrzX913bjZnKOLXB*Jd55b6Ls9moYVE3BkolwJc|9e5f94bc-e8a4-4e73-b8be-63364c29d753|hjwws8jtw2m@smvmail.com",
     ],
 
-    "code_gpt": [
-        "chatgpt.com/p/WMJM78BFPXNATMQ4",
-        "chatgpt.com/p/6DXFCQRCWLGEE44F",
-        "chatgpt.com/p/UJHPYGEP5U6KVP4J",
-        "chatgpt.com/p/5AMCRT94C6DUZFDK",
-        "chatgpt.com/p/KPWAAU6JSXXXNFQ3",
-        "chatgpt.com/p/M8NBF3BMTLC7QVCC",		
+    "code_gpt": [    		
         "chatgpt.com/p/PBLG66GK74E2C9AG",		
         "chatgpt.com/p/679X62PRLE45HTB3",
+	"chatgpt.com/p/3UD9D4PWJE6PCQ8S",
+	"chatgpt.com/p/ME2TUK7H69FZPDST",
+	"chatgpt.com/p/EJCKCY84GJJQVT7K",
+	"chatgpt.com/p/S6QU6JPACLZCQNTD",
+	"chatgpt.com/p/VFYT8KJ8JN36J7YL",
+	"chatgpt.com/p/TX8LRN39R94RLFRL",
+	"chatgpt.com/p/BZF8CPDXWAKGF9QK",
+	"chatgpt.com/p/F7JK9U67EBCK97YB",
+
     ],
 
     "gemini_edu": [
