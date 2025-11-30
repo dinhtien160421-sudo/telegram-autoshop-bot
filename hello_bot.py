@@ -93,16 +93,9 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"tyhk@ninhthihai.tokyo|dtdt2442",
-	"gik@ninhthihai.tokyo|dtdt2442",
-	"tuk@ninhthihai.tokyo|dtdt2442",
-	"rui@ninhthihai.tokyo|dtdt2442",
-	"drnt@ninhthihai.tokyo|dtdt2442",
-	"daxi@ninhthihai.tokyo|dtdt2882",
-	"onit@ninhthihai.tokyo|dtdt2882",
-	"mioi@ninhthihai.tokyo|dtdt2882",
-	"oper@ninhthihai.tokyo|dtdt2882",
-	"bite@ninhthihai.tokyo|dtdt2882",
+	"dzki@ninhthihai.tokyo|dtdt0660",
+	"mjin@ninhthihai.tokyo|dtdt0660",
+	"diot@ninhthihai.tokyo|dtdt0660",
 	
     ],
 }
