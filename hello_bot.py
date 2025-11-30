@@ -58,7 +58,7 @@ PRODUCTS = {
     },
     "code_gpt": {
         "name": "CODE GPT PLUS",
-        "price": 12000,
+        "price": 15000,
     },
     "gemini_edu": {
         "name": "GEMINI PRO EDU 1 NĂM BH Login 24h",
@@ -81,16 +81,11 @@ STOCK = {
     ],
 
     "code_gpt": [    				
-        "chatgpt.com/p/679X62PRLE45HTB3",
-	"chatgpt.com/p/3UD9D4PWJE6PCQ8S",
-	"chatgpt.com/p/ME2TUK7H69FZPDST",
-	"chatgpt.com/p/EJCKCY84GJJQVT7K",
-	"chatgpt.com/p/S6QU6JPACLZCQNTD",
-	"chatgpt.com/p/VFYT8KJ8JN36J7YL",
-	"chatgpt.com/p/TX8LRN39R94RLFRL",
-	"chatgpt.com/p/BZF8CPDXWAKGF9QK",
-	"chatgpt.com/p/F7JK9U67EBCK97YB",
-
+        "https://chatgpt.com/?promoCode=3ATEH3RTMZVTVWEU",
+	"https://chatgpt.com/?promoCode=3B2G8686TRWQHVL6",
+	"https://chatgpt.com/?promoCode=3B54ZX5HDGP2ZPU4",
+	"https://chatgpt.com/?promoCode=3BANBCFKYC5ZF2ZA",
+	"https://chatgpt.com/?promoCode=3BQ2KA7GFH8D98TS",
     ],
 
     "gemini_edu": [
@@ -98,16 +93,11 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"yaro@niverof.dpdns.org|dtdt2442",
-	"tiku@niverof.dpdns.org|dtdt2442",
-	"nexo@niverof.dpdns.org|dtdt2442",
-	"kimo@niverof.dpdns.org|dtdt2442",
-	"vani@niverof.dpdns.org|dtdt2442",
-	"sano@niverof.dpdns.org|dtdt2442",
-	"loki@niverof.dpdns.org|dtdt2442",
-	"tano@niverof.dpdns.org|dtdt2442",
-	"kiri@niverof.dpdns.org|dtdt2442",
-	"mizu@niverof.dpdns.org|dtdt2442",
+	"tyhk@ninhthihai.tokyo|QJqV4hJ=",
+	"gik@ninhthihai.tokyo|rYU=6eM*",
+	"tuk@ninhthihai.tokyo|j5%>2gJ<",
+	"rui@ninhthihai.tokyo|7R2H6rX&",
+	"drnt@ninhthihai.tokyo|4P2=7dZ*",
 	
     ],
 }
