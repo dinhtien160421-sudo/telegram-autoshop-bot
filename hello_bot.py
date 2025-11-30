@@ -96,6 +96,13 @@ STOCK = {
 	"dzki@ninhthihai.tokyo|dtdt0660",
 	"mjin@ninhthihai.tokyo|dtdt0660",
 	"diot@ninhthihai.tokyo|dtdt0660",
+	"otin@ninhthihai.tokyo|dtdt0660",
+	"diner@ninhthihai.tokyo|dtdt0660",
+	"mono@ninhthihai.tokyo|dtdt0660",
+	"sky@ninhthihai.tokyo|dtdt0660",
+	"jack@ninhthihai.tokyo|dtdt0660",
+	"driw@ninhthihai.tokyo|dtdt0660",
+	"alop@ninhthihai.tokyo|dtdt0660",
 	
     ],
 }
