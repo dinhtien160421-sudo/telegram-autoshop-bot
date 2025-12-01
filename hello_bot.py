@@ -58,7 +58,7 @@ PRODUCTS = {
     },
     "code_gpt": {
         "name": "CODE GPT PLUS",
-        "price": 15000,
+        "price": 17000,
     },
     "gemini_edu": {
         "name": "GEMINI PRO EDU 1 NĂM BH Login 24h",
@@ -81,11 +81,18 @@ STOCK = {
     ],
 
     "code_gpt": [    				
-        "https://chatgpt.com/?promoCode=3ATEH3RTMZVTVWEU",
+    "https://chatgpt.com/?promoCode=3ATEH3RTMZVTVWEU",
 	"https://chatgpt.com/?promoCode=3B2G8686TRWQHVL6",
 	"https://chatgpt.com/?promoCode=3B54ZX5HDGP2ZPU4",
 	"https://chatgpt.com/?promoCode=3BANBCFKYC5ZF2ZA",
 	"https://chatgpt.com/?promoCode=3BQ2KA7GFH8D98TS",
+	"https://chatgpt.com/?promoCode=5FYCTTP6M272D3VW",
+	"https://chatgpt.com/?promoCode=5G8LKQYU8WQXQ8JW",
+	"https://chatgpt.com/?promoCode=5GKK5WFACGKJYZZU",
+	"https://chatgpt.com/?promoCode=5H9V2NP94LVKFHY3",
+	"https://chatgpt.com/?promoCode=5HNB9ULCL4PACHYF",
+	"https://chatgpt.com/?promoCode=5HRWAH38G7QDM4AG",
+	"https://chatgpt.com/?promoCode=5HSW2T3HJHR2KVUE",
     ],
 
     "gemini_edu": [
@@ -93,16 +100,16 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"dzki@ninhthihai.tokyo|dtdt0660",
-	"mjin@ninhthihai.tokyo|dtdt0660",
-	"diot@ninhthihai.tokyo|dtdt0660",
-	"otin@ninhthihai.tokyo|dtdt0660",
-	"diner@ninhthihai.tokyo|dtdt0660",
-	"mono@ninhthihai.tokyo|dtdt0660",
-	"sky@ninhthihai.tokyo|dtdt0660",
-	"jack@ninhthihai.tokyo|dtdt0660",
-	"driw@ninhthihai.tokyo|dtdt0660",
-	"alop@ninhthihai.tokyo|dtdt0660",
+	"liam@ninhthihai.tokyo|dtdt4994",
+	"noah@ninhthihai.tokyo|dtdt4994",
+	"eli@ninhthihai.tokyo|dtdt4994",
+	"max@ninhthihai.tokyo|dtdt4994",
+	"zoe@ninhthihai.tokyo|dtdt4994",
+	"ava@ninhthihai.tokyo|dtdt4994",
+	"leo@ninhthihai.tokyo|dtdt4994",
+	"mia@ninhthihai.tokyo|dtdt4994",
+	"nate@ninhthihai.tokyo|dtdt4994",
+	"tiner@ninhthihai.tokyo|dtdt4994",
 	
     ],
 }
