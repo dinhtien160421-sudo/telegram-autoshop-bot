@@ -81,7 +81,6 @@ STOCK = {
     ],
 
     "code_gpt": [    				
-	"https://chatgpt.com/?promoCode=5H9V2NP94LVKFHY3",
 	"https://chatgpt.com/?promoCode=5HNB9ULCL4PACHYF",
 	"https://chatgpt.com/?promoCode=5HSW2T3HJHR2KVUE",
     ],
@@ -91,20 +90,21 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"jace@ribrey.dpdns.org|dtdt4994",
-	"owen@ribrey.dpdns.org|dtdt4994",
-	"ivy@ribrey.dpdns.org|dtdt4994",
-	"reid@ribrey.dpdns.org|dtdt4994",
-	"cole@ribrey.dpdns.org|dtdt4994",
-	"maya@ribrey.dpdns.org|dtdt4994",
-	"troy@ribrey.dpdns.org|dtdt4994",
-	"hope@ribrey.dpdns.org|dtdt4994",
-	"alex@ribrey.dpdns.org|dtdt4994",
-	"blake@ribrey.dpdns.org|dtdt4774",
-	"ruby@ribrey.dpdns.org|dtdt4774",
-	"chase@ribrey.dpdns.org|dtdt4774",
-	"elle@ribrey.dpdns.org|dtdt4774",
-	"grant@ribrey.dpdns.org|dtdt4774",
+	"miles@ribrey.dpdns.org|dtdt4664",
+	"sophie@ribrey.dpdns.org|dtdt4664",
+	"jude@ribrey.dpdns.org|dtdt4664",
+	"clara@ribrey.dpdns.org|dtdt4664",
+	"rex@ribrey.dpdns.org|dtdt4664",
+	"aria@ribrey.dpdns.org|dtdt4664",
+	"tess@ribrey.dpdns.org|dtdt4664",
+	"mark@ribrey.dpdns.org|dtdt4664",
+	"lily@ribrey.dpdns.org|dtdt4664",
+	"drew@ribrey.dpdns.org|dtdt4664",
+	"theo@ribrey.dpdns.org|dtdt4664",
+	"zara@ribrey.dpdns.org|dtdt4664",
+	"beau@ribrey.dpdns.org|dtdt4664",
+	"chloe@ribrey.dpdns.org|dtdt4664",
+
 
 	
     ],
