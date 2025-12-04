@@ -91,27 +91,6 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"nora@buritt.dpdns.org|dtdt2772",
-	"kara@buritt.dpdns.org|dtdt2772",
-	"brett@buritt.dpdns.org|dtdt2772",
-	"faye@buritt.dpdns.org|dtdt2772",
-	"louis@buritt.dpdns.org|dtdt2772",
-	"reese@buritt.dpdns.org|dtdt2772",
-	"vera@buritt.dpdns.org|dtdt2772",
-	"dana@buritt.dpdns.org|dtdt2772",
-	"shawn@buritt.dpdns.org|dtdt2772",
-	"iris@buritt.dpdns.org|dtdt2772",
-	"caleb@buritt.dpdns.org|dtdt2772",
-	"rita@buritt.dpdns.org|dtdt2772",
-	"hugo@buritt.dpdns.org|dtdt2772",
-	"paige@buritt.dpdns.org|dtdt2772",
-	"mason@buritt.dpdns.org|dtdt2772",
-	"adrian@buritt.dpdns.org|dtdt2772",
-	"blair@buritt.dpdns.org|dtdt2772",
-	"cora@buritt.dpdns.org|dtdt2772",
-	"jaxon@buritt.dpdns.org|dtdt2772",
-	"lena@buritt.dpdns.org|dtdt2772",
-	"trent@buritt.dpdns.org|dtdt2772",
 	"mila@buritt.dpdns.org|dtdt2772",
 	"rhys@buritt.dpdns.org|dtdt2772",
 	"kyra@buritt.dpdns.org|dtdt2772",
@@ -133,11 +112,12 @@ STOCK = {
 	"tara@buritt.dpdns.org|dtdt1661",
 	"bryce@buritt.dpdns.org|dtdt1661",
 	"jemma@buritt.dpdns.org|dtdt1661",
-
-
-
-
-	
+	"ariel@oliean.dpdns.org|dtdt4994",
+	"nate@oliean.dpdns.org|dtdt4994",
+	"siena@oliean.dpdns.org|dtdt4994",
+	"cole@oliean.dpdns.org|dtdt4994",
+	"harper@tchler.dpdns.org|dtdt4994",
+	"zed@tchler.dpdns.org|dtdt4994",
     ],
 }
 
