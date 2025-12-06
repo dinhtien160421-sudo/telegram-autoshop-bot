@@ -89,17 +89,6 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"corin@glurop.dpdns.org|dtdt0330",
-	"vera@glurop.dpdns.org|dtdt0330",
-	"soren@glurop.dpdns.org|dtdt0330",
-	"mira@glurop.dpdns.org|dtdt0330",
-	"jace@glurop.dpdns.org|dtdt0330",
-	"arlo@glurop.dpdns.org|dtdt0330",
-	"keira@glurop.dpdns.org|dtdt0330",
-	"lyle@glurop.dpdns.org|dtdt0330",
-	"nova@glurop.dpdns.org|dtdt0330",
-	"rei@glurop.dpdns.org|dtdt0330",
-	"zeke@glurop.dpdns.org|dtdt0330",
 	"faye@glurop.dpdns.org|dtdt0330",
 	"kira@glurop.dpdns.org|dtdt0330",
 	"dax@glurop.dpdns.org|dtdt0330",
