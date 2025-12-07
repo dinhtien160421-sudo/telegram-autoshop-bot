@@ -77,7 +77,6 @@ STOCK = {
     ],
 
     "Canva_Edu": [
-        "nonibonetti8660@hotmail.com|37892MTr|M.C550_BAY.0.U.-Cj506SrReqrbNV5qxWuseop86KkESB84064132lNzZnrBrg2Zw11gbo1DJwJNotc6RUy2LqwsC27YFSbnjduddvYaPfJDOhlPcgTLX9sUwjiSze2YLQYLpREUhjekPS1RGAG0GiKu1!6nvFx*8ydcVqAcg7aUmhfTET4EWZo7K41WfQD7Q7rLncrh0RctKB7RPHnbJNlYw3aM6u7M4Tz*S2M7GCPNwSwSH3nX73vEFUuOLqLaG0OHRHbjETOn0PbQQvsNg0HKYJZdK6UGyPiIfFOlwrqFM1FT9XnJDpEYArLh5LuHBJou5I0AzerQMzHZs57MJZM6Y9NuGRoJgFm2PUvMCRrKgkway*r1*b5EquZE9juH03DJE1RXr57MhWW2ar5JLrzX913bjZnKOLXB*Jd55b6Ls9moYVE3BkolwJc|9e5f94bc-e8a4-4e73-b8be-63364c29d753|hjwws8jtw2m@smvmail.com",
     ],
 
     "code_gpt": [    				
@@ -89,49 +88,7 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"pierce@glurop.dpdns.org|dtdt0330",
-	"nash@glurop.dpdns.org|dtdt0330",
-	"veda@glurop.dpdns.org|dtdt0330",
-	"colt@glurop.dpdns.org|dtdt0330",
-	"sia@glurop.dpdns.org|dtdt0330",
-	"reign@glurop.dpdns.org|dtdt0330",
-	"talon@glurop.dpdns.org|dtdt0330",
-	"lara@glurop.dpdns.org|dtdt0330",
-	"lumi@glurop.dpdns.org|dtdt0330",
-    "knox@glurop.dpdns.org|dtdt0330",
-    "vio@glurop.dpdns.org|dtdt0330",
-    "hayes@glurop.dpdns.org|dtdt0330",
-	"mila@glurop.dpdns.org|dtdt0330",
-    "enzo@glurop.dpdns.org|dtdt0330",
-	"skye@glurop.dpdns.org|dtdt0330",
-    "rhys@glurop.dpdns.org|dtdt0330",
-	"juno@glurop.dpdns.org|dtdt0330",
-    "bryce@glurop.dpdns.org|dtdt0330",
-	"elle@glurop.dpdns.org|dtdt0330",
-    "cruz@glurop.dpdns.org|dtdt0330",
-	"zuri@glurop.dpdns.org|dtdt0330",
-    "troy@glurop.dpdns.org|dtdt0330",
-	"isla@glurop.dpdns.org|dtdt0330",
-    "dzf@ducdungcom.com|dtdt0440",
-	"arin@ducdungcom.com|dtdt0440",
-    "lora@ducdungcom.com|dtdt0440",
-	"kade@ducdungcom.com|dtdt0440",
-    "nira@ducdungcom.com|dtdt0440",
-	"brex@ducdungcom.com|dtdt0440",
-    "suri@ducdungcom.com|dtdt0440",
-	"jalen@ducdungcom.com|dtdt0440",
-    "mirae@ducdungcom.com|dtdt0440",
-	"darin@ducdungcom.com|dtdt0440",
-    "tali@ducdungcom.com|dtdt0440",
-	"rion@ducdungcom.com|dtdt0440",
-    "zane@ducdungcom.com|dtdt0440",
-	"elin@ducdungcom.com|dtdt0440",
-    "kora@ducdungcom.com|dtdt0440",
-	"jett@ducdungcom.com|dtdt0440",
-    "alex@ducdungcom.com|dtdt0440",
-
-
-
+	
     ],
 }
 
