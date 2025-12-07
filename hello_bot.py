@@ -16,8 +16,8 @@ import os
 BOT_TOKEN = "8376460284:AAFhM_HmBDVST1lYyICYGjLUFm9Dqg6WTag"
 ADMIN_CHAT_ID = 6164122466          # ID admin
 PENDING_ORDERS = {}                 # đơn đang chờ duyệt
-BANK_CODE = "sacombank"
-BANK_ACCOUNT = "0842108959"
+BANK_CODE = "ACB"
+BANK_ACCOUNT = "21812351"
 ADMIN_CONTACT = "Liên hệ Zalo: 0842108959"
 USERS_FILE = "users.txt"            # nơi lưu danh sách user
 
