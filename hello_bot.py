@@ -112,23 +112,23 @@ STOCK = {
 	"zuri@glurop.dpdns.org|dtdt0330",
     "troy@glurop.dpdns.org|dtdt0330",
 	"isla@glurop.dpdns.org|dtdt0330",
-    "dzf@ducdungcom.com|dtdt0440"
-	"arin@ducdungcom.com|dtdt0440"
-    "lora@ducdungcom.com|dtdt0440"
-	"kade@ducdungcom.com|dtdt0440"
-    "nira@ducdungcom.com|dtdt0440"
-	"brex@ducdungcom.com|dtdt0440"
-    "suri@ducdungcom.com|dtdt0440"
-	"jalen@ducdungcom.com|dtdt0440"
-    "mirae@ducdungcom.com|dtdt0440"
-	"darin@ducdungcom.com|dtdt0440"
-    "tali@ducdungcom.com|dtdt0440"
-	"rion@ducdungcom.com|dtdt0440"
-    "zane@ducdungcom.com|dtdt0440"
-	"elin@ducdungcom.com|dtdt0440"
-    "kora@ducdungcom.com|dtdt0440"
-	"jett@ducdungcom.com|dtdt0440"
-    "alex@ducdungcom.com|dtdt0440"
+    "dzf@ducdungcom.com|dtdt0440",
+	"arin@ducdungcom.com|dtdt0440",
+    "lora@ducdungcom.com|dtdt0440",
+	"kade@ducdungcom.com|dtdt0440",
+    "nira@ducdungcom.com|dtdt0440",
+	"brex@ducdungcom.com|dtdt0440",
+    "suri@ducdungcom.com|dtdt0440",
+	"jalen@ducdungcom.com|dtdt0440",
+    "mirae@ducdungcom.com|dtdt0440",
+	"darin@ducdungcom.com|dtdt0440",
+    "tali@ducdungcom.com|dtdt0440",
+	"rion@ducdungcom.com|dtdt0440",
+    "zane@ducdungcom.com|dtdt0440",
+	"elin@ducdungcom.com|dtdt0440",
+    "kora@ducdungcom.com|dtdt0440",
+	"jett@ducdungcom.com|dtdt0440",
+    "alex@ducdungcom.com|dtdt0440",
 
 
 
