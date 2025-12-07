@@ -425,8 +425,7 @@ def handle_quantity(update, context):
         "🏦 Thông tin chuyển khoản\n"
         "Vui lòng QUÉT MÃ QR ở tin nhắn tiếp theo để thanh toán.\n\n"
         f"📌 Nội dung: *{order_code}*\n\n"
-        "Sau khi chuyển khoản xong, bấm *Tôi đã chuyển tiền,Hệ thống TỰ ĐỘNG giao tài khoản
-    Sau khi chuyển khoản thành công,*."
+        "Sau khi chuyển khoản xong, bấm *Tôi đã chuyển tiền*."
     ).replace(",", ".")
 
     keyboard = [
