@@ -16,8 +16,8 @@ import os
 BOT_TOKEN = "8376460284:AAFhM_HmBDVST1lYyICYGjLUFm9Dqg6WTag"
 ADMIN_CHAT_ID = 6164122466          # ID admin
 PENDING_ORDERS = {}                 # đơn đang chờ duyệt
-BANK_CODE = "ACB"
-BANK_ACCOUNT = "21812351"
+BANK_CODE = "sacombank"
+BANK_ACCOUNT = "0842108959"
 ADMIN_CONTACT = "Liên hệ Zalo: 0842108959"
 USERS_FILE = "users.txt"            # nơi lưu danh sách user
 
@@ -66,31 +66,42 @@ PRODUCTS = {
     },
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",
-        "price": 55000,
+        "price": 45000,
     },
 }
 
-# Kho hàng – bạn chỉ cần sửa list bên dưới, không đụng gì code khác
+# Kho hàng
 STOCK = {
     "capcut": [
-        # thêm hàng ở đây, ví dụ:
+        # thêm hàng ở đây
     ],
 
     "Canva_Edu": [
-       
+        ",
     ],
 
-    "code_gpt": [
-       
+    "code_gpt": [    				
+
     ],
 
     "gemini_edu": [
-       
+        # thêm hàng ở đây
     ],
 
     "veo3_ultra": [
-        "corin@glurop.dpdns.org|dtdt0330",
-      
+	"brex@ducdungcom.com|dtdt0440",
+	"suri@ducdungcom.com|dtdt0440"
+	"jalen@ducdungcom.com|dtdt0440",
+	"mirae@ducdungcom.com|dtdt0440",
+	"darin@ducdungcom.com|dtdt0440",
+	"tali@ducdungcom.com|dtdt0440",
+	"rion@ducdungcom.com|dtdt0440",
+	"zane@ducdungcom.com|dtdt0440",
+	"elin@ducdungcom.com|dtdt0440",
+	"kora@ducdungcom.com|dtdt0440",
+	"jett@ducdungcom.com|dtdt0440",
+	"alex@ducdungcom.com|dtdt0440",
+
     ],
 }
 
@@ -398,7 +409,7 @@ def handle_quantity(update, context):
         )
         return
 
-        # Tính tổng tiền
+    # Tính tổng tiền
     amount = product["price"] * qty
     order_code = gen_order_code()
 
@@ -408,13 +419,7 @@ def handle_quantity(update, context):
     # Sau khi tạo đơn thì không cần chờ số lượng nữa
     WAITING_QTY.pop(user_id, None)
 
-    # ⚠ Nội dung chuyển khoản CHO NGÂN HÀNG (webhook sẽ đọc cái này)
-    # Format: ORDxxxxxxxxxx|product_id|qty|user_id
-    content_for_bank = f"{order_code}|{pid}|{qty}|{user_id}"
-    qr_url = build_vietqr_url(amount, content_for_bank)
-
-    # QR sẽ mang content_for_bank, nhưng mình vẫn hiển thị order_code cho khách
-    qr_url = build_vietqr_url(amount, content_for_bank)
+    qr_url = build_vietqr_url(amount, order_code)
 
     info = (
         f"✅ Đã tạo đơn *{order_code}*\n"
@@ -429,9 +434,9 @@ def handle_quantity(update, context):
     ).replace(",", ".")
 
     keyboard = [
-    [InlineKeyboardButton("❌ Hủy đơn", callback_data="cancel")],
+        [InlineKeyboardButton("✅ Tôi đã chuyển tiền", callback_data="confirm")],
+        [InlineKeyboardButton("❌ Hủy đơn", callback_data="cancel")],
     ]
-
 
     update.message.reply_text(
         info,
@@ -456,7 +461,7 @@ def main():
 
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("menu", menu))
-    dp.add_handler(CommandHandler("broadcast", broadcast))
+    dp.add_handler(CommandHandler("broadcast", broadcast))   # lệnh gửi tin hàng loạt
     dp.add_handler(CallbackQueryHandler(handle_buttons))
 
     # Nhận tin nhắn text (không phải lệnh) để xử lý số lượng mua
