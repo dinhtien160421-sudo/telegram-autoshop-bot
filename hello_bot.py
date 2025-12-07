@@ -90,7 +90,7 @@ STOCK = {
 
     "veo3_ultra": [
 	"brex@ducdungcom.com|dtdt0440",
-	"suri@ducdungcom.com|dtdt0440"
+	"suri@ducdungcom.com|dtdt0440",
 	"jalen@ducdungcom.com|dtdt0440",
 	"mirae@ducdungcom.com|dtdt0440",
 	"darin@ducdungcom.com|dtdt0440",
@@ -101,7 +101,6 @@ STOCK = {
 	"kora@ducdungcom.com|dtdt0440",
 	"jett@ducdungcom.com|dtdt0440",
 	"alex@ducdungcom.com|dtdt0440",
-
     ],
 }
 
