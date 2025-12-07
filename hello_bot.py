@@ -77,7 +77,7 @@ STOCK = {
     ],
 
     "Canva_Edu": [
-        ",
+        
     ],
 
     "code_gpt": [    				
