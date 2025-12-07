@@ -66,29 +66,31 @@ PRODUCTS = {
     },
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",
-        "price": 50000,
+        "price": 55000,
     },
 }
 
-# Kho hàng
+# Kho hàng – bạn chỉ cần sửa list bên dưới, không đụng gì code khác
 STOCK = {
     "capcut": [
-        # thêm hàng ở đây
+        # thêm hàng ở đây, ví dụ:
     ],
 
     "Canva_Edu": [
+       
     ],
 
-    "code_gpt": [    				
-
+    "code_gpt": [
+       
     ],
 
     "gemini_edu": [
-        # thêm hàng ở đây
+       
     ],
 
     "veo3_ultra": [
-	
+        "corin@glurop.dpdns.org|dtdt0330",
+      
     ],
 }
 
@@ -396,7 +398,7 @@ def handle_quantity(update, context):
         )
         return
 
-    # Tính tổng tiền
+        # Tính tổng tiền
     amount = product["price"] * qty
     order_code = gen_order_code()
 
@@ -406,7 +408,13 @@ def handle_quantity(update, context):
     # Sau khi tạo đơn thì không cần chờ số lượng nữa
     WAITING_QTY.pop(user_id, None)
 
-    qr_url = build_vietqr_url(amount, order_code)
+    # ⚠ Nội dung chuyển khoản CHO NGÂN HÀNG (webhook sẽ đọc cái này)
+    # Format: ORDxxxxxxxxxx|product_id|qty|user_id
+    content_for_bank = f"{order_code}|{pid}|{qty}|{user_id}"
+    qr_url = build_vietqr_url(amount, content_for_bank)
+
+    # QR sẽ mang content_for_bank, nhưng mình vẫn hiển thị order_code cho khách
+    qr_url = build_vietqr_url(amount, content_for_bank)
 
     info = (
         f"✅ Đã tạo đơn *{order_code}*\n"
@@ -417,13 +425,14 @@ def handle_quantity(update, context):
         "🏦 Thông tin chuyển khoản\n"
         "Vui lòng QUÉT MÃ QR ở tin nhắn tiếp theo để thanh toán.\n\n"
         f"📌 Nội dung: *{order_code}*\n\n"
-        "Sau khi chuyển khoản xong, bấm *Tôi đã chuyển tiền*."
+        "Sau khi chuyển khoản xong, bấm *Tôi đã chuyển tiền,Hệ thống TỰ ĐỘNG giao tài khoản
+    Sau khi chuyển khoản thành công,*."
     ).replace(",", ".")
 
     keyboard = [
-        [InlineKeyboardButton("✅ Tôi đã chuyển tiền", callback_data="confirm")],
-        [InlineKeyboardButton("❌ Hủy đơn", callback_data="cancel")],
+    [InlineKeyboardButton("❌ Hủy đơn", callback_data="cancel")],
     ]
+
 
     update.message.reply_text(
         info,
@@ -448,7 +457,7 @@ def main():
 
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("menu", menu))
-    dp.add_handler(CommandHandler("broadcast", broadcast))   # lệnh gửi tin hàng loạt
+    dp.add_handler(CommandHandler("broadcast", broadcast))
     dp.add_handler(CallbackQueryHandler(handle_buttons))
 
     # Nhận tin nhắn text (không phải lệnh) để xử lý số lượng mua
