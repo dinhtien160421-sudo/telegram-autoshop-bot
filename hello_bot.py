@@ -125,6 +125,17 @@ STOCK = {
 	"amyn@ducdungstorecom.com|dtdt2552",
 	"annz@ducdungstorecom.com|dtdt2552",
 	"abz@ducdungstorecom.com|dtdt2552",
+	"poie@ducdungstorecom.com|dtdt2552",
+	"fip@ducdungstorecom.com|dtdt2552",
+	"anom@ducdungstorecom.com|dtdt2552",
+	"zhas@ducdungstorecom.com|dtdt2552",
+	"aztn@ducdungstorecom.com|dtdt2552",
+	"avzr@ducdungstorecom.com|dtdt2552",
+	"pimm@ducdungstorecom.com|dtdt2552",
+	"azb@ducdungstorecom.com|dtdt2552",
+	"eyui@ducdungstorecom.com|dtdt2552",
+	"bzx@ducdungstorecom.com|dtdt2552",
+
 
 
     ],
