@@ -92,13 +92,6 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"zed@ducdungstorecom.com|dtdt2552",
-	"tnex@ducdungstorecom.com|dtdt2552",
-	"bim@ducdungstorecom.com|dtdt2552",
-	"c@ducdungstorecom.com|dtdt2552",
-	"d@ducdungstorecom.com|dtdt2552",
-	"ater@ducdungstorecom.com|dtdt2552",
-	"trxi@ducdungstorecom.com|dtdt2552",
 	"vim@ducdungstorecom.com|dtdt2552",
 	"tgnz@ducdungstorecom.com|dtdt2552",
 	"zge@ducdungstorecom.com|dtdt2552",
