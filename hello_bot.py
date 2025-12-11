@@ -82,9 +82,18 @@ STOCK = {
     ],
 
     "code_gpt": [   
-	"chatgpt.com/p/A2DDCMH8ZEFKFCCK",
-	"chatgpt.com/p/AWYT7NXZ6WC58QFJ",
 	"chatgpt.com/p/Y2JFDGSRMPVEHARW",
+	"chatgpt.com/p/9VT564XH6D8A4BQW",
+	"chatgpt.com/p/K6CXUHBVRTVKSNCJ",
+	"chatgpt.com/p/ZK6R3ZSMLMLMJKWB",
+	"chatgpt.com/p/LGX79J49FJ63CKNQ",
+	"chatgpt.com/p/GVC2RWGGFV9Y4SRW",
+	"chatgpt.com/p/743YZDJK62TVXJN5",
+	"chatgpt.com/p/HLNPGKRPPFKEBLTS",
+	"chatgpt.com/p/YV9YYK2SSR9T2XCB",
+	"chatgpt.com/p/VP5HNAUJ6HPGVP9P",
+	"chatgpt.com/p/P7A2J34Z4TBA9R2S",
+
     ],
 
     "gemini_edu": [
@@ -92,7 +101,6 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"vim@ducdungstorecom.com|dtdt2552",
 	"tgnz@ducdungstorecom.com|dtdt2552",
 	"zge@ducdungstorecom.com|dtdt2552",
 	"rue@ducdungstorecom.com|dtdt2552",
