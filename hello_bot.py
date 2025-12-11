@@ -171,6 +171,7 @@ STOCK = {
 	"gir@abcstorecom.com|dtdt4994",
 	"mon@abcstorecom.com|dtdt4994",
 	"rinoto@abcstorecom.com|dtdt4994",
+	"rue@ducdungstorecom.com|dtdt2552",
     ],
 }
 
