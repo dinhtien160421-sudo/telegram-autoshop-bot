@@ -93,7 +93,7 @@ STOCK = {
 	"chatgpt.com/p/YV9YYK2SSR9T2XCB",
 	"chatgpt.com/p/VP5HNAUJ6HPGVP9P",
 	"chatgpt.com/p/P7A2J34Z4TBA9R2S",
-
+	"chatgpt.com/p/DDWKTHJTJ5Z88VW5",
     ],
 
     "gemini_edu": [
@@ -101,8 +101,6 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"tgnz@ducdungstorecom.com|dtdt2552",
-	"zge@ducdungstorecom.com|dtdt2552",
 	"rue@ducdungstorecom.com|dtdt2552",
 	"athz@ducdungstorecom.com|dtdt2552",
 	"alin@ducdungstorecom.com|dtdt2552",
@@ -136,9 +134,43 @@ STOCK = {
 	"azb@ducdungstorecom.com|dtdt2552",
 	"eyui@ducdungstorecom.com|dtdt2552",
 	"bzx@ducdungstorecom.com|dtdt2552",
-
-
-
+	"tervax@abcstorecom.com|dtdt4994",
+	"zorami@abcstorecom.com|dtdt4994",
+	"kivaro@abcstorecom.com|dtdt4994",
+	"mirezo@abcstorecom.com|dtdt4994",
+	"xaviro@abcstorecom.com|dtdt4994",
+	"loremi@abcstorecom.com|dtdt4994",
+	"sirano@abcstorecom.com|dtdt4994",
+	"naviro@abcstorecom.com|dtdt4994",
+	"valiro@abcstorecom.com|dtdt4994",
+	"zerano@abcstorecom.com|dtdt4994",
+	"kioren@abcstorecom.com|dtdt4994",
+	"darino@abcstorecom.com|dtdt4994",
+	"merino@abcstorecom.com|dtdt4994",
+	"jaremi@abcstorecom.com|dtdt4994",
+	"nerivo@abcstorecom.com|dtdt4994",
+	"toravi@abcstorecom.com|dtdt4994",
+	"silano@abcstorecom.com|dtdt4994",
+	"rimonio@abcstorecom.com|dtdt4994",
+	"veliro@abcstorecom.com|dtdt4994",
+	"norexi@abcstorecom.com|dtdt4994",
+	"takiro@abcstorecom.com|dtdt4994",
+	"zerani@abcstorecom.com|dtdt4994",
+	"lanovi@abcstorecom.com|dtdt4994",
+	"rivano@abcstorecom.com|dtdt4994",
+	"zoremi@abcstorecom.com|dtdt4994",
+	"minero@abcstorecom.com|dtdt4994",
+	"abzs@abcstorecom.com|dtdt4994",
+	"mix@abcstorecom.com|dtdt4994",
+	"bop@abcstorecom.com|dtdt4994",
+	"miuz@abcstorecom.com|dtdt4994",
+	"avim@abcstorecom.com|dtdt4994",
+	"niko@abcstorecom.com|dtdt4994",
+	"btz@abcstorecom.com|dtdt4994",
+	"mize@abcstorecom.com|dtdt4994",
+	"gir@abcstorecom.com|dtdt4994",
+	"mon@abcstorecom.com|dtdt4994",
+	"rinoto@abcstorecom.com|dtdt4994",
     ],
 }
 
