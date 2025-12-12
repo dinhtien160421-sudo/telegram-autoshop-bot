@@ -48,10 +48,6 @@ def add_user(chat_id: int):
 
 # Danh sách sản phẩm
 PRODUCTS = {
-    "capcut": {
-        "name": "Capcut Pro Team 27D",
-        "price": 25000,
-    },
     "Canva_Edu": {
         "name": "Canva Edu 500 Slot BH 30D",
         "price": 70000,
@@ -76,10 +72,6 @@ PRODUCTS = {
 
 # Kho hàng
 STOCK = {
-    "capcut": [
-        # thêm hàng ở đây
-    ],
-
     "Canva_Edu": [
 	"aerobikwa7643@hotmail.comcom|dOlL35h0|M.C533_SN1.0.U.-Ch8ZkhMHcRFhzUDWNQK!P3iDW1v1efsqFQ3LN2s*SJk0BG9e1PYWayzF0LZIYoP35PCLOWyTPJDYCr1lfZat4CepUWdk1BbJLhMOhk!J!TRTii*CMYFxjO*SpggIz9WRBsDvYWuTKQwSSXvydqUT4PqFnPxPGVfUpT0EJWL2x0NF25dLfb!0hwOAWce8DPEE53TLJ0NvsdXLvyKkjGmhvgNEGB8sCQzZ!S3SChAUy4UbduAw!j8BYnj6kMxewe0QkjRZVkBVNY9UAsiwQC7mplKjs7q5j8MEUyRGdZF0fztXJ1O11!H0MOmvo*0rNv7p2WEyrSVYfEwUZnf0f2DCbeZB7bEqPQe6jw5ZGdbr7xC4!cOBXh7MX!mYKCHv2Ms4CP9Ap1aqYTEZacxQDQSnitlXvNbwLKsrMn1m2Hvee6MKIahhjDdcu02j3oM!LpjByw$$|9e5f94bc-e8a4-4e73-b8be-63364c29d753|jajedxq5owk7@smvmail.com",	
         
