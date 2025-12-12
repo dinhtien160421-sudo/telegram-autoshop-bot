@@ -66,7 +66,7 @@ PRODUCTS = {
 	},
     "gpt_plus_30d": {                       
         "name": "ACC GPT PLUS 30D",
-        "price": 50000,	
+        "price": 45000,	
     },
 }
 
