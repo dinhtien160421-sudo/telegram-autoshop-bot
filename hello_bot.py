@@ -67,6 +67,10 @@ PRODUCTS = {
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",
         "price": 50000,
+	},
+    "gpt_plus_30d": {                       
+        "name": "ACC GPT PLUS 30D",
+        "price": 50000,	
     },
 }
 
@@ -82,10 +86,6 @@ STOCK = {
     ],
 
     "code_gpt": [   
-	"chatgpt.com/p/Y2JFDGSRMPVEHARW",
-	"chatgpt.com/p/9VT564XH6D8A4BQW",
-	"chatgpt.com/p/K6CXUHBVRTVKSNCJ",
-	"chatgpt.com/p/ZK6R3ZSMLMLMJKWB",
 	"chatgpt.com/p/LGX79J49FJ63CKNQ",
 	"chatgpt.com/p/GVC2RWGGFV9Y4SRW",
 	"chatgpt.com/p/743YZDJK62TVXJN5",
@@ -101,31 +101,6 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"rue@ducdungstorecom.com|dtdt2552",
-	"athz@ducdungstorecom.com|dtdt2552",
-	"alin@ducdungstorecom.com|dtdt2552",
-	"none@ducdungstorecom.com|dtdt2552",
-	"rim@ducdungstorecom.com|dtdt2552",
-	"nhim@ducdungstorecom.com|dtdt2552",
-	"tomz@ducdungstorecom.com|dtdt2552",
-	"azn@ducdungstorecom.com|dtdt2552",
-	"avina@ducdungstorecom.com|dtdt2552",
-	"znmz@ducdungstorecom.com|dtdt2552",
-	"bimz@ducdungstorecom.com|dtdt2552",
-	"tbnm@ducdungstorecom.com|dtdt2552",
-	"aztc@ducdungstorecom.com|dtdt2552",
-	"zhm@ducdungstorecom.com|dtdt2552",
-	"nbze@ducdungstorecom.com|dtdt2552",
-	"gzts@ducdungstorecom.com|dtdt2552",
-	"hgop@ducdungstorecom.com|dtdt2552",
-	"amni@ducdungstorecom.com|dtdt2552",
-	"znuyt@ducdungstorecom.com|dtdt2552",
-	"hbmn@ducdungstorecom.com|dtdt2552",
-	"amyn@ducdungstorecom.com|dtdt2552",
-	"annz@ducdungstorecom.com|dtdt2552",
-	"abz@ducdungstorecom.com|dtdt2552",
-	"poie@ducdungstorecom.com|dtdt2552",
-	"fip@ducdungstorecom.com|dtdt2552",
 	"anom@ducdungstorecom.com|dtdt2552",
 	"zhas@ducdungstorecom.com|dtdt2552",
 	"aztn@ducdungstorecom.com|dtdt2552",
@@ -173,6 +148,10 @@ STOCK = {
 	"rinoto@abcstorecom.com|dtdt4994",
 	"rue@ducdungstorecom.com|dtdt2552",
     ],
+	
+	"gpt_plus_30d": [
+	
+	],
 }
 
 # ===== HÀM PHỤ =====
