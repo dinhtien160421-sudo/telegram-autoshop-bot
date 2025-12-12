@@ -78,12 +78,6 @@ STOCK = {
     ],
 
     "code_gpt": [   
-	"chatgpt.com/p/LGX79J49FJ63CKNQ",
-	"chatgpt.com/p/GVC2RWGGFV9Y4SRW",
-	"chatgpt.com/p/743YZDJK62TVXJN5",
-	"chatgpt.com/p/HLNPGKRPPFKEBLTS",
-	"chatgpt.com/p/YV9YYK2SSR9T2XCB",
-	"chatgpt.com/p/VP5HNAUJ6HPGVP9P",
 	"chatgpt.com/p/P7A2J34Z4TBA9R2S",
 	"chatgpt.com/p/DDWKTHJTJ5Z88VW5",
     ],
@@ -93,13 +87,6 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"anom@ducdungstorecom.com|dtdt2552",
-	"zhas@ducdungstorecom.com|dtdt2552",
-	"aztn@ducdungstorecom.com|dtdt2552",
-	"avzr@ducdungstorecom.com|dtdt2552",
-	"pimm@ducdungstorecom.com|dtdt2552",
-	"azb@ducdungstorecom.com|dtdt2552",
-	"eyui@ducdungstorecom.com|dtdt2552",
 	"bzx@ducdungstorecom.com|dtdt2552",
 	"tervax@abcstorecom.com|dtdt4994",
 	"zorami@abcstorecom.com|dtdt4994",
@@ -142,6 +129,8 @@ STOCK = {
     ],
 	
 	"gpt_plus_30d": [
+	"aaronmalavoltimho@clicknichezone.shop|111111111111|W73XS7FDUQ7MBTCWJTCP42NV3XZAIMBT",
+	"fannybaumannmm4q@mmoninja.pics|111111111111|L73GXEF2UWRLK2M42JP3IYWVTGX2HGXJ",
 	
 	],
 }
