@@ -66,7 +66,7 @@ PRODUCTS = {
 	},
     "gpt_plus_30d": {                       
         "name": "ACC GPT PLUS 30D",
-        "price": 45000,	
+        "price": 44444,	
     },
 }
 
@@ -78,7 +78,6 @@ STOCK = {
     ],
 
     "code_gpt": [   
-	"chatgpt.com/p/P7A2J34Z4TBA9R2S",
 	"chatgpt.com/p/DDWKTHJTJ5Z88VW5",
     ],
 
@@ -87,36 +86,6 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"bzx@ducdungstorecom.com|dtdt2552",
-	"tervax@abcstorecom.com|dtdt4994",
-	"zorami@abcstorecom.com|dtdt4994",
-	"kivaro@abcstorecom.com|dtdt4994",
-	"mirezo@abcstorecom.com|dtdt4994",
-	"xaviro@abcstorecom.com|dtdt4994",
-	"loremi@abcstorecom.com|dtdt4994",
-	"sirano@abcstorecom.com|dtdt4994",
-	"naviro@abcstorecom.com|dtdt4994",
-	"valiro@abcstorecom.com|dtdt4994",
-	"zerano@abcstorecom.com|dtdt4994",
-	"kioren@abcstorecom.com|dtdt4994",
-	"darino@abcstorecom.com|dtdt4994",
-	"merino@abcstorecom.com|dtdt4994",
-	"jaremi@abcstorecom.com|dtdt4994",
-	"nerivo@abcstorecom.com|dtdt4994",
-	"toravi@abcstorecom.com|dtdt4994",
-	"silano@abcstorecom.com|dtdt4994",
-	"rimonio@abcstorecom.com|dtdt4994",
-	"veliro@abcstorecom.com|dtdt4994",
-	"norexi@abcstorecom.com|dtdt4994",
-	"takiro@abcstorecom.com|dtdt4994",
-	"zerani@abcstorecom.com|dtdt4994",
-	"lanovi@abcstorecom.com|dtdt4994",
-	"rivano@abcstorecom.com|dtdt4994",
-	"zoremi@abcstorecom.com|dtdt4994",
-	"minero@abcstorecom.com|dtdt4994",
-	"abzs@abcstorecom.com|dtdt4994",
-	"mix@abcstorecom.com|dtdt4994",
-	"bop@abcstorecom.com|dtdt4994",
 	"miuz@abcstorecom.com|dtdt4994",
 	"avim@abcstorecom.com|dtdt4994",
 	"niko@abcstorecom.com|dtdt4994",
@@ -129,7 +98,6 @@ STOCK = {
     ],
 	
 	"gpt_plus_30d": [
-	"aaronmalavoltimho@clicknichezone.shop|111111111111|W73XS7FDUQ7MBTCWJTCP42NV3XZAIMBT",
 	"fannybaumannmm4q@mmoninja.pics|111111111111|L73GXEF2UWRLK2M42JP3IYWVTGX2HGXJ",
 	
 	],
