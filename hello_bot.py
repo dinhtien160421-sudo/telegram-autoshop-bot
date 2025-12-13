@@ -86,15 +86,14 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"miuz@abcstorecom.com|dtdt4994",
-	"avim@abcstorecom.com|dtdt4994",
-	"niko@abcstorecom.com|dtdt4994",
-	"btz@abcstorecom.com|dtdt4994",
-	"mize@abcstorecom.com|dtdt4994",
-	"gir@abcstorecom.com|dtdt4994",
-	"mon@abcstorecom.com|dtdt4994",
-	"rinoto@abcstorecom.com|dtdt4994",
-	"rue@ducdungstorecom.com|dtdt2552",
+	"mipo@wwwbananastore.com|dtdt1661",
+	"abi@wwwbananastore.com|dtdt1661",
+	"vimz@wwwbananastore.com|dtdt1661",
+	"bomza@wwwbananastore.com|dtdt1661",
+	"niko@wwwbananastore.com|dtdt1661",
+	"fike@wwwbananastore.com|dtdt1661",
+	"hito@wwwbananastore.com|dtdt1661"
+
     ],
 	
 	"gpt_plus_30d": [
