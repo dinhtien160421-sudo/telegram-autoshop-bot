@@ -78,7 +78,6 @@ STOCK = {
     ],
 
     "code_gpt": [   
-	"chatgpt.com/p/DDWKTHJTJ5Z88VW5",
 	"https://chatgpt.com/p/JU85JZDD4Y4R7TF4",
 	"https://chatgpt.com/p/NSRZJYAQVR3QTFCB",
 	"https://chatgpt.com/p/K6QKAQ3NZL32KRVC",
@@ -91,53 +90,17 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"him@wwwbananastore.com|dtdt1661",
-	"timz@wwwbananastore.com|dtdt1661",
-	"gunny@wwwbananastore.com|dtdt1661",
-	"vinica@wwwbananastore.com|dtdt1661",
-	"foliz@wwwbananastore.com|dtdt1661",
-	"azggzw@wwwbananastore.com|dtdt1661",
-	"zbk111@wwwbananastore.com|dtdt1661",
-	"cimorz@wwwbananastore.com|dtdt1661",
-	"ryunmz@wwwbananastore.com|dtdt1661",
-	"bomizy@wwwbananastore.com|dtdt1661",
-	"vriazt@wwwbananastore.com|dtdt1661",
-	"ditiki@wwwbananastore.com|dtdt1661",
-	"xeponze@wwwbananastore.com|dtdt1661",
-	"kikika@wwwbananastore.com|dtdt1661",
-	"quinn@wwwbananastore.com|dtdt1661",
-	"momo@wwwbananastore.com|dtdt1661",
-	"skyuk@wwwbananastore.com|dtdt1661",
-	"bomo@wwwbananastore.com|dtdt1661",
-	"butniz@wwwbananastore.com|dtdt1661",
-	"vritzq@wwwbananastore.com|dtdt1661",
-	"tryzea@wwwbananastore.com|dtdt1661",
-	"wiaet@wwwbananastore.com|dtdt1661",
-	"bmzea@wwwbananastore.com|dtdt1661",
-	"lkioa@wwwbananastore.com|dtdt1661",
-	"ggrze@wwwbananastore.com|dtdt1661",
-	"abimo@wwwbananastore.com|dtdt1661",
-	"rymoz@wwwbananastore.com|dtdt1661",
-	"rrtyah@wwwbananastore.com|dtdt1661",
-	"sevan@wwwbananastore.com|dtdt1661",
-	"yinnm@wwwbananastore.com|dtdt1661",
-	"etyun@wwwbananastore.com|dtdt1661",
-	"sbadiz@wwwbananastore.com|dtdt1661",
-	"zimola@wwwbananastore.com|dtdt1661",
-	"acvitz@wwwbananastore.com|dtdt1661",
-	"butyz@wwwbananastore.com|dtdt1661",
-	"jipooz@wwwbananastore.com|dtdt1661",
-	"vfbzq@wwwbananastore.com|dtdt1661",
-	"lazbe@wwwbananastore.com|dtdt1661",
-	"elez@wwwbananastore.com|dtdt1661",
-	"vnzz@wwwbananastore.com|dtdt1661",
-
+	"dikomb@vivobooknet.com|dtdt0330",
+	"vzezb@vivobooknet.com|dtdt0330",
+	"xizop@vivobooknet.com|dtdt0330",
+	"ezearl@vivobooknet.com|dtdt0330",
+	"vrzez@vivobooknet.com|dtdt0330",
 
     ],
 	
 	"gpt_plus_30d": [
-	
-
+	"georgialippiapws@crispfeather.boats|111111111111|K7GSIGESBET6JJXUFOHFV632L4IXR5BY",
+	"samuelsignorini4849@crispfeather.boats|111111111111|T6Q74GQBJVAKLOOAAW6QWCCT5UZD6LEI",
 	],
 }
 
