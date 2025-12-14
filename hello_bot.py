@@ -62,7 +62,7 @@ PRODUCTS = {
     },
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",
-        "price": 44444,
+        "price": 50000,
 	},
     "gpt_plus_30d": {                       
         "name": "ACC GPT PLUS 30D",
@@ -79,6 +79,11 @@ STOCK = {
 
     "code_gpt": [   
 	"chatgpt.com/p/DDWKTHJTJ5Z88VW5",
+	"https://chatgpt.com/p/JU85JZDD4Y4R7TF4",
+	"https://chatgpt.com/p/NSRZJYAQVR3QTFCB",
+	"https://chatgpt.com/p/K6QKAQ3NZL32KRVC",
+	"https://chatgpt.com/p/8KQSL7JQKCMXU2JL",
+	"https://chatgpt.com/p/UN75QXSFQ753STG9",
     ],
 
     "gemini_edu": [
@@ -86,19 +91,53 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"mipo@wwwbananastore.com|dtdt1661",
-	"abi@wwwbananastore.com|dtdt1661",
-	"vimz@wwwbananastore.com|dtdt1661",
-	"bomza@wwwbananastore.com|dtdt1661",
-	"niko@wwwbananastore.com|dtdt1661",
-	"fike@wwwbananastore.com|dtdt1661",
-	"hito@wwwbananastore.com|dtdt1661"
+	"him@wwwbananastore.com|dtdt1661",
+	"timz@wwwbananastore.com|dtdt1661",
+	"gunny@wwwbananastore.com|dtdt1661",
+	"vinica@wwwbananastore.com|dtdt1661",
+	"foliz@wwwbananastore.com|dtdt1661",
+	"azggzw@wwwbananastore.com|dtdt1661",
+	"zbk111@wwwbananastore.com|dtdt1661",
+	"cimorz@wwwbananastore.com|dtdt1661",
+	"ryunmz@wwwbananastore.com|dtdt1661",
+	"bomizy@wwwbananastore.com|dtdt1661",
+	"vriazt@wwwbananastore.com|dtdt1661",
+	"ditiki@wwwbananastore.com|dtdt1661",
+	"xeponze@wwwbananastore.com|dtdt1661",
+	"kikika@wwwbananastore.com|dtdt1661",
+	"quinn@wwwbananastore.com|dtdt1661",
+	"momo@wwwbananastore.com|dtdt1661",
+	"skyuk@wwwbananastore.com|dtdt1661",
+	"bomo@wwwbananastore.com|dtdt1661",
+	"butniz@wwwbananastore.com|dtdt1661",
+	"vritzq@wwwbananastore.com|dtdt1661",
+	"tryzea@wwwbananastore.com|dtdt1661",
+	"wiaet@wwwbananastore.com|dtdt1661",
+	"bmzea@wwwbananastore.com|dtdt1661",
+	"lkioa@wwwbananastore.com|dtdt1661",
+	"ggrze@wwwbananastore.com|dtdt1661",
+	"abimo@wwwbananastore.com|dtdt1661",
+	"rymoz@wwwbananastore.com|dtdt1661",
+	"rrtyah@wwwbananastore.com|dtdt1661",
+	"sevan@wwwbananastore.com|dtdt1661",
+	"yinnm@wwwbananastore.com|dtdt1661",
+	"etyun@wwwbananastore.com|dtdt1661",
+	"sbadiz@wwwbananastore.com|dtdt1661",
+	"zimola@wwwbananastore.com|dtdt1661",
+	"acvitz@wwwbananastore.com|dtdt1661",
+	"butyz@wwwbananastore.com|dtdt1661",
+	"jipooz@wwwbananastore.com|dtdt1661",
+	"vfbzq@wwwbananastore.com|dtdt1661",
+	"lazbe@wwwbananastore.com|dtdt1661",
+	"elez@wwwbananastore.com|dtdt1661",
+	"vnzz@wwwbananastore.com|dtdt1661",
+
 
     ],
 	
 	"gpt_plus_30d": [
-	"fannybaumannmm4q@mmoninja.pics|111111111111|L73GXEF2UWRLK2M42JP3IYWVTGX2HGXJ",
 	
+
 	],
 }
 
