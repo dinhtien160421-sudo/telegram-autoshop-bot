@@ -78,8 +78,6 @@ STOCK = {
     ],
 
     "code_gpt": [   
-	"https://chatgpt.com/p/8KQSL7JQKCMXU2JL",
-	"https://chatgpt.com/p/UN75QXSFQ753STG9",
     ],
 
     "gemini_edu": [
@@ -87,17 +85,29 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-"polix@domogogo.dpdns.org|dtdt0660 ",
-"urik@domogogo.dpdns.org|dtdt0660 ",
-"cenzo@domogogo.dpdns.org|dtdt0660 ",
-"brovi@domogogo.dpdns.org|dtdt0660 ",
-"talix@domogogo.dpdns.org|dtdt0660 ",
-"bime@ribrey.dpdns.org|dtdt0660 ",
-"dbui@ribrey.dpdns.org|dtdt0660 ",
-"winer@ribrey.dpdns.org|dtdt0660 ",
-"extic@ribrey.dpdns.org|dtdt0660 ",
-"poit@ribrey.dpdns.org|dtdt0660 ",
-"svimp@ribrey.dpdns.org|dtdt0660 ",
+"barzo@zynocraft.online|dtdt0110",
+"ximel@zynocraft.online|dtdt0110",
+"dorin@zynocraft.online|dtdt0110",
+"kalzo@zynocraft.online|dtdt0110",
+"rovix@zynocraft.online|dtdt0110",
+"nexil@zynocraft.online|dtdt0110",
+"lizor@zynocraft.online|dtdt0110",
+"serzo@zynocraft.online|dtdt0110",
+"vakim@zynocraft.online|dtdt0110",
+"tavix@zynocraft.online|dtdt0110",
+"pelix@zynocraft.online|dtdt0110",
+"hunor@zynocraft.online|dtdt0110",
+"zorin@zynocraft.online|dtdt0110",
+"quavo@zynocraft.online|dtdt0110",
+"lorim@zynocraft.online|dtdt0110",
+"benzi@zynocraft.online|dtdt0110",
+"mirzo@zynocraft.online|dtdt0110",
+"kelzo@zynocraft.online|dtdt0110",
+"navin@zynocraft.online|dtdt0110",
+"dorix@zynocraft.online|dtdt0110",
+"razin@zynocraft.online|dtdt0110",
+"vimor@zynocraft.online|dtdt0110",
+
 
     ],
 	
