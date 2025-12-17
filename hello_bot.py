@@ -61,8 +61,8 @@ PRODUCTS = {
         "price": 45000,
     },
     "veo3_ultra": {
-        "name": "GEMINI VEO3 ULTRA 45K CREDIT 30D",
-        "price": 60000,
+        "name": "GEMINI VEO3 ULTRA 45K CREDIT BH ĐẾN 1/1",
+        "price": 50000
 	},
     "gpt_plus_30d": {                       
         "name": "ACC GPT PLUS 30D",
@@ -78,7 +78,6 @@ STOCK = {
     ],
 
     "code_gpt": [   
-	"https://chatgpt.com/p/K6QKAQ3NZL32KRVC",
 	"https://chatgpt.com/p/8KQSL7JQKCMXU2JL",
 	"https://chatgpt.com/p/UN75QXSFQ753STG9",
     ],
@@ -88,19 +87,7 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-	"ximaz@domogogo.dpdns.org|dtdt4884",
-	"vinoze@glurop.dpdns.org|dtdt4884",
-	"marik@faerck.dpdns.org|dtdt4884",
-	"bavon@domogogo.dpdns.org|dtdt4884",
-	"jalin@domogogo.dpdns.org|dtdt4884",
-	"dovex@domogogo.dpdns.org|dtdt4884",
-	"silmo@domogogo.dpdns.org|dtdt4884",
-	"xerin@domogogo.dpdns.org|dtdt4884",
-	"norix@domogogo.dpdns.org|dtdt4884",
-	"verto@domogogo.dpdns.org|dtdt4884",
-	"quixo@domogogo.dpdns.org|dtdt4884",
-	"razel@domogogo.dpdns.org|dtdt4884",
-	"minzominzo@domogogo.dpdns.org|dtdt4884",
+
 
     ],
 	
