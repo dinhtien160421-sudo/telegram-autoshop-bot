@@ -62,7 +62,7 @@ PRODUCTS = {
     },
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT BH ĐẾN 1/1",
-        "price": 50000
+        "price": 50000,	
 	},
     "gpt_plus_30d": {                       
         "name": "ACC GPT PLUS 30D",
@@ -87,7 +87,17 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-
+"polix@domogogo.dpdns.org|dtdt0660 ",
+"urik@domogogo.dpdns.org|dtdt0660 ",
+"cenzo@domogogo.dpdns.org|dtdt0660 ",
+"brovi@domogogo.dpdns.org|dtdt0660 ",
+"talix@domogogo.dpdns.org|dtdt0660 ",
+"bime@ribrey.dpdns.org|dtdt0660 ",
+"dbui@ribrey.dpdns.org|dtdt0660 ",
+"winer@ribrey.dpdns.org|dtdt0660 ",
+"extic@ribrey.dpdns.org|dtdt0660 ",
+"poit@ribrey.dpdns.org|dtdt0660 ",
+"svimp@ribrey.dpdns.org|dtdt0660 ",
 
     ],
 	
