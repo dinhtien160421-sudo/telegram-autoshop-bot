@@ -72,9 +72,7 @@ PRODUCTS = {
 
 # Kho hàng
 STOCK = {
-    "Canva_Edu": [
-	"aerobikwa7643@hotmail.comcom|dOlL35h0|M.C533_SN1.0.U.-Ch8ZkhMHcRFhzUDWNQK!P3iDW1v1efsqFQ3LN2s*SJk0BG9e1PYWayzF0LZIYoP35PCLOWyTPJDYCr1lfZat4CepUWdk1BbJLhMOhk!J!TRTii*CMYFxjO*SpggIz9WRBsDvYWuTKQwSSXvydqUT4PqFnPxPGVfUpT0EJWL2x0NF25dLfb!0hwOAWce8DPEE53TLJ0NvsdXLvyKkjGmhvgNEGB8sCQzZ!S3SChAUy4UbduAw!j8BYnj6kMxewe0QkjRZVkBVNY9UAsiwQC7mplKjs7q5j8MEUyRGdZF0fztXJ1O11!H0MOmvo*0rNv7p2WEyrSVYfEwUZnf0f2DCbeZB7bEqPQe6jw5ZGdbr7xC4!cOBXh7MX!mYKCHv2Ms4CP9Ap1aqYTEZacxQDQSnitlXvNbwLKsrMn1m2Hvee6MKIahhjDdcu02j3oM!LpjByw$$|9e5f94bc-e8a4-4e73-b8be-63364c29d753|jajedxq5owk7@smvmail.com",	
-        
+    "Canva_Edu": [        
     ],
 
     "code_gpt": [   
@@ -85,18 +83,19 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-"bryzo@zynocraft.online|dtdt0550",
-"alvin@zynocraft.online|dtdt0550",
-"nexo@zynocraft.online|dtdt0550",
-"sorin@zynocraft.online|dtdt0550",
-"liven@zynocraft.online|dtdt0550",
-"kaizo@zynocraft.online|dtdt0550",
-"orion@zynocraft.online|dtdt0550",
 "felix@zynocraft.online|dtdt0550",
 "bim@zynocraft.online|dtdt0550",
-
-
-
+"namnguyen@ducvan.net|Veo3Ultra@3",
+"ducthien@ducvan.net|Veo3Ultra@3",
+"jalto@foxynet.online|dtdt0990",
+"sovek@foxynet.online|dtdt0990",
+"qarfim@foxynet.online|dtdt0990",
+"nital@foxynet.online|dtdt0990",
+"brexo@foxynet.online|dtdt0990",
+"quzar@foxynet.online|dtdt0990",
+"molin@foxynet.online|dtdt0990",
+"pavix@foxynet.online|dtdt0990",
+"seko@foxynet.online|dtdt0990",
     ],
 	
 	"gpt_plus_30d": [
