@@ -62,7 +62,7 @@ PRODUCTS = {
     },
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT BH ĐẾN 1/1",
-        "price": 50000,	
+        "price": 45000,	
 	},
     "gpt_plus_30d": {                       
         "name": "ACC GPT PLUS 30D",
