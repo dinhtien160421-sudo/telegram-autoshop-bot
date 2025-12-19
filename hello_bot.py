@@ -56,13 +56,13 @@ PRODUCTS = {
         "name": "CODE GPT PLUS",
         "price": 15000,
     },
-    "gemini_edu": {
-        "name": "GEMINI PRO EDU 1 NĂM BH Login 24h",
-        "price": 45000,
+     "veo3_ultra_30d": {
+        "name": "VEO3 ULTRA 45K CREDIT BH 30D",
+        "price": 70000,
     },
     "veo3_ultra": {
         "name": "GEMINI VEO3 ULTRA 45K CREDIT BH ĐẾN 1/1",
-        "price": 45000,	
+        "price": 40000,	
 	},
     "gpt_plus_30d": {                       
         "name": "ACC GPT PLUS 30D",
@@ -78,23 +78,20 @@ STOCK = {
     "code_gpt": [   
     ],
 
-    "gemini_edu": [
-        # thêm hàng ở đây
+   "veo3_ultra_30d": [
+    "bibo@thailannn.dpdns.org|dtdt4994",
+	"ziko@thailannn.dpdns.org|dtdt4994",
+	"xiaa@thailannn.dpdns.org|dtdt4994",
+	"silo@thailannn.dpdns.org|dtdt4994",
+	"dimo@thailannn.dpdns.org|dtdt4994",
+	"gha@thailannn.dpdns.org|dtdt4994",
+	"guni@thailannn.dpdns.org|dtdt4994",
+	"rimo@thailannn.dpdns.org|dtdt4994",
+	"bgater@thailannn.dpdns.org|dtdt4994",
+
     ],
 
     "veo3_ultra": [
-"xima@yimzi.shop|dtdt0550",
-"ziko@yimzi.shop|dtdt0550",
-"alex@yimzi.shop|dtdt0550",
-"sam@yimzi.shop|dtdt0550",
-"taylor@yimzi.shop|dtdt0550",
-"jamie@yimzi.shop|dtdt0550",
-"jordan@yimzi.shop|dtdt0550",
-"casey@yimzi.shop|dtdt0550",
-"morgan@yimzi.shop|dtdt0550",
-"riley@yimzi.shop|dtdt0550",
-"avery@yimzi.shop|dtdt0550",
-"quinn@yimzi.shop|dtdt0550",
 "logan@yimzi.shop|dtdt0550",
 "parker@yimzi.shop|dtdt0550",
 "cameron@yimzi.shop|dtdt0550",
