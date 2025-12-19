@@ -75,7 +75,6 @@ STOCK = {
     "Canva_Edu": [ 
 	"inge-lisev5555@hotmail.com|ResSb75L|bhzftzjqvb92@smvmail.com",
 	"katulkajoa3569@hotmail.com|timeRais19|ewhgrtfy@smvmail.com",
-	"
     ],
 
     "code_gpt": [   
