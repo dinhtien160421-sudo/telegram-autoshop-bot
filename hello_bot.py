@@ -72,16 +72,27 @@ PRODUCTS = {
 
 # Kho hàng
 STOCK = {
-    "Canva_Edu": [        
+    "Canva_Edu": [ 
+	"inge-lisev5555@hotmail.com|ResSb75L|bhzftzjqvb92@smvmail.com",
+	"katulkajoa3569@hotmail.com|timeRais19|ewhgrtfy@smvmail.com",
+	"
     ],
 
     "code_gpt": [   
+	"chatgpt.com/p/H8QMCSGEZB7QERPG",
+	"chatgpt.com/p/4MAVR7FHAXKW6855",
+	"chatgpt.com/p/TFQKFWJ6W2M3U88G",
+	"chatgpt.com/p/H865YT5J4BXJCBKZ",
+	"chatgpt.com/p/3ZUWKBVQ3TDKDHMY",
+	"chatgpt.com/p/46PU6VSU34AERNN4",
+	"chatgpt.com/p/ZHDNY2GNK3TX2KNP",
+	"chatgpt.com/p/E83JAWGFJ2GMZW2S",
+	"chatgpt.com/p/FWJFRY2V88RBH2MY",
+	"chatgpt.com/p/TTPAHCFZBYEP8DQC",
+	
     ],
 
    "veo3_ultra_30d": [
-    "bibo@thailannn.dpdns.org|dtdt4994",
-	"ziko@thailannn.dpdns.org|dtdt4994",
-	"xiaa@thailannn.dpdns.org|dtdt4994",
 	"silo@thailannn.dpdns.org|dtdt4994",
 	"dimo@thailannn.dpdns.org|dtdt4994",
 	"gha@thailannn.dpdns.org|dtdt4994",
@@ -92,7 +103,6 @@ STOCK = {
     ],
 
     "veo3_ultra": [
-"logan@yimzi.shop|dtdt0550",
 "parker@yimzi.shop|dtdt0550",
 "cameron@yimzi.shop|dtdt0550",
 "hayden@yimzi.shop|dtdt0550",
@@ -127,7 +137,7 @@ STOCK = {
     ],
 	
 	"gpt_plus_30d": [
-	"samuelsignorini4849@crispfeather.boats|111111111111|T6Q74GQBJVAKLOOAAW6QWCCT5UZD6LEI",
+
 	],
 }
 
