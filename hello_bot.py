@@ -49,26 +49,27 @@ def add_user(chat_id: int):
 # Danh sách sản phẩm
 PRODUCTS = {
     "Canva_Edu": {
-        "name": "Canva Edu 500 Slot BH 30D",
+        "name": "Canva Edu 3300 Slot BH 30D",
         "price": 70000,
     },
     "code_gpt": {
         "name": "CODE GPT PLUS",
         "price": 15000,
     },
-     "veo3_ultra_30d": {
-        "name": "GEMINI VEO3 ULTRA 45K CREDIT BH 30D",
+    "veo3_ultra_30d": {
+        "name": "VEO3 ULTRA 45K CREDIT BH 30D",
         "price": 70000,
     },
     "veo3_ultra": {
-        "name": "GEMINI VEO3 ULTRA 45K CREDIT BH ĐẾN 1/1",
-        "price": 40000,	
-	},
-    "gpt_plus_30d": {                       
-        "name": "ACC GPT PLUS 30D",
-        "price": 40000,	
+        "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 1/1",
+        "price": 35000,
     },
+    "gpt_plus_30d": {
+        "name": "ACC GPT PLUS 30D",
+        "price": 35000,
+	 },
 }
+
 
 # Kho hàng
 STOCK = {
@@ -92,21 +93,27 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"cimn@thailannn.dpdns.org|dtdt0990",
-	"gyme@thailannn.dpdns.org|dtdt0990",
-	"avin@thailannn.dpdns.org|dtdt0990",
-	"ezeral@thailannn.dpdns.org|dtdt0990",
-	"dozo@thailannn.dpdns.org|dtdt0990",
-	"opae@thailannn.dpdns.org|dtdt0990",
+	"ditia@thailannn.dpdns.org|dtdt0990",
+	"sika@thailannn.dpdns.org|dtdt0990",
+	"winz@thailannn.dpdns.org|dtdt0990",
+	"dene@thailannn.dpdns.org|dtdt0990",
+	"doka@thailannn.dpdns.org|dtdt0990",
+	"dmoz@thailannn.dpdns.org|dtdt0990",
+	"dizne@thailannn.dpdns.org|dtdt0990",
+	"bmoez@thailannn.dpdns.org|dtdt0990",
+	"eioa@thailannn.dpdns.org|dtdt0990",
+	"quinz@thailannn.dpdns.org|dtdt0990",
+	"alox@thailannn.dpdns.org|dtdt0990",
+	"comz@thailannn.dpdns.org|dtdt0990",
+	"kinmz@thailannn.dpdns.org|dtdt0990",
+	"popi@thailannn.dpdns.org|dtdt0990",
+	"rito@thailannn.dpdns.org|dtdt0990",
+
 
 
     ],
 
     "veo3_ultra": [
-"harley@yimzi.shop|dtdt0550",
-"micah@yimzi.shop|dtdt0550",
-"noel@yimzi.shop|dtdt0550",
-"peyton@yimzi.shop|dtdt0550",
 "robin@yimzi.shop|dtdt0550",
 "sage@yimzi.shop|dtdt0550",
 "sidney@yimzi.shop|dtdt0550",
@@ -117,13 +124,48 @@ STOCK = {
 "zion@yimzi.shop|dtdt0550",
 "kai@yimzi.shop|dtdt0550",
 "remy@yimzi.shop|dtdt0550",
+"enzo@yozgemi.shop|dtdt0990",
+"kai@yozgemi.shop|dtdt0990",
+"leon@yozgemi.shop|dtdt0990",
+"finn@yozgemi.shop|dtdt0990",
+"arlo@yozgemi.shop|dtdt0990",
+"rowan@yozgemi.shop|dtdt0990",
+"eli@yozgemi.shop|dtdt0990",
+"vito@yozgemi.shop|dtdt0990",
+"rio@yozgemi.shop|dtdt0990",
+"zion@yozgemi.shop|dtdt0990",
+"grey@yozgemi.shop|dtdt0990",
+"neo@yozgemi.shop|dtdt0990",
+"sol@yozgemi.shop|dtdt0990",
+"ash@yozgemi.shop|dtdt0990",
+"lux@yozgemi.shop|dtdt0990",
+"zen@yozgemi.shop|dtdt0990",
+"cove@yozgemi.shop|dtdt0990",
+"halo@yozgemi.shop|dtdt0990",
+"nyx@yozgemi.shop|dtdt0990",
+"aero@yozgemi.shop|dtdt0990",
+"rune@yozgemi.shop|dtdt0990",
+"juno@yozgemi.shop|dtdt0990",
+"vale@yozgemi.shop|dtdt0990",
+"aven@yozgemi.shop|dtdt0990",
+"kiro@yozgemi.shop|dtdt0990",
+"lyra@yozgemi.shop|dtdt0990",
+"noa@yozgemi.shop|dtdt0990",
+"riko@yozgemi.shop|dtdt0990",
+"timo@yozgemi.shop|dtdt0990",
+"zio@yozgemi.shop|dtdt0990",
+
     ],
 	
 	"gpt_plus_30d": [
 	"chesterkikuchi1tud@clicknichezone.shop|111111111111|WLPS5BA7MH3BDUFISHPM5THEI2BPFQ6O",
 	"alexanderaguilarzcsk@tinybizhub.xyz|111111111111|W4QLSZ6X35RRRHF5GKX6ZFQU6IKZX6Y2",
 	"charlotteveldkampmsj@radiantforge.bond|111111111111|CSUQJM2RCMUBB5E4CH6IN52QOEEFAV5B",
-
+	"lilypronksfvp@techhub.lol|111111111111|DCV4SBATDON77FYOHDUKCW7B4G2WVG4T",
+	"colegiulianiqkut@solarpetals.space|111111111111|V33IRD64XASNM2G7L34NWZUGWYQPQNUQ",
+	"noahcarr8j1e@solarpetals.space|111111111111|E5TTGVJK5AL7RZUGXFDWTEGXBLILLLRA",
+	"dtdt22@solarpetals.space|111111111111|NXVLLM34IT67S7IWG5I3AT5ZGPUWJBWK",
+	"johannameletagz@stellartrail.space|111111111111|MDLYD5ZXZTSE65HVEXH7DQNTZWJXZXRW",
 	],
 }
 
