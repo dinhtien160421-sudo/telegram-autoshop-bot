@@ -66,7 +66,7 @@ PRODUCTS = {
 	},
     "gpt_plus_30d": {                       
         "name": "ACC GPT PLUS 30D",
-        "price": 45000,	
+        "price": 40000,	
     },
 }
 
@@ -92,11 +92,6 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"bgater@thailannn.dpdns.org|dtdt4994",
-	"deri@thailannn.dpdns.org|dtdt0990",
-	"fihu@thailannn.dpdns.org|dtdt0990",
-	"thiu@thailannn.dpdns.org|dtdt0990",
-	"anex@thailannn.dpdns.org|dtdt0990",
 	"cimn@thailannn.dpdns.org|dtdt0990",
 	"gyme@thailannn.dpdns.org|dtdt0990",
 	"avin@thailannn.dpdns.org|dtdt0990",
@@ -109,7 +104,6 @@ STOCK = {
 
     "veo3_ultra": [
 "harley@yimzi.shop|dtdt0550",
-"lennon@yimzi.shop|dtdt0550",
 "micah@yimzi.shop|dtdt0550",
 "noel@yimzi.shop|dtdt0550",
 "peyton@yimzi.shop|dtdt0550",
@@ -123,10 +117,12 @@ STOCK = {
 "zion@yimzi.shop|dtdt0550",
 "kai@yimzi.shop|dtdt0550",
 "remy@yimzi.shop|dtdt0550",
-
     ],
 	
 	"gpt_plus_30d": [
+	"chesterkikuchi1tud@clicknichezone.shop|111111111111|WLPS5BA7MH3BDUFISHPM5THEI2BPFQ6O",
+	"alexanderaguilarzcsk@tinybizhub.xyz|111111111111|W4QLSZ6X35RRRHF5GKX6ZFQU6IKZX6Y2",
+	"charlotteveldkampmsj@radiantforge.bond|111111111111|CSUQJM2RCMUBB5E4CH6IN52QOEEFAV5B",
 
 	],
 }
