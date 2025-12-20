@@ -109,8 +109,6 @@ STOCK = {
 	"popi@thailannn.dpdns.org|dtdt0990",
 	"rito@thailannn.dpdns.org|dtdt0990",
 
-
-
     ],
 
     "veo3_ultra": [
