@@ -49,7 +49,7 @@ def add_user(chat_id: int):
 # Danh sách sản phẩm
 PRODUCTS = {
     "Canva_Edu": {
-        "name": "Canva Edu 3300 Slot BH 30D",
+        "name": "Canva Edu 300 Slot BH 30D",
         "price": 70000,
     },
     "code_gpt": {
