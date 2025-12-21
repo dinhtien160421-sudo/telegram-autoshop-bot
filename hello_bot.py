@@ -93,10 +93,6 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"ditia@thailannn.dpdns.org|dtdt0990",
-	"sika@thailannn.dpdns.org|dtdt0990",
-	"winz@thailannn.dpdns.org|dtdt0990",
-	"dene@thailannn.dpdns.org|dtdt0990",
 	"doka@thailannn.dpdns.org|dtdt0990",
 	"dmoz@thailannn.dpdns.org|dtdt0990",
 	"dizne@thailannn.dpdns.org|dtdt0990",
@@ -108,6 +104,20 @@ STOCK = {
 	"kinmz@thailannn.dpdns.org|dtdt0990",
 	"popi@thailannn.dpdns.org|dtdt0990",
 	"rito@thailannn.dpdns.org|dtdt0990",
+	"vex@thailannn.dpdns.org|dtdt4994",
+	"lio@thailannn.dpdns.org|dtdt4994",
+	"niro@thailannn.dpdns.org|dtdt4994",
+	"kade@thailannn.dpdns.org|dtdt4994",
+	"elin@thailannn.dpdns.org|dtdt4994",
+	"zane@thailannn.dpdns.org|dtdt4994",
+	"mira@thailannn.dpdns.org|dtdt4994",
+	"olin@thailannn.dpdns.org|dtdt4994",
+	"taro@thailannn.dpdns.org|dtdt4994",
+	"savi@thailannn.dpdns.org|dtdt4994",
+	"biped@thailannn.dpdns.org|dtdt4994",
+	"hihae@thailannn.dpdns.org|dtdt4994",
+	"size@thailannn.dpdns.org|dtdt4994",
+
 
     ],
 
