@@ -79,12 +79,6 @@ STOCK = {
     ],
 
     "code_gpt": [   
-	"chatgpt.com/p/4MAVR7FHAXKW6855",
-	"chatgpt.com/p/TFQKFWJ6W2M3U88G",
-	"chatgpt.com/p/H865YT5J4BXJCBKZ",
-	"chatgpt.com/p/3ZUWKBVQ3TDKDHMY",
-	"chatgpt.com/p/46PU6VSU34AERNN4",
-	"chatgpt.com/p/ZHDNY2GNK3TX2KNP",
 	"chatgpt.com/p/E83JAWGFJ2GMZW2S",
 	"chatgpt.com/p/FWJFRY2V88RBH2MY",
 	"chatgpt.com/p/TTPAHCFZBYEP8DQC",
@@ -92,20 +86,19 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"uxmir@dobakhoa.click|dtdt1661",
-	"nolza@dobakhoa.click|dtdt1661",
-	"pyrox@dobakhoa.click|dtdt1661",
-	"vinqa@dobakhoa.click|dtdt1661",
-	"raxul@dobakhoa.click|dtdt1661",
-	"dicme@thanhvo625.bqewewssqa.name.ng|dtdt1661",
-	"omne@thanhvo625.bqewewssqa.name.ng|dtdt1661",
-	"simne@thanhvo625.bqewewssqa.name.ng|dtdt1661",
-	"clzee@thanhvo625.bqewewssqa.name.ng|dtdt1661",
-	"fiige@thanhvo625.bqewewssqa.name.ng|dtdt1661",
-	"sokle@thanhvo625.bqewewssqa.name.ng|dtdt1661",
-	"egze@thanhvo625.bqewewssqa.name.ng|dtdt1661",
-	"winez@thanhvo625.bqewewssqa.name.ng|dtdt1661",
-	
+"beemi@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"siomo@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"zeke@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"diko@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"linmo@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"winzme@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"riens@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"akkee@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"xmoone@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"menz@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"enzi@thanhvo625.bqewewssqa.name.ng|dtdt1991",
+"zume@atlize.dpdns.org|dtdt1991",
+
     ],
 
     "veo3_ultra": [
