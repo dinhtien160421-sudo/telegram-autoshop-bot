@@ -92,17 +92,20 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"dorzima@newshift.top|dtdt0440",
-	"fenrax@newshift.top|dtdt0440",
-	"qimzo@newshift.top|dtdt0440",
-	"ulvex@newshift.top|dtdt0440",
-	"narqo@newshift.top|dtdt0440",
-	"zylen@newshift.top|dtdt0440",
-	"orvix@newshift.top|dtdt0440",
-	"kailo@newshift.top|dtdt0440",
-	"rexan@newshift.top|dtdt0440",
-
-
+	"uxmir@dobakhoa.click|dtdt1661",
+	"nolza@dobakhoa.click|dtdt1661",
+	"pyrox@dobakhoa.click|dtdt1661",
+	"vinqa@dobakhoa.click|dtdt1661",
+	"raxul@dobakhoa.click|dtdt1661",
+	"dicme@thanhvo625.bqewewssqa.name.ng|dtdt1661",
+	"omne@thanhvo625.bqewewssqa.name.ng|dtdt1661",
+	"simne@thanhvo625.bqewewssqa.name.ng|dtdt1661",
+	"clzee@thanhvo625.bqewewssqa.name.ng|dtdt1661",
+	"fiige@thanhvo625.bqewewssqa.name.ng|dtdt1661",
+	"sokle@thanhvo625.bqewewssqa.name.ng|dtdt1661",
+	"egze@thanhvo625.bqewewssqa.name.ng|dtdt1661",
+	"winez@thanhvo625.bqewewssqa.name.ng|dtdt1661",
+	
     ],
 
     "veo3_ultra": [
