@@ -79,42 +79,26 @@ STOCK = {
     ],
 
     "code_gpt": [   
-	"chatgpt.com/p/E83JAWGFJ2GMZW2S",
-	"chatgpt.com/p/FWJFRY2V88RBH2MY",
-	"chatgpt.com/p/TTPAHCFZBYEP8DQC",
 	
+
     ],
 
    "veo3_ultra_30d": [
-"temo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"leno@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"krix@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"varo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"zimi@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"nexo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"qira@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"bavo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"rika@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"dexo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"milo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"sora@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"pexo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"luma@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"xiro@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"navo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"kenod@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-"zaro@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
+	"brix@thanhvo1615.bqewewssqa.name.ng|dtdt1991",
+	"orix@thanhvo1615.bqewewssqa.name.ng|dtdt1991",
+	"tiro@thanhvo1615.bqewewssqa.name.ng|dtdt1991",
+	"bime@tuncojresearchalliancehub.io.vn|dtdt1991",
+	"cioe@tuncojresearchalliancehub.io.vn|dtdt1991",
+	"liznm@tuncojresearchalliancehub.io.vn|dtdt1991",
+	"aniere@tuncojresearchalliancehub.io.vn|dtdt1991",
+	"zeve@tuncojresearchalliancehub.io.vn|dtdt1991",
+	"vemoo@tuncojresearchalliancehub.io.vn|dtdt1991",
+	"deeaz@tuncojresearchalliancehub.io.vn|dtdt1991",
+
     ],
 
     "veo3_ultra": [
-	"ivo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-	"rexo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-	"vimo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-	"arix@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-	"tavo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-	"hino@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-	"jexo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
-	"cavo@thanhvo1615.bqewewssqa.name.ng|dtdt1881",
+
     ],
 	
 	"gpt_plus_30d": [
