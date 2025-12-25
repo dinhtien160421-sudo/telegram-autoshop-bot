@@ -84,7 +84,7 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"izen@sneel61511.snacenake.name.ng|dtdt1991".
+	"izen@sneel61511.snacenake.name.ng|dtdt1991",
 	"jorix@sneel61511.snacenake.name.ng|dtdt1991",
 	"kavil@sneel61511.snacenake.name.ng|dtdt1991",
 	"lirox@sneel61511.snacenake.name.ng|dtdt1991",
