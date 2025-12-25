@@ -58,7 +58,7 @@ PRODUCTS = {
     },
     "veo3_ultra_30d": {
         "name": "VEO3 ULTRA 45K CREDIT BH 30D",
-        "price": 65000,
+        "price": 60000,
     },
     "veo3_ultra": {
         "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 1/1",
@@ -84,28 +84,11 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"izen@sneel61511.snacenake.name.ng|dtdt1991",
-	"jorix@sneel61511.snacenake.name.ng|dtdt1991",
-	"kavil@sneel61511.snacenake.name.ng|dtdt1991",
-	"lirox@sneel61511.snacenake.name.ng|dtdt1991",
-	"mavon@sneel61511.snacenake.name.ng|dtdt1991",
-	"noxel@sneel61511.snacenake.name.ng|dtdt1991",
-	"orin@sneel61511.snacenake.name.ng|dtdt1991",
-	"pexin@sneel61511.snacenake.name.ng|dtdt1991",
-	"qavel@sneel61511.snacenake.name.ng|dtdt1991",
-	"rilon@sneel61511.snacenake.name.ng|dtdt1991",
-	"sorex@sneel61511.snacenake.name.ng|dtdt1991",
-	"tavine@sneel61511.snacenake.name.ng|dtdt1991",
-	"ulix@sneel61511.snacenake.name.ng|dtdt1991",
-	"virel@sneel61511.snacenake.name.ng|dtdt1991",
-	"wexon@sneel61511.snacenake.name.ng|dtdt1991",
-	"xalin@sneel61511.snacenake.name.ng|dtdt1991",
-	"yorin@sneel61511.snacenake.name.ng|dtdt1991",
-	"zavel@sneel61511.snacenake.name.ng|dtdt1991",
-	"arvox@sneel61511.snacenake.name.ng|dtdt1991",
-	"belin@sneel61511.snacenake.name.ng|dtdt1991",
-	
-
+	"cirox@sneel61511.snacenake.name.ng|dtdt1991",
+	"dovine@sneel61511.snacenake.name.ng|dtdt1991",
+	"erixa@sneel61511.snacenake.name.ng|dtdt1991",
+	"falin@sneel61511.snacenake.name.ng|dtdt1991",
+	"gorix@sneel61511.snacenake.name.ng|dtdt1991",
 
     ],
 
