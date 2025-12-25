@@ -84,31 +84,27 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"zeve@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"vemoo@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"deeaz@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"dizme@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"ealke@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"simoe@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"wieaa@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"plimce@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"zimn@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"en@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"ymt@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"addz@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"blex@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"size@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"lovebz@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"dageg@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"vize@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"iemm@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"zeind@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"exine@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"awve@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"zeia@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"cimid@tuncojresearchalliancehub.io.vn|dtdt1991",
-	"quangvinh8352@thanhvo113.zgqaubhqua.name.ng|Veo3Ultra@3",
-	"trungnghia4901@thanhvo113.zgqaubhqua.name.ng|Veo3Ultra@3",
+	"izen@sneel61511.snacenake.name.ng|dtdt1991".
+"jorix@sneel61511.snacenake.name.ng|dtdt1991".
+"kavil@sneel61511.snacenake.name.ng|dtdt1991".
+"lirox@sneel61511.snacenake.name.ng|dtdt1991".
+"mavon@sneel61511.snacenake.name.ng|dtdt1991".
+"noxel@sneel61511.snacenake.name.ng|dtdt1991".
+"orin@sneel61511.snacenake.name.ng|dtdt1991".
+"pexin@sneel61511.snacenake.name.ng|dtdt1991".
+"qavel@sneel61511.snacenake.name.ng|dtdt1991".
+"rilon@sneel61511.snacenake.name.ng|dtdt1991".
+"sorex@sneel61511.snacenake.name.ng|dtdt1991".
+"tavine@sneel61511.snacenake.name.ng|dtdt1991".
+"ulix@sneel61511.snacenake.name.ng|dtdt1991".
+"virel@sneel61511.snacenake.name.ng|dtdt1991".
+"wexon@sneel61511.snacenake.name.ng|dtdt1991".
+"xalin@sneel61511.snacenake.name.ng|dtdt1991".
+"yorin@sneel61511.snacenake.name.ng|dtdt1991".
+"zavel@sneel61511.snacenake.name.ng|dtdt1991".
+"arvox@sneel61511.snacenake.name.ng|dtdt1991".
+"belin@sneel61511.snacenake.name.ng|dtdt1991".
+
 
 
     ],
@@ -118,10 +114,6 @@ STOCK = {
     ],
 	
 	"gpt_plus_30d": [
-	"lilypronksfvp@techhub.lol|111111111111|DCV4SBATDON77FYOHDUKCW7B4G2WVG4T",
-	"colegiulianiqkut@solarpetals.space|111111111111|V33IRD64XASNM2G7L34NWZUGWYQPQNUQ",
-	"noahcarr8j1e@solarpetals.space|111111111111|E5TTGVJK5AL7RZUGXFDWTEGXBLILLLRA",
-	"dtdt22@solarpetals.space|111111111111|NXVLLM34IT67S7IWG5I3AT5ZGPUWJBWK",
 	"johannameletagz@stellartrail.space|111111111111|MDLYD5ZXZTSE65HVEXH7DQNTZWJXZXRW",
 	],
 }
