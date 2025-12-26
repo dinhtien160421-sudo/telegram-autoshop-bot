@@ -84,17 +84,23 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"annie@toncojplatformgroup.io.vn|dtdt1991",
-	"alixe@toncojplatformgroup.io.vn|dtdt1991",
-	"caos@toncojplatformgroup.io.vn|dtdt1991",
-	"ranz@toncojplatformgroup.io.vn|dtdt1991",
-	"conan@toncojplatformgroup.io.vn|dtdt1991",
-	"ran@toncojplatformgroup.io.vn|dtdt1991",
-	"mori@toncojplatformgroup.io.vn|dtdt1991",
-	"exione@toncojplatformgroup.io.vn|dtdt1991",
-	"adez@toncojplatformgroup.io.vn|dtdt1991",
-	"ekko@toncojplatformgroup.io.vn|dtdt1991",
-	"mono@toncojplatformgroup.io.vn|dtdt1991",
+	"simoe@toncojplatformgroup.io.vn|dtdt2662",
+	"ameax@toncojplatformgroup.io.vn|dtdt2662",
+	"graz@toncojplatformgroup.io.vn|dtdt2662",
+	"rokce@toncojplatformgroup.io.vn|dtdt2662",
+	"aamonx@toncojplatformgroup.io.vn|dtdt2662",
+	"bimoa@toncojplatformgroup.io.vn|dtdt2662",
+	"lomoe@toncojplatformgroup.io.vn|dtdt2662",
+	"millo@toncojplatformgroup.io.vn|dtdt2662",
+	"morga@toncojplatformgroup.io.vn|dtdt2662",
+	"neook@toncojplatformgroup.io.vn|dtdt2662",
+	"wukoz@toncojplatformgroup.io.vn|dtdt2662",
+	"zzeae@toncojplatformgroup.io.vn|dtdt2662",
+	"exone@toncojplatformgroup.io.vn|dtdt2662",
+	"dimze@toncojplatformgroup.io.vn|dtdt2662",
+	"biaae@toncojplatformgroup.io.vn|dtdt2662",
+	"winze@toncojplatformgroup.io.vn|dtdt2662",
+	"einae@toncojplatformgroup.io.vn|dtdt2662",
 
 
     ],
@@ -104,7 +110,6 @@ STOCK = {
     ],
 	
 	"gpt_plus_30d": [
-	"johannameletagz@stellartrail.space|111111111111|MDLYD5ZXZTSE65HVEXH7DQNTZWJXZXRW",
 	],
 }
 
