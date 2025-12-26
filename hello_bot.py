@@ -58,7 +58,7 @@ PRODUCTS = {
     },
     "veo3_ultra_30d": {
         "name": "VEO3 ULTRA 45K CREDIT BH 30D",
-        "price": 60000,
+        "price": 65000,
     },
     "veo3_ultra": {
         "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 1/1",
@@ -84,11 +84,18 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"cirox@sneel61511.snacenake.name.ng|dtdt1991",
-	"dovine@sneel61511.snacenake.name.ng|dtdt1991",
-	"erixa@sneel61511.snacenake.name.ng|dtdt1991",
-	"falin@sneel61511.snacenake.name.ng|dtdt1991",
-	"gorix@sneel61511.snacenake.name.ng|dtdt1991",
+	"annie@toncojplatformgroup.io.vn|dtdt1991".
+	"alixe@toncojplatformgroup.io.vn|dtdt1991".
+	"caos@toncojplatformgroup.io.vn|dtdt1991".
+	"ranz@toncojplatformgroup.io.vn|dtdt1991".
+	"conan@toncojplatformgroup.io.vn|dtdt1991".
+	"ran@toncojplatformgroup.io.vn|dtdt1991".
+	"mori@toncojplatformgroup.io.vn|dtdt1991".
+	"exione@toncojplatformgroup.io.vn|dtdt1991".
+	"adez@toncojplatformgroup.io.vn|dtdt1991".
+	"ekko@toncojplatformgroup.io.vn|dtdt1991".
+	"mono@toncojplatformgroup.io.vn|dtdt1991".
+
 
     ],
 
