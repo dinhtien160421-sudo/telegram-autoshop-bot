@@ -84,17 +84,17 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"annie@toncojplatformgroup.io.vn|dtdt1991".
-	"alixe@toncojplatformgroup.io.vn|dtdt1991".
-	"caos@toncojplatformgroup.io.vn|dtdt1991".
-	"ranz@toncojplatformgroup.io.vn|dtdt1991".
-	"conan@toncojplatformgroup.io.vn|dtdt1991".
-	"ran@toncojplatformgroup.io.vn|dtdt1991".
-	"mori@toncojplatformgroup.io.vn|dtdt1991".
-	"exione@toncojplatformgroup.io.vn|dtdt1991".
-	"adez@toncojplatformgroup.io.vn|dtdt1991".
-	"ekko@toncojplatformgroup.io.vn|dtdt1991".
-	"mono@toncojplatformgroup.io.vn|dtdt1991".
+	"annie@toncojplatformgroup.io.vn|dtdt1991",
+	"alixe@toncojplatformgroup.io.vn|dtdt1991",
+	"caos@toncojplatformgroup.io.vn|dtdt1991",
+	"ranz@toncojplatformgroup.io.vn|dtdt1991",
+	"conan@toncojplatformgroup.io.vn|dtdt1991",
+	"ran@toncojplatformgroup.io.vn|dtdt1991",
+	"mori@toncojplatformgroup.io.vn|dtdt1991",
+	"exione@toncojplatformgroup.io.vn|dtdt1991",
+	"adez@toncojplatformgroup.io.vn|dtdt1991",
+	"ekko@toncojplatformgroup.io.vn|dtdt1991",
+	"mono@toncojplatformgroup.io.vn|dtdt1991",
 
 
     ],
