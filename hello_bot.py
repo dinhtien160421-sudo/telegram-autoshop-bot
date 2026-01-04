@@ -80,18 +80,6 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-"luno@ts.timball.cloud|dtdt4664",
-"vexi@ts.timball.cloud|dtdt4664",
-"qan@ts.timball.cloud|dtdt4664",
-"miro@ts.timball.cloud|dtdt4664",
-"dex@ts.timball.cloud|dtdt4664",
-"salo@ts.timball.cloud|dtdt4664",
-"tyn@ts.timball.cloud|dtdt4664",
-"ximo@ts.timball.cloud|dtdt4664",
-"bex@ts.timball.cloud|dtdt4664",
-"navo@ts.timball.cloud|dtdt4664",
-"lix@ts.timball.cloud|dtdt4664",
-"zavo@ts.timball.cloud|dtdt4664",
 "kiro@ts.timball.cloud|dtdt4664",
 "rexo@ts.timball.cloud|dtdt4664",
 "vano@ts.timball.cloud|dtdt4664",
