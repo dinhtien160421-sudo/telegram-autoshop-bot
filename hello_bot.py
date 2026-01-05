@@ -80,9 +80,6 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-"kiro@ts.timball.cloud|dtdt4664",
-"rexo@ts.timball.cloud|dtdt4664",
-"vano@ts.timball.cloud|dtdt4664",
 "qix@ts.timball.cloud|dtdt4664",
 "meno@ts.timball.cloud|dtdt4664",
 "zixo@ts.timball.cloud|dtdt4664",
@@ -120,6 +117,7 @@ STOCK = {
     ],
 	
 	"gpt_plus_30d": [
+	"dtzt22@mmoninja.pics|111111111111|YHY3NTMH4RUG3235UAJNBGEP77MA7SUZ",
 	],
 }
 
