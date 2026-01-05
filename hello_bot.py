@@ -75,6 +75,10 @@ STOCK = {
     ],
 
     "code_gpt": [   
+	"chatgpt.com/p/AUAX9NGJNJPYJ7HD",
+	"chatgpt.com/p/EVLR9E9HVF7LMAPV",
+	"chatgpt.com/p/GSZDVSEAC463JRVF",
+	"chatgpt.com/p/HWWEFY6BVH2UANY2",
 	
 
     ],
