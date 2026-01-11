@@ -133,7 +133,6 @@ STOCK = {
         "dtmoz29@quietwave.cfd|111111111111|W6RL52MSIAQVHSWAXJTAEO3E6DBBFBBV",
     ],
 
-    # Fake kho để bot hiểu là còn hàng (999)
     "info_1": ["IB"] * 0,
     "info_2": ["IB"] * 0,
     "info_3": ["IB"] * 0,
