@@ -58,7 +58,7 @@ PRODUCTS = {
     },
     "veo3_ultra_30d": {
         "name": "VEO3 ULTRA 45K CREDIT BH 30D",
-        "price": 45678,
+        "price": 50000,
     },
     "gpt_plus_30d": {
         "name": "ACC GPT PLUS 30D",
