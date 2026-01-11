@@ -61,7 +61,68 @@ PRODUCTS = {
         "price": 50000,
     },
     "gpt_plus_30d": {
-        "name": "ACC0,
+        "name": "ACC GPT PLUS 30D",
+        "price": 35000,
+    },
+    "info_1": {
+        "name": "Gia hạn GPT Plus – IB",
+        "price": 70000,
+    },
+    "info_2": {
+        "name": "TK Canva / CapCut – IB",
+        "price": 25000,
+    },
+    "info_3": {
+        "name": "Thông tin liên hệ: Zalo: 0842.108.959",
+        "price": 0,
+    },
+} 
+
+
+# Kho hàng
+STOCK = {
+    "Canva_Edu": [
+        "inge-lisev5555@hotmail.com|ResSb75L|bhzftzjqvb92@smvmail.com",
+        "katulkajoa3569@hotmail.com|timeRais19|ewhgrtfy@smvmail.com",
+    ],
+
+    "code_gpt": [
+        "chatgpt.com/p/F9B5QBHTCY2L4ZCE",
+        "chatgpt.com/p/QUNQA7VU9DWHKHPH",
+        "chatgpt.com/p/6NSMF8WRHGYPLBM2",
+        "chatgpt.com/p/QFYR56UYKRURCBEC",
+        "chatgpt.com/p/6ZQ6X5SGTLPMP8ES",
+        "chatgpt.com/p/GGPBCEE5KB88NW6D",
+        "chatgpt.com/p/TLADWVBA3MK68LVD",
+        "chatgpt.com/p/RL34SE7JQLTR9LQ2",
+        "chatgpt.com/p/ZFGB6Q3YRUCG265M",
+        "chatgpt.com/p/MCYXF3TXSLVJW8N2",
+    ],
+
+    "veo3_ultra_30d": [
+        "zaxel@ddmizo1z.click|dtdt0330",
+        "arvyn@ddmizo1z.click|dtdt0330",
+        "bixor@ddmizo1z.click|dtdt0330",
+        "clyen@ddmizo1z.click|dtdt0330",
+        "daxir@ddmizo1z.click|dtdt0330",
+        "elyx@ddmizo1z.click|dtdt0330",
+        "faryn@ddmizo1z.click|dtdt0330",
+        "gylax@ddmizo1z.click|dtdt0330",
+        "hixor@ddmizo1z.click|dtdt0330",
+        "ivoren@ddmizo1z.click|dtdt0330",
+        "joryx@ddmizo1z.click|dtdt0330",
+        "kaxen@ddmizo1z.click|dtdt0330",
+        "lyran@ddmizo1z.click|dtdt0330",
+        "mivox@ddmizo1z.click|dtdt0330",
+        "nexyl@ddmizo1z.click|dtdt0330",
+        "oryx@ddmizo1z.click|dtdt0330",
+        "pexra@ddmizo1z.click|dtdt0330",
+        "qilox@ddmizo1z.click|dtdt0330",
+        "rynex@ddmizo1z.click|dtdt0330",
+        "soryn@ddmizo1z.click|dtdt0330",
+        "tixra@ddmizo1z.click|dtdt0330",
+        "ulrex@ddmizo1z.click|dtdt0330",
+        "vaxor@ddmizo1z.cl0,
 }
 
 # ===== HÀM PHỤ =====
