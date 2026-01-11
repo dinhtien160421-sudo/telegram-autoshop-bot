@@ -122,7 +122,7 @@ STOCK = {
         "soryn@ddmizo1z.click|dtdt0330",
         "tixra@ddmizo1z.click|dtdt0330",
         "ulrex@ddmizo1z.click|dtdt0330",
-        "vaxor@ddmizo1z.cl0,
+        "vaxor@ddmizo1z.cl0|dtdt0330",
 }
 
 # ===== HÀM PHỤ =====
