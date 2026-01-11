@@ -123,6 +123,21 @@ STOCK = {
         "tixra@ddmizo1z.click|dtdt0330",
         "ulrex@ddmizo1z.click|dtdt0330",
         "vaxor@ddmizo1z.cl0|dtdt0330",
+    ],
+    
+    "gpt_plus_30d": [
+        "dtmoz21@quietwave.cfd|111111111111|3WJRBIUGQV4VFDHHWEMKC4NLLBOTYEJ3",
+        "dt2z22@quietwave.cfd|111111111111|SZ7RGLAMQME2FSCF47RHMSZ3JCMGTP5V",
+        "adzdd@quietwave.cfd|111111111111|7VGE5ECRXJPLUM7CWSNSKDHVOMJ662GK",
+        "atge2@quietwave.cfd|111111111111|F5G4FQOHOBKL2JWLUYFYBUALN56565II",
+        "dtmoz29@quietwave.cfd|111111111111|W6RL52MSIAQVHSWAXJTAEO3E6DBBFBBV",
+    ],
+
+    # Fake kho để bot hiểu là còn hàng (999)
+    "info_1": ["IB"] * 0,
+    "info_2": ["IB"] * 0,
+    "info_3": ["IB"] * 0,
+    ],
 }
 
 # ===== HÀM PHỤ =====
