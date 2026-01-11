@@ -63,9 +63,20 @@ PRODUCTS = {
     "gpt_plus_30d": {
         "name": "ACC GPT PLUS 30D",
         "price": 35000,
-	 },
+    },
+    "info_1": {
+        "name": "1. Gia hạn GPT Plus – IB",
+        "price": None,
+    },
+    "info_2": {
+        "name": "2. TK Canva / CapCut – IB",
+        "price": None,
+    },
+    "info_3": {
+        "name": "3. Thông tin liên hệ: Zalo: 0842.108.959",
+        "price": None,
+    },
 }
-
 
 # Kho hàng
 STOCK = {
@@ -89,10 +100,6 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-"ezze@dtstzeji.click|dtdt0330",
-"xiko@dtstzeji.click|dtdt0330",
-"bimae@dtstzeji.click|dtdt0330",
-"aopoe@dtstzeji.click|dtdt0330",
 "dzee@dtstzeji.click|dtdt0330",
 "bnie@dtstzeji.click|dtdt0330",
 "axryn@ddmizo1z.click|dtdt0330",
@@ -148,7 +155,12 @@ STOCK = {
     ],
 	
 	"gpt_plus_30d": [
-	
+	"dtmoz21@quietwave.cfd|111111111111|3WJRBIUGQV4VFDHHWEMKC4NLLBOTYEJ3",
+	"dt2z22@quietwave.cfd|111111111111|SZ7RGLAMQME2FSCF47RHMSZ3JCMGTP5V",
+	"adzdd@quietwave.cfd|111111111111|7VGE5ECRXJPLUM7CWSNSKDHVOMJ662GK",
+	"atge2@quietwave.cfd|111111111111|F5G4FQOHOBKL2JWLUYFYBUALN56565II",
+	"dtmoz29@quietwave.cfd|111111111111|W6RL52MSIAQVHSWAXJTAEO3E6DBBFBBV",
+
 	],
 }
 
