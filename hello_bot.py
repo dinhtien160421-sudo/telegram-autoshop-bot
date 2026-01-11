@@ -76,6 +76,7 @@ PRODUCTS = {
         "name": "Thông tin liên hệ: Zalo: 0842.108.959",
         "price": 0,
     },
+}
 
 # Kho hàng
 STOCK = {
