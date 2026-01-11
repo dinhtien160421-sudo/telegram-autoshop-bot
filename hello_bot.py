@@ -80,14 +80,6 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-	"zykel@dtsokaew2.click|dtdt0330",
-"ylora@dtsokaew2.click|dtdt0330",
-"uxlin@dtsokaew2.click|dtdt0330",
-"tovra@dtsokaew2.click|dtdt0330",
-"sykrae@dtsokaew2.click|dtdt0330",
-"rynele@dtsokaew2.click|dtdt0330",
-"zdee@ta.syfar.cloud|dtdt0330",
-"miuu@ta.syfar.cloud|dtdt0330",
 "ezze@dtstzeji.click|dtdt0330",
 "xiko@dtstzeji.click|dtdt0330",
 "bimae@dtstzeji.click|dtdt0330",
