@@ -75,7 +75,16 @@ STOCK = {
     ],
 
     "code_gpt": [   
-	
+	"chatgpt.com/p/F9B5QBHTCY2L4ZCE",
+"chatgpt.com/p/QUNQA7VU9DWHKHPH",
+"chatgpt.com/p/6NSMF8WRHGYPLBM2",
+"chatgpt.com/p/QFYR56UYKRURCBEC",
+"chatgpt.com/p/6ZQ6X5SGTLPMP8ES",
+"chatgpt.com/p/GGPBCEE5KB88NW6D",
+"chatgpt.com/p/TLADWVBA3MK68LVD",
+"chatgpt.com/p/RL34SE7JQLTR9LQ2",
+"chatgpt.com/p/ZFGB6Q3YRUCG265M",
+"chatgpt.com/p/MCYXF3TXSLVJW8N2",
 	
     ],
 
