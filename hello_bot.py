@@ -65,15 +65,15 @@ PRODUCTS = {
         "price": 35000,
     },
     "info_1": {
-        "name": "1. Gia hạn GPT Plus – IB",
+        "name": "Gia hạn GPT Plus – IB",
         "price": 70000,
     },
     "info_2": {
-        "name": "2. TK Canva / CapCut – IB",
+        "name": "TK Canva / CapCut – IB",
         "price": 25000,
     },
     "info_3": {
-        "name": "3. Thông tin liên hệ: Zalo: 0842.108.959",
+        "name": "Thông tin liên hệ: Zalo: 0842.108.959",
         "price": 0,
     },
 }
@@ -100,12 +100,6 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-"dzee@dtstzeji.click|dtdt0330",
-"bnie@dtstzeji.click|dtdt0330",
-"axryn@ddmizo1z.click|dtdt0330",
-"brelx@ddmizo1z.click|dtdt0330",
-"cyran@ddmizo1z.click|dtdt0330",
-"dovix@ddmizo1z.click|dtdt0330",
 "elnor@ddmizo1z.click|dtdt0330",
 "friex@ddmizo1z.click|dtdt0330",
 "gaxen@ddmizo1z.click|dtdt0330",
