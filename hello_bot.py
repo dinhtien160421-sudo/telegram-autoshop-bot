@@ -64,7 +64,7 @@ PRODUCTS = {
         "name": "ACC GPT PLUS 30D",
         "price": 35000,
     },
-    "info_1": {
+   "info_1": {
         "name": "Gia hạn GPT Plus – IB",
         "price": 70000,
     },
@@ -76,7 +76,6 @@ PRODUCTS = {
         "name": "Thông tin liên hệ: Zalo: 0842.108.959",
         "price": 0,
     },
-}
 
 # Kho hàng
 STOCK = {
@@ -100,26 +99,6 @@ STOCK = {
     ],
 
    "veo3_ultra_30d": [
-"elnor@ddmizo1z.click|dtdt0330",
-"friex@ddmizo1z.click|dtdt0330",
-"gaxen@ddmizo1z.click|dtdt0330",
-"horyx@ddmizo1z.click|dtdt0330",
-"iqlen@ddmizo1z.click|dtdt0330",
-"jexar@ddmizo1z.click|dtdt0330",
-"koryn@ddmizo1z.click|dtdt0330",
-"laxir@ddmizo1z.click|dtdt0330",
-"moryx@ddmizo1z.click|dtdt0330",
-"nivrae@ddmizo1z.click|dtdt0330",
-"oqlex@ddmizo1z.click|dtdt0330",
-"pryen@ddmizo1z.click|dtdt0330",
-"qyron@ddmizo1z.click|dtdt0330",
-"raxul@ddmizo1z.click|dtdt0330",
-"selyn@ddmizo1z.click|dtdt0330",
-"tovex@ddmizo1z.click|dtdt0330",
-"uxran@ddmizo1z.click|dtdt0330",
-"velyr@ddmizo1z.click|dtdt0330",
-"wexin@ddmizo1z.click|dtdt0330",
-"yorin@ddmizo1z.click|dtdt0330",
 "zaxel@ddmizo1z.click|dtdt0330",
 "arvyn@ddmizo1z.click|dtdt0330",
 "bixor@ddmizo1z.click|dtdt0330",
@@ -156,6 +135,9 @@ STOCK = {
 	"dtmoz29@quietwave.cfd|111111111111|W6RL52MSIAQVHSWAXJTAEO3E6DBBFBBV",
 
 	],
+	"info_1": ["IB"] * 999,
+    "info_2": ["IB"] * 999,
+    "info_3": ["IB"] * 999,
 }
 
 # ===== HÀM PHỤ =====
