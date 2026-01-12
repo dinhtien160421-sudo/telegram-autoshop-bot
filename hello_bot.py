@@ -69,12 +69,8 @@ PRODUCTS = {
         "price": 45678 ,
     },  
     "info_1": {
-        "name": "Gia hạn GPT Plus – Capcut - Canva vui lòng ib ạ",
-        "price": 0,
-    },
-    "info_3": {
-        "name": "Thông tin liên hệ: Zalo: 0842.108.959",
-        "price": 0,
+        "name": "Gia hạn GPT Plus – Capcut - Canva vui lòng liên hệ Zalo: 0842.108.959",
+        "price": 70000, 30000, 
     },
 } 
 
@@ -182,7 +178,6 @@ STOCK = {
      ],
        
     "info_1": ["IB"] * 0,
-    "info_3": ["IB"] * 0,
 }
 
 # ===== HÀM PHỤ =====
