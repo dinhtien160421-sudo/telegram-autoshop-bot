@@ -174,7 +174,7 @@ STOCK = {
         "dtmoz29@quietwave.cfd|111111111111|W6RL52MSIAQVHSWAXJTAEO3E6DBBFBBV",
     ],
     "antigravity_gemini_30d": [
-        "seko@atlize.dpdns.org|0440",
+    "seko@atlize.dpdns.org|0440",
 "chian@atlize.dpdns.org|0440",
 "moono@atlize.dpdns.org|0440",
 "ete@atlize.dpdns.org|0440",
