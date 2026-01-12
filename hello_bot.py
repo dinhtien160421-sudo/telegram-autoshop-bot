@@ -69,12 +69,8 @@ PRODUCTS = {
         "price": 45678 ,
     },  
     "info_1": {
-        "name": "Gia hạn GPT Plus – IB",
-        "price": 70000,
-    },
-    "info_2": {
-        "name": "TK Canva / CapCut – IB",
-        "price": 25000,
+        "name": "Gia hạn GPT Plus – Capcut - Canva vui lòng ib ạ",
+        "price": 0,
     },
     "info_3": {
         "name": "Thông tin liên hệ: Zalo: 0842.108.959",
@@ -186,7 +182,6 @@ STOCK = {
      ],
        
     "info_1": ["IB"] * 0,
-    "info_2": ["IB"] * 0,
     "info_3": ["IB"] * 0,
 }
 
