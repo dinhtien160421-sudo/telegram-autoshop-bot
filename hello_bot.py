@@ -225,27 +225,37 @@ def start(update, context):
         parse_mode="Markdown",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
-
+import os
 
 def broadcast(update, context):
     chat_id = update.effective_chat.id
 
-    # chỉ cho ADMIN dùng
+    # Chỉ cho ADMIN dùng
     if chat_id != ADMIN_CHAT_ID:
         update.message.reply_text("❌ Bạn không có quyền dùng lệnh này.")
         return
 
-    # lấy nội dung sau /broadcast
-    if not context.args:
-        update.message.reply_text("⚠ Dùng: /broadcast nội_dung_cần_gửi")
-        return
+    msg = update.message
 
-    # GIỮ NGUYÊN KÝ TỰ, XUỐNG DÒNG
-    message = update.message.text.split(" ", 1)[1]
+    # Nếu ADMIN reply vào 1 tin nhắn → lấy nguyên nội dung (giữ xuống dòng)
+    if msg.reply_to_message and msg.reply_to_message.text:
+        message = msg.reply_to_message.text
 
-    # đọc danh sách user từ file
+    # Nếu dùng /broadcast <nội dung>
+    else:
+        if not context.args:
+            msg.reply_text(
+                "⚠ Dùng:\n"
+                "- /broadcast nội_dung\n"
+                "- Hoặc reply vào tin nhắn cần gửi rồi gõ /broadcast (khuyến nghị)"
+            )
+            return
+        # Lấy toàn bộ phần sau /broadcast và GIỮ newline
+        message = msg.text.partition(" ")[2]
+
+    # Đọc danh sách user
     if not os.path.exists(USERS_FILE):
-        update.message.reply_text("Chưa có user nào trong danh sách.")
+        msg.reply_text("Chưa có user nào trong danh sách.")
         return
 
     sent = 0
@@ -256,12 +266,16 @@ def broadcast(update, context):
                 continue
             try:
                 uid = int(line)
-                context.bot.send_message(chat_id=uid, text=message)
+                context.bot.send_message(
+                    chat_id=uid,
+                    text=message,
+                    disable_web_page_preview=True
+                )
                 sent += 1
             except Exception:
                 continue
 
-    update.message.reply_text(f"✅ Đã gửi cho khoảng {sent} người dùng.")
+    msg.reply_text(f"✅ Đã gửi cho khoảng {sent} người dùng.")
 
 # ===== XỬ LÝ NÚT =====
 
