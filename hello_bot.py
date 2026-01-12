@@ -536,7 +536,7 @@ def main():
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
-    dp.add_handler(CommandHandler("menu", menu))
+    dp.add_handler(CommandHandler("menu", start))
     dp.add_handler(CommandHandler("broadcast", broadcast))   # lệnh gửi tin hàng loạt
     dp.add_handler(CallbackQueryHandler(handle_buttons))
 
