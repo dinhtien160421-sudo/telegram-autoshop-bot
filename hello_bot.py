@@ -70,7 +70,7 @@ PRODUCTS = {
     },  
     "info_1": {
         "name": "Gia hạn GPT Plus – Capcut - Canva vui lòng liên hệ Zalo: 0842.108.959",
-        "price": 70000, 30000, 
+        "price": 0,
     },
 } 
 
