@@ -103,9 +103,6 @@ STOCK = {
     ],
 
     "veo3_ultra_30d": [
-"syrox@xbropmmo.io.vn|dtdt0110",
-"rylax@xbropmmo.io.vn|dtdt0110",
-"qavor@xbropmmo.io.vn|dtdt0110",
 "pryxen@xbropmmo.io.vn|dtdt0110",
 "oxlin@xbropmmo.io.vn|dtdt0110",
 "nyrax@xbropmmo.io.vn|dtdt0110",
@@ -230,14 +227,6 @@ def start(update, context):
     )
 
 
-def menu(update, context):
-    # cho tiện, /menu gọi lại /start
-    return start(update, context)
-
-
-# ===== LỆNH GỬI TIN TOÀN BỘ USER =====
-
-
 def broadcast(update, context):
     chat_id = update.effective_chat.id
 
@@ -251,7 +240,8 @@ def broadcast(update, context):
         update.message.reply_text("⚠ Dùng: /broadcast nội_dung_cần_gửi")
         return
 
-    message = " ".join(context.args)
+    # GIỮ NGUYÊN KÝ TỰ, XUỐNG DÒNG
+    message = update.message.text.split(" ", 1)[1]
 
     # đọc danh sách user từ file
     if not os.path.exists(USERS_FILE):
@@ -269,11 +259,9 @@ def broadcast(update, context):
                 context.bot.send_message(chat_id=uid, text=message)
                 sent += 1
             except Exception:
-                # user block bot hoặc lỗi khác thì bỏ qua
                 continue
 
     update.message.reply_text(f"✅ Đã gửi cho khoảng {sent} người dùng.")
-
 
 # ===== XỬ LÝ NÚT =====
 
