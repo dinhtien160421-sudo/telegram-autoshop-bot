@@ -58,12 +58,16 @@ PRODUCTS = {
     },
     "veo3_ultra_30d": {
         "name": "VEO3 ULTRA 45K CREDIT BH 30D",
-        "price": 50000,
+        "price": 45000,
     },
     "gpt_plus_30d": {
         "name": "ACC GPT PLUS 30D",
         "price": 35000,
     },
+    "antigravity_gemini_30d": {
+        "name": "TK Antigravity + Gemini Pro BH 30D",
+        "price": 50000,
+    },  
     "info_1": {
         "name": "Gia hạn GPT Plus – IB",
         "price": 70000,
@@ -87,7 +91,6 @@ STOCK = {
     ],
 
     "code_gpt": [
-        "chatgpt.com/p/F9B5QBHTCY2L4ZCE",
         "chatgpt.com/p/QUNQA7VU9DWHKHPH",
         "chatgpt.com/p/6NSMF8WRHGYPLBM2",
         "chatgpt.com/p/QFYR56UYKRURCBEC",
@@ -100,35 +103,6 @@ STOCK = {
     ],
 
     "veo3_ultra_30d": [
-       "wavor@xbropmmo.io.vn|dtdt0110",
-"vexrae@xbropmmo.io.vn|dtdt0110",
-"ulyx@xbropmmo.io.vn|dtdt0110",
-"toxra@xbropmmo.io.vn|dtdt0110",
-"silex@xbropmmo.io.vn|dtdt0110",
-"ravor@xbropmmo.io.vn|dtdt0110",
-"qyxen@xbropmmo.io.vn|dtdt0110",
-"prylor@xbropmmo.io.vn|dtdt0110",
-"oxren@xbropmmo.io.vn|dtdt0110",
-"noryx@xbropmmo.io.vn|dtdt0110",
-"myrex@xbropmmo.io.vn|dtdt0110",
-"lixra@xbropmmo.io.vn|dtdt0110",
-"kylor@xbropmmo.io.vn|dtdt0110",
-"javor@xbropmmo.io.vn|dtdt0110",
-"irex@xbropmmo.io.vn|dtdt0110",
-"hylax@xbropmmo.io.vn|dtdt0110",
-"goryn@xbropmmo.io.vn|dtdt0110",
-"fexyl@xbropmmo.io.vn|dtdt0110",
-"elyra@xbropmmo.io.vn|dtdt0110",
-"davor@xbropmmo.io.vn|dtdt0110",
-"crixen@xbropmmo.io.vn|dtdt0110",
-"boryx@xbropmmo.io.vn|dtdt0110",
-"arxel@xbropmmo.io.vn|dtdt0110",
-"zexin@xbropmmo.io.vn|dtdt0110",
-"yavor@xbropmmo.io.vn|dtdt0110",
-"wylax@xbropmmo.io.vn|dtdt0110",
-"virex@xbropmmo.io.vn|dtdt0110",
-"uxlor@xbropmmo.io.vn|dtdt0110",
-"tynex@xbropmmo.io.vn|dtdt0110",
 "syrox@xbropmmo.io.vn|dtdt0110",
 "rylax@xbropmmo.io.vn|dtdt0110",
 "qavor@xbropmmo.io.vn|dtdt0110",
@@ -197,13 +171,23 @@ STOCK = {
     ],
     
     "gpt_plus_30d": [
-        "dtmoz21@quietwave.cfd|111111111111|3WJRBIUGQV4VFDHHWEMKC4NLLBOTYEJ3",
         "dt2z22@quietwave.cfd|111111111111|SZ7RGLAMQME2FSCF47RHMSZ3JCMGTP5V",
         "adzdd@quietwave.cfd|111111111111|7VGE5ECRXJPLUM7CWSNSKDHVOMJ662GK",
         "atge2@quietwave.cfd|111111111111|F5G4FQOHOBKL2JWLUYFYBUALN56565II",
         "dtmoz29@quietwave.cfd|111111111111|W6RL52MSIAQVHSWAXJTAEO3E6DBBFBBV",
     ],
-
+    "antigravity_gemini_30d": [
+        "seko@atlize.dpdns.org|0440",
+"chian@atlize.dpdns.org|0440",
+"moono@atlize.dpdns.org|0440",
+"ete@atlize.dpdns.org|0440",
+"dzee@atlize.dpdns.org|0440",
+"btteeed@atlize.dpdns.org|0440",
+"qqrs@atlize.dpdns.org|0440",
+"brxx@atlize.dpdns.org|0440",
+"zetg@atlize.dpdns.org|0440",
+     ],
+       
     "info_1": ["IB"] * 0,
     "info_2": ["IB"] * 0,
     "info_3": ["IB"] * 0,
