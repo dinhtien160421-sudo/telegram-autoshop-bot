@@ -66,7 +66,7 @@ PRODUCTS = {
     },
     "antigravity_gemini_30d": {
         "name": "TK Antigravity + Gemini Pro BH 30D",
-        "price": ,
+        "price": 45678 ,
     },  
     "info_1": {
         "name": "Gia hạn GPT Plus – IB",
