@@ -61,7 +61,7 @@ PRODUCTS = {
         "price": 45678,
     },
     "gpt_plus_30d": {
-        "name": "TK GPT PLUS 30D",
+        "name": "TK GPT PLUS BH 30D",
         "price": 35000,
     },
     "antigravity_gemini_30d": {
