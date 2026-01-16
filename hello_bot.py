@@ -13,7 +13,7 @@ from io import BytesIO
 import os
 
 # ============= CẤU HÌNH =============
-BOT_TOKEN = "8524709110:AAHWruvE7GOtTIk28-G--tgS1fthno0s2vM"
+BOT_TOKEN = "8246686546:AAH1vI4wb_yG9V7oKIN9pFoOCg9L3pjjk2U"
 ADMIN_CHAT_ID = 6164122466          # ID admin
 PENDING_ORDERS = {}                 # đơn đang chờ duyệt
 BANK_CODE = "sacombank"
@@ -83,98 +83,18 @@ STOCK = {
     ],
 
     "code_gpt": [
-        "chatgpt.com/p/QUNQA7VU9DWHKHPH",
-        "chatgpt.com/p/6NSMF8WRHGYPLBM2",
-        "chatgpt.com/p/QFYR56UYKRURCBEC",
-        "chatgpt.com/p/6ZQ6X5SGTLPMP8ES",
-        "chatgpt.com/p/GGPBCEE5KB88NW6D",
-        "chatgpt.com/p/TLADWVBA3MK68LVD",
-        "chatgpt.com/p/RL34SE7JQLTR9LQ2",
-        "chatgpt.com/p/ZFGB6Q3YRUCG265M",
-        "chatgpt.com/p/MCYXF3TXSLVJW8N2",
+       
     ],
 
     "veo3_ultra_30d": [
-"pryxen@xbropmmo.io.vn|dtdt0110",
-"oxlin@xbropmmo.io.vn|dtdt0110",
-"nyrax@xbropmmo.io.vn|dtdt0110",
-"mixel@xbropmmo.io.vn|dtdt0110",
-"loryx@xbropmmo.io.vn|dtdt0110",
-"kexra@xbropmmo.io.vn|dtdt0110",
-"jaxyn@xbropmmo.io.vn|dtdt0110",
-"ilyx@xbropmmo.io.vn|dtdt0110",
-"haxor@xbropmmo.io.vn|dtdt0110",
-"gryen@xbropmmo.io.vn|dtdt0110",
-"binze@xbropmmo.io.vn|dtdt0110",
-"sieze@xbropmmo.io.vn|dtdt0110",
-"zilyn@w.xbropmmo.io.vn|dtdt0110",
-"breyn@w.xbropmmo.io.vn|dtdt0110",
-"cexir@w.xbropmmo.io.vn|dtdt0110",
-"dylax@w.xbropmmo.io.vn|dtdt0110",
-"enrix@w.xbropmmo.io.vn|dtdt0110",
-"fylox@w.xbropmmo.io.vn|dtdt0110",
-"gryen@w.xbropmmo.io.vn|dtdt0110",
-"haxor@w.xbropmmo.io.vn|dtdt0110",
-"ilyx@w.xbropmmo.io.vn|dtdt0110",
-"jaxyn@w.xbropmmo.io.vn|dtdt0110",
-"kexra@w.xbropmmo.io.vn|dtdt0110",
-"loryx@w.xbropmmo.io.vn|dtdt0110",
-"mixel@w.xbropmmo.io.vn|dtdt0110",
-"nyrax@w.xbropmmo.io.vn|dtdt0110",
-"oxlin@w.xbropmmo.io.vn|dtdt0110",
-"pryxen@w.xbropmmo.io.vn|dtdt0110",
-"qavor@w.xbropmmo.io.vn|dtdt0110",
-"rylax@w.xbropmmo.io.vn|dtdt0110",
-"syrox@w.xbropmmo.io.vn|dtdt0110",
-"tynex@w.xbropmmo.io.vn|dtdt0110",
-"uxlor@w.xbropmmo.io.vn|dtdt0110",
-"virex@w.xbropmmo.io.vn|dtdt0110",
-"wylax@w.xbropmmo.io.vn|dtdt0110",
-"yavor@w.xbropmmo.io.vn|dtdt0110",
-"zexin@w.xbropmmo.io.vn|dtdt0110",
-"arxel@w.xbropmmo.io.vn|dtdt0110",
-"boryx@w.xbropmmo.io.vn|dtdt0110",
-"crixen@w.xbropmmo.io.vn|dtdt0110",
-"davor@w.xbropmmo.io.vn|dtdt0110",
-"elyra@w.xbropmmo.io.vn|dtdt0110",
-"fexyl@w.xbropmmo.io.vn|dtdt0110",
-"goryn@w.xbropmmo.io.vn|dtdt0110",
-"hylax@w.xbropmmo.io.vn|dtdt0110",
-"javor@w.xbropmmo.io.vn|dtdt0110",
-"kylor@w.xbropmmo.io.vn|dtdt0110",
-"lixra@w.xbropmmo.io.vn|dtdt0110",
-"myrex@w.xbropmmo.io.vn|dtdt0110",
-"noryx@w.xbropmmo.io.vn|dtdt0110",
-"oxren@w.xbropmmo.io.vn|dtdt0110",
-"prylor@w.xbropmmo.io.vn|dtdt0110",
-"ravor@w.xbropmmo.io.vn|dtdt0110",
-"silex@w.xbropmmo.io.vn|dtdt0110",
-"toxra@w.xbropmmo.io.vn|dtdt0110",
-"ulyx@w.xbropmmo.io.vn|dtdt0110",
-"vexra@w.xbropmmo.io.vn|dtdt0110",
-"wavor@w.xbropmmo.io.vn|dtdt0110",
-"xeko@w.xbropmmo.io.vn|dtdt0110",
-"naoz@w.xbropmmo.io.vn|dtdt0110",
-"zeea@w.xbropmmo.io.vn|dtdt0110",
 
     ],
     
     "gpt_plus_30d": [
-        "dt2z22@quietwave.cfd|111111111111|SZ7RGLAMQME2FSCF47RHMSZ3JCMGTP5V",
-        "adzdd@quietwave.cfd|111111111111|7VGE5ECRXJPLUM7CWSNSKDHVOMJ662GK",
-        "atge2@quietwave.cfd|111111111111|F5G4FQOHOBKL2JWLUYFYBUALN56565II",
-        "dtmoz29@quietwave.cfd|111111111111|W6RL52MSIAQVHSWAXJTAEO3E6DBBFBBV",
+        
     ],
     "antigravity_gemini_30d": [
-    "seko@atlize.dpdns.org|0440",
-"chian@atlize.dpdns.org|0440",
-"moono@atlize.dpdns.org|0440",
-"ete@atlize.dpdns.org|0440",
-"dzee@atlize.dpdns.org|0440",
-"btteeed@atlize.dpdns.org|0440",
-"qqrs@atlize.dpdns.org|0440",
-"brxx@atlize.dpdns.org|0440",
-"zetg@atlize.dpdns.org|0440",
+   
      ],
        
     "info_1": ["IB"] * 0,
