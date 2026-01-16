@@ -13,7 +13,8 @@ from io import BytesIO
 import os
 
 # ============= CẤU HÌNH =============
-BOT_TOKEN = "8246686546:AAH1vI4wb_yG9V7oKIN9pFoOCg9L3pjjk2U"
+import os
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 ADMIN_CHAT_ID = 6164122466          # ID admin
 PENDING_ORDERS = {}                 # đơn đang chờ duyệt
 BANK_CODE = "sacombank"
