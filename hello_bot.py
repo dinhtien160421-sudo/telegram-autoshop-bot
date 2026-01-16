@@ -56,23 +56,25 @@ PRODUCTS = {
         "name": "CODE GPT PLUS",
         "price": 15000,
     },
-    "veo3_ultra_30d": {
-        "name": "VEO3 ULTRA 45K CREDIT BH 30D",
-        "price": 45678,
+    "veo3_ultra_no_bh": {
+        "name": "VEO3 ULTRA 45K CREDIT (KHÔNG BH)",
+        "price": 40000,
     },
+    "veo3_ultra_bh_0102": {
+        "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 01/02",
+        "price": 66666,
+    },
+
     "gpt_plus_30d": {
         "name": "TK GPT PLUS BH 30D",
         "price": 35000,
     },
-    "antigravity_gemini_30d": {
-        "name": "TK Antigravity + Gemini Pro BH 30D",
-        "price": 45678 ,
-    },  
+
     "info_1": {
         "name": "Gia hạn GPT Plus – Capcut - Canva vui lòng liên hệ Zalo: 0842.108.959",
         "price": 0,
     },
-} 
+}
 
 
 # Kho hàng
@@ -83,20 +85,21 @@ STOCK = {
     ],
 
     "code_gpt": [
-       
-    ],
-
-    "veo3_ultra_30d": [
-
-    ],
     
-    "gpt_plus_30d": [
-        
     ],
-    "antigravity_gemini_30d": [
-   
-     ],
-       
+    "veo3_ultra_no_bh": [
+    "vimo@tinbzee.click|dtdt4884",
+    "vinki@dtstore.click|dtdt4884",
+    
+    ],
+    "veo3_ultra_bh_0102": [
+    
+    ],
+
+    "gpt_plus_30d": [
+
+    ],
+
     "info_1": ["IB"] * 0,
 }
 
