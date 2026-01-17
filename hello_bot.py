@@ -63,7 +63,7 @@ PRODUCTS = {
     },
     "veo3_ultra_bh_0102": {
         "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 01/02",
-        "price": 66666,
+        "price": 6500065000,
     },
 
     "gpt_plus_30d": {
@@ -89,12 +89,45 @@ STOCK = {
     
     ],
     "veo3_ultra_no_bh": [
-    "vimo@tinbzee.click|dtdt4884",
-    "vinki@dtstore.click|dtdt4884",
-    
+    "biro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"mavo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"nexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"qiro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"rexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"tiro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"viro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"zavo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"liro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"dexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
     ],
     "veo3_ultra_bh_0102": [
-    
+"rino@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"kexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"varo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"navo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"pexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"limo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"zelo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"miroe@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"qena@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"vixo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"ravo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"kiro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"zimo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"laxo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"nira@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"bexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"ximu@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"tavo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"drax@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"meko@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"qor@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"vemi@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"luno@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"rix@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"kavo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"zyn@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+"ezz@vntsneel.toimuontrovenha.name.ng|dtdt2882"
     ],
 
     "gpt_plus_30d": [
