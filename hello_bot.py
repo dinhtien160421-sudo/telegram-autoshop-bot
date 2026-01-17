@@ -86,7 +86,11 @@ STOCK = {
     ],
 
     "code_gpt": [
-    
+    "https://chatgpt.com/?promoCode=BJJJGMB8X4A65BD4,
+"https://chatgpt.com/?promoCode=4PSYUKMKL6VJ7DSX",
+"https://chatgpt.com/?promoCode=PMJH7CP6GSUC8MX4",
+"https://chatgpt.com/?promoCode=55QT23YMN2LDZB4G",
+"https://chatgpt.com/?promoCode=JFXQ6UT89WCUN2PX",
     ],
     "veo3_ultra_no_bh": [
     "biro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
