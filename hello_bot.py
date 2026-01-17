@@ -81,8 +81,7 @@ PRODUCTS = {
 # Kho hàng
 STOCK = {
     "Canva_Edu": [
-        "inge-lisev5555@hotmail.com|ResSb75L|bhzftzjqvb92@smvmail.com",
-        "katulkajoa3569@hotmail.com|timeRais19|ewhgrtfy@smvmail.com",
+    
     ],
 
     "code_gpt": [
@@ -93,45 +92,31 @@ STOCK = {
 "https://chatgpt.com/?promoCode=JFXQ6UT89WCUN2PX",
     ],
     "veo3_ultra_no_bh": [
-    "biro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"mavo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"nexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"qiro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"rexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"tiro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"viro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"zavo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"liro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"dexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
+
     ],
     "veo3_ultra_bh_0102": [
-"rino@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"kexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"varo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"navo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"pexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"limo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"zelo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"miroe@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"qena@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"vixo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"ravo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"kiro@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"zimo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"laxo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"nira@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"bexo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"ximu@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"tavo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"drax@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"meko@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"qor@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"vemi@vntsneel.toimuontrovenha.name.ng|dtdt2882",
 "luno@vntsneel.toimuontrovenha.name.ng|dtdt2882",
 "rix@vntsneel.toimuontrovenha.name.ng|dtdt2882",
 "kavo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
 "zyn@vntsneel.toimuontrovenha.name.ng|dtdt2882",
 "ezz@vntsneel.toimuontrovenha.name.ng|dtdt2882"
+"hira@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"ixon@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"pexo@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"reno@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"waro@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"emo@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"waae@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"rixo@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"fiko@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"figo@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"nimo@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"aka@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"zere@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"dimzi@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"qiao@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"paoe@sneethanh.uaskwwk22.name.ng|dtdt1991",
+"e@sneethanh.uaskwwk22.name.ng|dtdt0220",
     ],
 
     "gpt_plus_30d": [
