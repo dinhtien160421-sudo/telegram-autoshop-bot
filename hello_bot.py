@@ -98,7 +98,7 @@ STOCK = {
 "umea@sneethanh.uaskwwk22.name.ng|dtdt1771",
 "varn@sneethanh.uaskwwk22.name.ng|dtdt1771",
     ],
-    "veo3_ultra_bh_0102": [
+    "veo3_ultra_bh_0402": [
 "zkai@sneethanh.uaskwwk22.name.ng|dtdt1771",
 "shin@sneethanh.uaskwwk22.name.ng|dtdt1771",
 "ran@sneethanh.uaskwwk22.name.ng|dtdt1771",
