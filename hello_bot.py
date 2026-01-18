@@ -57,13 +57,13 @@ PRODUCTS = {
         "name": "CODE GPT PLUS",
         "price": 15000,
     },
-    "veo3_ultra_no_bh": {
-        "name": "VEO3 ULTRA 45K CREDIT (KHÔNG BH)",
-        "price": 40000,
+    "veo3_ultra_bh": {
+        "name": "VEO3 ULTRA 45K CREDIT BH 30D",
+        "price": ,
     },
-    "veo3_ultra_bh_0102": {
-        "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 01/02",
-        "price": 65000 ,
+    "veo3_ultra_bh_0402": {
+        "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 04/02",
+        "price": 55555 ,
     },
 
     "gpt_plus_30d": {
@@ -85,38 +85,38 @@ STOCK = {
     ],
 
     "code_gpt": [
-    "https://chatgpt.com/?promoCode=BJJJGMB8X4A65BD4",
 "https://chatgpt.com/?promoCode=4PSYUKMKL6VJ7DSX",
 "https://chatgpt.com/?promoCode=PMJH7CP6GSUC8MX4",
 "https://chatgpt.com/?promoCode=55QT23YMN2LDZB4G",
 "https://chatgpt.com/?promoCode=JFXQ6UT89WCUN2PX",
     ],
-    "veo3_ultra_no_bh": [
-
+    "veo3_ultra_bh": [
+"marn@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"neko@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"reto@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"slyn@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"umea@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"varn@sneethanh.uaskwwk22.name.ng|dtdt1771",
     ],
     "veo3_ultra_bh_0102": [
-"luno@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"rix@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"kavo@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"zyn@vntsneel.toimuontrovenha.name.ng|dtdt2882",
-"ezz@vntsneel.toimuontrovenha.name.ng|dtdt2882"
-"hira@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"ixon@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"pexo@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"reno@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"waro@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"emo@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"waae@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"rixo@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"fiko@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"figo@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"nimo@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"aka@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"zere@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"dimzi@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"qiao@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"paoe@sneethanh.uaskwwk22.name.ng|dtdt1991",
-"e@sneethanh.uaskwwk22.name.ng|dtdt0220",
+"zkai@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"shin@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"ran@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"nara@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"exi@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"nia@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"tim@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"xune@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"arui@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"qunn@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"evi@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"yumm@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"att@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"zeer@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"ziro@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"kime@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"quix@sneethanh.uaskwwk22.name.ng|dtdt1771",
+"pryn@sneethanh.uaskwwk22.name.ng|dtdt1771",
     ],
 
     "gpt_plus_30d": [
