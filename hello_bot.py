@@ -49,7 +49,6 @@ def add_user(chat_id: int):
 
 # Danh sách sản phẩm
 PRODUCTS = {
-    },
     "code_gpt": {
         "name": "CODE GPT PLUS",
         "price": 15000,
