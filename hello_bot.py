@@ -73,7 +73,16 @@ PRODUCTS = {
 # Kho hàng
 STOCK = {
     "code_gpt": [
-
+    "https://chatgpt.com/?promoCode=AA4BTRR4SNL935JJ",
+"https://chatgpt.com/?promoCode=RX7XRNZP49QJRJ6W",
+"https://chatgpt.com/?promoCode=GGAF7KPAK2QTDNH5",
+"https://chatgpt.com/?promoCode=3USA3AJHKEXXV9AA",
+"https://chatgpt.com/?promoCode=536RM3DD9SXGDFZN",
+"https://chatgpt.com/?promoCode=CRQ6PVLRAN7SHC5B",
+"https://chatgpt.com/?promoCode=DWMX97LJ5ZQAAR44",
+"https://chatgpt.com/?promoCode=A4PS7DCKX97JACPW",
+"https://chatgpt.com/?promoCode=252GYT9HLMR9PXWP",
+"https://chatgpt.com/?promoCode=E8GW6MC9YVMZ8NDP",
     ],
     "veo3_ultra_bh": [
     "egye@oaklingaioi.shop|dtdt2882",
