@@ -55,7 +55,7 @@ PRODUCTS = {
     },
     "veo3_ultra_bh": {
         "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 1/2",
-        "price": ,
+        "price": 75000 ,
     },
 
     "info_1": {
@@ -96,7 +96,7 @@ STOCK = {
 "laxo@ta.syfar.cloud|dtdt1661",
 "zimo@ta.syfar.cloud|dtdt1661",
 "kiroe@ta.syfar.cloud|dtdt1661",
-
+    ],
 
     "info_1": ["IB"] * 0,
 }
