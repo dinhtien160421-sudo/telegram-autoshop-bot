@@ -77,7 +77,7 @@ STOCK = {
 "https://chatgpt.com/?promoCode=252GYT9HLMR9PXWP",
 "https://chatgpt.com/?promoCode=E8GW6MC9YVMZ8NDP",
     ],
-    "veo3_ultra_BH": [
+    "veo3_ultra_bh": [
     "terry89@geminiveo3.shop|Matkhau1234@",
 "michael11@geminiveo3.shop|Matkhau1234@",
 "gerald22@geminiveo3.shop|Matkhau1234@",
