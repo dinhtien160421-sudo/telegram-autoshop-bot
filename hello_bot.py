@@ -55,7 +55,7 @@ PRODUCTS = {
     },
     "veo3_ultra_bh": {
         "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 1/2",
-        "price": 55000,
+        "price": 60000,
     },
 
     "info_1": {
