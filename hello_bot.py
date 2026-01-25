@@ -478,9 +478,20 @@ def handle_quantity(update, context):
     order_code = gen_order_code()
 
     context.user_data["order"] = (pid, order_code, qty, amount)
+
+    # ✅ LƯU ĐƠN CHỜ THANH TOÁN NGAY (để SePay bank xong auto nhả)
+    PENDING_ORDERS[order_code] = {
+        "product_id": pid,
+        "user_id": user_id,
+        "qty": qty,
+        "amount": amount,
+    }
+    print(f"[ORDER] Pending saved: {order_code} user={user_id} pid={pid} qty={qty} amount={amount}", flush=True)
+
     WAITING_QTY.pop(user_id, None)
 
     qr_url = build_vietqr_url(amount, order_code)
+
 
     info = (
         f"✅ Đã tạo đơn *{order_code}*\n"
