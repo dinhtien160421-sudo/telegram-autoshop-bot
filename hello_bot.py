@@ -50,23 +50,23 @@ def add_user(chat_id: int):
 # Danh sách sản phẩm
 PRODUCTS = {
     "code_gpt": {
-        "name": "CODE GPT PLUS\n(còn {stock})",
+        "name": "CODE GPT PLUS",
         "price": 15000,
     },
     "veo3_ultra_bh": {
-        "name": "VEO3 ULTRA 45K CREDIT\nBH ĐẾN 4/2\n(còn {stock})",
+        "name": "VEO3 ULTRA 45K CREDIT BH 4/2",
         "price": 75000,
     },
     "veo3_ultra_bhf": {
-        "name": "VEO3 ULTRA 45K CREDIT\nBH 30 NGÀY\n(còn {stock})",
+        "name": "VEO3 ULTRA 45K CREDIT BH 30D",
         "price": 130000,
     },
     "info_1": {
-        "name": "Gia hạn GPT Plus – Capcut – Canva\nInbox",
+        "name": "Gia hạn GPT Plus – Capcut - Canva Ib",
         "price": 0,
     },
     "info_2": {
-        "name": "Zalo: 0842.108.959\nTele: @dtdt28",
+        "name": "Zalo: 0842.108.959 - Tele:@dtdt28",
         "price": 0,
     },
 }
