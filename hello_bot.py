@@ -11,6 +11,10 @@ import string
 import urllib.parse
 from io import BytesIO
 import os
+from flask import Flask, request, jsonify
+import threading
+import re
+
 
 # ============= CẤU HÌNH =============
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
@@ -20,9 +24,104 @@ BANK_CODE = "ACB"
 BANK_ACCOUNT = "21812351"
 ADMIN_CONTACT = "Liên hệ Zalo: 0842108959"
 USERS_FILE = "users.txt"
+WAITING_QTY = {}
 
 # user đang được hỏi số lượng: user_id -> product_id
 WAITING_QTY = {}
+# ====== SEPAY WEBHOOK (AUTO DUYỆT + NHẢ ĐƠN) ======
+app = Flask(__name__)
+TG_BOT = None
+
+def deliver_order_auto(code, pid, user_id, qty):
+    product = PRODUCTS[pid]
+
+    if len(STOCK.get(pid, [])) < qty:
+        TG_BOT.send_message(chat_id=user_id, text="⚠ Kho không đủ. Liên hệ admin.")
+        return False
+
+    accounts = [STOCK[pid].pop(0) for _ in range(qty)]
+    codes_text = "\n".join(f"{i+1}. {acc}" for i, acc in enumerate(accounts))
+
+    detail = (
+        f"✅ Đơn `{code}`\n"
+        f"🎁 Sản phẩm: *{product['name']}*\n"
+        f"📦 Số lượng: *{qty}*\n\n"
+        f"{codes_text}\n\n"
+        "Cảm ơn bạn đã mua hàng!"
+    )
+
+    TG_BOT.send_message(
+        chat_id=user_id,
+        text=detail,
+        parse_mode="Markdown",
+        disable_web_page_preview=True
+    )
+
+    txt = (
+        f"Đơn hàng: {code}\n"
+        f"Sản phẩm: {product['name']}\n"
+        f"Số lượng: {qty}\n"
+        f"Tài khoản/Mã:\n{codes_text}\n"
+    ).encode("utf-8")
+
+    f = BytesIO(txt)
+    f.name = f"{code}.txt"
+
+    TG_BOT.send_document(
+        chat_id=user_id,
+        document=InputFile(f),
+        filename=f.name,
+        caption="📄 File Notepad chứa tài khoản/mã.",
+    )
+    return True
+
+
+@app.route("/bank-webhook", methods=["POST"])
+def sepay_webhook():
+    data = request.get_json(force=True, silent=True) or {}
+    print("\n==== SEPAY PAYLOAD ====")
+    print(data, flush=True)
+
+    if data.get("transferType") != "in":
+        return jsonify({"ok": True, "ignored": "not_in"}), 200
+
+    content = str(data.get("content", ""))
+    amount = int(data.get("transferAmount", 0) or 0)
+
+    m = re.search(r"(ORD\d{10})", content)
+    if not m:
+        return jsonify({"ok": True, "ignored": "no_ord"}), 200
+
+    code = m.group(1)
+
+    order = PENDING_ORDERS.get(code)
+    if not order:
+        return jsonify({"ok": True, "ignored": "order_not_found"}), 200
+
+    pid = order["product_id"]
+    user_id = order["user_id"]
+    qty = order.get("qty", 1)
+
+    expected = PRODUCTS[pid]["price"] * qty
+    if amount < expected:
+        TG_BOT.send_message(
+            chat_id=ADMIN_CHAT_ID,
+            text=f"⚠ Đơn `{code}` thiếu tiền: {amount:,}đ / {expected:,}đ".replace(",", "."),
+            parse_mode="Markdown"
+        )
+        return jsonify({"ok": True, "ignored": "insufficient"}), 200
+
+    ok = deliver_order_auto(code, pid, user_id, qty)
+    if ok:
+        PENDING_ORDERS.pop(code, None)
+        TG_BOT.send_message(
+            chat_id=ADMIN_CHAT_ID,
+            text=f"🤖 AUTO DUYỆT `{code}` — đã giao {qty} tài khoản cho `{user_id}`",
+            parse_mode="Markdown"
+        )
+
+    return jsonify({"ok": True}), 200
+
 # ====================================
 
 
