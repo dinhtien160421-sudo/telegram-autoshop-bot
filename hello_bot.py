@@ -54,7 +54,7 @@ PRODUCTS = {
         "price": 15000,
     },
     "veo3_ultra_bh": {
-        "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 1/2",
+        "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 4/2",
         "price": 75000 ,
     },
     "veo3_ultra_bhf": {
@@ -72,9 +72,7 @@ PRODUCTS = {
 # Kho hàng
 STOCK = {
     "code_gpt": [
-    "https://chatgpt.com/?promoCode=GGAF7KPAK2QTDNH5",
-"https://chatgpt.com/?promoCode=3USA3AJHKEXXV9AA",
-"https://chatgpt.com/?promoCode=536RM3DD9SXGDFZN",
+   "https://chatgpt.com/?promoCode=536RM3DD9SXGDFZN",
 "https://chatgpt.com/?promoCode=CRQ6PVLRAN7SHC5B",
 "https://chatgpt.com/?promoCode=DWMX97LJ5ZQAAR44",
 "https://chatgpt.com/?promoCode=A4PS7DCKX97JACPW",
@@ -82,9 +80,6 @@ STOCK = {
 "https://chatgpt.com/?promoCode=E8GW6MC9YVMZ8NDP",
     ],
     "veo3_ultra_bh": [
-    "lira@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"kemo@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"zaro@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "yimo@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "uxene@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "reno@sneel61512.tahsdwssd.name.ng|dtdt0440",
@@ -144,25 +139,8 @@ STOCK = {
 "qelo@dtskoaa2oimae.shop|dtdt0440",
 "pryo@dtskoaa2oimae.shop|dtdt0440",
 "orzo@dtskoaa2oimae.shop|dtdt0440",
-"nirae@dtskoaa2oimae.shop|dtdt0440",
-"mirok@dtskoaa2oimae.shop|dtdt0440",
-"leto@dtskoaa2oimae.shop|dtdt0440",
-"kora@dtskoaa2oimae.shop|dtdt0440",
-"jexo@dtskoaa2oimae.shop|dtdt0440",
-"ilya@dtskoaa2oimae.shop|dtdt0440",
-"hemi@dtskoaa2oimae.shop|dtdt0440",
-"garo@dtskoaa2oimae.shop|dtdt0440",
     ],
      "veo3_ultra_bhf": [
-    "fero@dtskoaa2oimae.shop|dtdt0440",
-"time@dtskoaa2oimae.shop|dtdt0440",
-"ashe@dtskoaa2oimae.shop|dtdt0440",
-"jun@dtskoaa2oimae.shop|dtdt0440",
-"zimoo@dtskoaa2oimae.shop|dtdt0440",
-"lofi@dtskoaa2oimae.shop|dtdt0440",
-"phone@dtskoaa2oimae.shop|dtdt0440",
-"reddd@dtskoaa2oimae.shop|dtdt0440",
-"gree@dtskoaa2oimae.shop|dtdt0440",
 "moli@dtskoaa2oimae.shop|dtdt0440",
 "chica@dtskoaa2oimae.shop|dtdt0440",
 "neko@dtskoaa2oimae.shop|dtdt0440",
@@ -174,6 +152,14 @@ STOCK = {
 "taro@dtskoaa2oimae.shop|dtdt0440",
 "umea@dtskoaa2oimae.shop|dtdt0440",
 "varn@dtskoaa2oimae.shop|dtdt0440",
+"nirae@dtskoaa2oimae.shop|dtdt0440",
+"mirok@dtskoaa2oimae.shop|dtdt0440",
+"leto@dtskoaa2oimae.shop|dtdt0440",
+"kora@dtskoaa2oimae.shop|dtdt0440",
+"jexo@dtskoaa2oimae.shop|dtdt0440",
+"ilya@dtskoaa2oimae.shop|dtdt0440",
+"hemi@dtskoaa2oimae.shop|dtdt0440",
+"garo@dtskoaa2oimae.shop|dtdt0440",
     ],
     "info_1": ["IB"] * 0
 }
