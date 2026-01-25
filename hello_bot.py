@@ -185,13 +185,10 @@ def start(update, context):
 
     for pid, info in PRODUCTS.items():
         stock_count = len(STOCK.get(pid, []))
-        status = f"📦 {stock_count}" if stock_count > 0 else ""
 
-        short_name = info["name"]
-        if len(short_name) > 26:
-            short_name = short_name[:26] + "..."
+        status = f"(còn {stock_count})" if stock_count > 0 else "(hết hàng)"
 
-        btn = f"{status} | {short_name} - {info['price']:,}đ".replace(",", ".")
+        btn = f"{info['name']} - {info['price']:,}đ {status}".replace(",", ".")
         keyboard.append([InlineKeyboardButton(btn, callback_data=f"buy_{pid}")])
 
     update.message.reply_text(
@@ -199,6 +196,7 @@ def start(update, context):
         parse_mode="Markdown",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
+
 
 
 import os
