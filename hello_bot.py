@@ -155,8 +155,8 @@ STOCK = {
 "hemi@dtskoaa2oimae.shop|dtdt0440",
 "garo@dtskoaa2oimae.shop|dtdt0440",
     ],
-    "info_1": ["IB"] * 0
-    "info_2": ["IB"] * 0
+    "info_1": ["IB"] * 0,
+    "info_2": ["IB"] * 0,
 }
 
 # ===== HÀM PHỤ =====
