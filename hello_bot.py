@@ -174,7 +174,7 @@ STOCK = {
 "taro@dtskoaa2oimae.shop|dtdt0440",
 "umea@dtskoaa2oimae.shop|dtdt0440",
 "varn@dtskoaa2oimae.shop|dtdt0440",
-
+    ],
     "info_1": ["IB"] * 0,
 }
 
