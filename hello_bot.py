@@ -514,14 +514,26 @@ def handle_quantity(update, context):
 
 # ===== MAIN =====
 def main():
+    global TG_BOT
+
     updater = Updater(BOT_TOKEN, use_context=True)
     dp = updater.dispatcher
+
+    # Gán bot cho webhook dùng
+    TG_BOT = updater.bot
 
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("menu", start))
     dp.add_handler(CommandHandler("broadcast", broadcast))
     dp.add_handler(CallbackQueryHandler(handle_buttons))
     dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_quantity))
+
+    # ===== CHẠY WEBHOOK SEPAY TRONG THREAD =====
+    def run_webhook():
+        app.run(host="0.0.0.0", port=8080)
+
+    threading.Thread(target=run_webhook, daemon=True).start()
+    # ==========================================
 
     print("BOT ĐANG CHẠY...")
     updater.start_polling()
