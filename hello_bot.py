@@ -59,7 +59,7 @@ PRODUCTS = {
     },
     "veo3_ultra_bhf": {
         "name": "VEO3 ULTRA 45K CREDIT BH 30 NGÀY",
-        "price": 120000,
+        "price": 130000,
     },
 
     "info_1": {
