@@ -63,9 +63,12 @@ PRODUCTS = {
     },
 
     "info_1": {
-        "name": "Gia hạn GPT Plus – Capcut - Canva vui lòng liên hệ Zalo: 0842.108.959",
+        "name": "Gia hạn GPT Plus – Capcut - Canva Ib",
         "price": 0,
     },
+    "info_2": {
+        "name": ":Zalo: 0842.108.959 - Tele:@dtdt28",
+        "price": 0,
 }
 
 
@@ -80,14 +83,6 @@ STOCK = {
 "https://chatgpt.com/?promoCode=E8GW6MC9YVMZ8NDP",
     ],
     "veo3_ultra_bh": [
-"yimo@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"uxene@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"reno@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"orin@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"hira@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"fexo@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"jelo@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"ciro@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "yaro@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "teno@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "savo@sneel61512.tahsdwssd.name.ng|dtdt0440",
@@ -141,8 +136,6 @@ STOCK = {
 "orzo@dtskoaa2oimae.shop|dtdt0440",
     ],
      "veo3_ultra_bhf": [
-"moli@dtskoaa2oimae.shop|dtdt0440",
-"chica@dtskoaa2oimae.shop|dtdt0440",
 "neko@dtskoaa2oimae.shop|dtdt0440",
 "oris@dtskoaa2oimae.shop|dtdt0440",
 "pryn@dtskoaa2oimae.shop|dtdt0440",
@@ -162,6 +155,7 @@ STOCK = {
 "garo@dtskoaa2oimae.shop|dtdt0440",
     ],
     "info_1": ["IB"] * 0
+    "info_2": ["IB"] * 0
 }
 
 # ===== HÀM PHỤ =====
