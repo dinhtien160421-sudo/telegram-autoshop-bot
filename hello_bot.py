@@ -181,17 +181,19 @@ def start(update, context):
     chat_id = update.effective_chat.id
     add_user(chat_id)   # lưu người dùng vào users.txt
 
-    keyboard = []
-   for pid, info in PRODUCTS.items():
-    stock_count = len(STOCK.get(pid, []))
-    status = f"📦 {stock_count}" if stock_count > 0 else "❌ Hết"
+        keyboard = []
 
-    short_name = info["name"]
-    if len(short_name) > 26:
-        short_name = short_name[:26] + "..."
+    for pid, info in PRODUCTS.items():
+        stock_count = len(STOCK.get(pid, []))
+        status = f"📦 {stock_count}" if stock_count > 0 else "❌ Hết"
 
-    btn = f"{status} | {short_name} - {info['price']:,}đ".replace(",", ".")
-    keyboard.append([InlineKeyboardButton(btn, callback_data=f"buy_{pid}")])
+        short_name = info["name"]
+        if len(short_name) > 26:
+            short_name = short_name[:26] + "..."
+
+        btn = f"{status} | {short_name} - {info['price']:,}đ".replace(",", ".")
+        keyboard.append([InlineKeyboardButton(btn, callback_data=f"buy_{pid}")])
+
 
 
 
