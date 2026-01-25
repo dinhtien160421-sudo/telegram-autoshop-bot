@@ -305,13 +305,13 @@ def handle_buttons(update, context):
         context.user_data.clear()
         return
 
-    # ===== ADMIN DUYỆT =====
+        # ===== ADMIN BẤM DUYỆT ĐƠN =====
     if data.startswith("approve_"):
         code = data.replace("approve_", "")
         order = PENDING_ORDERS.pop(code, None)
 
         if not order:
-            query.message.reply_text(f"⚠️ Không tìm thấy đơn {code}.")
+            query.message.reply_text(f"⚠️ Không tìm thấy đơn {code} trong hàng chờ.")
             return
 
         pid = order["product_id"]
@@ -319,18 +319,24 @@ def handle_buttons(update, context):
         qty = order.get("qty", 1)
         product = PRODUCTS[pid]
 
+        # Kiểm tra kho đủ số lượng không
         if len(STOCK.get(pid, [])) < qty:
             context.bot.send_message(
                 chat_id=user_id,
-                text="⚠ Kho không đủ số lượng. Vui lòng liên hệ admin.",
+                text="⚠ Xin lỗi, kho hiện không đủ số lượng bạn đặt. "
+                     "Vui lòng liên hệ admin để được xử lý.",
             )
-            query.message.reply_text("❌ Kho không đủ để duyệt.")
+            query.message.reply_text(
+                f"❌ Duyệt thất bại: kho chỉ còn {len(STOCK.get(pid, []))} tài khoản."
+            )
             return
 
+        # Lấy ra qty tài khoản từ kho
         accounts = [STOCK[pid].pop(0) for _ in range(qty)]
-        codes_text = "\n".join(f"{i+1}. {acc}" for i, acc in enumerate(accounts))
+        codes_text = "\n".join(f"{i + 1}. {acc}" for i, acc in enumerate(accounts))
 
-         detail = (
+        # Tin nhắn gửi cho KHÁCH
+        detail = (
             f"✅ Đơn `{code}`\n"
             f"🎁 Sản phẩm: *{product['name']}*\n"
             f"📦 Số lượng: *{qty}*\n\n"
@@ -342,10 +348,6 @@ def handle_buttons(update, context):
             chat_id=user_id,
             text=detail,
             parse_mode="Markdown",
-        )
-
-        query.message.reply_text(
-            f"✅ Đã giao {qty} tài khoản cho user {user_id}."
         )
 
         # ===== GỬI FILE TXT (NOTEPAD) =====
@@ -363,8 +365,14 @@ def handle_buttons(update, context):
             chat_id=user_id,
             document=InputFile(f),
             filename=f.name,
-            caption="📄 File Notepad chứa tài khoản/mã."
+            caption="📄 File Notepad chứa tài khoản/mã.",
         )
+
+        # Báo lại cho admin
+        query.message.reply_text(
+            f"✅ Đã duyệt và giao {qty} tài khoản cho user {user_id}."
+        )
+        return
 
         
         return
