@@ -179,9 +179,9 @@ def build_vietqr_url(amount, content):
 
 def start(update, context):
     chat_id = update.effective_chat.id
-    add_user(chat_id)   # lưu người dùng vào users.txt
+    add_user(chat_id)  # lưu người dùng vào users.txt
 
-        keyboard = []
+    keyboard = []
 
     for pid, info in PRODUCTS.items():
         stock_count = len(STOCK.get(pid, []))
@@ -194,14 +194,13 @@ def start(update, context):
         btn = f"{status} | {short_name} - {info['price']:,}đ".replace(",", ".")
         keyboard.append([InlineKeyboardButton(btn, callback_data=f"buy_{pid}")])
 
-
-
-
     update.message.reply_text(
         "🛍 *Danh sách sản phẩm* – chọn bên dưới 👇",
         parse_mode="Markdown",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
+
+
 import os
 
 def broadcast(update, context):
