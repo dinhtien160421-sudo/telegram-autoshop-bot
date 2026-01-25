@@ -184,7 +184,13 @@ def start(update, context):
     keyboard = []
     for pid, info in PRODUCTS.items():
         stock_count = len(STOCK.get(pid, []))
-        btn = f"{info['name']} - {info['price']:,}đ".replace(",", ".")
+        status = f"📦 {stock_count}" if stock_count > 0 else "❌ Hết"
+
+        short_name = info["name"]
+        if len(short_name) > 26:
+        short_name = short_name[:26] + "..."
+
+        btn = f"{status} | {short_name} - {info['price']:,}đ".replace(",", ".")
         keyboard.append([InlineKeyboardButton(btn, callback_data=f"buy_{pid}")])
 
 
