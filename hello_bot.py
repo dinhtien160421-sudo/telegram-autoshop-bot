@@ -62,7 +62,7 @@ PRODUCTS = {
         "price": 130000,
     },
     "info_1": {
-        "name": "Gia hạn GPT Plus – Capcut - Canva Ib",
+        "name": "Gia hạn GPT Plus – Capcut - Canva - Inbox",
         "price": 0,
     },
     "info_2": {
