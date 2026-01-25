@@ -67,7 +67,7 @@ PRODUCTS = {
         "price": 0,
     },
     "info_2": {
-        "name": ":Zalo: 0842.108.959 - Tele:@dtdt28",
+        "name": "Zalo: 0842.108.959 - Tele:@dtdt28",
         "price": 0,
 }
 
