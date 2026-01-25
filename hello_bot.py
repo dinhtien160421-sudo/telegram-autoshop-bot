@@ -184,9 +184,9 @@ def start(update, context):
     keyboard = []
     for pid, info in PRODUCTS.items():
         stock_count = len(STOCK.get(pid, []))
-        status = f"(còn {stock_count})" if stock_count > 0 else "(hết hàng)"
-        btn = f"{info['name']} - {info['price']:,}đ {status}".replace(",", ".")
+        btn = f"{info['name']} - {info['price']:,}đ".replace(",", ".")
         keyboard.append([InlineKeyboardButton(btn, callback_data=f"buy_{pid}")])
+
 
     update.message.reply_text(
         "🛍 *Danh sách sản phẩm* – chọn bên dưới 👇",
@@ -259,25 +259,29 @@ def handle_buttons(update, context):
         product = PRODUCTS[pid]
         user_id = query.from_user.id
 
+        stock_count = len(STOCK.get(pid, []))
+
         # Hết hàng
-        if len(STOCK.get(pid, [])) == 0:
+        if stock_count == 0:
             query.message.reply_text(
                 f"❌ Sản phẩm *{product['name']}* đã hết hàng.",
                 parse_mode="Markdown",
             )
             return
 
-        # Ghi nhớ sản phẩm, chuẩn bị hỏi số lượng
-        WAITING_QTY[user_id] = pid
+        # Hiển thị tên + giá + số lượng còn lại
+        text = (
+            f"🛍 *{product['name']}*\n"
+            f"💰 Giá: *{product['price']:,}đ* / 1 tài khoản\n"
+            f"📦 Còn lại: *{stock_count}*\n\n"
+            f"👉 Bạn muốn mua bao nhiêu? (nhập số: 1, 2, 3...)"
+        ).replace(",", ".")
 
-        query.message.reply_text(
-            f"Bạn muốn mua bao nhiêu *{product['name']}*?\n"
-            f"Đơn giá: *{product['price']:,}đ* / 1 tài khoản.\n\n"
-            "👉 Vui lòng nhập một số nguyên, ví dụ: 1, 2, 3 ...",
-            parse_mode="Markdown",
-        )
+        query.edit_message_text(text, parse_mode="Markdown")
+
+        # Lưu sản phẩm đã chọn để bước sau nhập số lượng
+        context.user_data["selected_pid"] = pid
         return
-
     # ===== Hủy đơn =====
     if data == "cancel":
         context.user_data.clear()
