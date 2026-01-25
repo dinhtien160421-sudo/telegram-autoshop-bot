@@ -13,25 +13,22 @@ from io import BytesIO
 import os
 
 # ============= CẤU HÌNH =============
-import os
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-ADMIN_CHAT_ID = 6164122466          # ID admin
-PENDING_ORDERS = {}                 # đơn đang chờ duyệt
+ADMIN_CHAT_ID = 6164122466
+PENDING_ORDERS = {}
 BANK_CODE = "sacombank"
 BANK_ACCOUNT = "0842108959"
 ADMIN_CONTACT = "Liên hệ Zalo: 0842108959"
-USERS_FILE = "users.txt"            # nơi lưu danh sách user
+USERS_FILE = "users.txt"
 
 # user đang được hỏi số lượng: user_id -> product_id
 WAITING_QTY = {}
 # ====================================
 
 
+# ===== LƯU USER =====
 def add_user(chat_id: int):
-    """Lưu chat_id vào users.txt nếu chưa có."""
     ids = set()
-
-    # đọc các id hiện có (nếu file đã tồn tại)
     if os.path.exists(USERS_FILE):
         with open(USERS_FILE, "r", encoding="utf-8") as f:
             for line in f:
@@ -39,7 +36,6 @@ def add_user(chat_id: int):
                 if line:
                     ids.add(int(line))
 
-    # thêm id mới nếu chưa có
     if chat_id not in ids:
         ids.add(chat_id)
         with open(USERS_FILE, "w", encoding="utf-8") as f:
@@ -47,7 +43,7 @@ def add_user(chat_id: int):
                 f.write(str(uid) + "\n")
 
 
-# Danh sách sản phẩm
+# ===== SẢN PHẨM =====
 PRODUCTS = {
     "code_gpt": {
         "name": "CODE GPT PLUS",
@@ -72,19 +68,18 @@ PRODUCTS = {
 }
 
 
-# Kho hàng
+# ===== KHO =====
 STOCK = {
     "code_gpt": [
-   "https://chatgpt.com/?promoCode=536RM3DD9SXGDFZN",
-"https://chatgpt.com/?promoCode=CRQ6PVLRAN7SHC5B",
-"https://chatgpt.com/?promoCode=DWMX97LJ5ZQAAR44",
-"https://chatgpt.com/?promoCode=A4PS7DCKX97JACPW",
-"https://chatgpt.com/?promoCode=252GYT9HLMR9PXWP",
-"https://chatgpt.com/?promoCode=E8GW6MC9YVMZ8NDP",
+        "https://chatgpt.com/?promoCode=536RM3DD9SXGDFZN",
+        "https://chatgpt.com/?promoCode=CRQ6PVLRAN7SHC5B",
+        "https://chatgpt.com/?promoCode=DWMX97LJ5ZQAAR44",
+        "https://chatgpt.com/?promoCode=A4PS7DCKX97JACPW",
+        "https://chatgpt.com/?promoCode=252GYT9HLMR9PXWP",
+        "https://chatgpt.com/?promoCode=E8GW6MC9YVMZ8NDP",
     ],
     "veo3_ultra_bh": [
-"savo@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"xiro@sneel61512.tahsdwssd.name.ng|dtdt0440",
+        "xiro@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "qavo@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "vexo@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "niro@sneel61512.tahsdwssd.name.ng|dtdt0440",
@@ -127,17 +122,9 @@ STOCK = {
 "veko@dtskoaa2oimae.shop|dtdt0440",
 "uxel@dtskoaa2oimae.shop|dtdt0440",
 "tyn@dtskoaa2oimae.shop|dtdt0440",
-"sorae@dtskoaa2oimae.shop|dtdt0440",
-"ryn@dtskoaa2oimae.shop|dtdt0440",
-"qelo@dtskoaa2oimae.shop|dtdt0440",
-"pryo@dtskoaa2oimae.shop|dtdt0440",
-"orzo@dtskoaa2oimae.shop|dtdt0440",
     ],
-     "veo3_ultra_bhf": [
-"oris@dtskoaa2oimae.shop|dtdt0440",
-"pryn@dtskoaa2oimae.shop|dtdt0440",
-"quva@dtskoaa2oimae.shop|dtdt0440",
-"reto@dtskoaa2oimae.shop|dtdt0440",
+    "veo3_ultra_bhf": [
+       "reto@dtskoaa2oimae.shop|dtdt0440",
 "slyn@dtskoaa2oimae.shop|dtdt0440",
 "taro@dtskoaa2oimae.shop|dtdt0440",
 "umea@dtskoaa2oimae.shop|dtdt0440",
@@ -150,14 +137,19 @@ STOCK = {
 "ilya@dtskoaa2oimae.shop|dtdt0440",
 "hemi@dtskoaa2oimae.shop|dtdt0440",
 "garo@dtskoaa2oimae.shop|dtdt0440",
+"sorae@dtskoaa2oimae.shop|dtdt0440",
+"ryn@dtskoaa2oimae.shop|dtdt0440",
+"qelo@dtskoaa2oimae.shop|dtdt0440",
+"pryo@dtskoaa2oimae.shop|dtdt0440",
+"orzo@dtskoaa2oimae.shop|dtdt0440",
+
     ],
     "info_1": ["IB"] * 0,
     "info_2": ["IB"] * 0,
 }
 
+
 # ===== HÀM PHỤ =====
-
-
 def gen_order_code():
     return "ORD" + "".join(random.choices(string.digits, k=10))
 
@@ -171,14 +163,13 @@ def build_vietqr_url(amount, content):
     )
 
 
-# ===== LỆNH START + MENU =====
-
-
+# ===== START + MENU =====
 def start(update, context):
     chat_id = update.effective_chat.id
-    add_user(chat_id)   # lưu người dùng vào users.txt
+    add_user(chat_id)
 
     keyboard = []
+
     for pid, info in PRODUCTS.items():
         stock_count = len(STOCK.get(pid, []))
         status = f"(còn {stock_count})" if stock_count > 0 else "(hết hàng)"
@@ -190,35 +181,30 @@ def start(update, context):
         parse_mode="Markdown",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
-import os
 
+
+# ===== BROADCAST ADMIN =====
 def broadcast(update, context):
     chat_id = update.effective_chat.id
 
-    # Chỉ cho ADMIN dùng
     if chat_id != ADMIN_CHAT_ID:
         update.message.reply_text("❌ Bạn không có quyền dùng lệnh này.")
         return
 
     msg = update.message
 
-    # Nếu ADMIN reply vào 1 tin nhắn → lấy nguyên nội dung (giữ xuống dòng)
     if msg.reply_to_message and msg.reply_to_message.text:
         message = msg.reply_to_message.text
-
-    # Nếu dùng /broadcast <nội dung>
     else:
         if not context.args:
             msg.reply_text(
                 "⚠ Dùng:\n"
                 "- /broadcast nội_dung\n"
-                "- Hoặc reply vào tin nhắn cần gửi rồi gõ /broadcast (khuyến nghị)"
+                "- Hoặc reply vào tin nhắn cần gửi rồi gõ /broadcast"
             )
             return
-        # Lấy toàn bộ phần sau /broadcast và GIỮ newline
         message = msg.text.partition(" ")[2]
 
-    # Đọc danh sách user
     if not os.path.exists(USERS_FILE):
         msg.reply_text("Chưa có user nào trong danh sách.")
         return
@@ -242,48 +228,46 @@ def broadcast(update, context):
 
     msg.reply_text(f"✅ Đã gửi cho khoảng {sent} người dùng.")
 
+
 # ===== XỬ LÝ NÚT =====
-
-
 def handle_buttons(update, context):
     query = update.callback_query
     data = query.data
     query.answer()
 
-    # ===== Người dùng chọn sản phẩm =====
+    # ===== CHỌN SẢN PHẨM =====
     if data.startswith("buy_"):
         pid = data.replace("buy_", "")
         product = PRODUCTS[pid]
+        user_id = query.from_user.id
+
         stock_count = len(STOCK.get(pid, []))
 
-        text = (
-            f"🛍 {product['name']}\n"
-            f"💰 Giá: {product['price']:,}đ / 1 tài khoản\n"
-            f"📦 Còn lại: {stock_count}"
-        ).replace(",", ".")
+        if stock_count == 0:
+            query.message.reply_text(
+                f"❌ Sản phẩm *{product['name']}* đã hết hàng.",
+                parse_mode="Markdown",
+            )
+            return
 
-        query.edit_message_text(text)
-        return
-
-
-        # Ghi nhớ sản phẩm, chuẩn bị hỏi số lượng
         WAITING_QTY[user_id] = pid
 
         query.message.reply_text(
             f"Bạn muốn mua bao nhiêu *{product['name']}*?\n"
+            f"(còn *{stock_count}*)\n"
             f"Đơn giá: *{product['price']:,}đ* / 1 tài khoản.\n\n"
             "👉 Vui lòng nhập một số nguyên, ví dụ: 1, 2, 3 ...",
             parse_mode="Markdown",
         )
         return
 
-    # ===== Hủy đơn =====
+    # ===== HỦY =====
     if data == "cancel":
         context.user_data.clear()
         query.message.reply_text("❌ Bạn đã hủy đơn.")
         return
 
-    # ===== KHÁCH BẤM "TÔI ĐÃ CHUYỂN TIỀN" =====
+    # ===== XÁC NHẬN CHUYỂN TIỀN =====
     if data == "confirm":
         if "order" not in context.user_data:
             query.message.reply_text("⚠️ Không tìm thấy đơn đang chờ.")
@@ -293,20 +277,17 @@ def handle_buttons(update, context):
         product = PRODUCTS[pid]
         user_id = query.message.chat_id
 
-        # Lưu đơn vào danh sách CHỜ DUYỆT, kèm số lượng
         PENDING_ORDERS[code] = {
             "product_id": pid,
             "user_id": user_id,
             "qty": qty,
         }
 
-        # Báo cho KHÁCH
         query.message.reply_text(
             "🤖 Cảm ơn bạn! Hệ thống đã nhận yêu cầu.\n"
             "Admin sẽ kiểm tra thanh toán và gửi tài khoản/mã cho bạn sau ít phút."
         )
 
-        # Gửi cho ADMIN kèm nút DUYỆT / TỪ CHỐI
         admin_text = (
             "🔔 *KHÁCH BÁO ĐÃ CHUYỂN TIỀN*\n\n"
             f"Đơn: `{code}`\n"
@@ -314,8 +295,7 @@ def handle_buttons(update, context):
             f"Số lượng: *{qty}*\n"
             f"Tổng tiền: *{amount:,}đ*\n"
             f"User ID: `{user_id}`\n\n"
-            "Vui lòng mở app ngân hàng để kiểm tra.\n"
-            "Nếu đã nhận tiền, bấm *Duyệt* để bot tự gửi tài khoản/mã cho khách."
+            "Nếu đã nhận tiền, bấm *Duyệt* để bot gửi tài khoản cho khách."
         ).replace(",", ".")
 
         admin_keyboard = InlineKeyboardMarkup([
@@ -333,13 +313,13 @@ def handle_buttons(update, context):
         context.user_data.clear()
         return
 
-    # ===== ADMIN BẤM DUYỆT ĐƠN =====
+    # ===== ADMIN DUYỆT =====
     if data.startswith("approve_"):
         code = data.replace("approve_", "")
         order = PENDING_ORDERS.pop(code, None)
 
         if not order:
-            query.message.reply_text(f"⚠️ Không tìm thấy đơn {code} trong hàng chờ.")
+            query.message.reply_text(f"⚠️ Không tìm thấy đơn {code}.")
             return
 
         pid = order["product_id"]
@@ -347,23 +327,17 @@ def handle_buttons(update, context):
         qty = order.get("qty", 1)
         product = PRODUCTS[pid]
 
-        # Kiểm tra kho đủ số lượng không
         if len(STOCK.get(pid, [])) < qty:
             context.bot.send_message(
                 chat_id=user_id,
-                text="⚠ Xin lỗi, kho hiện không đủ số lượng bạn đặt. "
-                     "Vui lòng liên hệ admin để được xử lý.",
+                text="⚠ Kho không đủ số lượng. Vui lòng liên hệ admin.",
             )
-            query.message.reply_text(
-                f"❌ Duyệt thất bại: kho chỉ còn {len(STOCK.get(pid, []))} tài khoản."
-            )
+            query.message.reply_text("❌ Kho không đủ để duyệt.")
             return
 
-        # Lấy ra qty tài khoản từ kho
         accounts = [STOCK[pid].pop(0) for _ in range(qty)]
-        codes_text = "\n".join(f"{i + 1}. {acc}" for i, acc in enumerate(accounts))
+        codes_text = "\n".join(f"{i+1}. {acc}" for i, acc in enumerate(accounts))
 
-        # Tin nhắn gửi cho KHÁCH
         detail = (
             f"✅ Đơn `{code}`\n"
             f"🎁 Sản phẩm: *{product['name']}*\n"
@@ -378,37 +352,18 @@ def handle_buttons(update, context):
             parse_mode="Markdown",
         )
 
-        # File txt gửi kèm
-        txt = (
-            f"Đơn hàng: {code}\n"
-            f"Sản phẩm: {product['name']}\n"
-            f"Số lượng: {qty}\n"
-            f"Tài khoản/Mã:\n{codes_text}\n"
-        ).encode("utf-8")
-
-        f = BytesIO(txt)
-        f.name = f"{code}.txt"
-
-        context.bot.send_document(
-            chat_id=user_id,
-            document=InputFile(f),
-            filename=f.name,
-            caption="📄 File Notepad chứa tài khoản/mã.",
-        )
-
-        # Báo lại cho admin
         query.message.reply_text(
-            f"✅ Đã duyệt và giao {qty} tài khoản cho user {user_id}."
+            f"✅ Đã giao {qty} tài khoản cho user {user_id}."
         )
         return
 
-    # ===== ADMIN BẤM TỪ CHỐI ĐƠN =====
+    # ===== ADMIN TỪ CHỐI =====
     if data.startswith("reject_"):
         code = data.replace("reject_", "")
         order = PENDING_ORDERS.pop(code, None)
 
         if not order:
-            query.message.reply_text(f"⚠️ Không tìm thấy đơn {code} trong hàng chờ.")
+            query.message.reply_text(f"⚠️ Không tìm thấy đơn {code}.")
             return
 
         user_id = order["user_id"]
@@ -417,7 +372,7 @@ def handle_buttons(update, context):
             chat_id=user_id,
             text=(
                 f"❌ Đơn `{code}` đã bị từ chối.\n"
-                "Nếu bạn đã chuyển tiền, vui lòng liên hệ admin để được hỗ trợ."
+                "Nếu bạn đã chuyển tiền, vui lòng liên hệ admin."
             ),
             parse_mode="Markdown",
         )
@@ -426,54 +381,38 @@ def handle_buttons(update, context):
         return
 
 
-# ===== XỬ LÝ TEXT – NHẬP SỐ LƯỢNG =====
-
-
+# ===== NHẬP SỐ LƯỢNG =====
 def handle_quantity(update, context):
-    """Nhận tin nhắn text của user, nếu user đang trong WAITING_QTY thì coi là nhập số lượng."""
-    user = update.effective_user
-    user_id = user.id
+    user_id = update.effective_user.id
     text = update.message.text.strip()
 
-    # Nếu user không trong trạng thái chờ nhập số lượng thì bỏ qua
     if user_id not in WAITING_QTY:
         return
 
     pid = WAITING_QTY[user_id]
     product = PRODUCTS[pid]
 
-    # cố gắng parse số lượng
     try:
         qty = int(text)
     except ValueError:
-        update.message.reply_text(
-            "⚠ Vui lòng nhập một *số nguyên* (1, 2, 3 ...)",
-            parse_mode="Markdown",
-        )
+        update.message.reply_text("⚠ Vui lòng nhập số nguyên (1, 2, 3 ...)")
         return
 
     if qty <= 0:
         update.message.reply_text("⚠ Số lượng phải lớn hơn 0.")
         return
 
-    # kiểm tra kho
     stock_list = STOCK.get(pid, [])
     if len(stock_list) < qty:
         update.message.reply_text(
-            f"⚠ Kho hiện chỉ còn *{len(stock_list)}* tài khoản, không đủ {qty}. "
-            "Bạn hãy nhập lại số lượng nhỏ hơn nha.",
-            parse_mode="Markdown",
+            f"⚠ Kho chỉ còn {len(stock_list)} tài khoản."
         )
         return
 
-    # Tính tổng tiền
     amount = product["price"] * qty
     order_code = gen_order_code()
 
-    # Lưu vào user_data để khi bấm 'Tôi đã chuyển tiền' còn biết pid/qty/amount
     context.user_data["order"] = (pid, order_code, qty, amount)
-
-    # Sau khi tạo đơn thì không cần chờ số lượng nữa
     WAITING_QTY.pop(user_id, None)
 
     qr_url = build_vietqr_url(amount, order_code)
@@ -484,10 +423,9 @@ def handle_quantity(update, context):
         f"Số lượng: *{qty}*\n"
         f"Đơn giá: *{product['price']:,}đ*\n"
         f"Tổng tiền: *{amount:,}đ*\n\n"
-        "🏦 Thông tin chuyển khoản\n"
-        "Vui lòng QUÉT MÃ QR ở tin nhắn tiếp theo để thanh toán.\n\n"
-        f"📌 Nội dung: *{order_code}*\n\n"
-        "Sau khi chuyển khoản xong, bấm *Tôi đã chuyển tiền*."
+        "🏦 Quét QR ở tin nhắn tiếp theo để thanh toán.\n"
+        f"📌 Nội dung chuyển khoản: *{order_code}*\n\n"
+        "Sau khi chuyển xong, bấm *Tôi đã chuyển tiền*."
     ).replace(",", ".")
 
     keyboard = [
@@ -510,18 +448,14 @@ def handle_quantity(update, context):
 
 
 # ===== MAIN =====
-
-
 def main():
     updater = Updater(BOT_TOKEN, use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("menu", start))
-    dp.add_handler(CommandHandler("broadcast", broadcast))   # lệnh gửi tin hàng loạt
+    dp.add_handler(CommandHandler("broadcast", broadcast))
     dp.add_handler(CallbackQueryHandler(handle_buttons))
-
-    # Nhận tin nhắn text (không phải lệnh) để xử lý số lượng mua
     dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_quantity))
 
     print("BOT ĐANG CHẠY...")
