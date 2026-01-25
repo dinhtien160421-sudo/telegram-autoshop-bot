@@ -54,11 +54,11 @@ PRODUCTS = {
         "price": 15000,
     },
     "veo3_ultra_bh": {
-        "name": "VEO3 ULTRA 45K CREDIT BH 4/2",
+        "name": "Veo3 Ultra 45K cre BH 4/2",
         "price": 75000,
     },
     "veo3_ultra_bhf": {
-        "name": "VEO3 ULTRA 45K CREDIT BH 30D",
+        "name": "Veo3 Ultra 45K cre BH 30D",
         "price": 130000,
     },
     "info_1": {
