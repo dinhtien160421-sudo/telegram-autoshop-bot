@@ -57,7 +57,7 @@ PRODUCTS = {
         "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 1/2",
         "price": 75000 ,
     },
-    "veo3_ultra_bhf"
+    "veo3_ultra_bhf": {
         "name": "VEO3 ULTRA 45K CREDIT BH 30 NGÀY",
         "price": 120000,
     },
@@ -175,7 +175,7 @@ STOCK = {
 "umea@dtskoaa2oimae.shop|dtdt0440",
 "varn@dtskoaa2oimae.shop|dtdt0440",
     ],
-    "info_1": ["IB"] * 0,
+    "info_1": ["IB"] * 0, [
 }
 
 # ===== HÀM PHỤ =====
