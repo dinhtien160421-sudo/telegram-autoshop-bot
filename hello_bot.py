@@ -79,11 +79,6 @@ STOCK = {
         "https://chatgpt.com/?promoCode=E8GW6MC9YVMZ8NDP",
     ],
     "veo3_ultra_bh": [
-        "xiro@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"qavo@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"vexo@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"niro@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"mexo@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "leno@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "zixo@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "kavoa@sneel61512.tahsdwssd.name.ng|dtdt0440",
@@ -124,9 +119,6 @@ STOCK = {
 "tyn@dtskoaa2oimae.shop|dtdt0440",
     ],
     "veo3_ultra_bhf": [
-       "reto@dtskoaa2oimae.shop|dtdt0440",
-"slyn@dtskoaa2oimae.shop|dtdt0440",
-"taro@dtskoaa2oimae.shop|dtdt0440",
 "umea@dtskoaa2oimae.shop|dtdt0440",
 "varn@dtskoaa2oimae.shop|dtdt0440",
 "nirae@dtskoaa2oimae.shop|dtdt0440",
@@ -338,7 +330,7 @@ def handle_buttons(update, context):
         accounts = [STOCK[pid].pop(0) for _ in range(qty)]
         codes_text = "\n".join(f"{i+1}. {acc}" for i, acc in enumerate(accounts))
 
-        detail = (
+         detail = (
             f"✅ Đơn `{code}`\n"
             f"🎁 Sản phẩm: *{product['name']}*\n"
             f"📦 Số lượng: *{qty}*\n\n"
@@ -355,6 +347,26 @@ def handle_buttons(update, context):
         query.message.reply_text(
             f"✅ Đã giao {qty} tài khoản cho user {user_id}."
         )
+
+        # ===== GỬI FILE TXT (NOTEPAD) =====
+        txt = (
+            f"Đơn hàng: {code}\n"
+            f"Sản phẩm: {product['name']}\n"
+            f"Số lượng: {qty}\n"
+            f"Tài khoản/Mã:\n{codes_text}\n"
+        ).encode("utf-8")
+
+        f = BytesIO(txt)
+        f.name = f"{code}.txt"
+
+        context.bot.send_document(
+            chat_id=user_id,
+            document=InputFile(f),
+            filename=f.name,
+            caption="📄 File Notepad chứa tài khoản/mã."
+        )
+
+        
         return
 
     # ===== ADMIN TỪ CHỐI =====
