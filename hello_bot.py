@@ -54,15 +54,15 @@ PRODUCTS = {
         "price": 15000,
     },
     "veo3_ultra_bh": {
-        "name": "Veo3 Ultra 45K cre BH ĐẾN 4/2",
+        "name": "Veo3 Ultra 45K cre BH 4/2",
         "price": 75000,
     },
     "veo3_ultra_bhf": {
-        "name": "Veo3 Ultra 45K cre BH 30 NGÀY",
+        "name": "Veo3 Ultra 45K cre BH 30D",
         "price": 130000,
     },
     "info_1": {
-        "name": "Gia hạn GPT Plus – Capcut - Canva - Inbox",
+        "name": "Gia hạn GPT Plus – Capcut - Canva Ib",
         "price": 0,
     },
     "info_2": {
@@ -83,8 +83,6 @@ STOCK = {
 "https://chatgpt.com/?promoCode=E8GW6MC9YVMZ8NDP",
     ],
     "veo3_ultra_bh": [
-"yaro@sneel61512.tahsdwssd.name.ng|dtdt0440",
-"teno@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "savo@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "xiro@sneel61512.tahsdwssd.name.ng|dtdt0440",
 "qavo@sneel61512.tahsdwssd.name.ng|dtdt0440",
@@ -136,7 +134,6 @@ STOCK = {
 "orzo@dtskoaa2oimae.shop|dtdt0440",
     ],
      "veo3_ultra_bhf": [
-"neko@dtskoaa2oimae.shop|dtdt0440",
 "oris@dtskoaa2oimae.shop|dtdt0440",
 "pryn@dtskoaa2oimae.shop|dtdt0440",
 "quva@dtskoaa2oimae.shop|dtdt0440",
@@ -179,15 +176,12 @@ def build_vietqr_url(amount, content):
 
 def start(update, context):
     chat_id = update.effective_chat.id
-    add_user(chat_id)  # lưu người dùng vào users.txt
+    add_user(chat_id)   # lưu người dùng vào users.txt
 
     keyboard = []
-
     for pid, info in PRODUCTS.items():
         stock_count = len(STOCK.get(pid, []))
-
         status = f"(còn {stock_count})" if stock_count > 0 else "(hết hàng)"
-
         btn = f"{info['name']} - {info['price']:,}đ {status}".replace(",", ".")
         keyboard.append([InlineKeyboardButton(btn, callback_data=f"buy_{pid}")])
 
@@ -196,9 +190,6 @@ def start(update, context):
         parse_mode="Markdown",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
-
-
-
 import os
 
 def broadcast(update, context):
@@ -263,31 +254,29 @@ def handle_buttons(update, context):
     if data.startswith("buy_"):
         pid = data.replace("buy_", "")
         product = PRODUCTS[pid]
-        user_id = query.from_user.id
-
         stock_count = len(STOCK.get(pid, []))
 
-        # Hết hàng
-        if stock_count == 0:
-            query.message.reply_text(
-                f"❌ Sản phẩm *{product['name']}* đã hết hàng.",
-                parse_mode="Markdown",
-            )
-            return
-
-        # Hiển thị tên + giá + số lượng còn lại
         text = (
-            f"🛍 *{product['name']}*\n"
-            f"💰 Giá: *{product['price']:,}đ* / 1 tài khoản\n"
-            f"📦 Còn lại: *{stock_count}*\n\n"
-            f"👉 Bạn muốn mua bao nhiêu? (nhập số: 1, 2, 3...)"
+            f"🛍 {product['name']}\n"
+            f"💰 Giá: {product['price']:,}đ / 1 tài khoản\n"
+            f"📦 Còn lại: {stock_count}"
         ).replace(",", ".")
 
-        query.edit_message_text(text, parse_mode="Markdown")
-
-        # Lưu sản phẩm đã chọn để bước sau nhập số lượng
-        context.user_data["selected_pid"] = pid
+        query.edit_message_text(text)
         return
+
+
+        # Ghi nhớ sản phẩm, chuẩn bị hỏi số lượng
+        WAITING_QTY[user_id] = pid
+
+        query.message.reply_text(
+            f"Bạn muốn mua bao nhiêu *{product['name']}*?\n"
+            f"Đơn giá: *{product['price']:,}đ* / 1 tài khoản.\n\n"
+            "👉 Vui lòng nhập một số nguyên, ví dụ: 1, 2, 3 ...",
+            parse_mode="Markdown",
+        )
+        return
+
     # ===== Hủy đơn =====
     if data == "cancel":
         context.user_data.clear()
