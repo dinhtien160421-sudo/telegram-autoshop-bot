@@ -54,11 +54,11 @@ PRODUCTS = {
         "price": 15000,
     },
     "veo3_ultra_bh": {
-        "name": "VEO3 ULTRA 45K CREDIT BH ĐẾN 4/2",
+        "name": "VEO3 ULTRA 45K CRE BH 4/2",
         "price": 75000 ,
     },
     "veo3_ultra_bhf": {
-        "name": "VEO3 ULTRA 45K CREDIT BH 30 NGÀY",
+        "name": "VEO3 ULTRA 45K CRE BH 30D",
         "price": 130000,
     },
 
