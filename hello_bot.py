@@ -185,7 +185,7 @@ def start(update, context):
 
     for pid, info in PRODUCTS.items():
         stock_count = len(STOCK.get(pid, []))
-        status = f"📦 {stock_count}" if stock_count > 0 else "❌ Hết"
+        status = f"📦 {stock_count}" if stock_count > 0 else ""
 
         short_name = info["name"]
         if len(short_name) > 26:
