@@ -50,56 +50,53 @@ STOCK = {
         "https://chatgpt.com/?promoCode=E8GW6MC9YVMZ8NDP",
     ],
     "veo3_ultra_bh": [
-    "wexo@2pomnw92jigas.shop|dtdt0880",
-"veko@2pomnw92jigas.shop|dtdt0880",
-"uxel@2pomnw92jigas.shop|dtdt0880",
-"tyn@2pomnw92jigas.shop|dtdt0880",
-"sorae@2pomnw92jigas.shop|dtdt0880",
-"ryn@2pomnw92jigas.shop|dtdt0880",
-"qelo@2pomnw92jigas.shop|dtdt0880",
-"orzo@2pomnw92jigas.shop|dtdt0880",
-"nirae@2pomnw92jigas.shop|dtdt0880",
-"mirok@2pomnw92jigas.shop|dtdt0880",
-"leto@2pomnw92jigas.shop|dtdt0880",
-"kora@2pomnw92jigas.shop|dtdt0880",
-"jexo@2pomnw92jigas.shop|dtdt0880",
-"ilya@2pomnw92jigas.shop|dtdt0880",
-"hemi@2pomnw92jigas.shop|dtdt0880",
-"garo@2pomnw92jigas.shop|dtdt0880",
-"fero@2pomnw92jigas.shop|dtdt0880",
-"evin@2pomnw92jigas.shop|dtdt0880",
-"deno@2pomnw92jigas.shop|dtdt0880",
-"cora@2pomnw92jigas.shop|dtdt0880",
-"brel@2pomnw92jigas.shop|dtdt0880",
-"axto@2pomnw92jigas.shop|dtdt0880",
-"zeno@2pomnw92jigas.shop|dtdt0880",
-"yari@2pomnw92jigas.shop|dtdt0880",
+        "veko@2pomnw92jigas.shop|dtdt0880",
+        "uxel@2pomnw92jigas.shop|dtdt0880",
+        "tyn@2pomnw92jigas.shop|dtdt0880",
+        "sorae@2pomnw92jigas.shop|dtdt0880",
+        "ryn@2pomnw92jigas.shop|dtdt0880",
+        "qelo@2pomnw92jigas.shop|dtdt0880",
+        "orzo@2pomnw92jigas.shop|dtdt0880",
+        "nirae@2pomnw92jigas.shop|dtdt0880",
+        "mirok@2pomnw92jigas.shop|dtdt0880",
+        "leto@2pomnw92jigas.shop|dtdt0880",
+        "kora@2pomnw92jigas.shop|dtdt0880",
+        "jexo@2pomnw92jigas.shop|dtdt0880",
+        "ilya@2pomnw92jigas.shop|dtdt0880",
+        "hemi@2pomnw92jigas.shop|dtdt0880",
+        "garo@2pomnw92jigas.shop|dtdt0880",
+        "fero@2pomnw92jigas.shop|dtdt0880",
+        "evin@2pomnw92jigas.shop|dtdt0880",
+        "deno@2pomnw92jigas.shop|dtdt0880",
+        "cora@2pomnw92jigas.shop|dtdt0880",
+        "brel@2pomnw92jigas.shop|dtdt0880",
+        "axto@2pomnw92jigas.shop|dtdt0880",
+        "zeno@2pomnw92jigas.shop|dtdt0880",
+        "yari@2pomnw92jigas.shop|dtdt0880",
     ],
     "veo3_ultra_bhf": [
-    "wren@2pomnw92jigas.shop|dtdt0880",
-"varn@2pomnw92jigas.shop|dtdt0880",
-"umea@2pomnw92jigas.shop|dtdt0880",
-"taro@2pomnw92jigas.shop|dtdt0880",
-"slyn@2pomnw92jigas.shop|dtdt0880",
-"reto@2pomnw92jigas.shop|dtdt0880",
-"quva@2pomnw92jigas.shop|dtdt0880",
-"pryn@2pomnw92jigas.shop|dtdt0880",
-"oris@2pomnw92jigas.shop|dtdt0880",
-"neko@2pomnw92jigas.shop|dtdt0880",
-"marn@2pomnw92jigas.shop|dtdt0880",
-"lysa@2pomnw92jigas.shop|dtdt0880",
-"kelt@2pomnw92jigas.shop|dtdt0880",
-"jaro@2pomnw92jigas.shop|dtdt0880",
-"ixon@2pomnw92jigas.shop|dtdt0880",
-"havo@2pomnw92jigas.shop|dtdt0880",
-"glyn@2pomnw92jigas.shop|dtdt0880",
-"firo@2pomnw92jigas.shop|dtdt0880",
-"elva@2pomnw92jigas.shop|dtdt0880",
-"duno@2pomnw92jigas.shop|dtdt0880",
-"ceto@2pomnw92jigas.shop|dtdt0880",
-"bryn@2pomnw92jigas.shop|dtdt0880",
+        "varn@2pomnw92jigas.shop|dtdt0880",
+        "umea@2pomnw92jigas.shop|dtdt0880",
+        "taro@2pomnw92jigas.shop|dtdt0880",
+        "slyn@2pomnw92jigas.shop|dtdt0880",
+        "reto@2pomnw92jigas.shop|dtdt0880",
+        "quva@2pomnw92jigas.shop|dtdt0880",
+        "pryn@2pomnw92jigas.shop|dtdt0880",
+        "oris@2pomnw92jigas.shop|dtdt0880",
+        "neko@2pomnw92jigas.shop|dtdt0880",
+        "marn@2pomnw92jigas.shop|dtdt0880",
+        "lysa@2pomnw92jigas.shop|dtdt0880",
+        "kelt@2pomnw92jigas.shop|dtdt0880",
+        "jaro@2pomnw92jigas.shop|dtdt0880",
+        "ixon@2pomnw92jigas.shop|dtdt0880",
+        "havo@2pomnw92jigas.shop|dtdt0880",
+        "glyn@2pomnw92jigas.shop|dtdt0880",
+        "firo@2pomnw92jigas.shop|dtdt0880",
+        "elva@2pomnw92jigas.shop|dtdt0880",
+        "duno@2pomnw92jigas.shop|dtdt0880",
+        "ceto@2pomnw92jigas.shop|dtdt0880",
+        "bryn@2pomnw92jigas.shop|dtdt0880",
     ],
-    
     "info_1": ["IB"] * 0,
     "info_2": ["IB"] * 0,
 }
@@ -107,6 +104,94 @@ STOCK = {
 # ====== SEPAY WEBHOOK (AUTO NHẢ ĐƠN) ======
 app = Flask(__name__)
 TG_BOT = None
+
+
+# ===== LƯU USER =====
+def add_user(chat_id: int):
+    ids = set()
+    if os.path.exists(USERS_FILE):
+        with open(USERS_FILE, "r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    try:
+                        ids.add(int(line))
+                    except:
+                        pass
+
+    if chat_id not in ids:
+        ids.add(chat_id)
+        with open(USERS_FILE, "w", encoding="utf-8") as f:
+            for uid in ids:
+                f.write(str(uid) + "\n")
+
+
+# ===== BROADCAST (ADMIN) =====
+def broadcast(update, context):
+    chat_id = update.effective_chat.id
+
+    if chat_id != ADMIN_CHAT_ID:
+        update.message.reply_text("❌ Bạn không có quyền dùng lệnh này.")
+        return
+
+    msg = update.message
+
+    # Reply vào tin nhắn: lấy text hoặc caption (để reply ảnh/caption cũng gửi được)
+    if msg.reply_to_message:
+        message = msg.reply_to_message.text or msg.reply_to_message.caption
+    else:
+        # /broadcast <nội dung>
+        if not context.args:
+            msg.reply_text(
+                "⚠ Dùng:\n"
+                "- /broadcast nội_dung\n"
+                "- Hoặc reply vào tin nhắn cần gửi rồi gõ /broadcast"
+            )
+            return
+        message = msg.text.partition(" ")[2]
+
+    if not message:
+        msg.reply_text("⚠ Không lấy được nội dung tin nhắn để gửi (reply ảnh thì phải có caption).")
+        return
+
+    if not os.path.exists(USERS_FILE):
+        msg.reply_text("Chưa có user nào trong danh sách.")
+        return
+
+    sent = 0
+    with open(USERS_FILE, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                uid = int(line)
+                context.bot.send_message(
+                    chat_id=uid,
+                    text=message,
+                    disable_web_page_preview=True
+                )
+                sent += 1
+            except Exception:
+                # user block bot / id lỗi / rate limit... bỏ qua
+                continue
+
+    msg.reply_text(f"✅ Đã gửi cho khoảng {sent} người dùng.")
+
+
+# ===== HÀM PHỤ =====
+def gen_order_code():
+    return "ORD" + "".join(random.choices(string.digits, k=10))
+
+
+def build_vietqr_url(amount, content):
+    content_encoded = urllib.parse.quote(content)
+    return (
+        f"https://img.vietqr.io/image/"
+        f"{BANK_CODE}-{BANK_ACCOUNT}-compact2.png"
+        f"?amount={amount}&addInfo={content_encoded}"
+    )
+
 
 def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
     """Nhả đơn + gửi file txt"""
@@ -180,7 +265,7 @@ def sepay_webhook():
         return jsonify({"ok": True, "ignored": "order_not_found"}), 200
 
     pid = order["product_id"]
-    user_id = order["user_id"]
+    user_id = int(order["user_id"])
     qty = int(order.get("qty", 1))
     expected = int(order.get("amount", PRODUCTS[pid]["price"] * qty))
 
@@ -209,37 +294,6 @@ def sepay_webhook():
     return jsonify({"ok": True}), 200
 
 
-# ===== LƯU USER =====
-def add_user(chat_id: int):
-    ids = set()
-    if os.path.exists(USERS_FILE):
-        with open(USERS_FILE, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line:
-                    ids.add(int(line))
-
-    if chat_id not in ids:
-        ids.add(chat_id)
-        with open(USERS_FILE, "w", encoding="utf-8") as f:
-            for uid in ids:
-                f.write(str(uid) + "\n")
-
-
-# ===== HÀM PHỤ =====
-def gen_order_code():
-    return "ORD" + "".join(random.choices(string.digits, k=10))
-
-
-def build_vietqr_url(amount, content):
-    content_encoded = urllib.parse.quote(content)
-    return (
-        f"https://img.vietqr.io/image/"
-        f"{BANK_CODE}-{BANK_ACCOUNT}-compact2.png"
-        f"?amount={amount}&addInfo={content_encoded}"
-    )
-
-
 # ===== START + MENU =====
 def start(update, context):
     chat_id = update.effective_chat.id
@@ -264,6 +318,9 @@ def handle_buttons(update, context):
     query = update.callback_query
     data = query.data
     query.answer()
+
+    # lưu user luôn cho chắc
+    add_user(query.from_user.id)
 
     if data.startswith("buy_"):
         pid = data.replace("buy_", "")
@@ -292,6 +349,8 @@ def handle_buttons(update, context):
 # ===== NHẬP SỐ LƯỢNG =====
 def handle_quantity(update, context):
     user_id = update.effective_user.id
+    add_user(user_id)
+
     text = update.message.text.strip()
 
     if user_id not in WAITING_QTY:
@@ -367,6 +426,7 @@ def main():
 
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("menu", start))
+    dp.add_handler(CommandHandler("broadcast", broadcast))  # ✅ THÊM LẠI BROADCAST
     dp.add_handler(CallbackQueryHandler(handle_buttons))
     dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_quantity))
 
