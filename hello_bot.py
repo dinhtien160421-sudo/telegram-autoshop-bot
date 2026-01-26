@@ -49,7 +49,7 @@ STOCK = {
         "https://chatgpt.com/?promoCode=252GYT9HLMR9PXWP",
         "https://chatgpt.com/?promoCode=E8GW6MC9YVMZ8NDP",
     ],
-    "veo3_ultra_bh": [],
+    "veo3_ultra_bh": [
     "wexo@2pomnw92jigas.shop|dtdt0880",
 "veko@2pomnw92jigas.shop|dtdt0880",
 "uxel@2pomnw92jigas.shop|dtdt0880",
@@ -75,7 +75,7 @@ STOCK = {
 "zeno@2pomnw92jigas.shop|dtdt0880",
 "yari@2pomnw92jigas.shop|dtdt0880",
     ],
-    "veo3_ultra_bhf": [],
+    "veo3_ultra_bhf": [
     "wren@2pomnw92jigas.shop|dtdt0880",
 "varn@2pomnw92jigas.shop|dtdt0880",
 "umea@2pomnw92jigas.shop|dtdt0880",
