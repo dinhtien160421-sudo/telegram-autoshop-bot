@@ -45,7 +45,6 @@ STOCK = {
     
     ],
     "veo3_ultra_bh": [
-"xsapvsk@dto23aomcee.top|dtdt0880",
 "fstznbi@dto23aomcee.top|dtdt0880",
 "zynggvr@dto23aomcee.top|dtdt0880",
 "ftrgnzl@dto23aomcee.top|dtdt0880",
