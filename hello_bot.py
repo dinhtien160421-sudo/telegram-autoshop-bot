@@ -33,7 +33,7 @@ PENDING_ORDERS = {}
 # ===== SẢN PHẨM =====
 PRODUCTS = {
     "code_gpt": {"name": "CODE GPT PLUS", "price": 15000},
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 4/2", "price": 000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 4/2", "price": 70000},
     "veo3_ultra_bhf": {"name": "Veo3 Ultra 45K cre BH 30D", "price": 150000},
     "info_1": {"name": "Gia hạn GPT Plus – Capcut - Canva Ib", "price": 0},
     "info_2": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
