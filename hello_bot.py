@@ -32,8 +32,8 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_kbh": {"name": "Veo3 Ultra 45k cre BH 24H", "price": 50000 },
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 4/2", "price": 70000},
+    "veo3_ultra_kbh": {"name": "Veo3 Ultra 45k cre BH 24H", "price": 40000 },
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 4/2", "price": 65000},
     "veo3_ultra_bhf": {"name": "Veo3 Ultra 45K cre BH 30D", "price": 150000},
     "info_1": {"name": "Gia hạn GPT Plus – Capcut - Canva Ib", "price": 0},
     "info_2": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
@@ -57,14 +57,6 @@ STOCK = {
 
     ],
     "veo3_ultra_bh": [
-"iasafje@dtspmzoeapp3.click|dtdt0880",
-"muxvzxb@dtspmzoeapp3.click|dtdt0880",
-"fcpesas@dtspmzoeapp3.click|dtdt0880",
-"alqbijd@dtspmzoeapp3.click|dtdt0880",
-"aowzybi@dtspmzoeapp3.click|dtdt0880",
-"vrfdnaa@dtspmzoeapp3.click|dtdt0880",
-"uadyuod@dtspmzoeapp3.click|dtdt0880",
-"twenvlo@dtspmzoeapp3.click|dtdt0880",
 "dpxytmi@dtspmzoeapp3.click|dtdt0880",
 "dzjbfbj@dtspmzoeapp3.click|dtdt0880",
 "vjyzaon@dtspmzoeapp3.click|dtdt0880",
@@ -81,12 +73,6 @@ STOCK = {
 
     ],
     "veo3_ultra_bhf": [
-"jbaitwq@dto23aomcee.top|dtdt0880",
-"ugmnvsk@dto23aomcee.top|dtdt0880",
-"yxmmhvk@dto23aomcee.top|dtdt0880",
-"zatphdm@dto23aomcee.top|dtdt0880",
-"wdbqdal@dto23aomcee.top|dtdt0880",
-"rycxmnd@dto24aomcee.top|dtdt0880",
 "vtyxfyd@dto24aomcee.top|dtdt0880",
 "xytbgii@dto24aomcee.top|dtdt0880",
 "lfcccwp@dto24aomcee.top|dtdt0880",
