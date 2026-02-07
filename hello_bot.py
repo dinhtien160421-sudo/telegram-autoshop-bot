@@ -41,12 +41,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"krnluzd@zmimoao2as.shop|dtdt0880",
-"zedoifp@zmimoao2as.shop|dtdt0880",
-"hklldgm@zmimoao2as.shop|dtdt0880",
-"glrdsop@zmimoao2as.shop|dtdt0880",
-"idmbvhc@zmimoao2as.shop|dtdt0880",
-"zgosrep@zmimoao2as.shop|dtdt0880",
 "bswsqub@zmimoao3as.shop|dtdt0880",
 "wleqzjb@zmimoao3as.shop|dtdt0880",
 "zzpdaaq@zmimoao3as.shop|dtdt0880",
@@ -69,6 +63,7 @@ STOCK = {
 "caijffg@zmimoao3as.shop|dtdt0880",
 "awwedav@zmimoao3as.shop|dtdt0880",
 "nxskrjn@zmimoao3as.shop|dtdt0880",
+"yiawkmw@dtmozgevya3.shop|dtdt0880",
 "wsmspwh@zmimoao2as.shop|dtdt0880",
 "onuejts@zmimoao2as.shop|dtdt0880",
 "rxqlccb@zmimoao2as.shop|dtdt0880",
@@ -82,7 +77,7 @@ STOCK = {
 "fuvnpou@zmimoao2as.shop|dtdt0880",
 "mgzfbbr@zmimoao2as.shop|dtdt0880",
 "fhkkltz@zmimoao2as.shop|dtdt0880",
-"yiawkmw@dtmozgevya3.shop|dtdt0880",
+"hklldgm@zmimoao2as.shop|dtdt0880",
     ],
     "veo3_ultra_bhf": [
 "fejffun@dtmozgevya3.shop|dtdt0880",
