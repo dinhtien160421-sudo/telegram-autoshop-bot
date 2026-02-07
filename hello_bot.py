@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH ĐẾN 1/3", "price": 150000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH ĐẾN 4/3", "price": 150000},
     "veo3_ultra_bhf": {"name": "Veo3 Ultra 45K cre BH 30D", "price": 220000},
     "info_1": {"name": "Gia hạn GPT Plus – Capcut - Canva Ib", "price": 0},
     "info_2": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
