@@ -41,8 +41,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    "vurfu yz@zmimoao2as.shop|dtdt0880",
-"rwwchzz@zmimoao2as.shop|dtdt0880",
 "krnluzd@zmimoao2as.shop|dtdt0880",
 "zedoifp@zmimoao2as.shop|dtdt0880",
 "hklldgm@zmimoao2as.shop|dtdt0880",
@@ -88,11 +86,6 @@ STOCK = {
 "yiawkmw@dtmozgevya3.shop|dtdt0880",
     ],
     "veo3_ultra_bhf": [
-"ttxhzvr@dtmozgevya3.shop|dtdt0880",
-"ctdmzdx@dtmozgevya3.shop|dtdt0880",
-"hqlcgfd@dtmozgevya3.shop|dtdt0880",
-"buzxown@dtmozgevya3.shop|dtdt0880",
-"xqfopzp@dtmozgevya3.shop|dtdt0880",
 "fejffun@dtmozgevya3.shop|dtdt0880",
 "nmppppv@dtmozgevya3.shop|dtdt0880",
 "pgoqgsr@dtmozgevya3.shop|dtdt0880",
