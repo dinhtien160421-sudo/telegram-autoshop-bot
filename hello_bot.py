@@ -74,7 +74,6 @@ STOCK = {
 "rxqlccb@zmimoao2as.shop|dtdt0880",
 "chxrnwy@zmimoao2as.shop|dtdt0880",
 "iradmvl@zmimoao2as.shop|dtdt0880",
-"aflheof@zmimoao2as.shop|dtdt0880",
 "pkdarvr@zmimoao2as.shop|dtdt0880",
 "ixlvyxd@zmimoao2as.shop|dtdt0880",
 "hwfrxqq@zmimoao2as.shop|dtdt0880",
