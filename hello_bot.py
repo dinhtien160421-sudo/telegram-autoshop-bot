@@ -185,7 +185,6 @@ STOCK = {
 "pcqnnij@ffroaokh21.shop|dtdt0880",
 "kdpjjun@ffroaokh21.shop|dtdt0880",
 "twmfezi@ffroaokh21.shop|dtdt0880",
-,
     ],
     "info_1": ["IB"] * 0,
     "info_2": ["IB"] * 0,
