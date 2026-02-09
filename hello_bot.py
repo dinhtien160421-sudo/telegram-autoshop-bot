@@ -32,8 +32,8 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH ĐẾN 4/3", "price": 140000},
-    "veo3_ultra_bhf": {"name": "Veo3 Ultra 45K cre BH 30D", "price": 190000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH ĐẾN 4/3", "price": 110000},
+    "veo3_ultra_bhf": {"name": "Veo3 Ultra 45K cre BH 30D", "price": 140000},
     "info_1": {"name": "Gia hạn GPT Plus – Capcut - Canva Ib", "price": 0},
     "info_2": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
 }
@@ -41,23 +41,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"iwjgtwm@zpolinako2oihaeg.shop|dtdt0880",
-"kfzhlhd@zpolinako2oihaeg.shop|dtdt0880",
-"opemctd@zpolinako2oihaeg.shop|dtdt0880",
-"yigiorl@zpolinako2oihaeg.shop|dtdt0880",
-"auhemwk@zpolinako2oihaeg.shop|dtdt0880",
-"gubwenb@zpolinako2oihaeg.shop|dtdt0880",
-"cvncwao@zpolinako2oihaeg.shop|dtdt0880",
-"hutflvg@zpolinako2oihaeg.shop|dtdt0880",
-"fiwnyqq@zpolinako2oihaeg.shop|dtdt0880",
-"ilgpmrn@zpolinako2oihaeg.shop|dtdt0880",
-"mzgvxym@zpolinako2oihaeg.shop|dtdt0880",
-"wsexxzn@zpolinako2oihaeg.shop|dtdt0880",
-"zbsumbk@zpolinako2oihaeg.shop|dtdt0880",
-"srgmicu@zpolinako2oihaeg.shop|dtdt0880",
-"cseazdr@zpolinako2oihaeg.shop|dtdt0880",
-"xjlmwkx@zpolinako2oihaeg.shop|dtdt0880",
-"umdzegj@zpolinako2oihaeg.shop|dtdt0880",
 "wsulchm@zpolinako2oihaeg.shop|dtdt0880",
 "awlvawf@zpolinako2oihaeg.shop|dtdt0880",
 "alwyuzf@zpolinako2oihaeg.shop|dtdt0880",
@@ -91,23 +74,6 @@ STOCK = {
 "dnvpslf@zpolinako2oihaeg.shop|dtdt0880",
     ],
     "veo3_ultra_bhf": [
-"kjenwub@zpolinako3oihaeg.shop|dtdt0880",
-"rbrxuzw@zpolinako3oihaeg.shop|dtdt0880",
-"gsbnisx@zpolinako3oihaeg.shop|dtdt0880",
-"gnhwdcz@zpolinako3oihaeg.shop|dtdt0880",
-"uricsqs@zpolinako3oihaeg.shop|dtdt0880",
-"whmjzys@zpolinako3oihaeg.shop|dtdt0880",
-"cgdlibu@zpolinako3oihaeg.shop|dtdt0880",
-"ihlhaxb@zpolinako3oihaeg.shop|dtdt0880",
-"plkaicd@zpolinako3oihaeg.shop|dtdt0880",
-"mtleisq@zpolinako3oihaeg.shop|dtdt0880",
-"avzyvyn@zpolinako3oihaeg.shop|dtdt0880",
-"homzqcr@zpolinako3oihaeg.shop|dtdt0880",
-"hvxqplk@zpolinako3oihaeg.shop|dtdt0880",
-"qmkfhky@zpolinako3oihaeg.shop|dtdt0880",
-"jvxanrt@zpolinako3oihaeg.shop|dtdt0880",
-"uiqsqvm@zpolinako3oihaeg.shop|dtdt0880",
-"iphiiaj@zpolinako3oihaeg.shop|dtdt0880",
 "sjrufng@zpolinako3oihaeg.shop|dtdt0880",
 "nqvipdn@zpolinako3oihaeg.shop|dtdt0880",
 "gvasnks@zpolinako3oihaeg.shop|dtdt0880",
