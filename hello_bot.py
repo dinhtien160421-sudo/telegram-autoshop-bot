@@ -32,85 +32,40 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH ĐẾN 4/3", "price": 110000},
-    "veo3_ultra_bhf": {"name": "Veo3 Ultra 45K cre BH 30D", "price": 140000},
-    "info_1": {"name": "Gia hạn GPT Plus – Capcut - Canva Ib", "price": 0},
-    "info_2": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
+    "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24H", "price": 50000},
+    "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
+    "info_2": {"name": "Capcut Pro Team 30-35D BHF", "price": 18000},
+    "info_3": {"name": "Capcut Pro Team 6 THÁNG BHF, "price": 90000},
+    "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
 }
 
 # ===== KHO =====
 STOCK = {
-    "veo3_ultra_bh":[
-"wsulchm@zpolinako2oihaeg.shop|dtdt0880",
-"awlvawf@zpolinako2oihaeg.shop|dtdt0880",
-"alwyuzf@zpolinako2oihaeg.shop|dtdt0880",
-"guovnur@zpolinako2oihaeg.shop|dtdt0880",
-"yyfaekw@zpolinako2oihaeg.shop|dtdt0880",
-"ubgqfeu@zpolinako2oihaeg.shop|dtdt0880",
-"qyilpqv@zpolinako2oihaeg.shop|dtdt0880",
-"ixnuygo@zpolinako2oihaeg.shop|dtdt0880",
-"vemwnfh@zpolinako2oihaeg.shop|dtdt0880",
-"vgguqvh@zpolinako2oihaeg.shop|dtdt0880",
-"csznnow@zpolinako2oihaeg.shop|dtdt0880",
-"kdyxmon@zpolinako2oihaeg.shop|dtdt0880",
-"lwaslyi@zpolinako2oihaeg.shop|dtdt0880",
-"skxksoc@zpolinako2oihaeg.shop|dtdt0880",
-"zfectzt@zpolinako2oihaeg.shop|dtdt0880",
-"zxtptho@zpolinako2oihaeg.shop|dtdt0880",
-"cvkyrjt@zpolinako2oihaeg.shop|dtdt0880",
-"vsfbrvd@zpolinako2oihaeg.shop|dtdt0880",
-"tadtrqf@zpolinako2oihaeg.shop|dtdt0880",
-"zdjaunr@zpolinako2oihaeg.shop|dtdt0880",
-"butiprl@zpolinako2oihaeg.shop|dtdt0880",
-"fggqtyz@zpolinako2oihaeg.shop|dtdt0880",
-"peaadxe@zpolinako2oihaeg.shop|dtdt0880",
-"vypnznu@zpolinako2oihaeg.shop|dtdt0880",
-"obcezov@zpolinako2oihaeg.shop|dtdt0880",
-"wclgyde@zpolinako2oihaeg.shop|dtdt0880",
-"lzuzlrg@zpolinako2oihaeg.shop|dtdt0880",
-"ibnbvdi@zpolinako2oihaeg.shop|dtdt0880",
-"gpumhxp@zpolinako2oihaeg.shop|dtdt0880",
-"dhkgjrn@zpolinako2oihaeg.shop|dtdt0880",
-"dnvpslf@zpolinako2oihaeg.shop|dtdt0880",
+    "veo3_pro_bh":[    
+    "zedfagwzz@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+    "zedcvgbua@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+    "zedvy3n7c@sk.pmhveo.pro.vn|ThaoYenHiep@999",
     ],
-    "veo3_ultra_bhf": [
-"sjrufng@zpolinako3oihaeg.shop|dtdt0880",
-"nqvipdn@zpolinako3oihaeg.shop|dtdt0880",
-"gvasnks@zpolinako3oihaeg.shop|dtdt0880",
-"yxmzzvk@zpolinako3oihaeg.shop|dtdt0880",
-"kigvymi@zpolinako3oihaeg.shop|dtdt0880",
-"fxnrouu@zpolinako3oihaeg.shop|dtdt0880",
-"zbaeztm@zpolinako3oihaeg.shop|dtdt0880",
-"bzhwhhf@zpolinako3oihaeg.shop|dtdt0880",
-"kdvmchg@zpolinako3oihaeg.shop|dtdt0880",
-"hyxzxad@zpolinako3oihaeg.shop|dtdt0880",
-"lrdwvcd@zpolinako3oihaeg.shop|dtdt0880",
-"fuoomfk@zpolinako3oihaeg.shop|dtdt0880",
-"uqhrniv@zpolinako3oihaeg.shop|dtdt0880",
-"uptmson@zpolinako3oihaeg.shop|dtdt0880",
-"vbqvicd@zpolinako3oihaeg.shop|dtdt0880",
-"ltaqwfn@zpolinako3oihaeg.shop|dtdt0880",
-"kaatzkp@zpolinako3oihaeg.shop|dtdt0880",
-"sxmoljk@zpolinako3oihaeg.shop|dtdt0880",
-"dwvfdzz@zpolinako3oihaeg.shop|dtdt0880",
-"wmeeiav@zpolinako3oihaeg.shop|dtdt0880",
-"dxygdov@zpolinako3oihaeg.shop|dtdt0880",
-"lgmgvta@zpolinako3oihaeg.shop|dtdt0880",
-"gozwxwn@zpolinako3oihaeg.shop|dtdt0880",
-"snkofol@zpolinako3oihaeg.shop|dtdt0880",
-"ikdndao@zpolinako3oihaeg.shop|dtdt0880",
-"yyfhpha@zpolinako3oihaeg.shop|dtdt0880",
-"dxbqezm@zpolinako3oihaeg.shop|dtdt0880",
-"wvramni@zpolinako3oihaeg.shop|dtdt0880",
-"wrtlony@zpolinako3oihaeg.shop|dtdt0880",
-"rutqjdo@zpolinako3oihaeg.shop|dtdt0880",
-"emwzthg@zpolinako3oihaeg.shop|dtdt0880",
-"tyrvsva@zpolinako3oihaeg.shop|dtdt0880",
-
-
+    
+    "canva_pro_1m": [
+    "nilsondh53coe@hotmail.com|dtdt2992",
+    "mullins359lmuniz@hotmail.com|dtdt2992",
+    "kariwalter88n@hotmail.com|dtdt2992",
+    "meeksnqykane@hotmail.com|dtdt2992",
+    "garvinisom2j1@hotmail.com|dtdt2992"
     ],
-    "info_1": ["IB"] * 0,
-    "info_2": ["IB"] * 0,
+    "info_2": [
+    "mayra45@mmoninja.pics|123456",
+    "rico25@oceanbreezehub.space|123456",
+    "brandynf@happyzoomer.us|123456",
+    "sheldond@tinybizhub.xyz|123456",
+    "yessenia@greenbudgetstore.online|123456"
+     ],
+     "info_3": [
+     "sjmrb44@abe26.tempdukviet.site|a123456",
+     "svkfk88@abe18.tempdukviet.site|a123456"
+     ],
+    "info_4": ["IB"] * 0,
 }
 
 # ====== SEPAY WEBHOOK (AUTO NHẢ ĐƠN) ======
