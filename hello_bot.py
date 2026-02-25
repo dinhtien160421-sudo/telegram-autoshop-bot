@@ -34,6 +34,7 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24H", "price": 50000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
+    "canva_pro_6m": {"name": "Canva Pro 6 THÁNG BHF", "price": 100000},
     "info_2": {"name": "Capcut Pro Team 30-35D BHF", "price": 18000},
     "info_3": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 90000},
     "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
@@ -42,9 +43,45 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_pro_bh":[    
-    "zedfagwzz@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-    "zedcvgbua@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-    "zedvy3n7c@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+    "zedlrcgj7@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedyicryz@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedtupu1i@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zeda6vuco@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedhouy66@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedtnftrb@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedr6m0n9@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedctlbr7@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed8t64x0@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedt0jjs6@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zednp2awf@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zeds5sg7k@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zeduzker4@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed97rmu0@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zeduxj769@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedc99h0f@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedyq3rmk@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zeduk69zm@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed8msqhv@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedcv0jr0@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedlfs2x8@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedzijcuf@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedmjbimx@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed6uebdy@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedmb7yeg@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedv5d7qw@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedy2laz3@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedsel9ib@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedizbek0@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed7df4z0@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedoutz95@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedg4i6nc@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zeduz1hn8@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedx41bnq@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedd8jpff@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed9k6knt@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed6sty8u@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedxjrrzu@sk.pmhveo.pro.vn|ThaoYenHiep@999"
+
     ],
     
     "canva_pro_1m": [
@@ -54,6 +91,9 @@ STOCK = {
     "meeksnqykane@hotmail.com|dtdt2992",
     "garvinisom2j1@hotmail.com|dtdt2992"
     ],
+    "canva_pro_6m": [
+    "givens1rhharp@hotmail.com|dtdt2992"
+     ], 
     "info_2": [
     "mayra45@mmoninja.pics|123456",
     "rico25@oceanbreezehub.space|123456",
