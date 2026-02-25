@@ -53,7 +53,14 @@ STOCK = {
 "zed21phcj@sk.pmhveo.pro.vn|ThaoYenHiep@999",
 "zed0jlxd1@sk.pmhveo.pro.vn|ThaoYenHiep@999",
 "zeduaze65@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedaduxsp@sk.pmhveo.pro.vn|ThaoYenHiep@999"
+"zedaduxsp@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed8yilks@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed4vrl4n@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedtt7igd@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed91dxhr@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedfgqmp2@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedv2wya2@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+
     ],
     
     "canva_pro_1m": [
