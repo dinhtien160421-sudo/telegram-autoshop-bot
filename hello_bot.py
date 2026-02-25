@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24H", "price": 50000},
+    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 50000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "canva_pro_6m": {"name": "Canva Pro 6 THÁNG BHF", "price": 100000},
     "info_2": {"name": "Capcut Pro Team 30-35D BHF", "price": 18000},
