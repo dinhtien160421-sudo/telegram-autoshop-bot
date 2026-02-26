@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 55000},
+    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 65000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "canva_pro_6m": {"name": "Canva Pro 6 THÁNG BHF", "price": 100000},
     "info_2": {"name": "Capcut Pro Team 30-35D BHF", "price": 18000},
@@ -43,21 +43,12 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_pro_bh":[    
-    "zedyqy7p1@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zeduhhkrp@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zed43f5d4@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedsc68so@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedfuogg6@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedtl3t3u@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedtbgtic@k.turrubiates.pro.vn|ThongChoLon@999",
-"zedtq3e7f@k.turrubiates.pro.vn|ThongChoLon@999",
-"zed3vyf09@k.turrubiates.pro.vn|ThongChoLon@999",
-"zed4uvkpy@k.turrubiates.pro.vn|ThongChoLon@999",
-"zed3lbgmq@k.turrubiates.pro.vn|ThongChoLon@999",
-"zed84k7ns@k.turrubiates.pro.vn|ThongChoLon@999",
-"zed87rl1x@k.turrubiates.pro.vn|ThongChoLon@999",
-"zedacooja@k.turrubiates.pro.vn|ThongChoLon@999",
-
+    "zeddaakpo@k.turrubiates.pro.vn|ThongChoLon@999",
+"zedjnlrtc@k.turrubiates.pro.vn|ThongChoLon@999",
+"zedl5lmwd@k.turrubiates.pro.vn|ThongChoLon@999",
+"zednwecvg@k.turrubiates.pro.vn|ThongChoLon@999",
+"zedlszywm@k.turrubiates.pro.vn|ThongChoLon@999",
+"zedrrxv3y@k.turrubiates.pro.vn|ThongChoLon@999",
     ],
     
     "canva_pro_1m": [
