@@ -43,23 +43,24 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_pro_bh":[    
-    "zedmuvkaz@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedgtnm2a@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedh0p0nt@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedy5bixl@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedlyz1pz@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedt3dl74@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedtt5dxw@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zed21phcj@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zed0jlxd1@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zeduaze65@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedaduxsp@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zed8yilks@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zed4vrl4n@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedtt7igd@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zed91dxhr@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedfgqmp2@sk.pmhveo.pro.vn|ThaoYenHiep@999",
-"zedv2wya2@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+    "zedyqy7p1@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zeduhhkrp@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zed43f5d4@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedsc68so@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedfuogg6@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedtl3t3u@sk.pmhveo.pro.vn|ThaoYenHiep@999",
+"zedtbgtic@k.turrubiates.pro.vn|ThongChoLon@999",
+"zedtq3e7f@k.turrubiates.pro.vn|ThongChoLon@999",
+"zed3vyf09@k.turrubiates.pro.vn|ThongChoLon@999",
+"zed4uvkpy@k.turrubiates.pro.vn|ThongChoLon@999",
+"zed3lbgmq@k.turrubiates.pro.vn|ThongChoLon@999",
+"zed84k7ns@k.turrubiates.pro.vn|ThongChoLon@999",
+"zed87rl1x@k.turrubiates.pro.vn|ThongChoLon@999",
+"zedacooja@k.turrubiates.pro.vn|ThongChoLon@999",
+"zedbxlv3p@k.turrubiates.pro.vn|ThongChoLon@999",
+"zedawy167@k.turrubiates.pro.vn|ThongChoLon@999",
+"zedbaxml7@k.turrubiates.pro.vn|ThongChoLon@999",
+
 
     ],
     
@@ -74,7 +75,6 @@ STOCK = {
     "givens1rhharp@hotmail.com|dtdt2992"
      ], 
     "info_2": [
-    "rico25@oceanbreezehub.space|123456",
     "brandynf@happyzoomer.us|123456",
     "sheldond@tinybizhub.xyz|123456",
     "yessenia@greenbudgetstore.online|123456"
