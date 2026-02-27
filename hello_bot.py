@@ -43,12 +43,15 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_pro_bh":[    
-    "zeddaakpo@k.turrubiates.pro.vn|ThongChoLon@999",
-"zedjnlrtc@k.turrubiates.pro.vn|ThongChoLon@999",
-"zedl5lmwd@k.turrubiates.pro.vn|ThongChoLon@999",
-"zednwecvg@k.turrubiates.pro.vn|ThongChoLon@999",
-"zedlszywm@k.turrubiates.pro.vn|ThongChoLon@999",
-"zedrrxv3y@k.turrubiates.pro.vn|ThongChoLon@999",
+    "zed3tjp47@hlanderos.shop|ThaoYenHiep@999",
+"zed4fn67i@hlanderos.shop|ThaoYenHiep@999",
+"zed5vl340@hlanderos.shop|ThaoYenHiep@999",
+"zed6nsujp@hlanderos.shop|ThaoYenHiep@999",
+"zed79xs55@hlanderos.shop|ThaoYenHiep@999",
+"zed7mhesa@hlanderos.shop|ThaoYenHiep@999",
+"zed80vyz0@hlanderos.shop|ThaoYenHiep@999",
+"zedce9hug@hlanderos.shop|ThaoYenHiep@999",
+"zedd4mhu0@hlanderos.shop|ThaoYenHiep@999",
     ],
     
     "canva_pro_1m": [
@@ -62,13 +65,11 @@ STOCK = {
     "givens1rhharp@hotmail.com|dtdt2992"
      ], 
     "info_2": [
-    "brandynf@happyzoomer.us|123456",
     "sheldond@tinybizhub.xyz|123456",
     "yessenia@greenbudgetstore.online|123456"
      ],
      "info_3": [
-     "sjmrb44@abe26.tempdukviet.site|a123456",
-     "svkfk88@abe18.tempdukviet.site|a123456"
+
      ],
     
     "info_4": ["IB"] * 0,
