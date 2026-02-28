@@ -35,22 +35,16 @@ PRODUCTS = {
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 70000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "canva_pro_6m": {"name": "Canva Pro 6 THÁNG BHF", "price": 100000},
-    "info_2": {"name": "Capcut Pro Team 30-35D BHF", "price": 18000},
-    "info_3": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 90000},
+    "Capcut_30-35D: {"name": "Capcut Pro Team 30-35D BHF", "price": 18000},
+    "Capcut_6TH": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 90000},
+    "CDK GPT": {"name": " CDK CHATGPT PLUS 1M BH ACTIVE", price: 50000},
+    "acc_gpt_plus_1m_bhf": {"name": "ACC GPT PLUS 1M BHF", price: 60000},
     "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
 }
 
 # ===== KHO =====
 STOCK = {
     "veo3_pro_bh":[    
-"zed4fn67i@hlanderos.shop|ThaoYenHiep@999",
-"zed5vl340@hlanderos.shop|ThaoYenHiep@999",
-"zed6nsujp@hlanderos.shop|ThaoYenHiep@999",
-"zed79xs55@hlanderos.shop|ThaoYenHiep@999",
-"zed7mhesa@hlanderos.shop|ThaoYenHiep@999",
-"zed80vyz0@hlanderos.shop|ThaoYenHiep@999",
-"zedce9hug@hlanderos.shop|ThaoYenHiep@999",
-"zedd4mhu0@hlanderos.shop|ThaoYenHiep@999",
     ],
     
     "canva_pro_1m": [
@@ -63,13 +57,22 @@ STOCK = {
     "canva_pro_6m": [
     "givens1rhharp@hotmail.com|dtdt2992"
      ], 
-    "info_2": [
+    "Capcut_30-35D": [
     "sheldond@tinybizhub.xyz|123456",
     "yessenia@greenbudgetstore.online|123456"
      ],
-     "info_3": [
-
+     "Capcut_6TH": [
+    "oiyfb02@vip12.tempdukviet.click|a123456",
+    "dexke16@aq9.tempdukviet.click|a123456",
      ],
+     "CDK GPT": [
+    "3EF2ADC3-4A87-4038-8D16-DFCC59BAE182",
+    "D7E755A8-0B6E-4A40-AF74-813DF5E7E33A",
+    "4099D928-E672-4545-A2E3-0EA244FED0E1",
+     ],
+     "acc_gpt_plus_1m_bhf": [
+
+    ],
     
     "info_4": ["IB"] * 0,
 }
@@ -177,11 +180,17 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
     accounts = [STOCK[pid].pop(0) for _ in range(qty)]
     codes_text = "\n".join(f"{i+1}. {acc}" for i, acc in enumerate(accounts))
 
+    # ===== HƯỚNG DẪN RIÊNG CHO CDK =====
+    extra_guide = ""
+    if pid == "cdk_gpt_plus_1m":
+        extra_guide = "\n\n🌐 Website sử dụng CDK: https://nuoitao.com\n"
+
     detail = (
         f"✅ Đơn `{code}`\n"
         f"🎁 Sản phẩm: *{product['name']}*\n"
         f"📦 Số lượng: *{qty}*\n\n"
-        f"{codes_text}\n\n"
+        f"{codes_text}"
+        f"{extra_guide}\n"
         "Cảm ơn bạn đã mua hàng!"
     )
 
@@ -192,24 +201,7 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
         disable_web_page_preview=True
     )
 
-    txt = (
-        f"Đơn hàng: {code}\n"
-        f"Sản phẩm: {product['name']}\n"
-        f"Số lượng: {qty}\n"
-        f"Tài khoản/Mã:\n{codes_text}\n"
-    ).encode("utf-8")
-
-    f = BytesIO(txt)
-    f.name = f"{code}.txt"
-
-    TG_BOT.send_document(
-        chat_id=user_id,
-        document=InputFile(f),
-        filename=f.name,
-        caption="📄 File Notepad chứa tài khoản/mã.",
-    )
     return True
-
 
 @app.route("/bank-webhook", methods=["POST"])
 def sepay_webhook():
