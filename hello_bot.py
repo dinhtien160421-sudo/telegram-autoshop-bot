@@ -35,8 +35,8 @@ PRODUCTS = {
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 70000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "canva_pro_6m": {"name": "Canva Pro 6 THÁNG BHF", "price": 90000},
-    "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 25000},
-    "Capcut_6TH": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 130000},
+    "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
+    "Capcut_6TH": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 150000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
     "acc_gpt_plus_1m_bhf": {"name": "ACC GPT PLUS 1M BHF", "price": 60000},
     "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
@@ -71,7 +71,9 @@ STOCK = {
     "4099D928-E672-4545-A2E3-0EA244FED0E1",
      ],
      "acc_gpt_plus_1m_bhf": [
-
+    "stokesive9gaffney@hotmail.com111111111111|AOWXPDCGNLGDF4UZVJM3XTKMXLLLYXME",
+    "calderonsbakurtz@hotmail.com|111111111111|ISG6O556ZUSWI6QTODV337UIVND5A3KE",
+    
     ],
     
     "info_4": ["IB"] * 0,
