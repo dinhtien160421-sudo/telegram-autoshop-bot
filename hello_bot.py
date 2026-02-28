@@ -57,7 +57,7 @@ STOCK = {
     "canva_pro_6m": [
     "givens1rhharp@hotmail.com|dtdt2992"
      ], 
-    "Capcut_30-35D": [
+    "Capcut_35D": [
     "sheldond@tinybizhub.xyz|123456",
     "yessenia@greenbudgetstore.online|123456"
      ],
@@ -65,7 +65,7 @@ STOCK = {
     "oiyfb02@vip12.tempdukviet.click|a123456",
     "dexke16@aq9.tempdukviet.click|a123456",
      ],
-     "CDK GPT": [
+     "cdk_gpt_plus_1m": [
     "3EF2ADC3-4A87-4038-8D16-DFCC59BAE182",
     "D7E755A8-0B6E-4A40-AF74-813DF5E7E33A",
     "4099D928-E672-4545-A2E3-0EA244FED0E1",
