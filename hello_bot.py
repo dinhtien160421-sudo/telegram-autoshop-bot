@@ -230,7 +230,6 @@ if pid in ["veo3_ultra_bhf_1m", "veo3_12k5_bhf_1m", "veo3_25k_bhf_1m"]:
         parse_mode="Markdown",
         disable_web_page_preview=True
     )
-
     return True
 
 @app.route("/bank-webhook", methods=["POST"])
