@@ -203,7 +203,7 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
         return True
 
     # ===== SẢN PHẨM TỰ ĐỘNG (CÓ STOCK) =====
-    if len(STOCK.get(pid, [])) < qty:
+    if pid != "veo3_ultra_bhf_1m" and len(STOCK.get(pid, [])) < qty:
         TG_BOT.send_message(chat_id=user_id, text="⚠ Kho không đủ số lượng. Liên hệ admin.")
         return False
 
