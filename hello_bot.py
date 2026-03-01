@@ -51,7 +51,7 @@ STOCK = {
     ],
     "veo3_ultra_bhf_1m": ["MANUAL"] * 999,
     "veo3_12k5_bhf_1m": ["MANUAL"] * 999,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 999
+    "veo3_25k_bhf_1m": ["MANUAL"] * 999,
     "canva_pro_1m": [
     "nilsondh53coe@hotmail.com|dtdt2992",
     "mullins359lmuniz@hotmail.com|dtdt2992",
