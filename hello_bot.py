@@ -178,7 +178,7 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
 
     # ===== SẢN PHẨM NÂNG CẤP THỦ CÔNG =====
     if pid == "veo3_ultra_bhf_1m":
-    detail = (
+        detail = (
         f"✅ Đơn `{code}`\n"
         f"🎁 Sản phẩm: *{product['name']}*\n"
         f"📦 Số lượng: *{qty}*\n\n"
