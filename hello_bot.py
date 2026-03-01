@@ -34,6 +34,8 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 70000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 420000},
+    "veo3_12k5_bhf_1m": {"name": "Veo3 12.5K Credit BHF 1 Tháng", "price": 540000},
+    "veo3_25k_bhf_1m": {"name": "Veo3 25K Credit BHF 1 Tháng", "price": 700000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "canva_pro_6m": {"name": "Canva Pro 6 THÁNG BHF", "price": 90000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
@@ -48,6 +50,8 @@ STOCK = {
     "veo3_pro_bh":[    
     ],
     "veo3_ultra_bhf_1m": ["MANUAL"] * 999,
+    "veo3_12k5_bhf_1m": ["MANUAL"] * 999,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 999
     "canva_pro_1m": [
     "nilsondh53coe@hotmail.com|dtdt2992",
     "mullins359lmuniz@hotmail.com|dtdt2992",
@@ -171,36 +175,33 @@ def build_vietqr_url(amount, content):
     )
 
 
-def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
-    """Nhả đơn + gửi file txt"""
-    product = PRODUCTS[pid]
+# ===== SẢN PHẨM NÂNG CẤP THỦ CÔNG =====
+# ===== SẢN PHẨM NÂNG CẤP THỦ CÔNG =====
+if pid in ["veo3_ultra_bhf_1m", "veo3_12k5_bhf_1m", "veo3_25k_bhf_1m"]:
 
-    # ===== SẢN PHẨM NÂNG CẤP THỦ CÔNG =====
-    if pid == "veo3_ultra_bhf_1m":
-        detail = (
+    detail = (
         f"✅ Đơn `{code}`\n"
-        f"🎁 Sản phẩm: *{product['name']}*\n"
-        f"📦 Số lượng: *{qty}*\n\n"
+        f"🎁 Sản phẩm: {product['name']}\n"
+        f"📦 Số lượng: {qty}\n\n"
         "📌 Vui lòng gửi mã đơn này qua Telegram để được nâng cấp tài khoản.\n"
         "👉 Telegram: @dtdt28\n\n"
-        "🚀 *Quyền lợi nổi bật:*\n"
+        "🚀 Quyền lợi nổi bật:\n"
         "• Tạo video Fast 3.1 không tốn credit\n"
         "• Dung lượng 6TB Google Drive\n"
         "• Truy cập Antigravity Ultra\n"
         "• Toàn bộ các quyền lợi cao cấp khác của Gemini\n\n"
-        "📢 *LƯU Ý:* NẾU DÙNG QUÁ CREDIT SẼ BỊ KICK KHỎI FARM VÀ KHÔNG HOÀN TIỀN\n\n"
+        "📢 LƯU Ý: NẾU DÙNG QUÁ CREDIT SẼ BỊ KICK KHỎI FARM VÀ KHÔNG HOÀN TIỀN\n\n"
         "Cảm ơn bạn đã mua hàng!"
     )
 
-        TG_BOT.send_message(
-            chat_id=user_id,
-            text=detail,
-            parse_mode="Markdown",
-            disable_web_page_preview=True
-        )
+    TG_BOT.send_message(
+        chat_id=user_id,
+        text=detail,
+        parse_mode="Markdown",
+        disable_web_page_preview=True
+    )
 
-        return True
-
+    return True
     # ===== SẢN PHẨM TỰ ĐỘNG (CÓ STOCK) =====
     if pid != "veo3_ultra_bhf_1m" and len(STOCK.get(pid, [])) < qty:
         TG_BOT.send_message(chat_id=user_id, text="⚠ Kho không đủ số lượng. Liên hệ admin.")
