@@ -34,8 +34,8 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 70000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 420000},
-    "veo3_12k5_bhf_1m": {"name": "Veo3 12.5K Credit BHF 1 Tháng", "price": 540000},
-    "veo3_25k_bhf_1m": {"name": "Veo3 25K Credit BHF 1 Tháng", "price": 700000},
+    "veo3_12k5_bhf_1m": {"name": "Veo3 Ultra 12.5K Credit BHF 1 Tháng", "price": 540000},
+    "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K Credit BHF 1 Tháng", "price": 700000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "canva_pro_6m": {"name": "Canva Pro 6 THÁNG BHF", "price": 90000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
