@@ -173,38 +173,43 @@ def build_vietqr_url(amount, content):
         f"{BANK_CODE}-{BANK_ACCOUNT}-compact2.png"
         f"?amount={amount}&addInfo={content_encoded}"
     )
+def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
+    """Nhả đơn + gửi file txt"""
 
+    product = PRODUCTS[pid]
 
-# ===== SẢN PHẨM NÂNG CẤP THỦ CÔNG =====
-# ===== SẢN PHẨM NÂNG CẤP THỦ CÔNG =====
-if pid in ["veo3_ultra_bhf_1m", "veo3_12k5_bhf_1m", "veo3_25k_bhf_1m"]:
+    # ===== SẢN PHẨM NÂNG CẤP THỦ CÔNG =====
+    if pid in ["veo3_ultra_bhf_1m", "veo3_12k5_bhf_1m", "veo3_25k_bhf_1m"]:
+        detail = (
+            f"✅ Đơn `{code}`\n"
+            f"🎁 Sản phẩm: {product['name']}\n"
+            f"📦 Số lượng: {qty}\n\n"
+            "📌 Vui lòng gửi mã đơn này qua Telegram để được nâng cấp tài khoản.\n"
+            "👉 Telegram: @dtdt28\n\n"
+            "🚀 Quyền lợi nổi bật:\n"
+            "• Tạo video Fast 3.1 không tốn credit\n"
+            "• Dung lượng 6TB Google Drive\n"
+            "• Truy cập Antigravity Ultra\n"
+            "• Toàn bộ các quyền lợi cao cấp khác của Gemini\n\n"
+            "📢 LƯU Ý: NẾU DÙNG QUÁ CREDIT SẼ BỊ KICK KHỎI FARM VÀ KHÔNG HOÀN TIỀN\n\n"
+            "Cảm ơn bạn đã mua hàng!"
+        )
 
-    detail = (
-        f"✅ Đơn `{code}`\n"
-        f"🎁 Sản phẩm: {product['name']}\n"
-        f"📦 Số lượng: {qty}\n\n"
-        "📌 Vui lòng gửi mã đơn này qua Telegram để được nâng cấp tài khoản.\n"
-        "👉 Telegram: @dtdt28\n\n"
-        "🚀 Quyền lợi nổi bật:\n"
-        "• Tạo video Fast 3.1 không tốn credit\n"
-        "• Dung lượng 6TB Google Drive\n"
-        "• Truy cập Antigravity Ultra\n"
-        "• Toàn bộ các quyền lợi cao cấp khác của Gemini\n\n"
-        "📢 LƯU Ý: NẾU DÙNG QUÁ CREDIT SẼ BỊ KICK KHỎI FARM VÀ KHÔNG HOÀN TIỀN\n\n"
-        "Cảm ơn bạn đã mua hàng!"
-    )
+        TG_BOT.send_message(
+            chat_id=user_id,
+            text=detail,
+            parse_mode="Markdown",
+            disable_web_page_preview=True
+        )
 
-    TG_BOT.send_message(
-        chat_id=user_id,
-        text=detail,
-        parse_mode="Markdown",
-        disable_web_page_preview=True
-    )
+        return True
 
-    return True
     # ===== SẢN PHẨM TỰ ĐỘNG (CÓ STOCK) =====
-    if pid != "veo3_ultra_bhf_1m" and len(STOCK.get(pid, [])) < qty:
-        TG_BOT.send_message(chat_id=user_id, text="⚠ Kho không đủ số lượng. Liên hệ admin.")
+    if len(STOCK.get(pid, [])) < qty:
+        TG_BOT.send_message(
+            chat_id=user_id,
+            text="⚠ Kho không đủ số lượng. Liên hệ admin."
+        )
         return False
 
     accounts = [STOCK[pid].pop(0) for _ in range(qty)]
@@ -230,8 +235,8 @@ if pid in ["veo3_ultra_bhf_1m", "veo3_12k5_bhf_1m", "veo3_25k_bhf_1m"]:
         parse_mode="Markdown",
         disable_web_page_preview=True
     )
-    return True
 
+    return True
 @app.route("/bank-webhook", methods=["POST"])
 def sepay_webhook():
     data = request.get_json(force=True, silent=True) or {}
