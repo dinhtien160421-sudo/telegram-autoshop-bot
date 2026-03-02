@@ -34,7 +34,7 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 120000},
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 70000},
-    "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 6k credit chính chủ BHF 1 tháng", "price": 400000},
+    "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 400000},
     "veo3_12k5_bhf_1m": {"name": "Veo3 Ultra 12.5K chính ch Credit BHF 1 Tháng", "price": 540000},
     "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 750000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
@@ -49,11 +49,7 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    "v45n1t3bh24h163@veolmtthangsumvay5.com|rntXFO8538",
-"v45n1t3bh24h106@veolmtthangsumvay5.com|zygAPJ3582",
-"v45n1t3bh24h165@veolmtthangsumvay5.com|jwfKBQ1833",
-"v45n1t3bh24h150@veolmtthangsumvay5.com|panULV0584",
-"v45n1t3bh24h101@veolmtthangsumvay5.com|tugCSZ2657",
+    
     ],
     "veo3_pro_bh":[    
     ],
@@ -61,7 +57,6 @@ STOCK = {
     "veo3_12k5_bhf_1m": ["MANUAL"] * 999,
     "veo3_25k_bhf_1m": ["MANUAL"] * 999,
     "canva_pro_1m": [
-    "nilsondh53coe@hotmail.com|dtdt2992",
     "mullins359lmuniz@hotmail.com|dtdt2992",
     "kariwalter88n@hotmail.com|dtdt2992",
     "meeksnqykane@hotmail.com|dtdt2992",
@@ -71,16 +66,17 @@ STOCK = {
     "givens1rhharp@hotmail.com|dtdt2992"
      ], 
     "Capcut_35D": [
-    "sheldond@tinybizhub.xyz|123456",
     "yessenia@greenbudgetstore.online|123456"
      ],
      "Capcut_6TH": [
-    "oiyfb02@vip12.tempdukviet.click|a123456",
     "dexke16@aq9.tempdukviet.click|a123456",
      ],
      "cdk_gpt_plus_1m": [
-    "D7E755A8-0B6E-4A40-AF74-813DF5E7E33A",
-    "4099D928-E672-4545-A2E3-0EA244FED0E1",
+   "585151A0-FD7C-4E6C-B3E5-B0B0C6F5150F",
+"77C28F2B-8778-472B-A436-11C1CBF8E25E",
+"AD385633-E891-4D86-93C4-446909705A93",
+"4F688E03-C1FF-49A0-8B51-1680A2B3D9FB",
+"B3D0FFC2-1F5E-48D0-A548-E04412D5C9D5",
      ],
      "acc_gpt_plus_1m_bhf": [    
     ],
