@@ -49,7 +49,12 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    
+    "victoriadaniel5@alexandria-2.com|ncgDBA7482",
+"veotl105@vcduu.dohaticammo.asia|gziQBF5484",
+"veotl101@vcduu.dohaticammo.asia|nxqWHO5135",
+"veotl119@vcduu.dohaticammo.asia|eopRWL1883",
+"veotl111@vcduu.dohaticammo.asia|mjoUOE2833",
+
     ],
     "veo3_pro_bh":[    
     ],
