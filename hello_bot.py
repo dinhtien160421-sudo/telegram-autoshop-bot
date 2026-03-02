@@ -34,7 +34,7 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 120000},
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 70000},
-    "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 400000},
+    "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 380000},
     "veo3_12k5_bhf_1m": {"name": "Veo3 Ultra 12.5K chính ch Credit BHF 1 Tháng", "price": 540000},
     "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 750000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
@@ -42,19 +42,16 @@ PRODUCTS = {
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
     "Capcut_6TH": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 150000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
-    "acc_gpt_plus_1m_bhf": {"name": "ACC GPT PLUS 1M BHF", "price": 60000},
+    "acc_gpt_plus_12m_bhf": {"name": "ACC GPT PLUS DATE 2/3/2027 BH 1M", "price": 750000},
     "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
 }
 
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    "victoriadaniel5@alexandria-2.com|ncgDBA7482",
-"veotl105@vcduu.dohaticammo.asia|gziQBF5484",
 "veotl101@vcduu.dohaticammo.asia|nxqWHO5135",
 "veotl119@vcduu.dohaticammo.asia|eopRWL1883",
 "veotl111@vcduu.dohaticammo.asia|mjoUOE2833",
-
     ],
     "veo3_pro_bh":[    
     ],
@@ -74,7 +71,6 @@ STOCK = {
     "yessenia@greenbudgetstore.online|123456"
      ],
      "Capcut_6TH": [
-    "dexke16@aq9.tempdukviet.click|a123456",
      ],
      "cdk_gpt_plus_1m": [
    "585151A0-FD7C-4E6C-B3E5-B0B0C6F5150F",
@@ -83,7 +79,8 @@ STOCK = {
 "4F688E03-C1FF-49A0-8B51-1680A2B3D9FB",
 "B3D0FFC2-1F5E-48D0-A548-E04412D5C9D5",
      ],
-     "acc_gpt_plus_1m_bhf": [    
+     "acc_gpt_plus_12m_bhf": [
+    "choirawlsoe3@hotmail.com|111111111111|U22PISEP723E3NAACIYPYK44HXUU33BZ",
     ],
     
     "info_4": ["IB"] * 0,
