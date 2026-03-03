@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 120000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 110000},
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 70000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 380000},
     "veo3_12k5_bhf_1m": {"name": "Veo3 Ultra 12.5K chính ch Credit BHF 1 Tháng", "price": 540000},
@@ -49,8 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"veotl101@vcduu.dohaticammo.asia|nxqWHO5135",
-"veotl119@vcduu.dohaticammo.asia|eopRWL1883",
 "veotl111@vcduu.dohaticammo.asia|mjoUOE2833",
 "oliviaemma258@alexandria-3.com|cvaMIY7185",
 "oliviaemma268@alexandria-3.com|wxsWGD8291",
@@ -87,8 +85,7 @@ STOCK = {
      "Capcut_6TH": [
      ],
      "cdk_gpt_plus_1m": [
-   "585151A0-FD7C-4E6C-B3E5-B0B0C6F5150F",
-"77C28F2B-8778-472B-A436-11C1CBF8E25E",
+    "77C28F2B-8778-472B-A436-11C1CBF8E25E",
 "AD385633-E891-4D86-93C4-446909705A93",
 "4F688E03-C1FF-49A0-8B51-1680A2B3D9FB",
 "B3D0FFC2-1F5E-48D0-A548-E04412D5C9D5",
