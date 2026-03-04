@@ -42,7 +42,7 @@ PRODUCTS = {
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
     "Capcut_6TH": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 150000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
-    "acc_gpt_plus_12m_bhf": {"name": "ACC GPT PLUS DATE 2/3/2027 BH 1M", "price": 750000},
+    "acc_gpt_plus_12m_bhf": {"name": "ACC GPT PLUS DATE 2/3/2027 BH 1M", "price": 700000},
     "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
 }
 
@@ -63,10 +63,6 @@ STOCK = {
     "veo3_bhf_12m": ["MANUAL"] * 999,
     "veo3_25k_bhf_1m": ["MANUAL"] * 999,
     "canva_pro_1m": [
-    "mullins359lmuniz@hotmail.com|dtdt2992",
-    "kariwalter88n@hotmail.com|dtdt2992",
-    "meeksnqykane@hotmail.com|dtdt2992",
-    "garvinisom2j1@hotmail.com|dtdt2992"
     ],
     "canva_pro_6m": [
     "givens1rhharp@hotmail.com|dtdt2992"
