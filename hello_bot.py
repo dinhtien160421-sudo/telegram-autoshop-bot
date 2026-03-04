@@ -33,7 +33,7 @@ PENDING_ORDERS = {}
 # ===== SẢN PHẨM =====
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 110000},
-    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 70000},
+    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 65000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 380000},
     "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2200000},
     "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 800000},
@@ -49,13 +49,15 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"oliviaemma299@alexandria-3.com|giuGRU0497",
-"oliviaemma4@alexandria-3.com|kldZEK6728",
-"oliviaemma38@alexandria-3.com|wgwUVK2226",
 "oliviaemma293@alexandria-3.com|hgbHUI2064",
 "oliviaemma298@alexandria-3.com|bvzMSV6087",
     ],
     "veo3_pro_bh":[    
+ "ZedoAsR@ops.zorxunckj.io.vn|ThaoYenHiep@999",
+"ZedqYbv@ops.zorxunckj.io.vn|ThaoYenHiep@999",
+"ZedqlUB@ops.zorxunckj.io.vn|ThaoYenHiep@999",
+"ZedryQq@ops.zorxunckj.io.vn|ThaoYenHiep@999",
+"ZedstvC@ops.zorxunckj.io.vn|ThaoYenHiep@999",
     ],
     "veo3_ultra_bhf_1m": ["MANUAL"] * 999,
     "veo3_bhf_12m": ["MANUAL"] * 999,
