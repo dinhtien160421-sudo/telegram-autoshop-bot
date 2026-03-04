@@ -35,8 +35,8 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 110000},
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24H", "price": 70000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 380000},
-    "veo3_12k5_bhf_1m": {"name": "Veo3 Ultra 12.5K chính ch Credit BHF 1 Tháng", "price": 540000},
-    "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 750000},
+    "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2200000},
+    "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 800000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "canva_pro_6m": {"name": "Canva Pro 6 THÁNG BHF", "price": 90000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
@@ -49,16 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"veotl111@vcduu.dohaticammo.asia|mjoUOE2833",
-"oliviaemma258@alexandria-3.com|cvaMIY7185",
-"oliviaemma268@alexandria-3.com|wxsWGD8291",
-"oliviaemma285@alexandria-3.com|ovwGNX0019",
-"oliviaemma297@alexandria-3.com|jsyMBJ9799",
-"oliviaemma284@alexandria-3.com|gcfATJ2672",
-"oliviaemma260@alexandria-3.com|bnjUFA4590",
-"oliviaemma300@alexandria-3.com|iwqCXG2066",
-"oliviaemma283@alexandria-3.com|sksEIE1345",
-"oliviaemma3@alexandria-3.com|oayEMP8972",
 "oliviaemma299@alexandria-3.com|giuGRU0497",
 "oliviaemma4@alexandria-3.com|kldZEK6728",
 "oliviaemma38@alexandria-3.com|wgwUVK2226",
@@ -80,15 +70,11 @@ STOCK = {
     "givens1rhharp@hotmail.com|dtdt2992"
      ], 
     "Capcut_35D": [
-    "yessenia@greenbudgetstore.online|123456"
      ],
      "Capcut_6TH": [
      ],
      "cdk_gpt_plus_1m": [
-    "77C28F2B-8778-472B-A436-11C1CBF8E25E",
-"AD385633-E891-4D86-93C4-446909705A93",
-"4F688E03-C1FF-49A0-8B51-1680A2B3D9FB",
-"B3D0FFC2-1F5E-48D0-A548-E04412D5C9D5",
+    "74HQ61BPXP7FCM2KXYZ4ZQ3PRYT",
      ],
      "acc_gpt_plus_12m_bhf": [
     "choirawlsoe3@hotmail.com|111111111111|U22PISEP723E3NAACIYPYK44HXUU33BZ",
