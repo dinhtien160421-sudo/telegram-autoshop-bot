@@ -79,8 +79,6 @@ STOCK = {
     "givens1rhharp@hotmail.com|dtdt2992"
     ],
     "Capcut_35D": [
-    "laury31@fastblogkit.shop|123456",
-"randistr@oceanbreezehub.space|123456",
 "oswald82@mmoninja.pics|123456",
 "mariahba@blazingmoss.icu|123456",
 "denisjas@blazingmoss.icu|123456",
