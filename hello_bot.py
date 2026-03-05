@@ -38,7 +38,6 @@ PRODUCTS = {
     "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2200000},
     "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 750000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
-    "canva_pro_6m": {"name": "Canva Pro 6 THÁNG BHF", "price": 90000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
     "Capcut_6TH": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 150000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
@@ -77,10 +76,8 @@ STOCK = {
     "veo3_bhf_12m": ["MANUAL"] * 999,
     "veo3_25k_bhf_1m": ["MANUAL"] * 999,
     "canva_pro_1m": [
-    ],
-    "canva_pro_6m": [
     "givens1rhharp@hotmail.com|dtdt2992"
-     ], 
+    ],
     "Capcut_35D": [
     "laury31@fastblogkit.shop|123456",
 "randistr@oceanbreezehub.space|123456",
