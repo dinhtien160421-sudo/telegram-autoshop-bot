@@ -42,20 +42,35 @@ PRODUCTS = {
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
     "Capcut_6TH": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 150000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
-    "acc_gpt_plus_12m_bhf": {"name": "ACC GPT PLUS DATE 2/3/2027 BH 1M", "price": 700000},
+    "acc_gpt_plus_12m_bhf": {"name": "ACC GPT PLUS DATE 2/3/2027 BH 2M", "price": 700000},
     "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
 }
 
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"oliviaemma293@alexandria-3.com|hgbHUI2064",
-"oliviaemma298@alexandria-3.com|bvzMSV6087",
+"lauralinda283@noxicatot.com|dmwVCR4553",
+"lauralinda284@noxicatot.com|ocpTDJ6258",
+"lauralinda285@noxicatot.com|dpzDYY1698",
+"lauralinda286@noxicatot.com|dukYZH5388",
+"lauralinda287@noxicatot.com|zgoJTE6501",
+"lauralinda288@noxicatot.com|nydOFV6148",
+"lauralinda289@noxicatot.com|yauNTH5198",
+"lauralinda28@noxicatot.com|bjtMQA4985",
+"lauralinda290@noxicatot.com|odhHWL6469",
+"lauralinda291@noxicatot.com|bzuTFJ3695",
+"lauralinda292@noxicatot.com|rifPUG8661",
+"lauralinda293@noxicatot.com|tlnQBH0248",
+"lauralinda294@noxicatot.com|wmzUTX4776",
+"lauralinda295@noxicatot.com|bagEMK9920",
+"lauralinda296@noxicatot.com|tqyTHE1808",
+"lauralinda297@noxicatot.com|aktOON3210",
+"lauralinda298@noxicatot.com|uahFUF1246",
+"lauralinda299@noxicatot.com|jdoUEA1855",
+"lauralinda29@noxicatot.com|gcmMUF7262",
+"lauralinda2@noxicatot.com|ggzGFT4341",
     ],
     "veo3_pro_bh":[    
- "ZedoAsR@ops.zorxunckj.io.vn|ThaoYenHiep@999",
-"ZedqYbv@ops.zorxunckj.io.vn|ThaoYenHiep@999",
-"ZedqlUB@ops.zorxunckj.io.vn|ThaoYenHiep@999",
 "ZedryQq@ops.zorxunckj.io.vn|ThaoYenHiep@999",
 "ZedstvC@ops.zorxunckj.io.vn|ThaoYenHiep@999",
     ],
@@ -68,11 +83,20 @@ STOCK = {
     "givens1rhharp@hotmail.com|dtdt2992"
      ], 
     "Capcut_35D": [
+    "laury31@fastblogkit.shop|123456",
+"randistr@oceanbreezehub.space|123456",
+"oswald82@mmoninja.pics|123456",
+"mariahba@blazingmoss.icu|123456",
+"denisjas@blazingmoss.icu|123456",
      ],
      "Capcut_6TH": [
      ],
      "cdk_gpt_plus_1m": [
-    "74HQ61BPXP7FCM2KXYZ4ZQ3PRYT",
+    "4006BD06-A2D0-4176-BF5A-CFB88F78F779",
+"E3B83B32-870F-46DE-9BBF-C62990B53FF6",
+"63F514AE-BF17-4D88-BBAF-CFC60B3B76FD",
+"AF331A8B-4023-496B-8841-6EB0B7187771",
+"E8AF978A-099A-4442-A57A-1675899900F4",
      ],
      "acc_gpt_plus_12m_bhf": [
     "choirawlsoe3@hotmail.com|111111111111|U22PISEP723E3NAACIYPYK44HXUU33BZ",
