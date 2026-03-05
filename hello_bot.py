@@ -36,7 +36,7 @@ PRODUCTS = {
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 65000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 380000},
     "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2200000},
-    "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 800000},
+    "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 750000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "canva_pro_6m": {"name": "Canva Pro 6 THÁNG BHF", "price": 90000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
@@ -49,14 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"lauralinda283@noxicatot.com|dmwVCR4553",
-"lauralinda284@noxicatot.com|ocpTDJ6258",
-"lauralinda285@noxicatot.com|dpzDYY1698",
-"lauralinda286@noxicatot.com|dukYZH5388",
-"lauralinda287@noxicatot.com|zgoJTE6501",
-"lauralinda288@noxicatot.com|nydOFV6148",
-"lauralinda289@noxicatot.com|yauNTH5198",
-"lauralinda28@noxicatot.com|bjtMQA4985",
 "lauralinda290@noxicatot.com|odhHWL6469",
 "lauralinda291@noxicatot.com|bzuTFJ3695",
 "lauralinda292@noxicatot.com|rifPUG8661",
@@ -71,8 +63,15 @@ STOCK = {
 "lauralinda2@noxicatot.com|ggzGFT4341",
     ],
     "veo3_pro_bh":[    
-"ZedryQq@ops.zorxunckj.io.vn|ThaoYenHiep@999",
-"ZedstvC@ops.zorxunckj.io.vn|ThaoYenHiep@999",
+"ZedihHo@tunzorelaxivanta.sbs|ThaoYenHiep@999",
+"ZedlkIm@tunzorelaxivanta.sbs|ThaoYenHiep@999",
+"ZedmIdr@tunzorelaxivanta.sbs|ThaoYenHiep@999",
+"ZednBtn@tunzorelaxivanta.sbs|ThaoYenHiep@999",
+"Zedondi@tunzorelaxivanta.sbs|ThaoYenHiep@999",
+"ZedqKTw@tunzorelaxivanta.sbs|ThaoYenHiep@999",
+"ZedrBGC@tunzorelaxivanta.sbs|ThaoYenHiep@999",
+"ZedsRne@tunzorelaxivanta.sbs|ThaoYenHiep@999",
+"ZedtSPT@tunzorelaxivanta.sbs|ThaoYenHiep@999",
     ],
     "veo3_ultra_bhf_1m": ["MANUAL"] * 999,
     "veo3_bhf_12m": ["MANUAL"] * 999,
@@ -92,7 +91,6 @@ STOCK = {
      "Capcut_6TH": [
      ],
      "cdk_gpt_plus_1m": [
-    "4006BD06-A2D0-4176-BF5A-CFB88F78F779",
 "E3B83B32-870F-46DE-9BBF-C62990B53FF6",
 "63F514AE-BF17-4D88-BBAF-CFC60B3B76FD",
 "AF331A8B-4023-496B-8841-6EB0B7187771",
