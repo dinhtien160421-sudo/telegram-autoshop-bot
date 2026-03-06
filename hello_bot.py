@@ -34,8 +34,8 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 110000},
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 65000},
-    "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 380000},
-    "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2200000},
+    "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 360000},
+    "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2100000},
     "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 750000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
@@ -48,10 +48,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"lauralinda290@noxicatot.com|odhHWL6469",
-"lauralinda291@noxicatot.com|bzuTFJ3695",
-"lauralinda292@noxicatot.com|rifPUG8661",
-"lauralinda293@noxicatot.com|tlnQBH0248",
 "lauralinda294@noxicatot.com|wmzUTX4776",
 "lauralinda295@noxicatot.com|bagEMK9920",
 "lauralinda296@noxicatot.com|tqyTHE1808",
@@ -62,8 +58,6 @@ STOCK = {
 "lauralinda2@noxicatot.com|ggzGFT4341",
     ],
     "veo3_pro_bh":[    
-"ZedihHo@tunzorelaxivanta.sbs|ThaoYenHiep@999",
-"ZedlkIm@tunzorelaxivanta.sbs|ThaoYenHiep@999",
 "ZedmIdr@tunzorelaxivanta.sbs|ThaoYenHiep@999",
 "ZednBtn@tunzorelaxivanta.sbs|ThaoYenHiep@999",
 "Zedondi@tunzorelaxivanta.sbs|ThaoYenHiep@999",
