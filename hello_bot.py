@@ -48,7 +48,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"esperanzaesperanza33@ednafamily.com|ukeWEP5178",
 "esperanzaesperanza34@ednafamily.com|gllMWV1421",
 "esperanzaesperanza35@ednafamily.com|ooaXAQ3920",
 "esperanzaesperanza36@ednafamily.com|kezGOH1164",
@@ -64,6 +63,7 @@ STOCK = {
 "esperanzaesperanza55@ednafamily.com|dzzZRH9928",
 "esperanzaesperanza62@ednafamily.com|huoMSU3989",
 "esperanzaesperanza63@ednafamily.com|flpYOA0537",
+"celesteceleste94@fdhddtt.com|gaeOFB7727",
     ],
     "veo3_pro_bh":[    
 "ZedrBGC@tunzorelaxivanta.sbs|ThaoYenHiep@999",
