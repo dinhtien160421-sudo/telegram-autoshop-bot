@@ -32,8 +32,8 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 99000},
-    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 50000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 85000},
+    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 40000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 350000},
     "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2100000},
     "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 750000},
@@ -48,10 +48,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"esperanzaesperanza23@ednafamily.com|dixGXM4180",
-"esperanzaesperanza26@ednafamily.com|tidJHU1649",
-"esperanzaesperanza25@ednafamily.com|wtdCTB0276",
-"esperanzaesperanza32@ednafamily.com|fwkHRX6554",
 "esperanzaesperanza33@ednafamily.com|ukeWEP5178",
 "esperanzaesperanza34@ednafamily.com|gllMWV1421",
 "esperanzaesperanza35@ednafamily.com|ooaXAQ3920",
@@ -70,10 +66,6 @@ STOCK = {
 "esperanzaesperanza63@ednafamily.com|flpYOA0537",
     ],
     "veo3_pro_bh":[    
-"ZedmIdr@tunzorelaxivanta.sbs|ThaoYenHiep@999",
-"ZednBtn@tunzorelaxivanta.sbs|ThaoYenHiep@999",
-"Zedondi@tunzorelaxivanta.sbs|ThaoYenHiep@999",
-"ZedqKTw@tunzorelaxivanta.sbs|ThaoYenHiep@999",
 "ZedrBGC@tunzorelaxivanta.sbs|ThaoYenHiep@999",
 "ZedsRne@tunzorelaxivanta.sbs|ThaoYenHiep@999",
 "ZedtSPT@tunzorelaxivanta.sbs|ThaoYenHiep@999",
