@@ -35,8 +35,9 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 85000},
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 40000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 350000},
+    "veo3_15k_bhf_1m": {"name": "Veo3 Ultra 15k credit chính chủ BHF 1 tháng", "price":450000},
+    "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 550000},
     "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2100000},
-    "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 20K chính chủ Credit BHF 1 Tháng", "price": 520000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
     "Capcut_6TH": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 150000},
@@ -48,14 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    "victoriaas214@tunqeravonestila.sbs|xmqNHA3919",
-"victoriaas220@tunqeravonestila.sbs|ffdETJ2125",
-"victoriaas222@tunqeravonestila.sbs|hckZSO3110",
-"victoriaas223@tunqeravonestila.sbs|akuYUR3965",
-"victoriaas221@tunqeravonestila.sbs|phpROR9238",
-"auroraveo140@trustmesh.jsisplaylk.site|uldQTQ1089",
-"auroraveo139@trustmesh.jsisplaylk.site|vmaMFQ4258",
-"auroraveo141@trustmesh.jsisplaylk.site|qplWJV6547",
 "auroraveo142@trustmesh.jsisplaylk.site|plsKUA5715",
 "auroraveo143@trustmesh.jsisplaylk.site|bugERM4773",
 "victoriaas204@tunqeravonestila.sbs|xqdXMI3580",
@@ -65,11 +58,6 @@ STOCK = {
 "victoriaas213@tunqeravonestila.sbs|dnyPID4631",
     ],
     "veo3_pro_bh":[    
-"ZedrBGC@tunzorelaxivanta.sbs|ThaoYenHiep@999",
-"ZedsRne@tunzorelaxivanta.sbs|ThaoYenHiep@999",
-"ZedtSPT@tunzorelaxivanta.sbs|ThaoYenHiep@999",
-"ZedBMmu@tunzorelaxivanta.sbs|ThaoYenHiep@999",
-"ZedBuUy@tunzorelaxivanta.sbs|ThaoYenHiep@999",
 "ZedIngg@tunzorelaxivanta.sbs|ThaoYenHiep@999",
 "ZedIqoT@tunzorelaxivanta.sbs|ThaoYenHiep@999",
 "ZedLOcZ@tunzorelaxivanta.sbs|ThaoYenHiep@999",
@@ -90,8 +78,9 @@ STOCK = {
 "ZedNjnA@tunqerostaviona.sbs|ThongChoLon@999",
     ],
     "veo3_ultra_bhf_1m": ["MANUAL"] * 999,
-    "veo3_bhf_12m": ["MANUAL"] * 999,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 999,
     "veo3_25k_bhf_1m": ["MANUAL"] * 999,
+    "veo3_bhf_12m": ["MANUAL"] * 999,
     "canva_pro_1m": [
     "givens1rhharp@hotmail.com|dtdt2992"
     ],
