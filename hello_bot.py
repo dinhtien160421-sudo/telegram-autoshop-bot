@@ -35,8 +35,8 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 69000},
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 35000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 350000},
-    "veo3_15k_bhf_1m": {"name": "Veo3 Ultra 15k credit chính chủ BHF 1 tháng", "price":450000},
-    "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K chính chủ Credit BHF 1 Tháng", "price": 550000},
+    "veo3_15k_bhf_1m": {"name": "Veo3 Ultra 15k credit chính chủ BHF 1 tháng", "price":480000},
+    "veo3_25k_bhf_1m": {"name": "Veo3 Ultra 25K credit chính chủ BHF 1 Tháng", "price": 590000},
     "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2100000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
@@ -49,7 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"auroraveo142@trustmesh.jsisplaylk.site|plsKUA5715",
 "auroraveo143@trustmesh.jsisplaylk.site|bugERM4773",
 "victoriaas204@tunqeravonestila.sbs|xqdXMI3580",
 "victoriaas210@tunqeravonestila.sbs|rlfZYE9877",
