@@ -32,8 +32,8 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 65000},
-    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 35000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 45000},
+    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 30000},
     "veo3_0k_bhf_1m": {"name": "Veo3 Ultra 0 credit chính chủ BHF 1 tháng", "price": 290000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 350000},
     "veo3_15k_bhf_1m": {"name": "Veo3 Ultra 15k credit chính chủ BHF 1 tháng", "price":480000},
@@ -50,9 +50,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"victoriaas211@tunqeravonestila.sbs|golAXH4404",
-"victoriaas212@tunqeravonestila.sbs|ushZXF7636",
-"victoriaas213@tunqeravonestila.sbs|dnyPID4631",
 "kpveoqbr5@lan.luiseduardomedr.asia|VUvhkWQbHT",
 "kpveof9pw@lan.luiseduardomedr.asia|PKmLWnYOSU",
 "kpveoj0k6@lan.luiseduardomedr.asia|X#Xh24tzte",
@@ -76,9 +73,6 @@ STOCK = {
 
     ],
     "veo3_pro_bh":[    
-    "zedbsax@tunvirelaxonta.com|ThongChoLon@999",
-"zedbwgm@tunvirelaxonta.com|ThongChoLon@999",
-"zedched@tunvirelaxonta.com|ThongChoLon@999",
 "zedchgn@tunvirelaxonta.com|ThongChoLon@999",
 "zedcitk@tunvirelaxonta.com|ThongChoLon@999",
     ],
@@ -98,7 +92,6 @@ STOCK = {
      "Capcut_6TH": [
      ],
      "cdk_gpt_plus_1m": [
-"E8AF978A-099A-4442-A57A-1675899900F4",
      ],
      "acc_gpt_plus_12m_bhf": [
     "choirawlsoe3@hotmail.com|111111111111|U22PISEP723E3NAACIYPYK44HXUU33BZ",
