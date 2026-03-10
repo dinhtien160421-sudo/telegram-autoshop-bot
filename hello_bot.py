@@ -32,8 +32,8 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price": 45000},
-    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 30000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price":49999},
+    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 29999},
     "veo3_0k_bhf_1m": {"name": "Veo3 Ultra 0 credit chính chủ BHF 1 tháng", "price": 290000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 350000},
     "veo3_15k_bhf_1m": {"name": "Veo3 Ultra 15k credit chính chủ BHF 1 tháng", "price":480000},
@@ -50,6 +50,39 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
+"kpveolwqs@cm.libertystreeteriepa.asia|is@qi#eyxo",
+"kpveomcsp@cm.libertystreeteriepa.asia|s5nEQl8g@x",
+"kpveou77c@cm.libertystreeteriepa.asia|QXnzxhqFyO",
+"kpveoy7hq@cm.libertystreeteriepa.asia|Dr@S9ZLES7",
+"kpveo7puk@cm.libertystreeteriepa.asia|mBTgG@I4v2",
+"kpveoez2p@cm.libertystreeteriepa.asia|#5ppIoS7ft",
+"kpveo3d22@cm.libertystreeteriepa.asia|THrBK#aQ7D",
+"kpveo8n9p@cm.libertystreeteriepa.asia|i5avv@@TUB",
+"kpveox5fg@cm.libertystreeteriepa.asia|WHIWG0WwnM",
+"kpveot74m@cm.libertystreeteriepa.asia|U0EnUvBFVS",
+"kpveol1cz@cm.libertystreeteriepa.asia|JHuKy9s#M0",
+"kpveoqzqp@cm.libertystreeteriepa.asia|L78QLO18qM",
+"kpveos1sz@cm.libertystreeteriepa.asia|uBAfWgBRAP",
+"kpveogvol@cm.libertystreeteriepa.asia|641RTV#AIn",
+"kpveof83l@cm.libertystreeteriepa.asia|Zk7NvM2XVp",
+"kpveozbzd@cm.libertystreeteriepa.asia|tWvvf9rRda",
+"kpveo8wkd@cm.libertystreeteriepa.asia|a2OQ1vkNdH",
+"kpveopbqp@cm.libertystreeteriepa.asia|GeAqC@K5EW",
+"kpveomd0r@cm.libertystreeteriepa.asia|4Hli081V3l",
+"kpveoucm0@cm.libertystreeteriepa.asia|Wb#nvVrm79",
+"kpveowsvd@cm.libertystreeteriepa.asia|3RhVe5l#nh",
+"kpveoz5fr@cm.libertystreeteriepa.asia|@tPDGVryEM",
+"kpveoja7q@cm.libertystreeteriepa.asia|RQb4tl2AGf",
+"kpveovfji@cm.libertystreeteriepa.asia|VQqZfzn7nB",
+"kpveo9ksl@cm.libertystreeteriepa.asia|t8yJqgfg3L",
+"kpveoosg5@cm.libertystreeteriepa.asia|27i4IersEA",
+"kpveodyeb@cm.libertystreeteriepa.asia|@57N0FMETZ",
+"kpveo297l@cm.libertystreeteriepa.asia|cOgcT5RSGJ",
+"kpveol2m5@cm.libertystreeteriepa.asia|W6slzXtbKF",
+"kpveos2he@cm.libertystreeteriepa.asia|YB3aNx@93d",
+"kpveoae03@cm.libertystreeteriepa.asia|qQUZcxyEi7",
+"kpveo10qs@cm.libertystreeteriepa.asia|nzx4jcSIGm",
+"kpveozmn1@cm.libertystreeteriepa.asia|5wS#bgMXsm",
 
     ],
     "veo3_pro_bh":[    
