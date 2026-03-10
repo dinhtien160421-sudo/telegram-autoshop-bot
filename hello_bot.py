@@ -33,7 +33,7 @@ PENDING_ORDERS = {}
 # ===== SẢN PHẨM =====
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 45K cre BH 24H", "price":49999},
-    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 29999},
+    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 22222},
     "veo3_0k_bhf_1m": {"name": "Veo3 Ultra 0 credit chính chủ BHF 1 tháng", "price": 290000},
     "veo3_ultra_bhf_1m": {"name": "Veo3 Ultra 5k credit chính chủ BHF 1 tháng", "price": 350000},
     "veo3_15k_bhf_1m": {"name": "Veo3 Ultra 15k credit chính chủ BHF 1 tháng", "price":480000},
