@@ -50,31 +50,24 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"kpveoqbr5@lan.luiseduardomedr.asia|VUvhkWQbHT",
-"kpveof9pw@lan.luiseduardomedr.asia|PKmLWnYOSU",
-"kpveoj0k6@lan.luiseduardomedr.asia|X#Xh24tzte",
-"kpveobke4@lan.luiseduardomedr.asia|ZRfPlF0#BB",
-"kpveoi1q7@lan.luiseduardomedr.asia|sYcinyprvR",
-"kpveofy0j@lan.luiseduardomedr.asia|YGAHEW7RT5",
-"kpveobu9f@lan.luiseduardomedr.asia|E@7dKAkuZs",
-"kpveokmvk@lan.luiseduardomedr.asia|DMS2EzOkYQ",
-"kpveonqbc@lan.luiseduardomedr.asia|J9ZtKAIjcW",
-"kpveo8kso@lan.luiseduardomedr.asia|c7qEgs0bOv",
-"kpveo52l6@lan.luiseduardomedr.asia|CfCP4jcUj6",
-"kpveohszh@lan.luiseduardomedr.asia|LEvjl9TqDk",
-"kpveo9s9y@lan.luiseduardomedr.asia|eX1wUP#g5N",
-"kpveoh1ej@lan.luiseduardomedr.asia|sILsvobitK",
-"kpveo02d5@lan.luiseduardomedr.asia|MHnbrqhsa8",
-"kpveoe4k3@lan.luiseduardomedr.asia|Oe@Yni22ma",
-"kpveojyye@lan.luiseduardomedr.asia|LTJu7MizL5",
-"kpveokbez@lan.luiseduardomedr.asia|x6@YEt#qIv",
-"kpveoibwr@lan.luiseduardomedr.asia|t1g6@u1mFM",
-"kpveoul8t@lan.luiseduardomedr.asia|@cMALXF0vJ",
 
     ],
     "veo3_pro_bh":[    
-"zedchgn@tunvirelaxonta.com|ThongChoLon@999",
-"zedcitk@tunvirelaxonta.com|ThongChoLon@999",
+"ZedNanR@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedPmoq@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedQzUZ@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedSxPa@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedTStK@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedTsuT@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedTzmu@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedVqZB@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedXBYD@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedYLdQ@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedYdqB@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedZHgc@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedaTvt@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedbMBM@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedbTnp@tunqerostaviona.sbs|ThongChoLon@999",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 999,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 999,
@@ -204,7 +197,7 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
             "📌 Vui lòng gửi mã đơn này qua Telegram để được nâng cấp tài khoản.\n"
             "👉 Telegram: @dtdt28\n\n"
             "🚀 Quyền lợi nổi bật:\n"
-            "• Tạo video Fast 3.1 không tốn credit\n"
+            "• Tạo video Fast 3.1 Lower không tốn credit\n"
             "• Dung lượng 6TB Google Drive\n"
             "• Truy cập Antigravity Ultra\n"
             "• Toàn bộ các quyền lợi cao cấp khác của Gemini\n\n"
