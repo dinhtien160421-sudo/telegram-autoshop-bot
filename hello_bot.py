@@ -35,7 +35,7 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":50000},
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 22222},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit chính chủ BHF 1 tháng", "price": 290000},
-    "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 350000},
+    "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
     "veo3_15k_bhf_1m": {"name": "Ultra Add Fam 15k credit chính chủ BHF 1 tháng", "price":380000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit chính chủ BHF 1 Tháng", "price": 500000},
     "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2100000},
@@ -50,17 +50,9 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"veo25kcrd47563914@tunmoravelixlta.com|Veo25kcrd@",
-"veo25kcrd38472910@tunmoravelixlta.com|Veo25kcrd@",
-"veo25kcrd81726442@tunmoravelixlta.com|Veo25kcrd@",
-"veo25kcrd44880066@tunmoravelixlta.com|Veo25kcrd@",
-"veo25kcrd11827035@tunmoravelixlta.com|Veo25kcrd@",
-"veo25kcrd40591847@tunmoravelixlta.com|Veo25kcrd@",
+
     ],
     "veo3_pro_bh":[    
-"ZeduDeM@tunqerostaviona.sbs|ThongChoLon@999",
-"ZedvjJX@tunqerostaviona.sbs|ThongChoLon@999",
-"ZedvlQl@tunqerostaviona.sbs|ThongChoLon@999",
 "ZedzNAC@tunqerostaviona.sbs|ThongChoLon@999",
 "ZedzrVp@tunqerostaviona.sbs|ThongChoLon@999",
 "zedargy@tunqerostaviona.sbs|ThongChoLon@999",
