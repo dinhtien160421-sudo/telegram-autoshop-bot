@@ -93,7 +93,7 @@ STOCK = {
     ],
     "veo3_0k_bhf_1m": [
     ".",  
-    ]
+    ],
     "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
     "veo3_15k_bhf_1m": ["MANUAL"] * 0,
     "veo3_25k_bhf_1m": ["MANUAL"] * ,
