@@ -50,9 +50,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"xanderveo25kcrd510293@tunlavoriqestlan.sbs|Veo25kcrd@",
-"veoultra1@qwep.alexandria-realty.com|An6T6bL=",
-"veoultra2@qwep.alexandria-realty.com|QM495yL=",
 "taminoultra904831@qwep.alexandria-realty.com|Ultranxz1#",
 "oonaultra913680@qwep.alexandria-realty.com|Ultranxz1#",
 "kpveohcrj@johncalvindrive.asia|VICvMZXWJF",
@@ -77,8 +74,6 @@ STOCK = {
 "kpveo183u@johncalvindrive.asia|ATchZysLmb",
     ],
     "veo3_pro_bh":[    
-"zedhdtt@tunqerostaviona.sbs|ThongChoLon@999",
-"zedkkfg@tunqerostaviona.sbs|ThongChoLon@999",
 "zedkpgb@tunqerostaviona.sbs|ThongChoLon@999",
 "zedoqfe@tunqerostaviona.sbs|ThongChoLon@999",
 "ZedkTlQ@tunqerostaviona.sbs|ThongChoLon@999",
