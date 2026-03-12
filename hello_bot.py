@@ -50,17 +50,22 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-
+"miloveo25kcrd506173@tunlavoriqestlan.sbs|Veo25kcrd@",
+"jacksonveo25kcrd564738@tunlavoriqestlan.sbs|Veo25kcrd@",
+"xanderveo25kcrd510293@tunlavoriqestlan.sbs|Veo25kcrd@",
+"veoultra1@qwep.alexandria-realty.com|An6T6bL=",
+"veoultra2@qwep.alexandria-realty.com|QM495yL=",
+"taminoultra904831@qwep.alexandria-realty.com|Ultranxz1#",
+"oonaultra913680@qwep.alexandria-realty.com|Ultranxz1#",
     ],
     "veo3_pro_bh":[    
-"ZedzNAC@tunqerostaviona.sbs|ThongChoLon@999",
-"ZedzrVp@tunqerostaviona.sbs|ThongChoLon@999",
 "zedargy@tunqerostaviona.sbs|ThongChoLon@999",
 "zedegql@tunqerostaviona.sbs|ThongChoLon@999",
 "zedhdtt@tunqerostaviona.sbs|ThongChoLon@999",
 "zedkkfg@tunqerostaviona.sbs|ThongChoLon@999",
 "zedkpgb@tunqerostaviona.sbs|ThongChoLon@999",
 "zedoqfe@tunqerostaviona.sbs|ThongChoLon@999",
+"ZedkTlQ@tunqerostaviona.sbs|ThongChoLon@999",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 999,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 999,
@@ -80,7 +85,6 @@ STOCK = {
      "cdk_gpt_plus_1m": [
      ],
      "acc_gpt_plus_12m_bhf": [
-    "choirawlsoe3@hotmail.com|111111111111|U22PISEP723E3NAACIYPYK44HXUU33BZ",
     ],
     
     "info_4": ["IB"] * 0,
