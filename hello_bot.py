@@ -182,7 +182,7 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
     product = PRODUCTS[pid]
 
     # ===== SẢN PHẨM NÂNG CẤP THỦ CÔNG =====
-    if pid in ["veo3_ultra_bhf_1m", "veo3_12k5_bhf_1m", "veo3_25k_bhf_1m"]:
+    if pid in [ "veo3_0k_bhf_1m","veo3_ultra_bhf_1m","veo3_15k_bhf_1m", "veo3_25k_bhf_1m","veo3_bhf_12m"]:
         detail = (
             f"✅ Đơn `{code}`\n"
             f"🎁 Sản phẩm: {product['name']}\n"
