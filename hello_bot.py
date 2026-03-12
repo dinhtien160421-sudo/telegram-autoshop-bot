@@ -84,9 +84,9 @@ STOCK = {
 "ZedkTlQ@tunqerostaviona.sbs|ThongChoLon@999",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 5,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 5,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_bhf_12m": ["MANUAL"] * 10,
     "canva_pro_1m": [
     "givens1rhharp@hotmail.com|dtdt2992"
