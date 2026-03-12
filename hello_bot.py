@@ -36,8 +36,8 @@ PRODUCTS = {
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 22222},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit chính chủ BHF 1 tháng", "price": 290000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
-    "veo3_15k_bhf_1m": {"name": "Ultra Add Fam 15k credit chính chủ BHF 1 tháng", "price":380000},
-    "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit chính chủ BHF 1 Tháng", "price": 500000},
+    "veo3_15k_bhf_1m": {"name": "Ultra Add Fam 15k credit chính chủ BHF 1 tháng", "price":390000},
+    "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit chính chủ BHF 1 Tháng", "price": 480000},
     "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2100000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
@@ -50,7 +50,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"miloveo25kcrd506173@tunlavoriqestlan.sbs|Veo25kcrd@",
 "jacksonveo25kcrd564738@tunlavoriqestlan.sbs|Veo25kcrd@",
 "xanderveo25kcrd510293@tunlavoriqestlan.sbs|Veo25kcrd@",
 "veoultra1@qwep.alexandria-realty.com|An6T6bL=",
@@ -67,11 +66,11 @@ STOCK = {
 "zedoqfe@tunqerostaviona.sbs|ThongChoLon@999",
 "ZedkTlQ@tunqerostaviona.sbs|ThongChoLon@999",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 999,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 999,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 999,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 999,
-    "veo3_bhf_12m": ["MANUAL"] * 999,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 3,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 5,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 5,
+    "veo3_bhf_12m": ["MANUAL"] * 10,
     "canva_pro_1m": [
     "givens1rhharp@hotmail.com|dtdt2992"
     ],
