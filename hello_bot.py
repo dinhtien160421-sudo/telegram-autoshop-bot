@@ -50,13 +50,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"taminoultra904831@qwep.alexandria-realty.com|Ultranxz1#",
-"oonaultra913680@qwep.alexandria-realty.com|Ultranxz1#",
-"kpveohcrj@johncalvindrive.asia|VICvMZXWJF",
-"kpveourag@johncalvindrive.asia|zdMKkXNEKM",
-"kpveoewvq@johncalvindrive.asia|SHX87Il7e7",
-"kpveoqzo5@johncalvindrive.asia|7UF##7CAnH",
-"kpveo1u8s@johncalvindrive.asia|l0HrjkuxXi",
 "kpveoayk6@johncalvindrive.asia|P0CDnoAorl",
 "kpveoft2c@johncalvindrive.asia|pYM7d8tqhy",
 "kpveodksu@johncalvindrive.asia|PcQeVnULJX",
@@ -91,10 +84,10 @@ STOCK = {
 "zedunsr@tunvirelaxonta.com|ThongChoLon@999",
 "zeduolj@tunvirelaxonta.com|ThongChoLon@999",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 3,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 2,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 2,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 2 ,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_bhf_12m": ["MANUAL"] * 6,
     "canva_pro_1m": [
     "givens1rhharp@hotmail.com|dtdt2992"
