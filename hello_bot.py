@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":50000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":45000},
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 22222},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit chính chủ BHF 1 tháng", "price": 310000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 330000},
@@ -50,20 +50,30 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"kpveoft2c@johncalvindrive.asia|pYM7d8tqhy",
-"kpveodksu@johncalvindrive.asia|PcQeVnULJX",
-"kpveojm4u@johncalvindrive.asia|sza3Otx6vK",
-"kpveo6qxi@johncalvindrive.asia|is2oHJwNMb",
-"kpveozuta@johncalvindrive.asia|54M0KDhIEO",
-"kpveoa8za@johncalvindrive.asia|XC@MvAQv3I",
-"kpveojvj3@johncalvindrive.asia|D6eEdbGvCJ",
-"kpveo9u2l@johncalvindrive.asia|CQl8P25pdT",
-"kpveooo4n@johncalvindrive.asia|H5RheVAO@6",
-"kpveo24tt@johncalvindrive.asia|XjDQGmdG9p",
-"kpveo6ph1@johncalvindrive.asia|UuAdNQwtOt",
 "kpveov36s@johncalvindrive.asia|EhoupGpiEX",
 "kpveo3bhs@johncalvindrive.asia|@DYt@pqBYN",
 "kpveo183u@johncalvindrive.asia|ATchZysLmb",
+"kpveodyeb@libertystreeteriepa.asia|@57N0FMETZ",
+"kpveo297l@libertystreeteriepa.asia|cOgcT5RSGJ",
+"kpveol2m5@libertystreeteriepa.asia|W6slzXtbKF",
+"kpveos2he@libertystreeteriepa.asia|YB3aNx@93d",
+"kpveoae03@libertystreeteriepa.asia|qQUZcxyEi7",
+"kpveo10qs@libertystreeteriepa.asia|nzx4jcSIGm",
+"kpveozmn1@libertystreeteriepa.asia|5wS#bgMXsm",
+"kpveo6g51@libertystreeteriepa.asia|qE616AG18j",
+"kpveowcln@libertystreeteriepa.asia|yYltjao4q7",
+"kpveo6cn7@libertystreeteriepa.asia|J2VAdRtM3k",
+"kpveowzoq@libertystreeteriepa.asia|fNkrfTBP4H",
+"kpveodv3h@libertystreeteriepa.asia|lkfI9JAU5B",
+"kpveo8dk2@libertystreeteriepa.asia|E1xb7Fcsen",
+"kpveoysvd@libertystreeteriepa.asia|D4SLLKeMK5",
+"kpveo4pgf@libertystreeteriepa.asia|g6Eis7WDID",
+"kpveotqhk@libertystreeteriepa.asia|Ge36xJOG6g",
+"kpveorzrk@libertystreeteriepa.asia|SISvtsAjLt",
+"kpveo1ius@libertystreeteriepa.asia|Cm#q8hn#2L",
+"kpveorpt4@libertystreeteriepa.asia|wTmTtjR6tW",
+"kpveo8jrk@libertystreeteriepa.asia|Afpk8XNwSK",
+
     ],
     "veo3_pro_bh":[    
 "zedruza@tunvirelaxonta.com|ThongChoLon@999",
