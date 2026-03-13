@@ -50,7 +50,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"kpveoayk6@johncalvindrive.asia|P0CDnoAorl",
 "kpveoft2c@johncalvindrive.asia|pYM7d8tqhy",
 "kpveodksu@johncalvindrive.asia|PcQeVnULJX",
 "kpveojm4u@johncalvindrive.asia|sza3Otx6vK",
@@ -85,9 +84,9 @@ STOCK = {
 "zeduolj@tunvirelaxonta.com|ThongChoLon@999",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 1,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 1,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 1,
     "veo3_bhf_12m": ["MANUAL"] * 6,
     "canva_pro_1m": [
     "givens1rhharp@hotmail.com|dtdt2992"
