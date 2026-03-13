@@ -34,8 +34,8 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":45000},
     "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 22222},
-    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit chính chủ BHF 1 tháng", "price": 310000},
-    "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 330000},
+    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit chính chủ BHF 1 tháng", "price": 300000},
+    "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
     "veo3_15k_bhf_1m": {"name": "Ultra Add Fam 15k credit chính chủ BHF 1 tháng", "price":440000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit chính chủ BHF 1 Tháng", "price": 550000},
     "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2100000},
