@@ -50,9 +50,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"kpveo297l@libertystreeteriepa.asia|cOgcT5RSGJ",
-"kpveol2m5@libertystreeteriepa.asia|W6slzXtbKF",
-"kpveos2he@libertystreeteriepa.asia|YB3aNx@93d",
 "kpveoae03@libertystreeteriepa.asia|qQUZcxyEi7",
 "kpveo10qs@libertystreeteriepa.asia|nzx4jcSIGm",
 "kpveozmn1@libertystreeteriepa.asia|5wS#bgMXsm",
@@ -72,9 +69,6 @@ STOCK = {
 
     ],
     "veo3_pro_bh":[    
-"zedrvys@tunvirelaxonta.com|ThongChoLon@999",
-"zedrwpa@tunvirelaxonta.com|ThongChoLon@999",
-"zedsaoc@tunvirelaxonta.com|ThongChoLon@999",
 "zedsgvm@tunvirelaxonta.com|ThongChoLon@999",
 "zedtevn@tunvirelaxonta.com|ThongChoLon@999",
 "zedtrqn@tunvirelaxonta.com|ThongChoLon@999",
@@ -86,11 +80,11 @@ STOCK = {
 "zedunsr@tunvirelaxonta.com|ThongChoLon@999",
 "zeduolj@tunvirelaxonta.com|ThongChoLon@999",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 1,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 1,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 1,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 1,
-    "veo3_bhf_12m": ["MANUAL"] * 6,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_bhf_12m": ["MANUAL"] * 0,
     "canva_pro_1m": [
     "givens1rhharp@hotmail.com|dtdt2992"
     ],
