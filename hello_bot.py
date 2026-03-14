@@ -43,18 +43,12 @@ PRODUCTS = {
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
     "Capcut_6TH": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 150000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
-    "acc_gpt_plus_12m_bhf": {"name": "ACC GPT PLUS DATE 2/3/2027 BH 2M", "price": 700000},
     "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
 }
 
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"kpveoae03@libertystreeteriepa.asia|qQUZcxyEi7",
-"kpveo10qs@libertystreeteriepa.asia|nzx4jcSIGm",
-"kpveozmn1@libertystreeteriepa.asia|5wS#bgMXsm",
-"kpveo6g51@libertystreeteriepa.asia|qE616AG18j",
-"kpveowcln@libertystreeteriepa.asia|yYltjao4q7",
 "kpveo6cn7@libertystreeteriepa.asia|J2VAdRtM3k",
 "kpveowzoq@libertystreeteriepa.asia|fNkrfTBP4H",
 "kpveodv3h@libertystreeteriepa.asia|lkfI9JAU5B",
@@ -80,13 +74,12 @@ STOCK = {
 "zedunsr@tunvirelaxonta.com|ThongChoLon@999",
 "zeduolj@tunvirelaxonta.com|ThongChoLon@999",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_bhf_12m": ["MANUAL"] * 0,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 1,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 1,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 1,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 1,
+    "veo3_bhf_12m": ["MANUAL"] * 5,
     "canva_pro_1m": [
-    "givens1rhharp@hotmail.com|dtdt2992"
     ],
     "Capcut_35D": [
 "oswald82@mmoninja.pics|123456",
@@ -96,10 +89,12 @@ STOCK = {
      "Capcut_6TH": [
      ],
      "cdk_gpt_plus_1m": [
+    "C86E35A5-ABB9-4103-A5C8-5C4FF1563558",
+"591EAAFB-3BF3-4E61-9C90-8C4657CFCE4A",
+"E19BC7E0-A591-405B-98F5-AF63E2F93D09",
+"E2CEC301-56C9-48FC-B816-4978A98543A6",
+"CC83CABE-39DF-40AB-886E-7F888B84B199",
      ],
-     "acc_gpt_plus_12m_bhf": [
-    ],
-    
     "info_4": ["IB"] * 0,
 }
 
