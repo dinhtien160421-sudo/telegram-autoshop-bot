@@ -33,7 +33,7 @@ PENDING_ORDERS = {}
 # ===== SẢN PHẨM =====
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":45000},
-    "veo3_pro_bh": {"name": "Veo3 Pro 45K cre BH 24h", "price": 22222},
+    "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price": 22222},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit chính chủ BHF 1 tháng", "price": 300000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
     "veo3_15k_bhf_1m": {"name": "Ultra Add Fam 15k credit chính chủ BHF 1 tháng", "price":440000},
@@ -49,30 +49,30 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"kpveo6cn7@libertystreeteriepa.asia|J2VAdRtM3k",
-"kpveowzoq@libertystreeteriepa.asia|fNkrfTBP4H",
-"kpveodv3h@libertystreeteriepa.asia|lkfI9JAU5B",
-"kpveo8dk2@libertystreeteriepa.asia|E1xb7Fcsen",
-"kpveoysvd@libertystreeteriepa.asia|D4SLLKeMK5",
-"kpveo4pgf@libertystreeteriepa.asia|g6Eis7WDID",
-"kpveotqhk@libertystreeteriepa.asia|Ge36xJOG6g",
-"kpveorzrk@libertystreeteriepa.asia|SISvtsAjLt",
-"kpveo1ius@libertystreeteriepa.asia|Cm#q8hn#2L",
-"kpveorpt4@libertystreeteriepa.asia|wTmTtjR6tW",
-"kpveo8jrk@libertystreeteriepa.asia|Afpk8XNwSK",
+"famveoijb11@vz3mtt.shop|tttttttt",
+"famveowoe95@vz3mtt.shop|tttttttt",
+"famveooba49@vz3mtt.shop|tttttttt",
+"famveojap29@vz3mtt.shop|tttttttt",
+"famveogvy33@vz3mtt.shop|tttttttt",
+"famveobhu56@vz3mtt.shop|tttttttt",
+"famveosdc58@vz3mtt.shop|tttttttt",
+"famveowis78@vz3mtt.shop|tttttttt",
+"famveokyd15@tunvirelaxontira.sbs|demo7890@",
+"famveooev35@vz3mtt.shop|tttttttt",
+"famveoumh98@vz3mtt.shop|tttttttt",
+"famveocys26@vz3mtt.shop|tttttttt",
+"famveonwm69@vz3mtt.shop|tttttttt",
+"famveoieh98@vz3mtt.shop|tttttttt",
+"famveoodq76@vz3mtt.shop|tttttttt",
 
     ],
     "veo3_pro_bh":[    
-"zedsgvm@tunvirelaxonta.com|ThongChoLon@999",
-"zedtevn@tunvirelaxonta.com|ThongChoLon@999",
-"zedtrqn@tunvirelaxonta.com|ThongChoLon@999",
-"zedtztl@tunvirelaxonta.com|ThongChoLon@999",
-"zeduemx@tunvirelaxonta.com|ThongChoLon@999",
 "zeduhce@tunvirelaxonta.com|ThongChoLon@999",
 "zeduhkx@tunvirelaxonta.com|ThongChoLon@999",
 "zedujyx@tunvirelaxonta.com|ThongChoLon@999",
 "zedunsr@tunvirelaxonta.com|ThongChoLon@999",
 "zeduolj@tunvirelaxonta.com|ThongChoLon@999",
+"zedrwpa@tunvirelaxonta.com|ThongChoLon@999",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 1,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 1,
@@ -82,7 +82,6 @@ STOCK = {
     "canva_pro_1m": [
     ],
     "Capcut_35D": [
-"oswald82@mmoninja.pics|123456",
 "mariahba@blazingmoss.icu|123456",
 "denisjas@blazingmoss.icu|123456",
      ],
