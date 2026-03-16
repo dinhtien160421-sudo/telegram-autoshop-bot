@@ -49,13 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"famveotlu01@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveoyka71@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveogyo79@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveoreu07@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveonyo00@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveowyf16@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveoobg69@zz9zzz3zzwwwoo.shop|tttttttt",
 "famveozwv45@zz9zzz3zzwwwoo.shop|tttttttt",
 "famveouqu98@zz9zzz3zzwwwoo.shop|tttttttt",
 "famveodcs11@zz9zzz3zzwwwoo.shop|tttttttt",
@@ -69,14 +62,6 @@ STOCK = {
 
     ],
     "veo3_pro_bh":[    
-"zed007j8n@tunmorqevanlistor.sbs|MyNhan@999",
-"zed0hnm12@tunmorqevanlistor.sbs|MyNhan@999",
-"zed0pldbt@tunmorqevanlistor.sbs|MyNhan@999",
-"zed0vylj9@tunmorqevanlistor.sbs|MyNhan@999",
-"zed0w55uy@tunmorqevanlistor.sbs|MyNhan@999",
-"zeda2h05g@tunmorqevanlistor.sbs|MyNhan@999",
-"zeda2i3mj@tunmorqevanlistor.sbs|MyNhan@999",
-"zedaabtln@tunmorqevanlistor.sbs|MyNhan@999",
 "zedadt7zv@tunmorqevanlistor.sbs|MyNhan@999",
 "zedaog1q7@tunmorqevanlistor.sbs|MyNhan@999",
 "zedaxa3r5@tunmorqevanlistor.sbs|MyNhan@999",
@@ -90,10 +75,10 @@ STOCK = {
 "zedc8asvy@tunmorqevanlistor.sbs|MyNhan@999",
 "zedci6mb9@tunmorqevanlistor.sbs|MyNhan@999",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 1,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 1,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 1,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 1,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_bhf_12m": ["MANUAL"] * 5,
     "canva_pro_1m": [
     ],
