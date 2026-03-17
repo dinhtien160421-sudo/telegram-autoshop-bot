@@ -100,7 +100,6 @@ STOCK = {
     "veo3_15k_bhf_1m": ["MANUAL"] * 0,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_bhf_12m": ["MANUAL"] * 5,
-    ],
     "Capcut_35D": [
 "denisjas@blazingmoss.icu|123456",
      ],
