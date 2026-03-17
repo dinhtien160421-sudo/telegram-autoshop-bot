@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":40000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":35000},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price": 22222},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit chính chủ BHF 1 tháng", "price": 300000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
@@ -49,7 +49,19 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-
+    "mhveom6859@mk.1middleneckroad.asia|Password@123",
+"mhveon1092@mk.1middleneckroad.asia|Password@123",
+"mhveoo5517@mk.1middleneckroad.asia|Password@123",
+"mhveop8203@mk.1middleneckroad.asia|Password@123",
+"mhveoq3948@mk.1middleneckroad.asia|Password@123",
+"mhveor7165@mk.1middleneckroad.asia|Password@123",
+"mhveos0432@mk.1middleneckroad.asia|Password@123",
+"mhveot4986@mk.1middleneckroad.asia|Password@123",
+"mhveou9170@mk.1middleneckroad.asia|Password@123",
+"mhveov2254@mk.1middleneckroad.asia|Password@123",
+"mhveow6819@mk.1middleneckroad.asia|Password@123",
+"mhveox1047@mk.1middleneckroad.asia|Password@123",
+"mhveoy5592@mk.1middleneckroad.asia|Password@123",
     ],
     "veo3_pro_bh":[    
 "zedc8asvy@tunmorqevanlistor.sbs|MyNhan@999",
