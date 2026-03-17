@@ -34,12 +34,11 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":35000},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price": 22222},
-    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit chính chủ BHF 1 tháng", "price": 300000},
+    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 300000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
-    "veo3_15k_bhf_1m": {"name": "Ultra Add Fam 15k credit chính chủ BHF 1 tháng", "price":440000},
-    "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit chính chủ BHF 1 Tháng", "price": 550000},
-    "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2100000},
-    "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
+    "veo3_15k_bhf_1m": {"name": "Ultra Add Fam 15k credit BHF 1 tháng", "price":440000},
+    "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 550000},
+    "veo3_bhf_12m": {"name": " Ultra Add Fam 6k cre/tháng BHF 1 NĂM", "price": 2000000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
     "cdk_gpt_go": {"name": "CDK CHATGPT Go 12M BH ACTIVE", "price": 80000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
@@ -101,7 +100,6 @@ STOCK = {
     "veo3_15k_bhf_1m": ["MANUAL"] * 0,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_bhf_12m": ["MANUAL"] * 5,
-    "canva_pro_1m": [
     ],
     "Capcut_35D": [
 "denisjas@blazingmoss.icu|123456",
