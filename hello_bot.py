@@ -41,7 +41,7 @@ PRODUCTS = {
     "veo3_bhf_12m": {"name": "Veo3 Ultra chính chủ 6k cre/tháng BHF 1 NĂM", "price": 2100000},
     "canva_pro_1m": {"name": "Canva Pro 30D BHF", "price": 25000},
     "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
-    "Capcut_6TH": {"name": "Capcut Pro Team 6 THÁNG BHF", "price": 150000},
+    "cdk_gpt_go": {"name": "CDK CHATGPT Go 12M BH ACTIVE", "price": 80000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
     "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
 }
@@ -49,13 +49,38 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"mhveos0432@mk.1middleneckroad.asia|Password@123",
-"mhveot4986@mk.1middleneckroad.asia|Password@123",
-"mhveou9170@mk.1middleneckroad.asia|Password@123",
-"mhveov2254@mk.1middleneckroad.asia|Password@123",
-"mhveow6819@mk.1middleneckroad.asia|Password@123",
 "mhveox1047@mk.1middleneckroad.asia|Password@123",
 "mhveoy5592@mk.1middleneckroad.asia|Password@123",
+"mhveoz5126@mk.1middleneckroad.asia|Password@123",
+"mhveoa9840@mk.1middleneckroad.asia|Password@123",
+"mhveob2273@mk.1middleneckroad.asia|Password@123",
+"mhveoc6018@mk.1middleneckroad.asia|Password@123",
+"mhveod4439@mk.1middleneckroad.asia|Password@123",
+"mhveoe1027@mk.1middleneckroad.asia|Password@123",
+"mhveof5591@mk.1middleneckroad.asia|Password@123",
+"mhveog8364@mk.1middleneckroad.asia|Password@123",
+"mhveoh3105@mk.1middleneckroad.asia|Password@123",
+"mhveoi7620@mk.1middleneckroad.asia|Password@123",
+"mhveoj2941@mk.1middleneckroad.asia|Password@123",
+"mhveok6483@mk.1middleneckroad.asia|Password@123",
+"mhveol0057@mk.1middleneckroad.asia|Password@123",
+"mhveom9912@mk.1middleneckroad.asia|Password@123",
+"mhveon4138@mk.1middleneckroad.asia|Password@123",
+"mhveoo8275@mk.1middleneckroad.asia|Password@123",
+"mhveop2046@mk.1middleneckroad.asia|Password@123",
+"mhveoq6639@mk.1middleneckroad.asia|Password@123",
+"mhveor1098@mk.1middleneckroad.asia|Password@123",
+"mhveos5421@mk.1middleneckroad.asia|Password@123",
+"mhveot8874@mk.1middleneckroad.asia|Password@123",
+"mhveou3150@mk.1middleneckroad.asia|Password@123",
+"mhveov6723@mk.1middleneckroad.asia|Password@123",
+"mhveow0412@mk.1middleneckroad.asia|Password@123",
+"mhveox4987@mk.1middleneckroad.asia|Password@123",
+"mhveoy9230@mk.1middleneckroad.asia|Password@123",
+"mhveoz1165@mk.1middleneckroad.asia|Password@123",
+"mhveoa5504@mk.1middleneckroad.asia|Password@123",
+"mhveob8291@mk.1middleneckroad.asia|Password@123",
+"mhveoc3047@mk.1middleneckroad.asia|Password@123",
     ],
     "veo3_pro_bh":[    
 "zedc8asvy@tunmorqevanlistor.sbs|MyNhan@999",
@@ -81,10 +106,17 @@ STOCK = {
     "Capcut_35D": [
 "denisjas@blazingmoss.icu|123456",
      ],
-     "Capcut_6TH": [
+     "cdk_gpt_go": [
+    "8B6B8105-565F-4ADC-941C-34FD514D758D",
+"5FE704B3-AE55-4E3E-8880-88C0500E33DE",
+"839A580B-B231-4D5B-8895-4D7A0F9E0C95",
      ],
      "cdk_gpt_plus_1m": [
 "CC83CABE-39DF-40AB-886E-7F888B84B199",
+"8B42E7F-25AA-4078-8880-A52B1F93C885",
+"4C61A882-F21B-4E62-BB4E-A351AF8C7FBC",
+"4976CA70-D418-4EAC-987B-31CAE84E9B99",
+"49B7A9E3-54A0-4310-B429-A69DFF067DAE",
      ],
     "info_4": ["IB"] * 0,
 }
@@ -223,7 +255,7 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
 
     # Hướng dẫn riêng cho CDK
     extra_guide = ""
-    if pid == "cdk_gpt_plus_1m":
+    if pid in ["cdk_gpt_plus_1m", "cdk_gpt_go"]:
         extra_guide = "\n\n🌐 Website sử dụng CDK: https://nuoitao.com\n"
 
     detail = (
