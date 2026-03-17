@@ -49,12 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    "mhveom6859@mk.1middleneckroad.asia|Password@123",
-"mhveon1092@mk.1middleneckroad.asia|Password@123",
-"mhveoo5517@mk.1middleneckroad.asia|Password@123",
-"mhveop8203@mk.1middleneckroad.asia|Password@123",
-"mhveoq3948@mk.1middleneckroad.asia|Password@123",
-"mhveor7165@mk.1middleneckroad.asia|Password@123",
 "mhveos0432@mk.1middleneckroad.asia|Password@123",
 "mhveot4986@mk.1middleneckroad.asia|Password@123",
 "mhveou9170@mk.1middleneckroad.asia|Password@123",
@@ -66,6 +60,16 @@ STOCK = {
     "veo3_pro_bh":[    
 "zedc8asvy@tunmorqevanlistor.sbs|MyNhan@999",
 "zedci6mb9@tunmorqevanlistor.sbs|MyNhan@999",
+"zedm18pat@tunmorqevanlistor.sbs|MyNhan@999",
+"zedm9f3nn@tunmorqevanlistor.sbs|MyNhan@999",
+"zedmuwkaw@tunmorqevanlistor.sbs|MyNhan@999",
+"zedn7rwhe@tunmorqevanlistor.sbs|MyNhan@999",
+"zednay7ld@tunmorqevanlistor.sbs|MyNhan@999",
+"zednqf4l3@tunmorqevanlistor.sbs|MyNhan@999",
+"zednuf6z6@tunmorqevanlistor.sbs|MyNhan@999",
+"zednw9e8n@tunmorqevanlistor.sbs|MyNhan@999",
+"zedo3pz28@tunmorqevanlistor.sbs|MyNhan@999",
+"zedo6ki5s@tunmorqevanlistor.sbs|MyNhan@999",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 0,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
@@ -75,7 +79,6 @@ STOCK = {
     "canva_pro_1m": [
     ],
     "Capcut_35D": [
-"mariahba@blazingmoss.icu|123456",
 "denisjas@blazingmoss.icu|123456",
      ],
      "Capcut_6TH": [
