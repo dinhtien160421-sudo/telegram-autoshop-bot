@@ -49,29 +49,16 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"famveobdt93@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveoktv32@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveopth33@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveonqq44@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveomzz06@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveovjm10@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveoukk02@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveoshk84@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveokxs76@zz9zzz3zzwwwoo.shop|tttttttt",
-"famveooso27@zz9zzz3zzwwwoo.shop|tttttttt",
 
     ],
     "veo3_pro_bh":[    
-"zedc0yn9o@tunmorqevanlistor.sbs|MyNhan@999",
-"zedc5124n@tunmorqevanlistor.sbs|MyNhan@999",
-"zedc71ces@tunmorqevanlistor.sbs|MyNhan@999",
 "zedc8asvy@tunmorqevanlistor.sbs|MyNhan@999",
 "zedci6mb9@tunmorqevanlistor.sbs|MyNhan@999",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 1,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 1,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 1,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 1,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_bhf_12m": ["MANUAL"] * 5,
     "canva_pro_1m": [
     ],
@@ -82,8 +69,6 @@ STOCK = {
      "Capcut_6TH": [
      ],
      "cdk_gpt_plus_1m": [
-"E19BC7E0-A591-405B-98F5-AF63E2F93D09",
-"E2CEC301-56C9-48FC-B816-4978A98543A6",
 "CC83CABE-39DF-40AB-886E-7F888B84B199",
      ],
     "info_4": ["IB"] * 0,
