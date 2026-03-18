@@ -48,10 +48,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"mhveoa9840@mk.1middleneckroad.asia|Password@123",
-"mhveob2273@mk.1middleneckroad.asia|Password@123",
-"mhveoc6018@mk.1middleneckroad.asia|Password@123",
-"mhveod4439@mk.1middleneckroad.asia|Password@123",
 "mhveoe1027@mk.1middleneckroad.asia|Password@123",
 "mhveof5591@mk.1middleneckroad.asia|Password@123",
 "mhveog8364@mk.1middleneckroad.asia|Password@123",
@@ -91,10 +87,10 @@ STOCK = {
 "zedo3pz28@tunmorqevanlistor.sbs|MyNhan@999",
 "zedo6ki5s@tunmorqevanlistor.sbs|MyNhan@999",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 1,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 2,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 2,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 2,
     "veo3_bhf_12m": ["MANUAL"] * 5,
     "Capcut_35D": [
 "denisjas@blazingmoss.icu|123456",
