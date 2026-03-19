@@ -48,8 +48,26 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"mhveob8291@mk.1middleneckroad.asia|Password@123",
-"mhveoc3047@mk.1middleneckroad.asia|Password@123",
+"v25n19t3kbh219@veo1.tugaqitmp.com|wvrCHD1570",
+"v25n19t3kbh188@veo1.tugaqitmp.com|fwgONY2953",
+"v25n19t3kbh23@veo1.tugaqitmp.com|sxlFCV1418",
+"v25n19t3kbh234@veo1.tugaqitmp.com|nkcAWU7506",
+"v25n19t3kbh11@veo1.tugaqitmp.com|xmdNRF0130",
+"v25n19t3kbh250@veo1.tugaqitmp.com|gdpLFR4132",
+"v25n19t3kbh233@veo1.tugaqitmp.com|yhsAYK0394",
+"v25n19t3kbh221@veo1.tugaqitmp.com|rzuLVZ3904",
+"v25n19t3kbh232@veo1.tugaqitmp.com|ggkFRF2048",
+"v25n19t3kbh231@veo1.tugaqitmp.com|zsuGDX2846",
+"v25n19t3kbh244@veo1.tugaqitmp.com|sifGYM7098",
+"v25n19t3kbh258@veo1.tugaqitmp.com|pwuKMG0504",
+"v25n19t3kbh236@veo1.tugaqitmp.com|dzpJRV6145",
+"v25n19t3kbh24@veo1.tugaqitmp.com|ftrYNQ3934",
+"v25n19t3kbh204@veo1.tugaqitmp.com|okdWGA2170",
+"v25n19t3kbh252@veo1.tugaqitmp.com|ocwIZW9596",
+"v25n19t3kbh230@veo1.tugaqitmp.com|hldBOB5755",
+"v25n19t3kbh208@veo1.tugaqitmp.com|wrgVVF8224",
+"v25n19t3kbh239@veo1.tugaqitmp.com|dqqXDG9994",
+"v25n19t3kbh240@veo1.tugaqitmp.com|ihmIPJ1487",
     ],
     "veo3_pro_bh":[    
 "zednay7ld@tunmorqevanlistor.sbs|MyNhan@999",
