@@ -60,7 +60,7 @@ STOCK = {
 "zedo6ki5s@tunmorqevanlistor.sbs|MyNhan@999",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 8,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 2,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
     "veo3_15k_bhf_1m": ["MANUAL"] * 0,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_bhf_12m": ["MANUAL"] * 5,
