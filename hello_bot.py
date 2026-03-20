@@ -48,23 +48,19 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"v25n19t3kbh252@veo1.tugaqitmp.com|ocwIZW9596",
-"v25n19t3kbh230@veo1.tugaqitmp.com|hldBOB5755",
+
 "v25n19t3kbh208@veo1.tugaqitmp.com|wrgVVF8224",
 "v25n19t3kbh239@veo1.tugaqitmp.com|dqqXDG9994",
 "v25n19t3kbh240@veo1.tugaqitmp.com|ihmIPJ1487",
     ],
     "veo3_pro_bh":[    
-"zednay7ld@tunmorqevanlistor.sbs|MyNhan@999",
-"zednqf4l3@tunmorqevanlistor.sbs|MyNhan@999",
-"zednuf6z6@tunmorqevanlistor.sbs|MyNhan@999",
 "zednw9e8n@tunmorqevanlistor.sbs|MyNhan@999",
 "zedo3pz28@tunmorqevanlistor.sbs|MyNhan@999",
 "zedo6ki5s@tunmorqevanlistor.sbs|MyNhan@999",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 8,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 1,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 1,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_bhf_12m": ["MANUAL"] * 5,
     "Capcut_35D": [
