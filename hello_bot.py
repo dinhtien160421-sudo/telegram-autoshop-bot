@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":35000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre - Dùng được Antigravity BH 24H", "price":39999},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price": 22222},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 300000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
@@ -48,29 +48,36 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
+"v25n21t3bh24h285@ferqilovasteneroixqorav.sbs|dmdKCO1288",
+"v25n21t3bh24h273@ferqilovasteneroixqorav.sbs|sgjKZG9220",
+"v25n21t3bh24h272@ferqilovasteneroixqorav.sbs|txhTKZ1969",
+"v25n21t3bh24h232@ferqilovasteneroixqorav.sbs|wwuZHC7830",
+"v25n21t3bh24h293@ferqilovasteneroixqorav.sbs|elcUUW0761",
+"v25n21t3bh24h258@ferqilovasteneroixqorav.sbs|gjsIHO1974",
+"v25n21t3bh24h260@ferqilovasteneroixqorav.sbs|eyfJEE7533",
+"v25n21t3bh24h290@ferqilovasteneroixqorav.sbs|vgvDEA3090",
+"v25n21t3bh24h262@ferqilovasteneroixqorav.sbs|dojATR4427",
+"v25n21t3bh24h235@ferqilovasteneroixqorav.sbs|vfxDZY0184",
+"v25n20t3kbh80@nexorvialtesqunarexil.sbs|SuIU@DFUUD0b",
+"v25n20t3kbh79@nexorvialtesqunarexil.sbs|zbIFWWkOX#7R",
+"v25n20t3kbh193@nexorvialtesqunarexil.sbs|GVI5xnbgGUj!",
+"v25n20t3kbh55@nexorvialtesqunarexil.sbs|32MH@6Vpe2hS",
 
-"v25n19t3kbh208@veo1.tugaqitmp.com|wrgVVF8224",
-"v25n19t3kbh239@veo1.tugaqitmp.com|dqqXDG9994",
-"v25n19t3kbh240@veo1.tugaqitmp.com|ihmIPJ1487",
     ],
     "veo3_pro_bh":[    
-"zednw9e8n@tunmorqevanlistor.sbs|MyNhan@999",
-"zedo3pz28@tunmorqevanlistor.sbs|MyNhan@999",
 "zedo6ki5s@tunmorqevanlistor.sbs|MyNhan@999",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 5,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 2,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 3,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 1,
     "veo3_bhf_12m": ["MANUAL"] * 5,
     "Capcut_35D": [
-"denisjas@blazingmoss.icu|123456",
      ],
      "cdk_gpt_go": [
      ],
      "cdk_gpt_plus_1m": [
-"4976CA70-D418-4EAC-987B-31CAE84E9B99",
-"49B7A9E3-54A0-4310-B429-A69DFF067DAE",
+
      ],
     "info_4": ["IB"] * 0,
 }
