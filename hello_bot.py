@@ -97,7 +97,6 @@ STOCK = {
     "veo3_15k_bhf_1m": ["MANUAL"] * 5,
     "veo3_25k_bhf_1m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
-     ],
      "cdk_gpt_go": [
     "A7F4E4EB-556A-4256-B502-5C1F293A31DF",
 "64B906C8-1AA7-4A25-BE27-045889591B86",
