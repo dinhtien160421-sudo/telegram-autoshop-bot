@@ -48,8 +48,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"v25n21t3bh24h128@ravintelqusaoxrimelon.sbs|wyiYPQ7853",
-"v25n21t3bh24h118@ravintelqusaoxrimelon.sbs|zujIID2713",
 "v25n21t3bh24h160@ravintelqusaoxrimelon.sbs|wnoHPL1087",
 "v25n21t3bh24h111@ravintelqusaoxrimelon.sbs|zivFRP8008",
 "v25n21t3bh24h156@ravintelqusaoxrimelon.sbs|vztYIN8774",
@@ -76,11 +74,21 @@ STOCK = {
 "v25n21t3bh24h194@ravintelqusaoxrimelon.sbs|idhRHU8563",
     ],
     "veo3_pro_bh":[    
+    "zed0h4ohq@moravintelquseraxilo.sbs|MeoXinh@999",
+"zed0sx4n7@moravintelquseraxilo.sbs|MeoXinh@999",
+"zed0zoixj@moravintelquseraxilo.sbs|MeoXinh@999",
+"zed13v9m7@moravintelquseraxilo.sbs|MeoXinh@999",
+"zed14h388@moravintelquseraxilo.sbs|MeoXinh@999",
+"zed2v19hz@moravintelquseraxilo.sbs|MeoXinh@999",
+"zed3aq2g7@moravintelquseraxilo.sbs|MeoXinh@999",
+"zed3fjutv@moravintelquseraxilo.sbs|MeoXinh@999",
+"zed3pmgol@moravintelquseraxilo.sbs|MeoXinh@999",
+"zed3pr67m@moravintelquseraxilo.sbs|MeoXinh@999",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 1,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 1,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_25k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 5,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
+    "veo3_15k_bhf_1m": ["MANUAL"] * 5,
+    "veo3_25k_bhf_1m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
     "Capcut_35D": [
      ],
