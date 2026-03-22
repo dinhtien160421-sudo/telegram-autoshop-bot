@@ -64,7 +64,7 @@ STOCK = {
 "v25n21t3bh24h131@ravintelqusaoxrimelon.sbs|rwmJLI1371",
 "v25n21t3bh24h144@ravintelqusaoxrimelon.sbs|jrnURM3938",
 "v25n21t3bh24h176@ravintelqusaoxrimelon.sbs|opcMII5171",
-"v25n21t3bh24h165@ravintelqusaoxrimelon.sbs|dciKIV0898",
+"v25n21t3bh24h165@ravintelqusaoxrimelon.sbs|dciKIV0898", 
 "v25n21t3bh24h149@ravintelqusaoxrimelon.sbs|yesBWE2639",
 "v25n21t3bh24h195@ravintelqusaoxrimelon.sbs|gddDUE0764",
 "v25n21t3bh24h179@ravintelqusaoxrimelon.sbs|ldfFBJ6520",
