@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre - Dùng được Antigravity BH 24H", "price":39999},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre - Dùng Antigravity BH 24H", "price":39999},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price": 22222},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 300000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
