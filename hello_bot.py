@@ -34,12 +34,12 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre - Dùng Antigravity BH 24H", "price":39999},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price": 22222},
+    "grok_bhf": {"name": "Grok Super 30D BH Full", "price": 75000},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 300000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
     "veo3_15k_bhf_1m": {"name": "Ultra Add Fam 15k credit BHF 1 tháng", "price":440000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 550000},
     "veo3_bhf_12m": {"name": " Ultra Add Fam 6k cre/tháng BHF 1 NĂM", "price": 2000000},
-    "Capcut_35D": {"name": "Capcut Pro Team 30-35D BHF", "price": 28000},
     "cdk_gpt_go": {"name": "CDK CHATGPT Go 12M BH ACTIVE", "price": 80000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
     "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
@@ -85,12 +85,18 @@ STOCK = {
 "zed3pmgol@moravintelquseraxilo.sbs|MeoXinh@999",
 "zed3pr67m@moravintelquseraxilo.sbs|MeoXinh@999",
     ],
+    "grok_bhf":[
+    "noariz@bvbpz.anglis.io.vn | Suppergrok123@ | b19501de-a097-49d9-965d-b75750ee9f55",
+"venkaj@tatxn.capcut10.name.ng | Suppergrok123@ | bef0d6d8-57d8-4e1f-8d48-9c10b6562209",
+"revjee@bdroh.blema.io.vn | Suppergrok123@ | 0411b91d-8ceb-49c0-ad6e-56d5fd009e46",
+"lulhas@riesz.blema.io.vn | Suppergrok123@ | 6150f202-ff0d-4227-8142-d706097cb661",
+"takgen@h1qr.capcut11.name.ng | Suppergrok123@ | 888352a5-52bb-4621-bef3-a4a978b34b99",
+     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 5,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
     "veo3_15k_bhf_1m": ["MANUAL"] * 5,
     "veo3_25k_bhf_1m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
-    "Capcut_35D": [
      ],
      "cdk_gpt_go": [
     "A7F4E4EB-556A-4256-B502-5C1F293A31DF",
