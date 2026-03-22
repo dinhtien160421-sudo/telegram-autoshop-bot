@@ -48,7 +48,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    "v25n21t3bh24h158@ravintelqusaoxrimelon.sbs|jueTRE2444",
 "v25n21t3bh24h128@ravintelqusaoxrimelon.sbs|wyiYPQ7853",
 "v25n21t3bh24h118@ravintelqusaoxrimelon.sbs|zujIID2713",
 "v25n21t3bh24h160@ravintelqusaoxrimelon.sbs|wnoHPL1087",
@@ -63,6 +62,18 @@ STOCK = {
 "v25n21t3bh24h159@ravintelqusaoxrimelon.sbs|rmyPSZ0312",
 "v25n21t3bh24h108@ravintelqusaoxrimelon.sbs|byjJSA8313",
 "v25n21t3bh24h153@ravintelqusaoxrimelon.sbs|ikkGCQ0718",
+"v25n21t3bh24h166@ravintelqusaoxrimelon.sbs|pxuDQV0081",
+"v25n21t3bh24h131@ravintelqusaoxrimelon.sbs|rwmJLI1371",
+"v25n21t3bh24h144@ravintelqusaoxrimelon.sbs|jrnURM3938",
+"v25n21t3bh24h176@ravintelqusaoxrimelon.sbs|opcMII5171",
+"v25n21t3bh24h165@ravintelqusaoxrimelon.sbs|dciKIV0898",
+"v25n21t3bh24h149@ravintelqusaoxrimelon.sbs|yesBWE2639",
+"v25n21t3bh24h195@ravintelqusaoxrimelon.sbs|gddDUE0764",
+"v25n21t3bh24h179@ravintelqusaoxrimelon.sbs|ldfFBJ6520",
+"v25n21t3bh24h190@ravintelqusaoxrimelon.sbs|hpdYGS5800",
+"v25n21t3bh24h199@ravintelqusaoxrimelon.sbs|ryzFUX1934",
+"v25n21t3bh24h184@ravintelqusaoxrimelon.sbs|nunZSU0796",
+"v25n21t3bh24h194@ravintelqusaoxrimelon.sbs|idhRHU8563",
     ],
     "veo3_pro_bh":[    
     ],
