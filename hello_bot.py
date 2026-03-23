@@ -112,6 +112,11 @@ STOCK = {
     "grok_bhf":[
 "lulhas@riesz.blema.io.vn | Suppergrok123@ | 6150f202-ff0d-4227-8142-d706097cb661",
 "takgen@h1qr.capcut11.name.ng | Suppergrok123@ | 888352a5-52bb-4621-bef3-a4a978b34b99",
+"lulfib@hyjdc.blasis.io.vn | Suppergrok123@",
+"gecsou@opocw.blema.io.vn | Suppergrok123@",
+"hiizid@djtsk.capcut14.name.ng | Suppergrok123@",
+"nodtul@mobex.blema.io.vn | Suppergrok123@",
+"wiwnea@f9vt.capcut11.name.ng | Suppergrok123@",
      ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 2,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 1,
