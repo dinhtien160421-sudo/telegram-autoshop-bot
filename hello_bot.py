@@ -32,10 +32,9 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":50000},
-    "veo3_ultra_3D": {"name": "Veo3 Ultra 25K cre BH Hết Tháng ", "price":80000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":39999},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price":22222},
-    "grok_bhf": {"name": "Grok Super 30D BH Full", "price": 65000},
+    "grok_bhf": {"name": "Grok Super 30D BH Full", "price": 50000},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 300000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
     "veo3_15k_bhf_1m": {"name": "Ultra Add Fam 15k credit BHF 1 tháng", "price":440000},
@@ -49,11 +48,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    "v25n26t3bh24h52@weboradataplatformsystem.sbs|irxCMP1269",
-"v25n26t3bh24h53@weboradataplatformsystem.sbs|nhfQBU4028",
-"v25n26t3bh24h54@weboradataplatformsystem.sbs|cytPPJ5160",
-"v25n26t3bh24h55@weboradataplatformsystem.sbs|ocbKZN5005",
-"v25n26t3bh24h56@weboradataplatformsystem.sbs|crsJWK1664",
 "v25n26t3bh24h57@weboradataplatformsystem.sbs|ujsPHS1450",
 "v25n26t3bh24h58@weboradataplatformsystem.sbs|nihKDT8066",
 "v25n26t3bh24h59@weboradataplatformsystem.sbs|wniZPR5081",
@@ -96,9 +90,7 @@ STOCK = {
 "v25n26t3bh24h94@weboradataplatformsystem.sbs|wvyNNC5176",
 "v25n26t3bh24h95@weboradataplatformsystem.sbs|bpjZKR1918",
 "v25n26t3bh24h97@weboradataplatformsystem.sbs|bwySXX1932",
-    ],
-     "veo3_ultra_3D":[
-    "z27@dalahary.click | %YE&9qF<",
+"z27@dalahary.click | %YE&9qF<",
 "andrzejultra883083@ded.tunmoravelixlta.com|Tvm152011@",
 "vainoultra334205@ded.tunmoravelixlta.com|Tvm152011@",
 "matteoultra119109@ded.tunmoravelixlta.com|Tvm152011@",
@@ -120,10 +112,17 @@ STOCK = {
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_bhf_12m": ["MANUAL"] * 5,
      "cdk_gpt_go": [
-"64B906C8-1AA7-4A25-BE27-045889591B86",
+"61EC4864-B3D5-4AC3-B708-50CC75E9C399",
+"7B7FDA32-984D-48C5-B511-F01205DBF0F2",
+"0F2B48F0-8E10-49A9-9621-F74C397591C0",
+"8C9F2DC4-3CBF-40D8-A81E-CDC933C01B0D",
      ],
      "cdk_gpt_plus_1m": [
-"DE3584E4-681F-4C0B-B65C-8F4BB66B1ABD",
+"8281AE2C-59E4-4809-BE44-106BF4B60ECB",
+'3477722A-356F-4675-AD3C-D744F140EC3A",
+"92F3B909-430C-434F-B8CF-0280C6E05514",
+"E5352D94-CFA0-4268-A6BE-A2E440452F08",
+"B4A0A25C-9307-4B0F-8F04-CFC617ABF030",
      ],
     "info_4": ["IB"] * 0,
 }
