@@ -215,8 +215,7 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
             parse_mode="Markdown",
             disable_web_page_preview=True
         )
-
-        return True
+    return True
 
     # ===== SẢN PHẨM TỰ ĐỘNG (CÓ STOCK) =====
     if len(STOCK.get(pid, [])) < qty:
