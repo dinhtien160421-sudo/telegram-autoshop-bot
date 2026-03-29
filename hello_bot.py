@@ -70,7 +70,7 @@ STOCK = {
 "dt25@mail5.capytumbum.online|Supergrok123@",
      ],
     "Fam_Ultra":[
-    "MccluskyCzarkowski@gmail.com|5xnu7msz6pk|gilpatrickkimberlingqq154@yahoo.com|z6z6 6upq fldb mye6 x63a zvvw zvwv 5oyx|Australia"
+    "MccluskyCzarkowski@gmail.com|5xnu7msz6pk|gilpatrickkimberlingqq154@yahoo.com|z6z6 6upq fldb mye6 x63a zvvw zvwv 5oyx|Australia",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 5,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
