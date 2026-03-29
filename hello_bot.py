@@ -199,15 +199,15 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
             "• Toàn bộ các quyền lợi cao cấp khác của Gemini\n\n"
             "📢 LƯU Ý: NẾU DÙNG QUÁ CREDIT SẼ BỊ KICK KHỎI FARM VÀ KHÔNG HOÀN TIỀN\n\n"
         )
-    if pid == "Fam_Ultra":
-       detail += (
+    if pid == "Fam Ultra":
+        detail += (
             "📌 Lưu ý khi mua fam Google Ultra 5 slot:\n"
             "- Chỉ login IP US để ngâm và add family (vì đây là Gmail US nên mọi người fake IP sang US để hạn chế bị diss mail).\n"
             "- Trước khi gửi mình sẽ xóa HSTT + đổi 2FA + đá device — hỗ trợ từ A-Z, mn chỉ việc add mail vào là dùng được.\n"
             "- Mn chú ý chỉ change 2FA thôi là không ai back lại được rồi, lúc gửi mình cũng change trước 1 lần rồi.\n"
             "- Gmail ai có người nấy giữ nha ^^ Nếu khó quá mình vẫn sẽ hỗ trợ tùy trường hợp.\n\n"
     )
-        detail += "Cảm ơn bạn đã mua hàng!"
+    detail += "Cảm ơn bạn đã mua hàng!"
 
         TG_BOT.send_message(
             chat_id=user_id,
