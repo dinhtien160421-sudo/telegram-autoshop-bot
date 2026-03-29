@@ -207,7 +207,7 @@ if pid in ["veo3_0k_bhf_1m", "veo3_ultra_bhf_1m", "veo3_15k_bhf_1m", "veo3_25k_b
             parse_mode="Markdown",
             disable_web_page_preview=True
         )
-return True
+    return True
 
     # ===== SẢN PHẨM TỰ ĐỘNG (CÓ STOCK) =====
 if len(STOCK.get(pid, [])) < qty:
