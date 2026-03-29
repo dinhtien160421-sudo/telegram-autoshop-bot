@@ -252,8 +252,6 @@ TG_BOT.send_message(
     parse_mode="Markdown",
     disable_web_page_preview=True
 )
-
-
     return True
 @app.route("/bank-webhook", methods=["POST"])
 def sepay_webhook():
