@@ -217,24 +217,24 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
         )
         return False
 
-accounts = [STOCK[pid].pop(0) for _ in range(qty)]
-codes_text = "\n".join(f"{i+1}. {acc}" for i, acc in enumerate(accounts))
+    accounts = [STOCK[pid].pop(0) for _ in range(qty)]
+    codes_text = "\n".join(f"{i+1}. {acc}" for i, acc in enumerate(accounts))
 
-# Hướng dẫn riêng cho CDK
-extra_guide = ""
-if pid in ["cdk_gpt_plus_1m", "cdk_gpt_go"]:
-    extra_guide = "\n\n🌐 Website sử dụng CDK: https://nuoitao.com\n"
+    # Hướng dẫn riêng cho CDK
+    extra_guide = ""
+    if pid in ["cdk_gpt_plus_1m", "cdk_gpt_go"]:
+        extra_guide = "\n\n🌐 Website sử dụng CDK: https://nuoitao.com\n"
 
-# Note riêng cho Fam Ultra
-fam_ultra_note = ""
-if pid == "Fam_Ultra":
-    fam_ultra_note = (
-        "\n\n📌 Lưu ý khi mua fam Google Ultra 5 slot:\n"
-        "- Chỉ login IP US để ngâm và add family (vì đây là Gmail US nên mọi người fake IP sang US để hạn chế bị diss mail).\n"
-        "- Trước khi gửi mình sẽ xóa HSTT + đổi 2FA + đá device - hỗ trợ từ A-Z, mn chỉ việc add mail vào là dùng được.\n"
-        "- Mn chú ý chỉ change 2FA thôi là không ai back lại được rồi, lúc gửi mình cũng change trước 1 lần rồi.\n"
-        "- Gmail ai có người nấy giữ nha ^^ Nếu khó quá mình vẫn sẽ hỗ trợ, tùy trường hợp.\n"
-    )
+    # Note riêng cho Fam Ultra
+    fam_ultra_note = ""
+    if pid == "Fam_Ultra":
+        fam_ultra_note = (
+            "\n\n📌 Lưu ý khi mua fam Google Ultra 5 slot:\n"
+            "- Chỉ login IP US để ngâm và add family (vì đây là Gmail US nên mọi người fake IP sang US để hạn chế bị diss mail).\n"
+            "- Trước khi gửi mình sẽ xóa HSTT + đổi 2FA + đá device - hỗ trợ từ A-Z, mn chỉ việc add mail vào là dùng được.\n"
+            "- Mn chú ý chỉ change 2FA thôi là không ai back lại được rồi, lúc gửi mình cũng change trước 1 lần rồi.\n"
+            "- Gmail ai có người nấy giữ nha ^^ Nếu khó quá mình vẫn sẽ hỗ trợ, tùy trường hợp.\n"
+        )
 
     detail = (
         f"✅ Đơn `{code}`\n"
@@ -254,7 +254,6 @@ if pid == "Fam_Ultra":
     )
 
     return True
-
 
 @app.route("/bank-webhook", methods=["POST"])
 def sepay_webhook():
