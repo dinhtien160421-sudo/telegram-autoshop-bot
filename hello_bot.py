@@ -209,7 +209,7 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
     )
     detail += "Cảm ơn bạn đã mua hàng!"
 
-        TG_BOT.send_message(
+    TG_BOT.send_message(
             chat_id=user_id,
             text=detail,
             parse_mode="Markdown",
