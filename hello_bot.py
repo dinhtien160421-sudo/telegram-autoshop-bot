@@ -35,10 +35,11 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":35555},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price":22222},
     "grok_bhf": {"name": "Grok Super 30D BH Full", "price":49999},
+    "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 650000},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 300000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
-    "veo3_15k_bhf_1m": {"name": "Ultra Add Fam 15k credit BHF 1 tháng", "price":440000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 550000},
+    "veo3_0cre_12m": {"name": " Ultra Add Fam 0k cre/tháng BHF 1 NĂM", "price": 1500000},
     "veo3_bhf_12m": {"name": " Ultra Add Fam 6k cre/tháng BHF 1 NĂM", "price": 2000000},
     "cdk_gpt_go": {"name": "CDK CHATGPT Go 12M BH ACTIVE", "price": 80000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
@@ -48,15 +49,10 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"knutultra119182@ded.tunmoravelixlta.com|Tvm152011@",
-"eemilultra334249@ded.tunmoravelixlta.com|Tvm152011@",
-"roopeultra334266@ded.tunmoravelixlta.com|Tvm152011@",
-"krzysztofultra883082@ded.tunmoravelixlta.com|Tvm152011@",
      ],    
     "veo3_pro_bh":[    
     ],
     "grok_bhf":[
-   "nhldwyn41nci@at41.tempdukviet.click|Supergrok123@",
 "zibgos@abe2.tempdukviet.site|Supergrok123@",
 "dt21@mail20.capytumbum.online|Supergrok123@",
 "gaw2@mail7.capytumbum.online|Supergrok123@",
@@ -73,10 +69,13 @@ STOCK = {
 "derr2@mail7.capytumbum.online|Supergrok123@",
 "dt25@mail5.capytumbum.online|Supergrok123@",
      ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
-    "veo3_15k_bhf_1m": ["MANUAL"] * 0,
+    "Fam_Ultra":[
+    "MccluskyCzarkowski@gmail.com|5xnu7msz6pk|gilpatrickkimberlingqq154@yahoo.com|z6z6 6upq fldb mye6 x63a zvvw zvwv 5oyx|Australia"
+    ],
+    "veo3_0k_bhf_1m": ["MANUAL"] * 5,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_0cre_12m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
      "cdk_gpt_go": [
 "7B7FDA32-984D-48C5-B511-F01205DBF0F2",
@@ -84,7 +83,6 @@ STOCK = {
 "8C9F2DC4-3CBF-40D8-A81E-CDC933C01B0D",
      ],
      "cdk_gpt_plus_1m": [
-"92F3B909-430C-434F-B8CF-0280C6E05514",
 "E5352D94-CFA0-4268-A6BE-A2E440452F08",
 "B4A0A25C-9307-4B0F-8F04-CFC617ABF030",
      ],
@@ -200,8 +198,16 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
             "• Truy cập Antigravity Ultra\n"
             "• Toàn bộ các quyền lợi cao cấp khác của Gemini\n\n"
             "📢 LƯU Ý: NẾU DÙNG QUÁ CREDIT SẼ BỊ KICK KHỎI FARM VÀ KHÔNG HOÀN TIỀN\n\n"
-            "Cảm ơn bạn đã mua hàng!"
         )
+    if pid == "Fam_Ultra":
+       detail += (
+            "📌 Lưu ý khi mua fam Google Ultra 5 slot:\n"
+            "- Chỉ login IP US để ngâm và add family (vì đây là Gmail US nên mọi người fake IP sang US để hạn chế bị diss mail).\n"
+            "- Trước khi gửi mình sẽ xóa HSTT + đổi 2FA + đá device — hỗ trợ từ A-Z, mn chỉ việc add mail vào là dùng được.\n"
+            "- Mn chú ý chỉ change 2FA thôi là không ai back lại được rồi, lúc gửi mình cũng change trước 1 lần rồi.\n"
+            "- Gmail ai có người nấy giữ nha ^^ Nếu khó quá mình vẫn sẽ hỗ trợ tùy trường hợp.\n\n"
+    )
+        detail += "Cảm ơn bạn đã mua hàng!"
 
         TG_BOT.send_message(
             chat_id=user_id,
@@ -243,6 +249,7 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
         parse_mode="Markdown",
         disable_web_page_preview=True
     )
+
 
     return True
 @app.route("/bank-webhook", methods=["POST"])
