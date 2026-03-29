@@ -236,29 +236,31 @@ if pid == "Fam_Ultra":
         "- Gmail ai có người nấy giữ nha ^^ Nếu khó quá mình vẫn sẽ hỗ trợ, tùy trường hợp.\n"
     )
 
-detail = (
-    f"✅ Đơn `{code}`\n"
-    f"🎁 Sản phẩm: *{product['name']}*\n"
-    f"📦 Số lượng: *{qty}*\n\n"
-    f"{codes_text}"
-    f"{extra_guide}"
-    f"{fam_ultra_note}\n"
-    "Cảm ơn bạn đã mua hàng!"
-)
+    detail = (
+        f"✅ Đơn `{code}`\n"
+        f"🎁 Sản phẩm: *{product['name']}*\n"
+        f"📦 Số lượng: *{qty}*\n\n"
+        f"{codes_text}"
+        f"{extra_guide}"
+        f"{fam_ultra_note}\n"
+        "Cảm ơn bạn đã mua hàng!"
+    )
 
-TG_BOT.send_message(
-    chat_id=user_id,
-    text=detail,
-    parse_mode="Markdown",
-    disable_web_page_preview=True
-)
+    TG_BOT.send_message(
+        chat_id=user_id,
+        text=detail,
+        parse_mode="Markdown",
+        disable_web_page_preview=True
+    )
+
     return True
+
+
 @app.route("/bank-webhook", methods=["POST"])
 def sepay_webhook():
     data = request.get_json(force=True, silent=True) or {}
     print("\n==== SEPAY PAYLOAD ====")
     print(data, flush=True)
-
     # chỉ nhận tiền vào
     if str(data.get("transferType", "")).lower() != "in":
         return jsonify({"ok": True, "ignored": "not_in"}), 200
