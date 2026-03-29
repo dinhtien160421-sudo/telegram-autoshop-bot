@@ -185,23 +185,23 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
     product = PRODUCTS[pid]
 
     # ===== SẢN PHẨM NÂNG CẤP THỦ CÔNG =====
-if pid in ["veo3_0k_bhf_1m", "veo3_ultra_bhf_1m", "veo3_15k_bhf_1m", "veo3_25k_bhf_1m", "veo3_bhf_12m"]:
-    detail = (
-        f"✅ Đơn `{code}`\n"
-        f"🎁 Sản phẩm: {product['name']}\n"
-        f"📦 Số lượng: {qty}\n\n"
-        "📌 Vui lòng gửi mã đơn này qua Telegram để được nâng cấp tài khoản.\n"
-        "👉 Telegram: @dtdt28\n\n"
-        "🚀 Quyền lợi nổi bật:\n"
-        "• Tạo video Fast 3.1 Lower không tốn credit\n"
-        "• Dung lượng 6TB Google Drive\n"
-        "• Truy cập Antigravity Ultra\n"
-        "• Toàn bộ các quyền lợi cao cấp khác của Gemini\n\n"
-        "📢 LƯU Ý: NẾU DÙNG QUÁ CREDIT SẼ BỊ KICK KHỎI FARM VÀ KHÔNG HOÀN TIỀN\n\n"
-        "Cảm ơn bạn đã mua hàng!"
-    )
+    if pid in ["veo3_0k_bhf_1m", "veo3_ultra_bhf_1m", "veo3_15k_bhf_1m", "veo3_25k_bhf_1m", "veo3_bhf_12m"]:
+        detail = (
+            f"✅ Đơn `{code}`\n"
+            f"🎁 Sản phẩm: {product['name']}\n"
+            f"📦 Số lượng: {qty}\n\n"
+            "📌 Vui lòng gửi mã đơn này qua Telegram để được nâng cấp tài khoản.\n"
+            "👉 Telegram: @dtdt28\n\n"
+            "🚀 Quyền lợi nổi bật:\n"
+            "• Tạo video Fast 3.1 Lower không tốn credit\n"
+            "• Dung lượng 6TB Google Drive\n"
+            "• Truy cập Antigravity Ultra\n"
+            "• Toàn bộ các quyền lợi cao cấp khác của Gemini\n\n"
+            "📢 LƯU Ý: NẾU DÙNG QUÁ CREDIT SẼ BỊ KICK KHỎI FARM VÀ KHÔNG HOÀN TIỀN\n\n"
+            "Cảm ơn bạn đã mua hàng!"
+        )
 
-    TG_BOT.send_message(
+        TG_BOT.send_message(
             chat_id=user_id,
             text=detail,
             parse_mode="Markdown",
@@ -210,12 +210,12 @@ if pid in ["veo3_0k_bhf_1m", "veo3_ultra_bhf_1m", "veo3_15k_bhf_1m", "veo3_25k_b
         return True
 
     # ===== SẢN PHẨM TỰ ĐỘNG (CÓ STOCK) =====
-if len(STOCK.get(pid, [])) < qty:
-    TG_BOT.send_message(
-        chat_id=user_id,
-        text="⚠ Kho không đủ số lượng. Liên hệ admin."
-    )
-    return False
+    if len(STOCK.get(pid, [])) < qty:
+        TG_BOT.send_message(
+            chat_id=user_id,
+            text="⚠ Kho không đủ số lượng. Liên hệ admin."
+        )
+        return False
 
 accounts = [STOCK[pid].pop(0) for _ in range(qty)]
 codes_text = "\n".join(f"{i+1}. {acc}" for i, acc in enumerate(accounts))
