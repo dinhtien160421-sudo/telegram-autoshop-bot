@@ -198,16 +198,7 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
             "• Truy cập Antigravity Ultra\n"
             "• Toàn bộ các quyền lợi cao cấp khác của Gemini\n\n"
             "📢 LƯU Ý: NẾU DÙNG QUÁ CREDIT SẼ BỊ KICK KHỎI FARM VÀ KHÔNG HOÀN TIỀN\n\n"
-        )
-    if pid == "Fam Ultra":
-        detail += (
-            "📌 Lưu ý khi mua fam Google Ultra 5 slot:\n"
-            "- Chỉ login IP US để ngâm và add family (vì đây là Gmail US nên mọi người fake IP sang US để hạn chế bị diss mail).\n"
-            "- Trước khi gửi mình sẽ xóa HSTT + đổi 2FA + đá device — hỗ trợ từ A-Z, mn chỉ việc add mail vào là dùng được.\n"
-            "- Mn chú ý chỉ change 2FA thôi là không ai back lại được rồi, lúc gửi mình cũng change trước 1 lần rồi.\n"
-            "- Gmail ai có người nấy giữ nha ^^ Nếu khó quá mình vẫn sẽ hỗ trợ tùy trường hợp.\n\n"
-    )
-    detail += "Cảm ơn bạn đã mua hàng!"
+            "Cảm ơn bạn đã mua hàng!"
 
     TG_BOT.send_message(
             chat_id=user_id,
@@ -218,36 +209,48 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
     return True
 
     # ===== SẢN PHẨM TỰ ĐỘNG (CÓ STOCK) =====
-    if len(STOCK.get(pid, [])) < qty:
-        TG_BOT.send_message(
-            chat_id=user_id,
-            text="⚠ Kho không đủ số lượng. Liên hệ admin."
-        )
-        return False
-
-    accounts = [STOCK[pid].pop(0) for _ in range(qty)]
-    codes_text = "\n".join(f"{i+1}. {acc}" for i, acc in enumerate(accounts))
-
-    # Hướng dẫn riêng cho CDK
-    extra_guide = ""
-    if pid in ["cdk_gpt_plus_1m", "cdk_gpt_go"]:
-        extra_guide = "\n\n🌐 Website sử dụng CDK: https://nuoitao.com\n"
-
-    detail = (
-        f"✅ Đơn `{code}`\n"
-        f"🎁 Sản phẩm: *{product['name']}*\n"
-        f"📦 Số lượng: *{qty}*\n\n"
-        f"{codes_text}"
-        f"{extra_guide}\n"
-        "Cảm ơn bạn đã mua hàng!"
-    )
-
+if len(STOCK.get(pid, [])) < qty:
     TG_BOT.send_message(
         chat_id=user_id,
-        text=detail,
-        parse_mode="Markdown",
-        disable_web_page_preview=True
+        text="⚠ Kho không đủ số lượng. Liên hệ admin."
     )
+    return False
+
+accounts = [STOCK[pid].pop(0) for _ in range(qty)]
+codes_text = "\n".join(f"{i+1}. {acc}" for i, acc in enumerate(accounts))
+
+# Hướng dẫn riêng cho CDK
+extra_guide = ""
+if pid in ["cdk_gpt_plus_1m", "cdk_gpt_go"]:
+    extra_guide = "\n\n🌐 Website sử dụng CDK: https://nuoitao.com\n"
+
+# Note riêng cho Fam Ultra
+fam_ultra_note = ""
+if pid == "Fam_Ultra":
+    fam_ultra_note = (
+        "\n\n📌 Lưu ý khi mua fam Google Ultra 5 slot:\n"
+        "- Chỉ login IP US để ngâm và add family (vì đây là Gmail US nên mọi người fake IP sang US để hạn chế bị diss mail).\n"
+        "- Trước khi gửi mình sẽ xóa HSTT + đổi 2FA + đá device - hỗ trợ từ A-Z, mn chỉ việc add mail vào là dùng được.\n"
+        "- Mn chú ý chỉ change 2FA thôi là không ai back lại được rồi, lúc gửi mình cũng change trước 1 lần rồi.\n"
+        "- Gmail ai có người nấy giữ nha ^^ Nếu khó quá mình vẫn sẽ hỗ trợ, tùy trường hợp.\n"
+    )
+
+detail = (
+    f"✅ Đơn `{code}`\n"
+    f"🎁 Sản phẩm: *{product['name']}*\n"
+    f"📦 Số lượng: *{qty}*\n\n"
+    f"{codes_text}"
+    f"{extra_guide}"
+    f"{fam_ultra_note}\n"
+    "Cảm ơn bạn đã mua hàng!"
+)
+
+TG_BOT.send_message(
+    chat_id=user_id,
+    text=detail,
+    parse_mode="Markdown",
+    disable_web_page_preview=True
+)
 
 
     return True
