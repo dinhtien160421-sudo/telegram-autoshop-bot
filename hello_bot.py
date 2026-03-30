@@ -53,15 +53,6 @@ STOCK = {
     "veo3_pro_bh":[    
     ],
     "grok_bhf":[
-"zibgos@abe2.tempdukviet.site|Supergrok123@",
-"dt21@mail20.capytumbum.online|Supergrok123@",
-"gaw2@mail7.capytumbum.online|Supergrok123@",
-"dt23@mail3.capytumbum.online|Supergrok123@",
-"dt26@mail6.capytumbum.online|Supergrok123@",
-"adwd@mail4.capytumbum.online|Supergrok123@",
-"dt24@mail4.capytumbum.online|Supergrok123@",
-"ghzze2@mail5.capytumbum.online|Supergrok123@",
-"nghh2@mail7.capytumbum.online|Supergrok123@",
 "bzzz22@mail5.capytumbum.online|Supergrok123@",
 "be22a@mail8.capytumbum.online|Supergrok123@",
 "kioaa2@mail3.capytumbum.online|Supergrok123@",
@@ -70,21 +61,16 @@ STOCK = {
 "dt25@mail5.capytumbum.online|Supergrok123@",
      ],
     "Fam_Ultra":[
-    "MccluskyCzarkowski@gmail.com|5xnu7msz6pk|gilpatrickkimberlingqq154@yahoo.com|z6z6 6upq fldb mye6 x63a zvvw zvwv 5oyx|Australia",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 5,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_0cre_12m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
      "cdk_gpt_go": [
-"7B7FDA32-984D-48C5-B511-F01205DBF0F2",
-"0F2B48F0-8E10-49A9-9621-F74C397591C0",
-"8C9F2DC4-3CBF-40D8-A81E-CDC933C01B0D",
+
      ],
      "cdk_gpt_plus_1m": [
-"E5352D94-CFA0-4268-A6BE-A2E440452F08",
-"B4A0A25C-9307-4B0F-8F04-CFC617ABF030",
      ],
     "info_4": ["IB"] * 0,
 }
