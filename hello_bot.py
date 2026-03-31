@@ -53,7 +53,6 @@ STOCK = {
     "veo3_pro_bh":[    
     ],
     "grok_bhf":[
-"kioaa2@mail3.capytumbum.online|Supergrok123@",
 "rrr21@mail5.capytumbum.online|Supergrok123@",
 "derr2@mail7.capytumbum.online|Supergrok123@",
 "dt25@mail5.capytumbum.online|Supergrok123@",
