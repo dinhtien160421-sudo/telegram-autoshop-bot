@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":39999},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":45678},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price":22222},
     "grok_bhf": {"name": "Grok Super 30D BH Full", "price":44444},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 700000},
@@ -49,6 +49,31 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
+    "avamia69665061@ebgk.aurorasys-tech.com|Y#TC7CT09mFt",
+"avamia74241250@ebgk.aurorasys-tech.com|r3sLnI$LWadr",
+"avamia61933882@ebgk.aurorasys-tech.com|1#6DYHq!g@Cy",
+"avamia88534975@ebgk.aurorasys-tech.com|n!!p1pAV416y",
+"avamia80968394@ebgk.aurorasys-tech.com|ytfW32P%3aCQ",
+"avamia20637028@ebgk.aurorasys-tech.com|U2ECqySzg@7T",
+"avamia88947225@ebgk.aurorasys-tech.com|v7fgBE1!dtP#",
+"avamia18272435@ebgk.aurorasys-tech.com|VqAhLO8B#Qy$",
+"avamia59541523@ebgk.aurorasys-tech.com|%hV1Q7rqIJjo",
+"avamia24518139@ebgk.aurorasys-tech.com|iEqO1I2i28$S",
+"avamia08299324@ebgk.aurorasys-tech.com|9VQlyr$$2#s@",
+"avamia77608517@ebgk.aurorasys-tech.com|uUOP!SHQy8Dg",
+"avamia01000470@ebgk.aurorasys-tech.com|71JeAoi!RWqI",
+"avamia14713283@ebgk.aurorasys-tech.com|CcrzKGC$ud7I",
+"avamia27237732@ebgk.aurorasys-tech.com|mNet6Pt1!E@O",
+"avamia32978901@ebgk.aurorasys-tech.com|ijS18#s2DY4C",
+"avamia24913022@ebgk.aurorasys-tech.com|N0$Up9iSK!vf",
+"avamia79169950@ebgk.aurorasys-tech.com|$jJD08fa04%2",
+"avamia40684557@ebgk.aurorasys-tech.com|9lzloljd#K#A",
+"avamia46617464@ebgk.aurorasys-tech.com|%PaTX1Totl#P",
+"avamia53197463@ebgk.aurorasys-tech.com|Z2h9UD%OiLO%",
+"avamia74159427@ebgk.aurorasys-tech.com|AzQhH7muvP7#",
+"avamia53471956@ebgk.aurorasys-tech.com|E!IkX7y%z1E3",
+"avamia39228002@ebgk.aurorasys-tech.com|j@i2NQx3#kk2",
+"avamia07990128@ebgk.aurorasys-tech.com|k07$41yeifbB",
 
      ],    
     "veo3_pro_bh":[    
@@ -65,7 +90,6 @@ STOCK = {
 "zedsopzmp@eocundatacenterhub.sbs|MyNhan@999",
     ],
     "grok_bhf":[
-"dakcen@aq23.tempdukviet.click|Supergrok123@",
 "zoonas@mail39.capytumbum.online|Supergrok123@",
 "remkaf@vip10.tempdukviet.click|Supergrok123@",
 "vazsep@vip5.tempdukviet.click|Supergrok123@",
@@ -88,7 +112,6 @@ STOCK = {
 
      ],
      "cdk_gpt_plus_1m": [
-"99578654-8C0E-4F13-AB02-F47588A9374F",
 "0D9114AC-D8F9-4FA8-9415-6298F39191F7",
 "BFA5EE58-8E45-43C9-B205-C705226DD195",
 "D2A03D57-A110-44C7-B5E6-90DD3F1120C0",
