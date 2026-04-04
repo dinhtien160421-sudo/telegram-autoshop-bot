@@ -49,15 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    "avamia69665061@ebgk.aurorasys-tech.com|Y#TC7CT09mFt",
-"avamia74241250@ebgk.aurorasys-tech.com|r3sLnI$LWadr",
-"avamia61933882@ebgk.aurorasys-tech.com|1#6DYHq!g@Cy",
-"avamia88534975@ebgk.aurorasys-tech.com|n!!p1pAV416y",
-"avamia80968394@ebgk.aurorasys-tech.com|ytfW32P%3aCQ",
-"avamia20637028@ebgk.aurorasys-tech.com|U2ECqySzg@7T",
-"avamia88947225@ebgk.aurorasys-tech.com|v7fgBE1!dtP#",
-"avamia18272435@ebgk.aurorasys-tech.com|VqAhLO8B#Qy$",
-"avamia59541523@ebgk.aurorasys-tech.com|%hV1Q7rqIJjo",
 "avamia24518139@ebgk.aurorasys-tech.com|iEqO1I2i28$S",
 "avamia08299324@ebgk.aurorasys-tech.com|9VQlyr$$2#s@",
 "avamia77608517@ebgk.aurorasys-tech.com|uUOP!SHQy8Dg",
@@ -77,9 +68,6 @@ STOCK = {
 
      ],    
     "veo3_pro_bh":[    
-"zedpq0efb@eocundatacenterhub.sbs|MyNhan@999",
-"zedpqebzt@eocundatacenterhub.sbs|MyNhan@999",
-"zedqapgol@eocundatacenterhub.sbs|MyNhan@999",
 "zedqbl20w@eocundatacenterhub.sbs|MyNhan@999",
 "zedqq9u3c@eocundatacenterhub.sbs|MyNhan@999",
 "zedr7hltt@eocundatacenterhub.sbs|MyNhan@999",
@@ -90,10 +78,6 @@ STOCK = {
 "zedsopzmp@eocundatacenterhub.sbs|MyNhan@999",
     ],
     "grok_bhf":[
-"zoonas@mail39.capytumbum.online|Supergrok123@",
-"remkaf@vip10.tempdukviet.click|Supergrok123@",
-"vazsep@vip5.tempdukviet.click|Supergrok123@",
-"norsav@mail30.capytumbum.online|Supergrok123@",
 "kefkev@ahihi25.tempdukviet.site|Supergrok123@",
 "kivgeg@av3.tempdukviet.site|Supergrok123@",
 "bollae@aq11.tempdukviet.click|Supergrok123@",
@@ -103,8 +87,8 @@ STOCK = {
      ],
     "Fam_Ultra":[
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 7,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 1,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_0cre_12m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
