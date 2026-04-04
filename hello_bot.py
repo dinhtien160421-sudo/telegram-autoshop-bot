@@ -36,7 +36,7 @@ PRODUCTS = {
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price":22222},
     "grok_bhf": {"name": "Grok Super 30D BH Full", "price":44444},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 700000},
-    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 300000},
+    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 280000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 650000},
     "veo3_0cre_12m": {"name": " Ultra Add Fam 0k cre/tháng BHF 1 NĂM", "price": 1400000},
