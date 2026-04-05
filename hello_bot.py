@@ -54,6 +54,7 @@ STOCK = {
 "avamia39228002@ebgk.aurorasys-tech.com|j@i2NQx3#kk2",
 "avamia07990128@ebgk.aurorasys-tech.com|k07$41yeifbB",
 "evejade78396004@rbmg.purpleanchora.com|2FQ5UQ7#g3l3",
+"v25n5t4bh24h1296@veo2.veolmt94.com|leiEOY5932"
 
      ],    
     "veo3_pro_bh":[    
