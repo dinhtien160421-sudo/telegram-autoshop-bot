@@ -49,10 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"v25n5t4bh24h428@veo2.veolmt94.com|ifsLAM1859",
-"v25n5t4bh24h452@veo2.veolmt94.com|dgjCUR6518",
-"v25n5t4bh24h45@veo2.veolmt94.com|mfhCBJ1915",
-"v25n5t4bh24h470@veo2.veolmt94.com|myrQUB8792",
 "v25n5t4bh24h476@veo2.veolmt94.com|bfkYZJ0181",
 "v25n5t4bh24h490@veo2.veolmt94.com|skbOFH6503",
 "v25n5t4bh24h517@veo2.veolmt94.com|sxdUGD1950",
@@ -79,8 +75,6 @@ STOCK = {
 "zedsopzmp@eocundatacenterhub.sbs|MyNhan@999",
     ],
     "grok_bhf":[
-"bollae@aq11.tempdukviet.click|Supergrok123@",
-"golkom@aq51.tempdukviet.click|Supergrok123@",
 "zoffao@vip16.tempdukviet.click|Supergrok123@",
 "fuetiw@vip3.tempdukviet.click|Supergrok123@",
 "guhjuk@abe5.tempdukviet.site|suppergrok1",
@@ -100,6 +94,10 @@ STOCK = {
 "mapmeh@aq3.tempdukviet.click|suppergrok1",
      ],
     "Fam_Ultra":[
+    "CobanAxenia591@gmail.com|rx5upsmhk|dhantitolym@hotmail.com|mp5t 6udb yezs batv 7qts xv2d atj3 bwoz",
+"NodirxonTyukin@gmail.com|rgs5lyzf6x|tebiasaharek@hotmail.com|ysbs afjp 32pi gqft mb4g scik a5ys 2nlp",
+"ShiyouKittleson513@gmail.com|xjbgk5abcj|lebrunstattonoi545@donklang.us|eawj vbmz o276 rikp vx7e vguy i3bn reiv",
+"VoncileHaczynski@gmail.com|1idmxlot7|antriviatoe@hotmail.com|o73v uvfk n62e vor6 jbtm qq7f ykdq 7svi",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 10,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
@@ -110,7 +108,6 @@ STOCK = {
 
      ],
      "cdk_gpt_plus_1m": [
-"D2A03D57-A110-44C7-B5E6-90DD3F1120C0",
 
      ],
     "info_4": ["IB"] * 0,
