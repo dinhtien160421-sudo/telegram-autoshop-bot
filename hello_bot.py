@@ -36,8 +36,8 @@ PRODUCTS = {
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price":22222},
     "grok_bhf": {"name": "Grok Super 30D BH Full", "price":44444},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 750000},
-    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 290000},
-    "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 320000},
+    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 260000},
+    "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 650000},
     "veo3_0cre_12m": {"name": " Ultra Add Fam 0k cre/tháng BHF 1 NĂM", "price": 1400000},
     "veo3_bhf_12m": {"name": " Ultra Add Fam 6k cre/tháng BHF 1 NĂM", "price": 1900000},
@@ -49,9 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"v25n5t4bh24h476@veo2.veolmt94.com|bfkYZJ0181",
-"v25n5t4bh24h490@veo2.veolmt94.com|skbOFH6503",
-"v25n5t4bh24h517@veo2.veolmt94.com|sxdUGD1950",
 "v25n5t4bh24h51@veo2.veolmt94.com|btkVVV9333",
 "v25n5t4bh24h522@veo2.veolmt94.com|kdvMZH8332",
 "v25n5t4bh24h523@veo2.veolmt94.com|fjpGJI3506",
@@ -94,12 +91,11 @@ STOCK = {
 "mapmeh@aq3.tempdukviet.click|suppergrok1",
      ],
     "Fam_Ultra":[
-    "CobanAxenia591@gmail.com|rx5upsmhk|dhantitolym@hotmail.com|mp5t 6udb yezs batv 7qts xv2d atj3 bwoz",
 "NodirxonTyukin@gmail.com|rgs5lyzf6x|tebiasaharek@hotmail.com|ysbs afjp 32pi gqft mb4g scik a5ys 2nlp",
 "ShiyouKittleson513@gmail.com|xjbgk5abcj|lebrunstattonoi545@donklang.us|eawj vbmz o276 rikp vx7e vguy i3bn reiv",
 "VoncileHaczynski@gmail.com|1idmxlot7|antriviatoe@hotmail.com|o73v uvfk n62e vor6 jbtm qq7f ykdq 7svi",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 10,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 15,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_0cre_12m": ["MANUAL"] * 5,
