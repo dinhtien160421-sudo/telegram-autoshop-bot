@@ -49,25 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"avamia74159427@ebgk.aurorasys-tech.com|AzQhH7muvP7#",
-"avamia53471956@ebgk.aurorasys-tech.com|E!IkX7y%z1E3",
-"avamia39228002@ebgk.aurorasys-tech.com|j@i2NQx3#kk2",
-"avamia07990128@ebgk.aurorasys-tech.com|k07$41yeifbB",
-"evejade78396004@rbmg.purpleanchora.com|2FQ5UQ7#g3l3",
-"v25n5t4bh24h1296@veo2.veolmt94.com|leiEOY5932"
-"v25n5t4bh24h435@veo2.veolmt94.com|ksrVDS9138",
-"v25n5t4bh24h442@veo2.veolmt94.com|ltuXFA7526",
-"v25n5t4bh24h418@veo2.veolmt94.com|fvaTSP2170",
-"v25n5t4bh24h430@veo2.veolmt94.com|wlyREI2248",
-"v25n5t4bh24h44@veo2.veolmt94.com|vguCCC4475",
-"v25n5t4bh24h417@veo2.veolmt94.com|ytkWFN0730",
-"v25n5t4bh24h440@veo2.veolmt94.com|mvkTKT6183",
-"v25n5t4bh24h415@veo2.veolmt94.com|ufwUOC5470",
-"v25n5t4bh24h449@veo2.veolmt94.com|hhfSNO7821",
-"v25n5t4bh24h427@veo2.veolmt94.com|jhpBTX2870",
-"v25n5t4bh24h416@veo2.veolmt94.com|hcsDBD5504",
-"v25n5t4bh24h450@veo2.veolmt94.com|rbxGBA7109",
-"v25n5t4bh24h411@veo2.veolmt94.com|wpyUCG7366",
 "v25n5t4bh24h428@veo2.veolmt94.com|ifsLAM1859",
 "v25n5t4bh24h452@veo2.veolmt94.com|dgjCUR6518",
 "v25n5t4bh24h45@veo2.veolmt94.com|mfhCBJ1915",
@@ -98,8 +79,6 @@ STOCK = {
 "zedsopzmp@eocundatacenterhub.sbs|MyNhan@999",
     ],
     "grok_bhf":[
-"kefkev@ahihi25.tempdukviet.site|Supergrok123@",
-"kivgeg@av3.tempdukviet.site|Supergrok123@",
 "bollae@aq11.tempdukviet.click|Supergrok123@",
 "golkom@aq51.tempdukviet.click|Supergrok123@",
 "zoffao@vip16.tempdukviet.click|Supergrok123@",
@@ -121,10 +100,6 @@ STOCK = {
 "mapmeh@aq3.tempdukviet.click|suppergrok1",
      ],
     "Fam_Ultra":[
-    "WobbletonPane@gmail.com|dvvxzknyw|fagriffith11101988@outlook.com|226y r2lr ovws k2uf nxty m7mw g3dr xmh4|",
-"PineroLifschitz@gmail.com|2t2hcdecg7|prawatt.myres39@outlook.com|aogn tdjc 2e5e vxio ficz xpqs 3lxp woqo|",
-"SalipAdieba@gmail.com|cyosqpgd05i|rheaultgrecolq56@hotmail.com|slak e3ya vjla 33jy mgze w3yr nmxi 75qf|",
-"KrigerAmondo@gmail.com|kwxbymefas|dueengnathwj817@c-eric.fr.nf|6i37 ke7u tsts hpsa 65dl hy53 5lsu jbax|",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 10,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
@@ -135,8 +110,6 @@ STOCK = {
 
      ],
      "cdk_gpt_plus_1m": [
-"0D9114AC-D8F9-4FA8-9415-6298F39191F7",
-"BFA5EE58-8E45-43C9-B205-C705226DD195",
 "D2A03D57-A110-44C7-B5E6-90DD3F1120C0",
 
      ],
