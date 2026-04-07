@@ -49,16 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"v25n5t4bh24h51@veo2.veolmt94.com|btkVVV9333",
-"v25n5t4bh24h522@veo2.veolmt94.com|kdvMZH8332",
-"v25n5t4bh24h523@veo2.veolmt94.com|fjpGJI3506",
-"v25n5t4bh24h524@veo2.veolmt94.com|fifRVR4654",
-"v25n5t4bh24h530@veo2.veolmt94.com|doqJBW9178",
-"v25n5t4bh24h532@veo2.veolmt94.com|elfHIW3429",
-"v25n5t4bh24h534@veo2.veolmt94.com|itgDIW7275",
-"v25n5t4bh24h535@veo2.veolmt94.com|sanSYZ1176",
-"v25n5t4bh24h536@veo2.veolmt94.com|zybOJZ1277",
-"v25n5t4bh24h538@veo2.veolmt94.com|dmwSXL9283",
 
      ],    
     "veo3_pro_bh":[    
@@ -72,8 +62,6 @@ STOCK = {
 "zedsopzmp@eocundatacenterhub.sbs|MyNhan@999",
     ],
     "grok_bhf":[
-"zoffao@vip16.tempdukviet.click|Supergrok123@",
-"fuetiw@vip3.tempdukviet.click|Supergrok123@",
 "guhjuk@abe5.tempdukviet.site|suppergrok1",
 "zentai@ac25.capytumbum.online|suppergrok1",
 "lusvoo@ahihi2.tempdukviet.site|suppergrok1",
@@ -91,9 +79,12 @@ STOCK = {
 "mapmeh@aq3.tempdukviet.click|suppergrok1",
      ],
     "Fam_Ultra":[
-"NodirxonTyukin@gmail.com|rgs5lyzf6x|tebiasaharek@hotmail.com|ysbs afjp 32pi gqft mb4g scik a5ys 2nlp",
-"ShiyouKittleson513@gmail.com|xjbgk5abcj|lebrunstattonoi545@donklang.us|eawj vbmz o276 rikp vx7e vguy i3bn reiv",
-"VoncileHaczynski@gmail.com|1idmxlot7|antriviatoe@hotmail.com|o73v uvfk n62e vor6 jbtm qq7f ykdq 7svi",
+"HeefnerPehowic@gmail.com|z77wdfy8m4x|copelinlenoreot456@hotmail.com|aua4 2hgp 52w2 vg4u ypt3 2ynm t4bn di3v|",
+"nxuanbao653@gmail.com|mZauMAy7rS4|nxuanbao6535326@hotmail.com|q2hq c6m7 kyls xg7p jszp or5f gbdj 6gh5|",
+"PamelaEraclio@gmail.com|pdse3rjf7|mingestalcottwp967@ba.prout.be|bnyq gqvn ywa3 qkd3 37wp joib scwl 5zfi|",
+"SebastianeSalse@gmail.com|zjz987jn1b|zaidenzotre@hotmail.com|zdcd flsv uuuf 3v2z qqwq zloa wyju fv6w|",
+"DelpescheNitish@gmail.com|eseigehfcm|izoldibinnazv@hotmail.com|pt2q nwxr zwjr u2yr miuu bwsm x6mh odzq|",
+"ArianeIsilay@gmail.com|ijhd1q0jjc|jenniferqcumoralesgl166@hotmail.com|qoou r4yd g3zs seht avkh xvkn ih7u vkix|",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 15,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
