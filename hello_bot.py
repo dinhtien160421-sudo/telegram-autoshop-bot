@@ -104,8 +104,6 @@ STOCK = {
 "mapmeh@aq3.tempdukviet.click|suppergrok1",
      ],
     "Fam_Ultra":[
-"DelpescheNitish@gmail.com|eseigehfcm|izoldibinnazv@hotmail.com|pt2q nwxr zwjr u2yr miuu bwsm x6mh odzq|",
-"ArianeIsilay@gmail.com|ijhd1q0jjc|jenniferqcumoralesgl166@hotmail.com|qoou r4yd g3zs seht avkh xvkn ih7u vkix|",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 15,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
