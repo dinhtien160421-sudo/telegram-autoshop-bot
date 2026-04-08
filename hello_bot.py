@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":35555},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":29999},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price":22222},
     "grok_bhf": {"name": "Grok Super 30D BH Full", "price":44444},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 750000},
@@ -49,13 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"avaivy29552578@umg.deltacoration.com|f6Q@t%2EJTNB",
-"avaivy12041288@umg.deltacoration.com|!2KnvP21S@cA",
-"avaivy19570505@umg.deltacoration.com|9!FCz!YFra@4",
-"avaivy30157338@umg.deltacoration.com|kS3nBboT@0gI",
-"avaivy76704451@umg.deltacoration.com|Zy2D@@DsNoK!",
-"avaivy53769617@umg.deltacoration.com|XUTJaD$1Cu!y",
-"avaivy35211017@umg.deltacoration.com|E1Dh$NW$zOhp",
 "avaivy07357057@umg.deltacoration.com|WQ5n5#prQchZ",
 "avaivy49115258@umg.deltacoration.com|NdBrdec#Pif1",
 "avaivy94303231@umg.deltacoration.com|Zom9W8$XKPWr",
@@ -103,7 +96,6 @@ STOCK = {
 "zedsopzmp@eocundatacenterhub.sbs|MyNhan@999",
     ],
     "grok_bhf":[
-"nijdaj@ahihi36.tempdukviet.site|suppergrok1",
 "jinvuv@av24.tempdukviet.site|suppergrok1",
 "neksup@mail31.capytumbum.online|suppergrok1",
 "pufkah@vip14.tempdukviet.click|suppergrok1",
