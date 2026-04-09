@@ -68,7 +68,6 @@ STOCK = {
 "zedsopzmp@eocundatacenterhub.sbs|MyNhan@999",
     ],
     "grok_bhf":[
-    "yoo5f9ymccombs@outlook.com | GrokSuper123@",
 "dale_384domingo@outlook.com|MCKabcxyz@!",
 "jwdvz616850@hotmail.com|MCKabcxyz@!",
 "yyusk578615@hotmail.com|MCKabcxyz@!",
@@ -81,6 +80,11 @@ STOCK = {
 "fejrn823745@hotmail.com|MCKabcxyz@!",
      ],
     "Fam_Ultra":[
+    "ArreguezAlejandrodavid371@gmail.com|kejzfnr9lgu|boringkeefauverji683@likeageek.fr.nf|3mqn q46d 3cvn k5dc vwwj obwn kodk sepz",
+"BootonBear675@gmail.com|f08rctvd0n|phovan08051997o63@hotmail.com|jwlf x4pz o2lx vxdu 42kv jrdc l4ei kf72",
+"AllenFernandes709@gmail.com|nkyzw2tomou|wiedsikorralr515@hotmail.com|fyaf pofj ffjg cwvq zsfx 2ieg lm7m l6id",
+"CaughmanLammel50@gmail.com|igpxbox4a|rohanaagradar@outlook.com|xlnp ax35 oree auip llgq rhen mkr6 2ija",
+"SonkinDilmore@gmail.com|rpx33dgneqh|wssimconingl@outlook.com|xvfz s5ks y3rp qwy2 vcaz zuj5 5tcl v2s5",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 5,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
