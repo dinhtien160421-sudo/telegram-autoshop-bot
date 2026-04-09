@@ -34,7 +34,7 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25000},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price":20000},
-    "grok_bhf": {"name": "Grok Super 30D BH Full", "price":44444},
+    "grok_bhf": {"name": "Grok Super 30D BH Full", "price":50000},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 750000},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 275000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
@@ -49,12 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"avaivy38865095@umg.deltacoration.com|hY%ho0TY1nfZ",
-"avaivy35591082@umg.deltacoration.com|x#7b19K8$cRG",
-"avaivy09337385@umg.deltacoration.com|gDw$OWvMHWI5",
-"avaivy59163998@umg.deltacoration.com|Bk@9dBUv@hHm",
-"avaivy83528624@umg.deltacoration.com|SR@LVuu0Od7A",
-"avaivy75623656@umg.deltacoration.com|7$ZJRo0dtMXE",
 "avaivy49670299@umg.deltacoration.com|rN$C8Vz0JKCs",
 "avaivy39827616@umg.deltacoration.com|h@4@nW3Lpg5t",
 "n7t4bh24h1056@veo1.veolmt28.com|zalCFG4679",
@@ -93,21 +87,15 @@ STOCK = {
 "zedsopzmp@eocundatacenterhub.sbs|MyNhan@999",
     ],
     "grok_bhf":[
-"neksup@mail31.capytumbum.online|suppergrok1",
 "pufkah@vip14.tempdukviet.click|suppergrok1",
 "feuwit@ad33.capytumbum.online|suppergrok1",
 "gomnop@mail.capytumbum.online|suppergrok1",
 "mapmeh@aq3.tempdukviet.click|suppergrok1",
      ],
     "Fam_Ultra":[
-    "DerbasHazratali@gmail.com|nwgxphaabpi|mnquhecheml3@outlook.com|mzjb g3nt koqn kwcs qvus kcz2 agin mrkk",
-    "LukesRosenbush@gmail.com|qz9brfpsp8|torchpalayaa@outlook.com|dyp7 x64m 7rso y4hz xsfn opow cdz2 pn4v",
-    "BamfieldTice785@gmail.com|lf2boexsu9|uz4y7wbbxzjjkhmu2amt@anhnhat.online|s7b7 32lx nca4 sovd uk2l wnv5 4j2k vcbv",
-    "DileyAndrede371@gmail.com|lngxxgaaeoj|birdinealamedaer709@mac.com|vroz nbai wlz5 6mq6 y4in yixo ntvo cjvs",
-
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 15,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_0cre_12m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
