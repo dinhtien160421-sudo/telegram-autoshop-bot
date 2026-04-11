@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25000},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":22222},
     "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price":20000},
     "grok_bhf": {"name": "Grok Super 30D BH Full", "price":65000},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 750000},
@@ -49,8 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"b8424h1237@veo3.veolmt12.com|tfdOVK1589",
-"b8424h123@veo3.veolmt12.com|sxzGTN9235",
 "b8424h1244@veo3.veolmt12.com|kltIZC5965",
 "b8424h1248@veo3.veolmt12.com|vofVHG2403",
 "b8424h1239@veo3.veolmt12.com|rusPVF4551",
@@ -81,15 +79,13 @@ STOCK = {
 "b8424h1276@veo3.veolmt12.com|yreCTH9212",
      ],    
     "veo3_pro_bh":[    
-"zedsopzmp@eocundatacenterhub.sbs|MyNhan@999",
-"zedsbfpuv@eocundatacenterhub.sbs|MyNhan@999",
     ],
     "grok_bhf":[
      ],
     "Fam_Ultra":[
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 5,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_0cre_12m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
@@ -97,8 +93,6 @@ STOCK = {
 
      ],
      "cdk_gpt_plus_1m": [
-"9D40401A-8FB6-478F-8307-C7915AAFDB0D",
-"9A7DEC27-FD20-4378-8AEF-4BCADF682A29",
 "6CD02C31-9F15-4D75-B6A2-590087588C94",
 "823861B3-6060-4E29-ABBA-2F2344ED74F4",
 "28074333-F5B3-463F-B9ED-0D22FFBBC326",
