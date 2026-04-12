@@ -33,8 +33,7 @@ PENDING_ORDERS = {}
 # ===== SẢN PHẨM =====
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":22222},
-    "veo3_pro_bh": {"name": "Veo3 Pro 25K cre BH 24h", "price":20000},
-    "grok_bhf": {"name": "Grok Super 30D BH Full", "price":65000},
+    "grok_bhf": {"name": "Grok Super 30D BH Full", "price":99999},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 750000},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 275000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
@@ -49,18 +48,7 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"b8424h1244@veo3.veolmt12.com|kltIZC5965",
-"b8424h1248@veo3.veolmt12.com|vofVHG2403",
-"b8424h1239@veo3.veolmt12.com|rusPVF4551",
-"b8424h1242@veo3.veolmt12.com|qcaIZX4909",
-"b8424h1236@veo3.veolmt12.com|wltVQW2727",
-"b8424h1238@veo3.veolmt12.com|pqbKKJ9483",
-"b8424h1243@veo3.veolmt12.com|swhIHW0433",
-"b8424h1246@veo3.veolmt12.com|hgtGRY3681",
-"b8424h1250@veo3.veolmt12.com|pojASY3589",
-"b8424h1227@veo3.veolmt12.com|dtgFWO4183",
-"b8424h1225@veo3.veolmt12.com|oflDEN9435",
-"b8424h1224@veo3.veolmt12.com|qqaCBR9814",
+"v1024h716@whvuglftfccvjjcq.sbs|tovPNZ1214"
 "b8424h1233@veo3.veolmt12.com|vknWUN3452",
 "b8424h1232@veo3.veolmt12.com|xmdSAU2459",
 "b8424h1230@veo3.veolmt12.com|ojgXXQ7947",
@@ -77,26 +65,53 @@ STOCK = {
 "b8424h1278@veo3.veolmt12.com|tywUAE2561",
 "b8424h1277@veo3.veolmt12.com|ramNJV1002",
 "b8424h1276@veo3.veolmt12.com|yreCTH9212",
-     ],    
-    "veo3_pro_bh":[    
     ],
     "grok_bhf":[
+    "sitzler_kristasia@outlook.com|SuperGrok1234@",
+"clevy.anirem43@outlook.com|SuperGrok1234@",
+"yuthas_rocans78@outlook.com|SuperGrok1234@",
+"wilfr.olemedo49@outlook.com|SuperGrok1234@",
+"belzaqua56@outlook.com|SuperGrok1234@",
+"arunita.casanova0@outlook.com|SuperGrok1234@",
+"argos.danvas34@outlook.com|SuperGrok1234@",
+"kuzela_likam7@outlook.com|SuperGrok1234@",
+"oeckler_brefort5@outlook.com|SuperGrok1234@",
+"vajnar.moldes70@outlook.com|SuperGrok1234@",
+"konecy.kseniya65@outlook.com|SuperGrok1234@",
+"lenit.islami69@outlook.com|SuperGrok1234@",
+"felch_virano9@outlook.com|SuperGrok1234@",
+"mizyal_juiyao31@outlook.com|SuperGrok1234@",
+"rapacki.loyson17@outlook.com|SuperGrok1234@",
+"waltchspanola@outlook.com|SuperGrok1234@",
+"crena.healim4@outlook.com|SuperGrok1234@",
+"getrige.deton8@outlook.com|SuperGrok1234@",
+"dalkys.strey8@outlook.com|SuperGrok1234@",
+"cicurel_tamehau1@outlook.com|SuperGrok1234@",
      ],
     "Fam_Ultra":[
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 0,
-    "veo3_ultra_bhf_1m": ["MANUAL"] * 0,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 5,
+    "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_0cre_12m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
-     "cdk_gpt_go": [
-
+     "cdk_gpt_go": [   
+"026926B4-5F44-4A24-8D0F-D27533284012",
+"81A60435-77D9-40FD-B86F-F3CA915EF323",
+"DDF31F41-5188-4093-A529-E1C79393C1AB",
      ],
      "cdk_gpt_plus_1m": [
-"6CD02C31-9F15-4D75-B6A2-590087588C94",
-"823861B3-6060-4E29-ABBA-2F2344ED74F4",
-"28074333-F5B3-463F-B9ED-0D22FFBBC326",
 "C457B8BD-8F29-4081-86D8-2D6100470DE3",
+4224D4B7-03B9-4697-A6C7-FF74FA8DFD34
+9403C29C-AC3A-4AB3-9EF3-9DAACA2C8F85
+4EE7E443-9325-4DE3-B551-26BFD44D9E3F
+DAB98FFE-1216-4EAA-B602-74BFEADAD450
+69F1A10C-3B8C-4F75-90D7-CBDD11BD6C81
+EEC2A1B1-E0F6-49D8-84BE-6BB2020D0F11
+E35BA3FC-C750-44A5-8160-A02A6A53D015
+CEFDDC9C-927F-4DBB-B1D2-12DDA155DFDE
+7D562521-21DC-4684-8189-028CF9BB6AE3
+DB126BE2-19AD-4BBD-A72F-D025CBB0E835
      ],
     "info_4": ["IB"] * 0,
 }
