@@ -49,7 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    "s1324h1290@klaoappapooa99n.sbs|ewiVUY1017",
 "s1324h1292@klaoappapooa99n.sbs|kagUNE9863",
 "s1324h1293@klaoappapooa99n.sbs|yqeGDS5001",
 "s1324h1294@klaoappapooa99n.sbs|tuuHEM8373",
@@ -89,9 +88,7 @@ STOCK = {
 "s13bhf267@4corrineajohnsona.asia|xdqYPV0647",
     ],
     "grok_bhf":[
-"argos.danvas34@outlook.com|SuperGrok1234@",
 "kuzela_likam7@outlook.com|SuperGrok1234@",
-"oeckler_brefort5@outlook.com|SuperGrok1234@",
 "vajnar.moldes70@outlook.com|SuperGrok1234@",
 "konecy.kseniya65@outlook.com|SuperGrok1234@",
 "lenit.islami69@outlook.com|SuperGrok1234@",
