@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":22222},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
     "veo3_ultra_bh30d": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
     "grok_bhf": {"name": "Grok Super 30D BH Full", "price":99999},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 750000},
