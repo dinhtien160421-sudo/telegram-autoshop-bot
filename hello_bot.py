@@ -56,6 +56,7 @@ STOCK = {
 "s13bhf265@4corrineajohnsona.asia|nwqVMM9535",
 "s13bhf266@4corrineajohnsona.asia|nmaPPN1824",
 "s13bhf267@4corrineajohnsona.asia|xdqYPV0647",
+    ],
     "grok_bhf":[
 "arunita.casanova0@outlook.com|SuperGrok1234@",
 "argos.danvas34@outlook.com|SuperGrok1234@",
