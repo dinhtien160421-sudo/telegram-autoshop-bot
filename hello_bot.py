@@ -48,30 +48,8 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"v1024h716@whvuglftfccvjjcq.sbs|tovPNZ1214"
-"b8424h1233@veo3.veolmt12.com|vknWUN3452",
-"b8424h1232@veo3.veolmt12.com|xmdSAU2459",
-"b8424h1230@veo3.veolmt12.com|ojgXXQ7947",
-"b8424h1229@veo3.veolmt12.com|vikGIX6449",
-"b8424h1228@veo3.veolmt12.com|yluMLQ1646",
-"b8424h1222@veo3.veolmt12.com|ynnHWU9901",
-"b8424h1221@veo3.veolmt12.com|fmiIQX5108",
-"b8424h1220@veo3.veolmt12.com|kmqXCZ6343",
-"b8424h121@veo3.veolmt12.com|sfkULR5290",
-"b8424h1219@veo3.veolmt12.com|jxdWML6041",
-"b8424h1218@veo3.veolmt12.com|rizPWW4131",
-"b8424h127@veo3.veolmt12.com|oetFTU0317",
-"b8424h1240@veo3.veolmt12.com|ucxKWV5376",
-"b8424h1278@veo3.veolmt12.com|tywUAE2561",
-"b8424h1277@veo3.veolmt12.com|ramNJV1002",
-"b8424h1276@veo3.veolmt12.com|yreCTH9212",
     ],
     "grok_bhf":[
-    "sitzler_kristasia@outlook.com|SuperGrok1234@",
-"clevy.anirem43@outlook.com|SuperGrok1234@",
-"yuthas_rocans78@outlook.com|SuperGrok1234@",
-"wilfr.olemedo49@outlook.com|SuperGrok1234@",
-"belzaqua56@outlook.com|SuperGrok1234@",
 "arunita.casanova0@outlook.com|SuperGrok1234@",
 "argos.danvas34@outlook.com|SuperGrok1234@",
 "kuzela_likam7@outlook.com|SuperGrok1234@",
@@ -89,6 +67,9 @@ STOCK = {
 "cicurel_tamehau1@outlook.com|SuperGrok1234@",
      ],
     "Fam_Ultra":[
+    "QuiambaoHerdman392@gmail.com|rj4hnoihlxt|ouhibmuskic5@hotmail.com|tngt r3yl zdqm vgz4 7jzm 5fzn n2u4 glpc||",
+"InostrazaMerklin@gmail.com|ans45e3awvf|rellkhlokp@outlook.com|7fwd mjor czop 3ph6 mujn 5wbb w4yj f4cw|",
+"CeraoLangtry@gmail.com|p1irqokpmx|emh872gz1jr59xt1t0us@anhnhat.online|xynt mzzd deah xuer 2prq sesw 7yqg heu3|",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 5,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
@@ -101,7 +82,6 @@ STOCK = {
 "DDF31F41-5188-4093-A529-E1C79393C1AB",
      ],
      "cdk_gpt_plus_1m": [
-"C457B8BD-8F29-4081-86D8-2D6100470DE3",
 "4224D4B7-03B9-4697-A6C7-FF74FA8DFD34",
 "9403C29C-AC3A-4AB3-9EF3-9DAACA2C8F85",
 "4EE7E443-9325-4DE3-B551-26BFD44D9E3F",
