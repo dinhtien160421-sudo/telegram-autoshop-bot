@@ -74,7 +74,6 @@ STOCK = {
 "cicurel_tamehau1@outlook.com|SuperGrok1234@",
      ],
     "Fam_Ultra":[
-    "QuiambaoHerdman392@gmail.com|rj4hnoihlxt|ouhibmuskic5@hotmail.com|tngt r3yl zdqm vgz4 7jzm 5fzn n2u4 glpc||",
 "InostrazaMerklin@gmail.com|ans45e3awvf|rellkhlokp@outlook.com|7fwd mjor czop 3ph6 mujn 5wbb w4yj f4cw|",
 "CeraoLangtry@gmail.com|p1irqokpmx|emh872gz1jr59xt1t0us@anhnhat.online|xynt mzzd deah xuer 2prq sesw 7yqg heu3|",
     ],
