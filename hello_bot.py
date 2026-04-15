@@ -35,7 +35,7 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
     "veo3_ultra_bh30d": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
     "grok_bhf": {"name": "Grok Super 30D BH Full", "price":99999},
-    "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 750000},
+    "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 700000},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 275000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 680000},
@@ -49,9 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-    "s14424h898@1macalinomayumia.asia|qqpCLG3551",
-"s14424h900@1macalinomayumia.asia|dugUAL5766",
-"s14424h890@1macalinomayumia.asia|hulYWD5738",
 "s14424h896@1macalinomayumia.asia|csoLLS2393",
 "s14424h905@1macalinomayumia.asia|ticCYI9461",
 "s14424h889@1macalinomayumia.asia|dukSEP5161",
@@ -81,13 +78,13 @@ STOCK = {
 "s14424h908@1macalinomayumia.asia|agyENU4218",
     ],
     "veo3_ultra_bh30d":[
-
     ],
     "grok_bhf":[
 
      ],
     "Fam_Ultra":[
-
+    "VessellaLurline@gmail.com|6kbjg5ok5y|prediogrippak@outlook.com|v3wa xhdt unzm spjx iaja tetu fp3l wqhc|",
+"UeckerTerbush@gmail.com|cus5hxa6rn|waadetatosaq@outlook.com|5lu7 gkg6 fcq4 2ken j262 troz q4jo caxv|",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 5,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
