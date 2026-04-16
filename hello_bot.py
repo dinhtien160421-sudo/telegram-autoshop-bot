@@ -43,7 +43,6 @@ PRODUCTS = {
     "veo3_bhf_12m": {"name": " Ultra Add Fam 6k cre/tháng BHF 1 NĂM", "price": 1900000},
     "cdk_gpt_go": {"name": "CDK CHATGPT Go 12M BH ACTIVE", "price": 80000},
     "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
-    "info_4": {"name": "Zalo: 0842.108.959 - Tele:@dtdt28", "price": 0},
 }
 
 # ===== KHO =====
@@ -98,7 +97,6 @@ STOCK = {
 "7D562521-21DC-4684-8189-028CF9BB6AE3",
 "DB126BE2-19AD-4BBD-A72F-D025CBB0E835",
      ],
-    "info_4": ["IB"] * 0,
     }
 # ====== SEPAY WEBHOOK (AUTO NHẢ ĐƠN) ======
 app = Flask(__name__)
