@@ -501,28 +501,30 @@ def main():
     # gán bot cho webhook dùng
     TG_BOT = updater.bot
 
-commands = [
-    BotCommand("start", "Xem danh sách sản phẩm"),
-    BotCommand("support", "Liên hệ admin"),
-]
+    # ===== MENU COMMAND =====
+    commands = [
+        BotCommand("start", "Xem danh sách sản phẩm"),
+        BotCommand("support", "Liên hệ admin"),
+    ]
+    updater.bot.set_my_commands(commands)
 
-updater.bot.set_my_commands(commands)
-dp.add_handler(CommandHandler("support", support))
-dp.add_handler(CommandHandler("start", start))
-dp.add_handler(CommandHandler("menu", start))
-dp.add_handler(CommandHandler("broadcast", broadcast))  # ✅ THÊM LẠI BROADCAST
-dp.add_handler(CallbackQueryHandler(handle_buttons))
-dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_quantity))
+    # ===== HANDLER =====
+    dp.add_handler(CommandHandler("support", support))
+    dp.add_handler(CommandHandler("start", start))
+    dp.add_handler(CommandHandler("menu", start))
+    dp.add_handler(CommandHandler("broadcast", broadcast))
+    dp.add_handler(CallbackQueryHandler(handle_buttons))
+    dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_quantity))
 
-    # chạy webhook sepay trong thread (CÙNG PROCESS với bot)
-def run_webhook():
-    app.run(host="0.0.0.0", port=8080, threaded=True)
+    # ===== WEBHOOK THREAD =====
+    def run_webhook():
+        app.run(host="0.0.0.0", port=8080, threaded=True)
 
-threading.Thread(target=run_webhook, daemon=True).start()
+    threading.Thread(target=run_webhook, daemon=True).start()
 
-print("BOT ĐANG CHẠY...")
-updater.start_polling()
-updater.idle()
+    print("BOT ĐANG CHẠY...")
+    updater.start_polling()
+    updater.idle()
 
 
 if __name__ == "__main__":
