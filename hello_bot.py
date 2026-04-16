@@ -171,51 +171,51 @@ def broadcast(update, context):
 
     msg = update.message
 
-    # Reply hoặc nhập nội dung
-if msg.reply_to_message:
-    r = msg.reply_to_message
+    # ===== Reply hoặc nhập nội dung =====
+    if msg.reply_to_message:
+        r = msg.reply_to_message
 
-    if r.text:
-        message = r.text
-        type_msg = "text"
+        if r.text:
+            message = r.text
+            type_msg = "text"
 
-    elif r.photo:
-        message = r.caption or ""
-        photo = r.photo[-1].file_id
-        type_msg = "photo"
+        elif r.photo:
+            message = r.caption or ""
+            photo = r.photo[-1].file_id
+            type_msg = "photo"
+
+        else:
+            msg.reply_text("⚠ Không hỗ trợ định dạng này.")
+            return
 
     else:
-        msg.reply_text("⚠ Không hỗ trợ định dạng này.")
+        if not context.args:
+            msg.reply_text(
+                "⚠ Dùng:\n"
+                "- /broadcast nội_dung\n"
+                "- Hoặc reply vào tin nhắn cần gửi rồi gõ /broadcast"
+            )
+            return
+
+        message = msg.text.partition(" ")[2]
+        type_msg = "text"
+
+    if type_msg == "text" and not message:
+        msg.reply_text("⚠ Không lấy được nội dung.")
         return
 
-else:
-    if not context.args:
-        msg.reply_text(
-            "⚠ Dùng:\n"
-            "- /broadcast nội_dung\n"
-            "- Hoặc reply vào tin nhắn cần gửi rồi gõ /broadcast"
-        )
+    if not os.path.exists(USERS_FILE):
+        msg.reply_text("Chưa có user nào trong danh sách.")
         return
 
-    message = msg.text.partition(" ")[2]
-    type_msg = "text"
+    # 🚀 CHẠY NỀN
+    threading.Thread(
+        target=_send_broadcast_task,
+        args=(message, type_msg, photo if type_msg == "photo" else None, context),
+        daemon=True
+    ).start()
 
-if type_msg == "text" and not message:
-    msg.reply_text("⚠ Không lấy được nội dung.")
-    return
-
-if not os.path.exists(USERS_FILE):
-    msg.reply_text("Chưa có user nào trong danh sách.")
-    return
-
-# 🚀 CHẠY NỀN
-threading.Thread(
-    target=_send_broadcast_task,
-    args=(message, type_msg, photo if type_msg == "photo" else None, context),
-    daemon=True
-).start()
-
-msg.reply_text("🚀 Đang gửi broadcast, bot vẫn hoạt động bình thường!")
+    msg.reply_text("🚀 Đang gửi broadcast, bot vẫn hoạt động bình thường!")
 
 # ===== HÀM PHỤ =====
 def gen_order_code():
