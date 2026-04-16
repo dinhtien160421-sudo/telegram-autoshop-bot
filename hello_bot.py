@@ -34,7 +34,7 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
     "veo3_ultra_bh30d": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
-    "grok_bhf": {"name": "Grok Super 30D BH Full", "price":99999},
+    "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 700000},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 275000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
@@ -49,9 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s14424h896@1macalinomayumia.asia|csoLLS2393",
-"s14424h905@1macalinomayumia.asia|ticCYI9461",
-"s14424h889@1macalinomayumia.asia|dukSEP5161",
 "s14424h89@1macalinomayumia.asia|ghdLEI4378",
 "s14424h885@1macalinomayumia.asia|wqyQYB3279",
 "s14424h903@1macalinomayumia.asia|rkrQBI0902",
@@ -79,12 +76,23 @@ STOCK = {
     ],
     "veo3_ultra_bh30d":[
     ],
-    "grok_bhf":[
-
+    "Capcut_Pro":[
+    "newto@teamtitan.co|123456",
+"meaga@jualakun.com|123456",
+"kriss@gomailgo.click|123456",
+"chest@zantrax.com|123456",
+"lemue@sepuranex.me|123456",
+"ovaru@past-line.com|123456",
+"lysan@primejetnet.com|123456",
+"norva@amazinggift.life|123456",
+"carso@bekasi.me|123456",
+"stacy@abidot.me|123456",
      ],
     "Fam_Ultra":[
     "VessellaLurline@gmail.com|6kbjg5ok5y|prediogrippak@outlook.com|v3wa xhdt unzm spjx iaja tetu fp3l wqhc|",
 "UeckerTerbush@gmail.com|cus5hxa6rn|waadetatosaq@outlook.com|5lu7 gkg6 fcq4 2ken j262 troz q4jo caxv|",
+"NettiMinato@gmail.com|g8w9kowzr|kaldasapplinggi730@gimuemoa.fr.nf|m73x cygc cedh zb5o rrlk r2ll oe33 ndkg|",
+"euphemiamcadams2@gmail.com|neK1562IT|euphemiamcadams26243@hotmail.com|qty5 5iij qyhg oczg dfhj s3n2 yf2b txo4",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 5,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
@@ -97,7 +105,6 @@ STOCK = {
 "DDF31F41-5188-4093-A529-E1C79393C1AB",
      ],
      "cdk_gpt_plus_1m": [
-"9403C29C-AC3A-4AB3-9EF3-9DAACA2C8F85",
 "4EE7E443-9325-4DE3-B551-26BFD44D9E3F",
 "DAB98FFE-1216-4EAA-B602-74BFEADAD450",
 "69F1A10C-3B8C-4F75-90D7-CBDD11BD6C81",
@@ -255,16 +262,26 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
             "- Mn chú ý chỉ change 2FA thôi là không ai back lại được rồi, lúc gửi mình cũng change trước 1 lần rồi.\n"
             "- Gmail ai có người nấy giữ nha ^^ Nếu khó quá mình vẫn sẽ hỗ trợ, tùy trường hợp.\n"
         )
-
+    capcut_note = ""
+    if pid == "Capcut_Pro_Team_35D":
+        capcut_note = (
+        "\n\n⚠️ LƯU Ý KHI SỬ DỤNG:\n\n"
+        "- Hàng 35D renew là dạng auto gia hạn sau 7 ngày.\n"
+        "- Sau khi hết 7 ngày bên em sẽ cho tool tự động gia hạn tiếp đến khi đủ 35 ngày.\n"
+        "- AE KHÔNG được thay đổi email hay mật khẩu để bên em còn gia hạn.\n"
+        "-Nếu không sẽ không gia hạn đầy đủ.\n\n"
+        "- Không tự ý rời khỏi không gian team, hay out team.\n"
+        )
     detail = (
         f"✅ Đơn `{code}`\n"
         f"🎁 Sản phẩm: *{product['name']}*\n"
         f"📦 Số lượng: *{qty}*\n\n"
         f"{codes_text}"
         f"{extra_guide}"
-        f"{fam_ultra_note}\n"
+        f"{fam_ultra_note}"
+        f"{capcut_note}\n"
         "Cảm ơn bạn đã mua hàng!"
-    )
+)
 
     TG_BOT.send_message(
         chat_id=user_id,
