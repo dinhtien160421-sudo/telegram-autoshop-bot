@@ -508,12 +508,12 @@ commands = [
 ]
 
 updater.bot.set_my_commands(commands)
-    dp.add_handler(CommandHandler("support", support))
-    dp.add_handler(CommandHandler("start", start))
-    dp.add_handler(CommandHandler("menu", start))
-    dp.add_handler(CommandHandler("broadcast", broadcast))  # ✅ THÊM LẠI BROADCAST
-    dp.add_handler(CallbackQueryHandler(handle_buttons))
-    dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_quantity))
+dp.add_handler(CommandHandler("support", support))
+dp.add_handler(CommandHandler("start", start))
+dp.add_handler(CommandHandler("menu", start))
+dp.add_handler(CommandHandler("broadcast", broadcast))  # ✅ THÊM LẠI BROADCAST
+dp.add_handler(CallbackQueryHandler(handle_buttons))
+dp.add_handler(MessageHandler(Filters.text & ~Filters.command, handle_quantity))
 
     # chạy webhook sepay trong thread (CÙNG PROCESS với bot)
     def run_webhook():
