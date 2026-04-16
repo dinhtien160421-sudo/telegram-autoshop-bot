@@ -1,4 +1,4 @@
-from telegram import InlineKeyboardButton, InlineKeyboardMarkup, InputFile
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, InputFile, BotCommand
 from telegram.ext import (
     Updater,
     CommandHandler,
@@ -500,7 +500,6 @@ def main():
 
     # gán bot cho webhook dùng
     TG_BOT = updater.bot
-    from telegram import BotCommand
 
 commands = [
     BotCommand("start", "Xem danh sách sản phẩm"),
