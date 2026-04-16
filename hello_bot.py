@@ -187,7 +187,8 @@ if msg.reply_to_message:
     else:
         msg.reply_text("⚠ Không hỗ trợ định dạng này.")
         return
-    else:
+
+else:
     if not context.args:
         msg.reply_text(
             "⚠ Dùng:\n"
