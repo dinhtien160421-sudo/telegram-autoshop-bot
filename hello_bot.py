@@ -127,7 +127,7 @@ import threading
 import time
 
 # ===== HÀM GỬI RIÊNG (CHẠY NỀN) =====
-def _send_broadcast_task(msg, context):
+def _send_broadcast_task(message, type_msg, photo, context):
     sent = 0
 
     with open(USERS_FILE, "r", encoding="utf-8") as f:
@@ -135,35 +135,26 @@ def _send_broadcast_task(msg, context):
             line = line.strip()
             if not line:
                 continue
+
             try:
                 uid = int(line)
 
-                # 📸 Nếu là ảnh
-                if msg.photo:
-                    context.bot.send_photo(
-                        chat_id=uid,
-                        photo=msg.photo[-1].file_id,
-                        caption=msg.caption or ""
-                    )
-
-                # 🎥 Nếu là video
-                elif msg.video:
-                    context.bot.send_video(
-                        chat_id=uid,
-                        video=msg.video.file_id,
-                        caption=msg.caption or ""
-                    )
-
-                # 📝 Nếu là text
-                else:
+                if type_msg == "text":
                     context.bot.send_message(
                         chat_id=uid,
-                        text=msg.text or msg.caption or "",
+                        text=message,
                         disable_web_page_preview=True
                     )
 
+                elif type_msg == "photo":
+                    context.bot.send_photo(
+                        chat_id=uid,
+                        photo=photo,
+                        caption=message
+                    )
+
                 sent += 1
-                time.sleep(0.01)
+                time.sleep(0.03)  # chống spam
 
             except:
                 continue
@@ -181,34 +172,49 @@ def broadcast(update, context):
     msg = update.message
 
     # Reply hoặc nhập nội dung
-    if msg.reply_to_message:
-        message = msg.reply_to_message.text or msg.reply_to_message.caption
+if msg.reply_to_message:
+    r = msg.reply_to_message
+
+    if r.text:
+        message = r.text
+        type_msg = "text"
+
+    elif r.photo:
+        message = r.caption or ""
+        photo = r.photo[-1].file_id
+        type_msg = "photo"
+
     else:
-        if not context.args:
-            msg.reply_text(
-                "⚠ Dùng:\n"
-                "- /broadcast nội_dung\n"
-                "- Hoặc reply vào tin nhắn cần gửi rồi gõ /broadcast"
-            )
-            return
-        message = msg.text.partition(" ")[2]
-
-    if not message:
-        msg.reply_text("⚠ Không lấy được nội dung.")
+        msg.reply_text("⚠ Không hỗ trợ định dạng này.")
+        return
+else:
+    if not context.args:
+        msg.reply_text(
+            "⚠ Dùng:\n"
+            "- /broadcast nội_dung\n"
+            "- Hoặc reply vào tin nhắn cần gửi rồi gõ /broadcast"
+        )
         return
 
-    if not os.path.exists(USERS_FILE):
-        msg.reply_text("Chưa có user nào trong danh sách.")
-        return
+    message = msg.text.partition(" ")[2]
+    type_msg = "text"
 
-    # 🚀 CHẠY NỀN (QUAN TRỌNG NHẤT)
-    threading.Thread(
-        target=_send_broadcast_task,
-        args=(msg.reply_to_message if msg.reply_to_message else msg, context),
-        daemon=True
-    ).start()
+if type_msg == "text" and not message:
+    msg.reply_text("⚠ Không lấy được nội dung.")
+    return
 
-    msg.reply_text("🚀 Đang gửi broadcast, bot vẫn hoạt động bình thường!")
+if not os.path.exists(USERS_FILE):
+    msg.reply_text("Chưa có user nào trong danh sách.")
+    return
+
+# 🚀 CHẠY NỀN
+threading.Thread(
+    target=_send_broadcast_task,
+    args=(message, type_msg, photo if type_msg == "photo" else None, context),
+    daemon=True
+).start()
+
+msg.reply_text("🚀 Đang gửi broadcast, bot vẫn hoạt động bình thường!")
 
 # ===== HÀM PHỤ =====
 def gen_order_code():
