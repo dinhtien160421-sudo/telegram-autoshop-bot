@@ -165,7 +165,7 @@ def _send_broadcast_task(msg, context):
                     )
 
                 sent += 1
-                time.sleep(0.05)
+                time.sleep(0.01)
 
             except:
                 continue
@@ -382,6 +382,12 @@ def start(update, context):
         parse_mode="Markdown",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
+def support(update, context):
+    text = (
+        "📞 Hỗ trợ nhanh:\n\n"
+        "✈️ Telegram: Mn cần hỗ trợ liên hệ Admin @dtdt28"
+    )
+    update.message.reply_text(text)
 
 
 # ===== XỬ LÝ NÚT =====
@@ -494,7 +500,15 @@ def main():
 
     # gán bot cho webhook dùng
     TG_BOT = updater.bot
+    from telegram import BotCommand
 
+commands = [
+    BotCommand("start", "Xem danh sách sản phẩm"),
+    BotCommand("support", "Liên hệ admin"),
+]
+
+updater.bot.set_my_commands(commands)
+    dp.add_handler(CommandHandler("support", support))
     dp.add_handler(CommandHandler("start", start))
     dp.add_handler(CommandHandler("menu", start))
     dp.add_handler(CommandHandler("broadcast", broadcast))  # ✅ THÊM LẠI BROADCAST
