@@ -49,16 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s14424h903@1macalinomayumia.asia|rkrQBI0902",
-"s14424h892@1macalinomayumia.asia|mtcTCA1897",
-"s14424h895@1macalinomayumia.asia|yipMMQ6120",
-"s14424h907@1macalinomayumia.asia|mirXRV9854",
-"s14424h888@1macalinomayumia.asia|qjuSUG6409",
-"s14424h897@1macalinomayumia.asia|cofDTM5548",
-"s14424h884@1macalinomayumia.asia|kpuNPC9087",
-"s14424h899@1macalinomayumia.asia|kmcQUO9851",
-"s14424h88@1macalinomayumia.asia|mjrCXP1365",
-"s14424h8@1macalinomayumia.asia|vfmBTC2101",
 "s14424h882@1macalinomayumia.asia|eygYJV7485",
 "s14424h902@1macalinomayumia.asia|tngHJL3031",
 "s14424h891@1macalinomayumia.asia|fyeHTL2842",
@@ -75,8 +65,7 @@ STOCK = {
     "veo3_ultra_bh30d":[
     ],
     "Capcut_Pro":[
-    "newto@teamtitan.co|123456",
-"meaga@jualakun.com|123456",
+    "meaga@jualakun.com|123456",
 "kriss@gomailgo.click|123456",
 "chest@zantrax.com|123456",
 "lemue@sepuranex.me|123456",
@@ -87,9 +76,10 @@ STOCK = {
 "stacy@abidot.me|123456",
      ],
     "Fam_Ultra":[
-"UeckerTerbush@gmail.com|cus5hxa6rn|waadetatosaq@outlook.com|5lu7 gkg6 fcq4 2ken j262 troz q4jo caxv|",
-"NettiMinato@gmail.com|g8w9kowzr|kaldasapplinggi730@gimuemoa.fr.nf|m73x cygc cedh zb5o rrlk r2ll oe33 ndkg|",
-"euphemiamcadams2@gmail.com|neK1562IT|euphemiamcadams26243@hotmail.com|qty5 5iij qyhg oczg dfhj s3n2 yf2b txo4",
+"StormentCanedy@gmail.com|msorebfc0k|trilarbiocak@hotmail.com|qixr w7ru vycf 5pfo myl7 cq6p qpbk n5ak|",
+"ednafox71735@gmail.com|ErKdGftuanhung3007a|ednafox717355007@hotmail.com||6ejk 7rhi lqac gdtv 5str bdje 22sb ajye||",
+"ginokaqzlyleqewycuon@gmail.com|murtaghbanking|ginokaqzlyleqewycuon7393@hotmail.com|qyog 6hjl kftj bxtk kxx4 wqim kken s2rt|",
+"burtnyakcharlane280@gmail.com|g2dhn3g30jy|burtnyakcharlane2806147@hotmail.com|wapl j2xl 2pht bufh cqxr u4b3 phls 4qhc|",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 15,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
@@ -102,9 +92,6 @@ STOCK = {
 "DDF31F41-5188-4093-A529-E1C79393C1AB",
      ],
      "cdk_gpt_plus_1m": [
-"4EE7E443-9325-4DE3-B551-26BFD44D9E3F",
-"DAB98FFE-1216-4EAA-B602-74BFEADAD450",
-"69F1A10C-3B8C-4F75-90D7-CBDD11BD6C81",
 "EEC2A1B1-E0F6-49D8-84BE-6BB2020D0F11",
 "E35BA3FC-C750-44A5-8160-A02A6A53D015",
 "CEFDDC9C-927F-4DBB-B1D2-12DDA155DFDE",
