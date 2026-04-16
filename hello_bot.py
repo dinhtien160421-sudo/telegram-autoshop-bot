@@ -125,39 +125,13 @@ def add_user(chat_id: int):
                 f.write(str(uid) + "\n")
 
 
-# ===== BROADCAST (ADMIN) =====
-def broadcast(update, context):
-    chat_id = update.effective_chat.id
+import threading
+import time
 
-    if chat_id != ADMIN_CHAT_ID:
-        update.message.reply_text("❌ Bạn không có quyền dùng lệnh này.")
-        return
-
-    msg = update.message
-
-    # Reply vào tin nhắn: lấy text hoặc caption (để reply ảnh/caption cũng gửi được)
-    if msg.reply_to_message:
-        message = msg.reply_to_message.text or msg.reply_to_message.caption
-    else:
-        # /broadcast <nội dung>
-        if not context.args:
-            msg.reply_text(
-                "⚠ Dùng:\n"
-                "- /broadcast nội_dung\n"
-                "- Hoặc reply vào tin nhắn cần gửi rồi gõ /broadcast"
-            )
-            return
-        message = msg.text.partition(" ")[2]
-
-    if not message:
-        msg.reply_text("⚠ Không lấy được nội dung tin nhắn để gửi (reply ảnh thì phải có caption).")
-        return
-
-    if not os.path.exists(USERS_FILE):
-        msg.reply_text("Chưa có user nào trong danh sách.")
-        return
-
+# ===== HÀM GỬI RIÊNG (CHẠY NỀN) =====
+def _send_broadcast_task(message, context):
     sent = 0
+
     with open(USERS_FILE, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -171,12 +145,52 @@ def broadcast(update, context):
                     disable_web_page_preview=True
                 )
                 sent += 1
+                time.sleep(0.05)  # chống bị Telegram limit
             except Exception:
-                # user block bot / id lỗi / rate limit... bỏ qua
                 continue
 
-    msg.reply_text(f"✅ Đã gửi cho khoảng {sent} người dùng.")
+    print(f"[Broadcast] Đã gửi xong: {sent} user")
 
+
+# ===== BROADCAST (ADMIN) =====
+def broadcast(update, context):
+    chat_id = update.effective_chat.id
+
+    if chat_id != ADMIN_CHAT_ID:
+        update.message.reply_text("❌ Bạn không có quyền dùng lệnh này.")
+        return
+
+    msg = update.message
+
+    # Reply hoặc nhập nội dung
+    if msg.reply_to_message:
+        message = msg.reply_to_message.text or msg.reply_to_message.caption
+    else:
+        if not context.args:
+            msg.reply_text(
+                "⚠ Dùng:\n"
+                "- /broadcast nội_dung\n"
+                "- Hoặc reply vào tin nhắn cần gửi rồi gõ /broadcast"
+            )
+            return
+        message = msg.text.partition(" ")[2]
+
+    if not message:
+        msg.reply_text("⚠ Không lấy được nội dung.")
+        return
+
+    if not os.path.exists(USERS_FILE):
+        msg.reply_text("Chưa có user nào trong danh sách.")
+        return
+
+    # 🚀 CHẠY NỀN (QUAN TRỌNG NHẤT)
+    threading.Thread(
+        target=_send_broadcast_task,
+        args=(message, context),
+        daemon=True
+    ).start()
+
+    msg.reply_text("🚀 Đang gửi broadcast, bot vẫn hoạt động bình thường!")
 
 # ===== HÀM PHỤ =====
 def gen_order_code():
