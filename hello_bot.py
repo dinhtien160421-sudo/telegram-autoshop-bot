@@ -129,7 +129,7 @@ import threading
 import time
 
 # ===== HÀM GỬI RIÊNG (CHẠY NỀN) =====
-def _send_broadcast_task(message, context):
+def _send_broadcast_task(msg, context):
     sent = 0
 
     with open(USERS_FILE, "r", encoding="utf-8") as f:
@@ -139,18 +139,38 @@ def _send_broadcast_task(message, context):
                 continue
             try:
                 uid = int(line)
-                context.bot.send_message(
-                    chat_id=uid,
-                    text=message,
-                    disable_web_page_preview=True
-                )
+
+                # 📸 Nếu là ảnh
+                if msg.photo:
+                    context.bot.send_photo(
+                        chat_id=uid,
+                        photo=msg.photo[-1].file_id,
+                        caption=msg.caption or ""
+                    )
+
+                # 🎥 Nếu là video
+                elif msg.video:
+                    context.bot.send_video(
+                        chat_id=uid,
+                        video=msg.video.file_id,
+                        caption=msg.caption or ""
+                    )
+
+                # 📝 Nếu là text
+                else:
+                    context.bot.send_message(
+                        chat_id=uid,
+                        text=msg.text or msg.caption or "",
+                        disable_web_page_preview=True
+                    )
+
                 sent += 1
-                time.sleep(0.05)  # chống bị Telegram limit
-            except Exception:
+                time.sleep(0.05)
+
+            except:
                 continue
 
-    print(f"[Broadcast] Đã gửi xong: {sent} user")
-
+    print(f"[Broadcast] Sent: {sent}")
 
 # ===== BROADCAST (ADMIN) =====
 def broadcast(update, context):
@@ -186,7 +206,7 @@ def broadcast(update, context):
     # 🚀 CHẠY NỀN (QUAN TRỌNG NHẤT)
     threading.Thread(
         target=_send_broadcast_task,
-        args=(message, context),
+        args=(msg.reply_to_message if msg.reply_to_message else msg, context),
         daemon=True
     ).start()
 
