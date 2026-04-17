@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":29999},
     "veo3_ultra_bh30d": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
     "Fam_Pro": {"name": "Google AI PRO 5TB 1 NĂM - MAIL CỔ KBH", "price":120000},
