@@ -48,18 +48,7 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s14424h882@1macalinomayumia.asia|eygYJV7485",
-"s14424h902@1macalinomayumia.asia|tngHJL3031",
-"s14424h891@1macalinomayumia.asia|fyeHTL2842",
-"s14424h904@1macalinomayumia.asia|brzCTG9729",
-"s14424h886@1macalinomayumia.asia|tznZTF3272",
-"s14424h906@1macalinomayumia.asia|pdhGCO2970",
-"s14424h893@1macalinomayumia.asia|dzbWEQ2091",
-"s14424h881@1macalinomayumia.asia|swuDHR4135",
-"s14424h883@1macalinomayumia.asia|kgqNYZ1012",
-"s14424h887@1macalinomayumia.asia|fduAXS6577",
-"s14424h894@1macalinomayumia.asia|cngSGB9232",
-"s14424h908@1macalinomayumia.asia|agyENU4218",
+
     ],
     "veo3_ultra_bh30d":[
     ],
@@ -75,10 +64,10 @@ STOCK = {
 "stacy@abidot.me|123456",
      ],
     "Fam_Ultra":[
-"StormentCanedy@gmail.com|msorebfc0k|trilarbiocak@hotmail.com|qixr w7ru vycf 5pfo myl7 cq6p qpbk n5ak|",
-"ednafox71735@gmail.com|ErKdGftuanhung3007a|ednafox717355007@hotmail.com||6ejk 7rhi lqac gdtv 5str bdje 22sb ajye||",
-"ginokaqzlyleqewycuon@gmail.com|murtaghbanking|ginokaqzlyleqewycuon7393@hotmail.com|qyog 6hjl kftj bxtk kxx4 wqim kken s2rt|",
-"burtnyakcharlane280@gmail.com|g2dhn3g30jy|burtnyakcharlane2806147@hotmail.com|wapl j2xl 2pht bufh cqxr u4b3 phls 4qhc|",
+"EllermannHaymon@gmail.com|w3fvmuw64cc|okunshellhorncm863@outlook.com|rskk ofnq kgwv ngbn e3to 65tc bpt2 nfby|",
+"xazzehoanglong@gmail.com|Xazzehoanglong&&|xazzehoanglong6037@hotmail.com|7rn4 uzgg qydr 7j3v zsep 5jmk tjli vmjb|",
+"FjetlandStachnik@gmail.com|iqr7dvsdfj|yonemorilytergy163@hotmail.com|u73a tvlk brrm fx3z lsqa db47 fur2 4sdz|",
+
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 15,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
@@ -91,8 +80,6 @@ STOCK = {
 "DDF31F41-5188-4093-A529-E1C79393C1AB",
      ],
      "cdk_gpt_plus_1m": [
-"EEC2A1B1-E0F6-49D8-84BE-6BB2020D0F11",
-"E35BA3FC-C750-44A5-8160-A02A6A53D015",
 "CEFDDC9C-927F-4DBB-B1D2-12DDA155DFDE",
 "7D562521-21DC-4684-8189-028CF9BB6AE3",
 "DB126BE2-19AD-4BBD-A72F-D025CBB0E835",
