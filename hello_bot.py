@@ -35,6 +35,7 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
     "veo3_ultra_bh30d": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
+    "Fam_Pro": {"name": "Google AI PRO 5TB 1 NĂM - MAIL CỔ KBH", "price":120000},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 700000},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 260000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
@@ -48,12 +49,20 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-
+    "v25n18t3kbh233@wacired.click | EdRwASWn8",
+"v25n18t3kbh234@wacired.click | BIV9UCt8k",
+"v25n18t3kbh229@wacired.click | RkR8U34iB",
+"v25n18t3kbh232@wacired.click | K56vjLjrv",
+"v25n18t3kbh22@wacired.click | GUov0gogV",
+"v25n18t3kbh228@wacired.click | ClJFISU9j",
+"v25n18t3kbh226@wacired.click | uEu6jX4yh",
+"v25n18t3kbh225@wacired.click | dIWweREN2",
+"v25n18t3kbh227@wacired.click | gBLqZDul4",
+"v25n18t3kbh231@wacired.click | yXE01FRNC",
     ],
     "veo3_ultra_bh30d":[
     ],
     "Capcut_Pro":[
-    "meaga@jualakun.com|123456",
 "kriss@gomailgo.click|123456",
 "chest@zantrax.com|123456",
 "lemue@sepuranex.me|123456",
@@ -63,6 +72,10 @@ STOCK = {
 "carso@bekasi.me|123456",
 "stacy@abidot.me|123456",
      ],
+    "Fam_Pro":[
+    "AtkisonCrinklaw310@gmail.com|vpy2amq4e|ucy5 ks3h zm3l joas ykg4 hebn c2xz rm6s",
+    "ExcellentNieves@gmail.com|qrlvgydjlb4|5zyhow5sfwqrugnko6ehac3tbi2sflil",
+    ],
     "Fam_Ultra":[
 "EllermannHaymon@gmail.com|w3fvmuw64cc|okunshellhorncm863@outlook.com|rskk ofnq kgwv ngbn e3to 65tc bpt2 nfby|",
 "xazzehoanglong@gmail.com|Xazzehoanglong&&|xazzehoanglong6037@hotmail.com|7rn4 uzgg qydr 7j3v zsep 5jmk tjli vmjb|",
@@ -80,9 +93,14 @@ STOCK = {
 "DDF31F41-5188-4093-A529-E1C79393C1AB",
      ],
      "cdk_gpt_plus_1m": [
-"CEFDDC9C-927F-4DBB-B1D2-12DDA155DFDE",
 "7D562521-21DC-4684-8189-028CF9BB6AE3",
 "DB126BE2-19AD-4BBD-A72F-D025CBB0E835",
+"195035CF-AA3F-4302-A60A-127DD90681D8",
+"F708C31C-4B00-41BB-A71C-B60BBF34FBC1",
+"22304064-E649-46C3-98E6-D96F1EDA4D26",
+"D40860D5-1CD8-40B1-8A4B-A74E5966E04B",
+"35AC82F2-7C05-4E66-8923-8D411FFEDDD9",
+
      ],
     }
 # ====== SEPAY WEBHOOK (AUTO NHẢ ĐƠN) ======
