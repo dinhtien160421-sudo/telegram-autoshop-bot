@@ -35,9 +35,9 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":29999},
     "veo3_ultra_bh30d": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
-    "Fam_Pro": {"name": "Google AI PRO 5TB 1 NĂM - MAIL CỔ KBH", "price":120000},
+    "Fam_Pro": {"name": "Google AI PRO 5TB 1 NĂM - MAIL CỔ KBH", "price":99999},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 700000},
-    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 260000},
+    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 270000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 680000},
     "veo3_0cre_12m": {"name": " Ultra Add Fam 0k cre/tháng BHF 1 NĂM", "price": 1500000},
@@ -77,8 +77,6 @@ STOCK = {
     "ExcellentNieves@gmail.com|qrlvgydjlb4|5zyhow5sfwqrugnko6ehac3tbi2sflil",
     ],
     "Fam_Ultra":[
-"EllermannHaymon@gmail.com|w3fvmuw64cc|okunshellhorncm863@outlook.com|rskk ofnq kgwv ngbn e3to 65tc bpt2 nfby|",
-"xazzehoanglong@gmail.com|Xazzehoanglong&&|xazzehoanglong6037@hotmail.com|7rn4 uzgg qydr 7j3v zsep 5jmk tjli vmjb|",
 "FjetlandStachnik@gmail.com|iqr7dvsdfj|yonemorilytergy163@hotmail.com|u73a tvlk brrm fx3z lsqa db47 fur2 4sdz|",
 
     ],
