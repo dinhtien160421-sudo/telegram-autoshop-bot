@@ -42,29 +42,13 @@ PRODUCTS = {
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 680000},
     "veo3_0cre_12m": {"name": " Ultra Add Fam 0k cre/tháng BHF 1 NĂM", "price": 1500000},
     "veo3_bhf_12m": {"name": " Ultra Add Fam 6k cre/tháng BHF 1 NĂM", "price": 1900000},
-    "cdk_gpt_go": {"name": "CDK CHATGPT Go 12M BH ACTIVE", "price": 80000},
-    "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
+    "cdk_gpt_go": {"name": "CDK CHATGPT Go 12M BH ACTIVE", "price": 75000},
+    "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 40000},
 }
 
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s17424h1146@hateri122.shop|dwaTAJ8884",
-"s17424h1137@hateri122.shop|pppDMB7427",
-"s17424h1148@hateri122.shop|wjpYLU2801",
-"s17424h1133@hateri122.shop|kctEMQ5313",
-"s17424h114@hateri122.shop|qrlHYF4183",
-"s17424h113@hateri122.shop|qstUZI9416",
-"s17424h1151@hateri122.shop|enwLMB2690",
-"s17424h1131@hateri122.shop|ryuMSI8461",
-"s17424h1153@hateri122.shop|olhZJA0982",
-"s17424h1142@hateri122.shop|mtpIMO5010",
-"s17424h1155@hateri122.shop|prbAFM0181",
-"s17424h1135@hateri122.shop|qfmDKG4970",
-"s17424h1132@hateri122.shop|fmtADR2980",
-"s17424h1157@hateri122.shop|npaPLE8794",
-"s17424h1144@hateri122.shop|hmvKQN3551",
-"s17424h1136@hateri122.shop|tmiLRH4980",
 "s17424h1145@hateri122.shop|gnvOJY3700",
 "s17424h1158@hateri122.shop|gmpNUW8615",
 "s17424h1159@hateri122.shop|ucdGMS2079",
@@ -92,12 +76,6 @@ STOCK = {
     "veo3_ultra_bh30d":[
     ],
     "Capcut_Pro":[
-"kriss@gomailgo.click|123456",
-"chest@zantrax.com|123456",
-"lemue@sepuranex.me|123456",
-"ovaru@past-line.com|123456",
-"lysan@primejetnet.com|123456",
-"norva@amazinggift.life|123456",
 "carso@bekasi.me|123456",
 "stacy@abidot.me|123456",
      ],
@@ -106,7 +84,7 @@ STOCK = {
     "ExcellentNieves@gmail.com|qrlvgydjlb4|5zyhow5sfwqrugnko6ehac3tbi2sflil",
     ],
     "Fam_Ultra":[
-"RighiManikas962@gmail.com|ypocfsmnlrf|aljonesarvis0@outlook.com|ze7c uoqd qsqw 554r ncew uwbq hwbk o2da",
+    "mineisabel161@gmail.com|jzvlywa3e|mineisabel1615664@hotmail.com|6eyl k7ad jk2f cnxf ccut syva c3nj hocj",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 20,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
