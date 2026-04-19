@@ -32,7 +32,7 @@ PENDING_ORDERS = {}
 
 # ===== SẢN PHẨM =====
 PRODUCTS = {
-    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":26789},
+    "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
     "veo3_ultra_bh30d": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
     "Fam_Pro": {"name": "Google AI PRO 5TB 1 NĂM - MAIL CỔ KBH", "price":99999},
@@ -49,10 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s17424h1134@hateri122.shop|qypYNJ0648",
-"s17424h1143@hateri122.shop|odpLEV5674",
-"s17424h1154@hateri122.shop|jjiCWA1363",
-"s17424h1156@hateri122.shop|nqgVBH5548",
 "s17424h1146@hateri122.shop|dwaTAJ8884",
 "s17424h1137@hateri122.shop|pppDMB7427",
 "s17424h1148@hateri122.shop|wjpYLU2801",
@@ -110,12 +106,9 @@ STOCK = {
     "ExcellentNieves@gmail.com|qrlvgydjlb4|5zyhow5sfwqrugnko6ehac3tbi2sflil",
     ],
     "Fam_Ultra":[
-"simsk8626@gmail.com|t99oguvivega|simsk86264529@hotmail.com|ft43 4j4l jj2t 7xch yhvn yhl4 xns7 fgt2|",
-"GoslingBumby@gmail.com|x1jve363ht|urdianoholubarwa303@nikora.biz.st|ybzl vk6y wbma pise x53w vwze c5nk 4m7y|",
-"tranbinh19051972@gmail.com|akalamnguyen3427|267jxnyees5jmgaaahqyxw33cv7fc75f",
-"lethihanh1994ql@gmail.com|$Mayk8Denke125|2ot37glb2jhbaymdkq5zz7ir6hzcuuml",
+"RighiManikas962@gmail.com|ypocfsmnlrf|aljonesarvis0@outlook.com|ze7c uoqd qsqw 554r ncew uwbq hwbk o2da",
     ],
-    "veo3_0k_bhf_1m": ["MANUAL"] * 15,
+    "veo3_0k_bhf_1m": ["MANUAL"] * 20,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_0cre_12m": ["MANUAL"] * 5,
