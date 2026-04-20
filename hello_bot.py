@@ -54,7 +54,6 @@ STOCK = {
     "veo3_ultra_bh30d":[
     ],
     "Capcut_Pro":[
-"stacy@abidot.me|123456",
      ],
     "Fam_Pro":[
     "AtkisonCrinklaw310@gmail.com|vpy2amq4e|ucy5 ks3h zm3l joas ykg4 hebn c2xz rm6s",
@@ -64,6 +63,11 @@ STOCK = {
     "west87481@gmail.com|bOFuc3912a|mapmeh@aq3.tempdukviet.click|dqqu zwst r73u j2us zfbv enos t77r ya5t",
 "MascotHirezi545@gmail.com|6clkdkgc5y|bolwif@ac57.capytumbum.online|g4j4 cs47 uscr kgfa 7oiz sp42 7pcg uszp",
 "CieraWhitacker@gmail.com|eap5k066d2|burnssj.ddesireedz71@hotmail.com|43ev ipdk zxzf 6cgd ni3z cyrq 3zff gifu",
+"SoriaSandra881@gmail.com|vzjdccfh2j|calnenleggatvn121@hotmail.com|zlir yyf2 xqpo orzs 5rtt b7t7 svo4 vial",
+"somantripov@gmail.com|ykxmdolo0eb|somantripov5673@hotmail.com|4a2z bfx5 bhxg 4rrh gnoj sumh hgra w5yl",
+"debroahquezada234@gmail.com|I78fmLpXzL|debroahquezada2346586@hotmail.com|vslh ezol tsw6 cxf4 iudu 7l6f 6g2y iuav",
+"montielcasey527@gmail.com|ruivygo8a|snojnejarn@outlook.com|45ds pwgf 3grm 2urm cued zv2g cyf4 x6rm",
+"DivasBoles915@gmail.com|hnxycarev|hirelcadeeyz@outlook.com|kydi rxuv tnlg vbqe 3qxu 4htu zals lnys",
 
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 20,
@@ -76,8 +80,6 @@ STOCK = {
 "DDF31F41-5188-4093-A529-E1C79393C1AB",
      ],
      "cdk_gpt_plus_1m": [
-"195035CF-AA3F-4302-A60A-127DD90681D8",
-"F708C31C-4B00-41BB-A71C-B60BBF34FBC1",
 "22304064-E649-46C3-98E6-D96F1EDA4D26",
 "D40860D5-1CD8-40B1-8A4B-A74E5966E04B",
 "35AC82F2-7C05-4E66-8923-8D411FFEDDD9",
