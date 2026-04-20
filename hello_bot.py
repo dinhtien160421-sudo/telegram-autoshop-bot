@@ -35,48 +35,25 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
     "veo3_ultra_bh30d": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
-    "Fam_Pro": {"name": "Google AI PRO 5TB 1 NĂM - MAIL CỔ KBH", "price":99999},
+    "Fam_Pro": {"name": "Google AI PRO 5TB 1 NĂM - MAIL CỔ KBH", "price":65000},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 700000},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 260000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 680000},
     "veo3_0cre_12m": {"name": " Ultra Add Fam 0k cre/tháng BHF 1 NĂM", "price": 1500000},
     "veo3_bhf_12m": {"name": " Ultra Add Fam 6k cre/tháng BHF 1 NĂM", "price": 1900000},
-    "cdk_gpt_go": {"name": "CDK CHATGPT Go 12M BH ACTIVE", "price": 75000},
-    "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 40000},
+    "cdk_gpt_go": {"name": "CDK CHATGPT Go 12M BH ACTIVE", "price": 70000},
+    "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 35000},
 }
 
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s17424h1145@hateri122.shop|gnvOJY3700",
-"s17424h1158@hateri122.shop|gmpNUW8615",
-"s17424h1159@hateri122.shop|ucdGMS2079",
-"s17424h1129@hateri122.shop|gvcDIG9196",
-"s17424h1121@hateri122.shop|sykIAR8819",
-"s17424h1110@hateri122.shop|otuXBR2207",
-"s17424h1127@hateri122.shop|vpfGFQ8879",
-"s17424h1123@hateri122.shop|asiOIM9337",
-"s17424h1117@hateri122.shop|jqlXPR1012",
-"s17424h112@hateri122.shop|kasGGM3436",
-"s17424h1108@hateri122.shop|osqXMG9999",
-"s17424h1122@hateri122.shop|kluECA3698",
-"s17424h1111@hateri122.shop|xxmYTR2183",
-"s17424h1126@hateri122.shop|amjLVS5886",
-"s17424h1124@hateri122.shop|ttjZJJ7094",
-"s17424h1113@hateri122.shop|hzjMYB4536",
-"s17424h1128@hateri122.shop|ovfURQ3668",
-"s17424h110@hateri122.shop|ibiUKJ5945",
-"s17424h1120@hateri122.shop|zcuZXQ7689",
-"s17424h1107@hateri122.shop|unhQON5076",
-"s17424h1109@hateri122.shop|welIUB5778",
-"s17424h1112@hateri122.shop|iwgVSG2519",
 "s17424h1125@hateri122.shop|lyzKAF6028",
     ],
     "veo3_ultra_bh30d":[
     ],
     "Capcut_Pro":[
-"carso@bekasi.me|123456",
 "stacy@abidot.me|123456",
      ],
     "Fam_Pro":[
@@ -84,7 +61,10 @@ STOCK = {
     "ExcellentNieves@gmail.com|qrlvgydjlb4|5zyhow5sfwqrugnko6ehac3tbi2sflil",
     ],
     "Fam_Ultra":[
-    "mineisabel161@gmail.com|jzvlywa3e|mineisabel1615664@hotmail.com|6eyl k7ad jk2f cnxf ccut syva c3nj hocj",
+    "west87481@gmail.com|bOFuc3912a|mapmeh@aq3.tempdukviet.click|dqqu zwst r73u j2us zfbv enos t77r ya5t",
+"MascotHirezi545@gmail.com|6clkdkgc5y|bolwif@ac57.capytumbum.online|g4j4 cs47 uscr kgfa 7oiz sp42 7pcg uszp",
+"CieraWhitacker@gmail.com|eap5k066d2|burnssj.ddesireedz71@hotmail.com|43ev ipdk zxzf 6cgd ni3z cyrq 3zff gifu",
+
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 20,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
@@ -96,7 +76,6 @@ STOCK = {
 "DDF31F41-5188-4093-A529-E1C79393C1AB",
      ],
      "cdk_gpt_plus_1m": [
-"DB126BE2-19AD-4BBD-A72F-D025CBB0E835",
 "195035CF-AA3F-4302-A60A-127DD90681D8",
 "F708C31C-4B00-41BB-A71C-B60BBF34FBC1",
 "22304064-E649-46C3-98E6-D96F1EDA4D26",
