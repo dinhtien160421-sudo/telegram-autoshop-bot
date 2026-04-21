@@ -35,9 +35,9 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
     "veo3_ultra_bh30d": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
-    "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 650000},
-    "Fam_Ultra_bhf": {"name": "Fam Ultra Add 5 slot BHF 30D", "price":1200000 },
-    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 260000},
+    "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 600000},
+    "Fam_Ultra_bhf": {"name": "Fam Ultra Add 5 slot BHF 30D", "price":1100000 },
+    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 250000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 680000},
     "veo3_0cre_12m": {"name": " Ultra Add Fam 0k cre/tháng BHF 1 NĂM", "price": 1500000},
@@ -49,10 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s21424h506@dzmbczvmttahdljm.sbs|qfaAXN9705",
-"s21424h512@dzmbczvmttahdljm.sbs|kzhICQ8379",
-"s21424h513@dzmbczvmttahdljm.sbs|qrqEMV2857",
-"s21424h516@dzmbczvmttahdljm.sbs|ohkRUO5451",
 "s21424h510@dzmbczvmttahdljm.sbs|rgwBIL5863",
 "s21424h517@dzmbczvmttahdljm.sbs|iwaUFS1779",
 "s21424h518@dzmbczvmttahdljm.sbs|xneZTS6111",
@@ -83,12 +79,9 @@ STOCK = {
     "Capcut_Pro":[
     ],
     "Fam_Ultra":[
-"CieraWhitacker@gmail.com|eap5k066d2|burnssj.ddesireedz71@hotmail.com|43ev ipdk zxzf 6cgd ni3z cyrq 3zff gifu",
 "SoriaSandra881@gmail.com|vzjdccfh2j|calnenleggatvn121@hotmail.com|zlir yyf2 xqpo orzs 5rtt b7t7 svo4 vial",
     ],
     "Fam_Ultra_bhf":[
-"debroahquezada234@gmail.com|I78fmLpXzL|debroahquezada2346586@hotmail.com|vslh ezol tsw6 cxf4 iudu 7l6f 6g2y iuav",
-"montielcasey527@gmail.com|ruivygo8a|snojnejarn@outlook.com|45ds pwgf 3grm 2urm cued zv2g cyf4 x6rm",
 "DivasBoles915@gmail.com|hnxycarev|hirelcadeeyz@outlook.com|kydi rxuv tnlg vbqe 3qxu 4htu zals lnys",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 20,
