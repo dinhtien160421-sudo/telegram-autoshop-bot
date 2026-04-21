@@ -66,7 +66,7 @@ STOCK = {
 "CieraWhitacker@gmail.com|eap5k066d2|burnssj.ddesireedz71@hotmail.com|43ev ipdk zxzf 6cgd ni3z cyrq 3zff gifu",
 "SoriaSandra881@gmail.com|vzjdccfh2j|calnenleggatvn121@hotmail.com|zlir yyf2 xqpo orzs 5rtt b7t7 svo4 vial",
     ],
-    "Fam_Ultra-bhf":[
+    "Fam_Ultra_bhf":[
     "somantripov@gmail.com|ykxmdolo0eb|somantripov5673@hotmail.com|4a2z bfx5 bhxg 4rrh gnoj sumh hgra w5yl",
 "debroahquezada234@gmail.com|I78fmLpXzL|debroahquezada2346586@hotmail.com|vslh ezol tsw6 cxf4 iudu 7l6f 6g2y iuav",
 "montielcasey527@gmail.com|ruivygo8a|snojnejarn@outlook.com|45ds pwgf 3grm 2urm cued zv2g cyf4 x6rm",
@@ -82,9 +82,6 @@ STOCK = {
 "DDF31F41-5188-4093-A529-E1C79393C1AB",
      ],
      "cdk_gpt_plus_1m": [
-"22304064-E649-46C3-98E6-D96F1EDA4D26",
-"D40860D5-1CD8-40B1-8A4B-A74E5966E04B",
-"35AC82F2-7C05-4E66-8923-8D411FFEDDD9",
 
      ],
     }
