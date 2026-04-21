@@ -37,6 +37,7 @@ PRODUCTS = {
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
     "Fam_Pro": {"name": "Google AI PRO 5TB 1 NĂM - MAIL CỔ KBH", "price":65000},
     "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 650000},
+    "Fam_Ultra_bhf": {"name": "Fam Ultra Add 5 slot BHF 30D", "price":1200000 },
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 260000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 680000},
@@ -64,11 +65,12 @@ STOCK = {
 "MascotHirezi545@gmail.com|6clkdkgc5y|bolwif@ac57.capytumbum.online|g4j4 cs47 uscr kgfa 7oiz sp42 7pcg uszp",
 "CieraWhitacker@gmail.com|eap5k066d2|burnssj.ddesireedz71@hotmail.com|43ev ipdk zxzf 6cgd ni3z cyrq 3zff gifu",
 "SoriaSandra881@gmail.com|vzjdccfh2j|calnenleggatvn121@hotmail.com|zlir yyf2 xqpo orzs 5rtt b7t7 svo4 vial",
-"somantripov@gmail.com|ykxmdolo0eb|somantripov5673@hotmail.com|4a2z bfx5 bhxg 4rrh gnoj sumh hgra w5yl",
+    ],
+    "Fam_Ultra-bhf":[
+    "somantripov@gmail.com|ykxmdolo0eb|somantripov5673@hotmail.com|4a2z bfx5 bhxg 4rrh gnoj sumh hgra w5yl",
 "debroahquezada234@gmail.com|I78fmLpXzL|debroahquezada2346586@hotmail.com|vslh ezol tsw6 cxf4 iudu 7l6f 6g2y iuav",
 "montielcasey527@gmail.com|ruivygo8a|snojnejarn@outlook.com|45ds pwgf 3grm 2urm cued zv2g cyf4 x6rm",
 "DivasBoles915@gmail.com|hnxycarev|hirelcadeeyz@outlook.com|kydi rxuv tnlg vbqe 3qxu 4htu zals lnys",
-
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 20,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
@@ -265,13 +267,11 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
 
     # Note riêng cho Fam Ultra
     fam_ultra_note = ""
-    if pid == "Fam_Ultra":
+    if pid in ["Fam_Ultra", "Fam_Ultra_bhf"]:
         fam_ultra_note = (
             "\n\n📌 Lưu ý khi mua fam Google Ultra 5 slot:\n"
-            "- Chỉ login IP US để ngâm và add family (vì đây là Gmail US nên mọi người fake IP sang US để hạn chế bị diss mail).\n"
-            "- Trước khi gửi mình sẽ xóa HSTT + đổi 2FA + đá device - hỗ trợ từ A-Z, mn chỉ việc add mail vào là dùng được.\n"
-            "- Mn chú ý chỉ change 2FA thôi là không ai back lại được rồi, lúc gửi mình cũng change trước 1 lần rồi.\n"
-            "- Gmail ai có người nấy giữ nha ^^ Nếu khó quá mình vẫn sẽ hỗ trợ, tùy trường hợp.\n"
+            "- Mn chú ý chỉ change 2FA thôi là không ai back lại được rồi, lúc gửi mình cũng change trước 1 lần rồi. Nếu muốn change pass hãy đợi khoảng 24h ạ!\n"
+            "- Hạn chế đăng nhập trên nhiều ip khác nhau nhé.\n"
         )
     capcut_note = ""
     if pid == "Capcut_Pro_Team_35D":
