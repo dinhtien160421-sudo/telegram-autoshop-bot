@@ -79,7 +79,6 @@ STOCK = {
 "echitu65@gmail.com|LUlO922016QITip|echitu655595@hotmail.com|rquz svx3 wng3 t7dp 6jcx 3hqq a5yr bq5g",
 "MalloIbrar805@gmail.com|rzrqzcghoz7|waistphoto3yr@hotmail.com|d337 wfnz lmpn aslg bov2 7kww 3o7x voia",
 "FigueroaJames169@gmail.com|yzhbmsq7tk|elbislacsam8@hotmail.com|ai54 qvyp w4cs dsf3 qmql xoxm ek7i jqfo",
-"
     ],
     "Fam_Ultra_bhf":[
 "DivasBoles915@gmail.com|hnxycarev|hirelcadeeyz@outlook.com|kydi rxuv tnlg vbqe 3qxu 4htu zals lnys",
