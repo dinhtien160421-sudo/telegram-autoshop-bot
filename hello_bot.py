@@ -35,7 +35,7 @@ PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
     "veo3_ultra_bh30d": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
-    "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 650000},
+    "Fam_Ultra": {"name": "Fam Ultra Add 5 slot BH 3D", "price": 600000},
     "Fam_Ultra_bhf": {"name": "Fam Ultra Add 5 slot BHF 30D", "price":1200000 },
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 250000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 300000},
@@ -49,13 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s21424h519@dzmbczvmttahdljm.sbs|luaRSA1523",
-"s21424h51@dzmbczvmttahdljm.sbs|vhgULO8286",
-"s21424h522@dzmbczvmttahdljm.sbs|rbtXDX9003",
-"s21424h523@dzmbczvmttahdljm.sbs|sbtUHM2497",
-"s21424h524@dzmbczvmttahdljm.sbs|ejsKJD3749",
-"s21424h520@dzmbczvmttahdljm.sbs|ukeQHF4114",
-"s21424h526@dzmbczvmttahdljm.sbs|vpdIGV1719",
 "s21424h527@dzmbczvmttahdljm.sbs|lylLQN1417",
 "s21424h528@dzmbczvmttahdljm.sbs|zexDVA7181",
 "s21424h529@dzmbczvmttahdljm.sbs|pxhWMJ5247",
@@ -76,12 +69,10 @@ STOCK = {
     "Capcut_Pro":[
     ],
     "Fam_Ultra":[
-"echitu65@gmail.com|LUlO922016QITip|echitu655595@hotmail.com|rquz svx3 wng3 t7dp 6jcx 3hqq a5yr bq5g",
 "MalloIbrar805@gmail.com|rzrqzcghoz7|waistphoto3yr@hotmail.com|d337 wfnz lmpn aslg bov2 7kww 3o7x voia",
 "FigueroaJames169@gmail.com|yzhbmsq7tk|elbislacsam8@hotmail.com|ai54 qvyp w4cs dsf3 qmql xoxm ek7i jqfo",
     ],
     "Fam_Ultra_bhf":[
-"DivasBoles915@gmail.com|hnxycarev|hirelcadeeyz@outlook.com|kydi rxuv tnlg vbqe 3qxu 4htu zals lnys",
 "HickelKellywood@gmail.com|8mlgorual|jyrwaakrabah@hotmail.com|aacjait5zofi5vqbqfk2nrpiow7i3hpt",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 20,
