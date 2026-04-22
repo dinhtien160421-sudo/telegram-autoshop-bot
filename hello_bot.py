@@ -49,9 +49,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s21424h510@dzmbczvmttahdljm.sbs|rgwBIL5863",
-"s21424h517@dzmbczvmttahdljm.sbs|iwaUFS1779",
-"s21424h518@dzmbczvmttahdljm.sbs|xneZTS6111",
 "s21424h519@dzmbczvmttahdljm.sbs|luaRSA1523",
 "s21424h51@dzmbczvmttahdljm.sbs|vhgULO8286",
 "s21424h522@dzmbczvmttahdljm.sbs|rbtXDX9003",
@@ -79,10 +76,14 @@ STOCK = {
     "Capcut_Pro":[
     ],
     "Fam_Ultra":[
-"SoriaSandra881@gmail.com|vzjdccfh2j|calnenleggatvn121@hotmail.com|zlir yyf2 xqpo orzs 5rtt b7t7 svo4 vial",
+"echitu65@gmail.com|LUlO922016QITip|echitu655595@hotmail.com|rquz svx3 wng3 t7dp 6jcx 3hqq a5yr bq5g",
+"MalloIbrar805@gmail.com|rzrqzcghoz7|waistphoto3yr@hotmail.com|d337 wfnz lmpn aslg bov2 7kww 3o7x voia",
+"FigueroaJames169@gmail.com|yzhbmsq7tk|elbislacsam8@hotmail.com|ai54 qvyp w4cs dsf3 qmql xoxm ek7i jqfo",
+"
     ],
     "Fam_Ultra_bhf":[
 "DivasBoles915@gmail.com|hnxycarev|hirelcadeeyz@outlook.com|kydi rxuv tnlg vbqe 3qxu 4htu zals lnys",
+"HickelKellywood@gmail.com|8mlgorual|jyrwaakrabah@hotmail.com|aacjait5zofi5vqbqfk2nrpiow7i3hpt",
     ],
     "veo3_0k_bhf_1m": ["MANUAL"] * 20,
     "veo3_ultra_bhf_1m": ["MANUAL"] * 5,
