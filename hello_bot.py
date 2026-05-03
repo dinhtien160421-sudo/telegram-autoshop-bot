@@ -33,7 +33,7 @@ PENDING_ORDERS = {}
 # ===== SẢN PHẨM =====
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
-    "Grok": {"name": "Grok Super BH 30D", "price":120000},
+    "Grok_Super": {"name": "Grok Super BH 30D", "price":120000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
     "Fam_Ultra": {"name": "Fam Google Ultra Add 5 slot BH 3D", "price":850000},
     "Fam_Ultra_bhf": {"name": "Fam Google Ultra Add 5 slot BHF 30D", "price":1800000},
@@ -77,8 +77,8 @@ STOCK = {
 "s1524h135@anna35.sbs|ovmUZQ9028",
 "s1524h1359@anna35.sbs|nawEBS9254",
     ],
-    "grok":[
-    "xlrlgs@grok.imayo.store | masuk@B123#",
+    "Grok_Super":[
+    "xlrlgs@grok.imayo.store|masuk@B123#",
     ],
     "Capcut_Pro":[
     "tw6027@shopld.linkpc.net|123456",
