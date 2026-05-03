@@ -33,12 +33,12 @@ PENDING_ORDERS = {}
 # ===== SẢN PHẨM =====
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
-    "Grok": {"name": "Veo3 Ultra 25K cre BH 30D", "price":200000},
+    "Grok": {"name": "Grok Super BH 30D", "price":120000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
-    "Fam_Ultra": {"name": "Fam Google Ultra Add 5 slot BH 3D", "price":750000},
-    "Fam_Ultra_bhf": {"name": "Fam Google Ultra Add 5 slot BHF 30D", "price":1500000},
-    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 290000},
-    "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 330000},
+    "Fam_Ultra": {"name": "Fam Google Ultra Add 5 slot BH 3D", "price":850000},
+    "Fam_Ultra_bhf": {"name": "Fam Google Ultra Add 5 slot BHF 30D", "price":1800000},
+    "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 300000},
+    "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 350000},
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 750000},
     "veo3_0cre_12m": {"name": " Ultra Add Fam 0k cre/tháng BHF 1 NĂM", "price": 1500000},
     "veo3_bhf_12m": {"name": " Ultra Add Fam 6k cre/tháng BHF 1 NĂM", "price": 1900000},
@@ -47,11 +47,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s1524h1348@anna35.sbs|mwwPTI9377",
-"s1524h1351@anna35.sbs|pppSNE2542",
-"s1524h1340@anna35.sbs|fphYGC7599",
-"s1524h1346@anna35.sbs|bmdGBG9545",
-"s1524h1355@anna35.sbs|fesSXO0744",
 "s1524h1339@anna35.sbs|skfPBZ9853",
 "s1524h134@anna35.sbs|kqdSVS2319",
 "s1524h1335@anna35.sbs|rsqKRF4704",
@@ -82,7 +77,8 @@ STOCK = {
 "s1524h135@anna35.sbs|ovmUZQ9028",
 "s1524h1359@anna35.sbs|nawEBS9254",
     ],
-    "veo3_ultra_bh30d":[
+    "grok":[
+    "xlrlgs@grok.imayo.store | masuk@B123#",
     ],
     "Capcut_Pro":[
     "tw6027@shopld.linkpc.net|123456",
@@ -95,6 +91,7 @@ STOCK = {
 "yw1649@veo325kcredit.io.vn|123456",
 "0u16cw@anversa.com.co|123456",
 "ut105e@trungmetax.com|123456",
+
     ],
     "Fam_Ultra":[
     ],
@@ -300,6 +297,14 @@ def deliver_order_auto(code: str, pid: str, user_id: int, qty: int):
         "- AE KHÔNG được thay đổi email hay mật khẩu để bên em còn gia hạn.\n"
         "-Nếu không sẽ không gia hạn đầy đủ.\n\n"
         "- Không tự ý rời khỏi không gian team, hay out team.\n"
+        )
+     # ===== LƯU Ý RIÊNG CHO GROK =====
+    grok_note = ""
+    if pid == "Grok":
+        grok_note = (
+        "\n\n📌 LƯU Ý KHI SỬ DỤNG GROK:\n\n"
+        "- Không thay đổi mail\n"
+        "- Không login X\n"
         )
     detail = (
         f"✅ Đơn `{code}`\n"
