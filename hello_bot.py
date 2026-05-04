@@ -34,6 +34,7 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
     "Grok_Super": {"name": "Grok Super BH 30D", "price":120000},
+    "Veo3_bhf": {"name": "Veo3 Ultra 25K cre BH30D", "price":200000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
     "Fam_Ultra": {"name": "Fam Google Ultra Add 5 slot BH 3D", "price":850000},
     "Fam_Ultra_bhf": {"name": "Fam Google Ultra Add 5 slot BHF 30D", "price":1800000},
@@ -75,6 +76,13 @@ STOCK = {
     "Grok_Super":[
     "xlrlgs@grok.imayo.store|masuk@B123#",
     ],
+     "Veo3_bhf"
+    "xako@emikoktognogxas8.com|H7&%4uB9nNFJ6yS>",
+    "nemo@emikoktognogxas8.com|ejDE=Xd4UGrr3hL<",
+    "joke@emikoktognogxas8.com|q3Um3qE>",
+    "nami@emikoktognogxas8.com|jTNC5nE>",
+    "limie@emikoktognogxas8.com|&E3H3aL>",
+     ],
     "Capcut_Pro":[
 "s109aw@sd.webmail.fit|123456",
 "tsz36o@veomatrix25k.io.vn|123456",
