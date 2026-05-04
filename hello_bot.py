@@ -47,11 +47,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s1524h1339@anna35.sbs|skfPBZ9853",
-"s1524h134@anna35.sbs|kqdSVS2319",
-"s1524h1335@anna35.sbs|rsqKRF4704",
-"s1524h1353@anna35.sbs|cxhITT3890",
-"s1524h1342@anna35.sbs|poiGGD4402",
 "s1524h1345@anna35.sbs|nexGCX0254",
 "s1524h1357@anna35.sbs|gbdKXX2314",
 "s1524h1338@anna35.sbs|yofCAH4184",
@@ -81,11 +76,6 @@ STOCK = {
     "xlrlgs@grok.imayo.store|masuk@B123#",
     ],
     "Capcut_Pro":[
-    "tw6027@shopld.linkpc.net|123456",
-"ww675b@connected.linkpc.net|123456",
-"zwz48b@jlpevents.co.uk|123456",
-"rt09zc@mail30.jejes.de|123456",
-"tu548r@laulund.info|123456",
 "s109aw@sd.webmail.fit|123456",
 "tsz36o@veomatrix25k.io.vn|123456",
 "yw1649@veo325kcredit.io.vn|123456",
