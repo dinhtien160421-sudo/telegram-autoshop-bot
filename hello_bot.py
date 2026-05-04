@@ -48,7 +48,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s1524h1345@anna35.sbs|nexGCX0254",
 "s1524h1357@anna35.sbs|gbdKXX2314",
 "s1524h1338@anna35.sbs|yofCAH4184",
 "s1524h1347@anna35.sbs|bthDKM5904",
