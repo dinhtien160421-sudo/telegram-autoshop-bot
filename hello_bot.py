@@ -36,7 +36,7 @@ PRODUCTS = {
     "Grok_Super": {"name": "Grok Super BH 30D", "price":120000},
     "Veo3_bhf": {"name": "Veo3 Ultra 25K cre BH30D", "price":200000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
-    "Fam_Ultra": {"name": "Fam Google Ultra Add 5 slot BH 3D", "price":850000},
+    "Fam_Ultra": {"name": "Fam Google Ultra Add 5 slot BH 3D", "price":900000},
     "Fam_Ultra_bhf": {"name": "Fam Google Ultra Add 5 slot BHF 30D", "price":1800000},
     "veo3_0k_bhf_1m": {"name": "Ultra Add Fam 0 credit BHF 1 tháng", "price": 300000},
     "veo3_ultra_bhf_1m": {"name": "Ultra Add Fam 5k credit BHF 1 tháng", "price": 350000},
@@ -48,9 +48,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s1524h1357@anna35.sbs|gbdKXX2314",
-"s1524h1338@anna35.sbs|yofCAH4184",
-"s1524h1347@anna35.sbs|bthDKM5904",
 "s1524h1334@anna35.sbs|pftCOV0454",
 "s1524h1349@anna35.sbs|kcgRHJ0180",
 "s1524h133@anna35.sbs|tceXQG2435",
@@ -73,14 +70,12 @@ STOCK = {
 "s1524h1359@anna35.sbs|nawEBS9254",
     ],
     "Grok_Super":[
-    "xlrlgs@grok.imayo.store|masuk@B123#",
     ],
     "Veo3_bhf":[
     "xako@emikoktognogxas8.com|H7&%4uB9nNFJ6yS>",
     "nemo@emikoktognogxas8.com|ejDE=Xd4UGrr3hL<",
     "joke@emikoktognogxas8.com|q3Um3qE>",
     "nami@emikoktognogxas8.com|jTNC5nE>",
-    "limie@emikoktognogxas8.com|&E3H3aL>",
     ],
     "Capcut_Pro":[
 "s109aw@sd.webmail.fit|123456",
@@ -90,6 +85,7 @@ STOCK = {
 "ut105e@trungmetax.com|123456",
     ],
     "Fam_Ultra":[
+    "amd782446@gmail.com|!D9LyzrRuvb@|amd7824464924@hotmail.com|mwfb y2jq isbg uk2e fslo i5gn nyk3 ctl2",
     ],
     "Fam_Ultra_bhf":[
     ],
