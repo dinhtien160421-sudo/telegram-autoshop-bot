@@ -81,14 +81,13 @@ STOCK = {
     "joke@emikoktognogxas8.com|q3Um3qE>",
     "nami@emikoktognogxas8.com|jTNC5nE>",
     "limie@emikoktognogxas8.com|&E3H3aL>",
-     ],
+    ],
     "Capcut_Pro":[
 "s109aw@sd.webmail.fit|123456",
 "tsz36o@veomatrix25k.io.vn|123456",
 "yw1649@veo325kcredit.io.vn|123456",
 "0u16cw@anversa.com.co|123456",
 "ut105e@trungmetax.com|123456",
-
     ],
     "Fam_Ultra":[
     ],
