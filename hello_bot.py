@@ -48,7 +48,6 @@ PRODUCTS = {
 # ===== KHO =====
 STOCK = {
     "veo3_ultra_bh":[
-"s1524h1334@anna35.sbs|pftCOV0454",
 "s1524h1349@anna35.sbs|kcgRHJ0180",
 "s1524h133@anna35.sbs|tceXQG2435",
 "s1524h1350@anna35.sbs|oezDRF9726",
@@ -72,10 +71,6 @@ STOCK = {
     "Grok_Super":[
     ],
     "Veo3_bhf":[
-    "xako@emikoktognogxas8.com|H7&%4uB9nNFJ6yS>",
-    "nemo@emikoktognogxas8.com|ejDE=Xd4UGrr3hL<",
-    "joke@emikoktognogxas8.com|q3Um3qE>",
-    "nami@emikoktognogxas8.com|jTNC5nE>",
     ],
     "Capcut_Pro":[
 "s109aw@sd.webmail.fit|123456",
@@ -85,7 +80,6 @@ STOCK = {
 "ut105e@trungmetax.com|123456",
     ],
     "Fam_Ultra":[
-    "amd782446@gmail.com|!D9LyzrRuvb@|amd7824464924@hotmail.com|mwfb y2jq isbg uk2e fslo i5gn nyk3 ctl2",
     ],
     "Fam_Ultra_bhf":[
     ],
