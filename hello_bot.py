@@ -75,7 +75,7 @@ STOCK = {
     "Grok_Super":[
     "xlrlgs@grok.imayo.store|masuk@B123#",
     ],
-     "Veo3_bhf"
+    "Veo3_bhf":[
     "xako@emikoktognogxas8.com|H7&%4uB9nNFJ6yS>",
     "nemo@emikoktognogxas8.com|ejDE=Xd4UGrr3hL<",
     "joke@emikoktognogxas8.com|q3Um3qE>",
