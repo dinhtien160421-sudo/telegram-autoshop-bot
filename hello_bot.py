@@ -153,7 +153,6 @@ STOCK = {
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_0cre_12m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
-     ],
     }
 # ====== SEPAY WEBHOOK (AUTO NHẢ ĐƠN) ======
 app = Flask(__name__)
