@@ -95,7 +95,8 @@ STOCK = {
 "s4524h24h877@mubanima16.sbs|mvsPYY0592",
 "s4524h24h878@mubanima16.sbs|xajIIV1859",
 "s4524h24h863@mubanima16.sbs|tpzRRV5314",
-"s4524h24h879@mubanima16.sbs|chbZOU0269",    ],
+"s4524h24h879@mubanima16.sbs|chbZOU0269", 
+    ],
     "veo3_45K":[
     "s4524h24h1950@emikoktognogxas8.com|KUDpC@17Ss8E",
 "s4524h24h1951@emikoktognogxas8.com|0!k6tIqHR7MC",
@@ -137,7 +138,6 @@ STOCK = {
 "s4524h24h1987@emikoktognogxas8.com|Qwxy8@mVkC69",
 "s4524h24h1988@emikoktognogxas8.com|rtJ!70RSHqp3",
 "s4524h24h1989@emikoktognogxas8.com|I8I45Ek#gfPv",
-
     ],
     "Capcut_Pro":[
     "s109aw@sd.webmail.fit|123456",
