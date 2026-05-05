@@ -97,7 +97,7 @@ STOCK = {
 "s4524h24h863@mubanima16.sbs|tpzRRV5314",
 "s4524h24h879@mubanima16.sbs|chbZOU0269", 
     ],
-    "veo3_45K":[
+    "veo3_45k":[
     "s4524h24h1950@emikoktognogxas8.com|KUDpC@17Ss8E",
 "s4524h24h1951@emikoktognogxas8.com|0!k6tIqHR7MC",
 "s4524h24h1952@emikoktognogxas8.com|4F!279OibwUZ",
