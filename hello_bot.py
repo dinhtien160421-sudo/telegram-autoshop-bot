@@ -1573,11 +1573,10 @@ def start(update, context):
         stock_count = len(STOCK.get(pid, []))
         status = f"(còn {stock_count})" if stock_count > 0 else "(hết hàng)"
         btn = f"{info['name']} - {info['price']:,}đ {status}".replace(",", ".")
-        keyboard.append([InlineKeyboardButton(btn, callback_data=f"buy_{pid}")])
+        keyboard.append([InlineKeyboardButton(btn[:60], callback_data=f"buy|{pid}")])
 
     update.message.reply_text(
         "🛍 *Danh sách sản phẩm* – chọn bên dưới 👇",
-        parse_mode="Markdown",
         reply_markup=InlineKeyboardMarkup(keyboard),
     )
 def support(update, context):
@@ -1597,8 +1596,8 @@ def handle_buttons(update, context):
     # lưu user luôn cho chắc
     add_user(query.from_user.id)
 
-    if data.startswith("buy_"):
-        pid = data.replace("buy_", "")
+    if data.startswith("buy|"):
+        pid = data.split("|", 1)[1]
         product = PRODUCTS[pid]
         user_id = query.from_user.id
 
