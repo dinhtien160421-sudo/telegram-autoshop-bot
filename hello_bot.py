@@ -575,7 +575,7 @@ def main():
     def run_webhook():
         app.run(host="0.0.0.0", port=8080, threaded=True)
 
-    threading.Thread(target=run_webhook, daemon=True).start()
+    # threading.Thread(target=run_webhook, daemon=True).start()
 
     print("BOT ĐANG CHẠY...")
     updater.start_polling()
