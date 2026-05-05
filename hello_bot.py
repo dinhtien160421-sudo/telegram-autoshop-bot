@@ -41,8 +41,6 @@ PRODUCTS = {
     "veo3_25k_bhf_1m": {"name": "Ultra Add Fam 25K credit BHF 1 Tháng", "price": 720000},
     "veo3_0cre_12m": {"name": " Ultra Add Fam 0k cre/tháng BHF 1 NĂM", "price": 1500000},
     "veo3_bhf_12m": {"name": " Ultra Add Fam 6k cre/tháng BHF 1 NĂM", "price": 1900000},
-    "cdk_gpt_go": {"name": "CDK CHATGPT Go 12M BH ACTIVE", "price": 80000},
-    "cdk_gpt_plus_1m": {"name": "CDK CHATGPT PLUS 1M BH ACTIVE", "price": 50000},
 }
 
 # ===== KHO =====
@@ -155,10 +153,6 @@ STOCK = {
     "veo3_25k_bhf_1m": ["MANUAL"] * 0,
     "veo3_0cre_12m": ["MANUAL"] * 5,
     "veo3_bhf_12m": ["MANUAL"] * 5,
-     "cdk_gpt_go": [   
-     ],
-     "cdk_gpt_plus_1m": [
-
      ],
     }
 # ====== SEPAY WEBHOOK (AUTO NHẢ ĐƠN) ======
