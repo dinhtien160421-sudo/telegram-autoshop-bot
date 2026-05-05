@@ -1595,6 +1595,9 @@ def handle_buttons(update, context):
     data = query.data
     print("CLICK:", data)  # debug
 
+    if not data:
+        return
+
     if data.startswith("buy|"):
         pid = data.split("|", 1)[1]
 
@@ -1616,7 +1619,7 @@ def handle_buttons(update, context):
             f"🛒 {product['name']}\n"
             f"Còn: {stock_count}\n"
             f"Giá: {product['price']:,}đ\n\n"
-            "👉 Nhập số lượng:",
+            "👉 Nhập số lượng:"
         )
         return
 
