@@ -447,35 +447,49 @@ def support(update, context):
 # ===== XỬ LÝ NÚT =====
 def handle_buttons(update, context):
     query = update.callback_query
-    data = query.data
-    print("CLICK:", data, flush=True)
     query.answer()
 
-    # lưu user luôn cho chắc
-    add_user(query.from_user.id)
+    data = query.data
+    print("CLICK:", data, flush=True)
 
-    if data.startswith("buy_"):
-        pid = data.replace("buy_", "")
+    # lưu user
+    user_id = query.from_user.id
+    add_user(user_id)
+
+    try:
+        # hỗ trợ cả buy_ và buy|
+        if data.startswith("buy_"):
+            pid = data.replace("buy_", "", 1)
+        elif data.startswith("buy|"):
+            pid = data.split("|", 1)[1]
+        else:
+            query.message.reply_text("❌ Callback không hợp lệ.")
+            return
+
+        # check tồn tại sản phẩm
+        if pid not in PRODUCTS:
+            query.message.reply_text(f"❌ Không tìm thấy sản phẩm: {pid}")
+            return
+
         product = PRODUCTS[pid]
-        user_id = query.from_user.id
 
         stock_count = len(STOCK.get(pid, []))
         if stock_count == 0:
-            query.message.reply_text(
-                f"❌ Sản phẩm *{product['name']}* đã hết hàng.",
-                parse_mode="Markdown",
-            )
+            query.message.reply_text(f"❌ {product['name']} đã hết hàng.")
             return
 
         WAITING_QTY[user_id] = pid
+
         query.message.reply_text(
-            f"Bạn muốn mua bao nhiêu *{product['name']}*?\n"
-            f"(còn *{stock_count}*)\n"
-            f"Đơn giá: *{product['price']:,}đ* / 1 tài khoản.\n\n"
-            "👉 Nhập số nguyên, ví dụ: 1, 2, 3 ...",
-            parse_mode="Markdown",
+            f"🛒 {product['name']}\n"
+            f"Còn: {stock_count}\n"
+            f"Giá: {product['price']:,}đ\n\n"
+            "👉 Nhập số lượng:"
         )
-        return
+
+    except Exception as e:
+        print("BUTTON ERROR:", e, flush=True)
+        query.message.reply_text(f"⚠ Lỗi: {e}")
 
 
 # ===== NHẬP SỐ LƯỢNG =====
