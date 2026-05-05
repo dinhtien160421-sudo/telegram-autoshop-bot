@@ -448,6 +448,7 @@ def support(update, context):
 def handle_buttons(update, context):
     query = update.callback_query
     data = query.data
+    print("CLICK:", data, flush=True)
     query.answer()
 
     # lưu user luôn cho chắc
