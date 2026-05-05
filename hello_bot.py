@@ -34,7 +34,6 @@ PENDING_ORDERS = {}
 PRODUCTS = {
     "veo3_ultra_bh": {"name": "Veo3 Ultra 25K cre BH 24H", "price":25555},
     "Veo3_45K": {"name": "Veo3 Ultra 45K cre - Dùng được Antigravity - BH 7D", "price":120000},
-    "Veo3_bhf": {"name": "Veo3 Ultra 25K cre BH30D", "price":200000},
     "Capcut_Pro": {"name": "Capcut Pro Team 35D Renew", "price":15000},
     "Fam_Ultra": {"name": "Fam Google Ultra Add 5 slot BH 3D", "price":900000},
     "Fam_Ultra_bhf": {"name": "Fam Google Ultra Add 5 slot BHF 30D", "price":1800000},
@@ -100,8 +99,6 @@ STOCK = {
 "s4524h24h879@mubanima16.sbs|chbZOU0269",
     ],
     "Veo3_45K":[
-    ],
-    "Veo3_bhf":[
     ],
     "Capcut_Pro":[
 "s109aw@sd.webmail.fit|123456",
