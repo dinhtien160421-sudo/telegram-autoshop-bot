@@ -1573,7 +1573,7 @@ def start(update, context):
         stock_count = len(STOCK.get(pid, []))
         status = f"(còn {stock_count})" if stock_count > 0 else "(hết hàng)"
         btn = f"{info['name']} - {info['price']:,}đ {status}".replace(",", ".")
-        keyboard.append([InlineKeyboardButton(btn[:60], callback_data=f"buy|{pid}"
+        keyboard.append([InlineKeyboardButton(btn[:60], callback_data=f"buy|{pid}")])
 
     update.message.reply_text(
         "🛍 *Danh sách sản phẩm* – chọn bên dưới 👇",
